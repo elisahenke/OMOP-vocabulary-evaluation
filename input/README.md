@@ -3,3 +3,4 @@
 This folder contains the CSV files of the vocabularies to be evaluated:
 
 - HMK
+- HPNR
