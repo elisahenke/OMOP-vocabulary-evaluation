@@ -1,0 +1,785 @@
+concept_id	concept_name	domain_id	vocabulary_id	concept_class_id	standard_concept	concept_code	valid_start_date	valid_end_date	invalid_reason
+2000004797	Day clinic orthopedics	Observation	Inpatient charge	INP charge code	<null>	85000063	1970-01-01	2099-12-31	<null>
+2000004687	Daily charge in accordance with section 7 (1) no. 5 KHEntgG	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000364	1970-01-01	2099-12-31	<null>
+2000004688	Annex 3a (full inpatient) DRG fee catalog 2019 (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000365	1970-01-01	2099-12-31	<null>
+2000004689	Bone marrow transplant/stem cell transfusion, allogeneic, with second bone marrow transplant/stem cell transfusion during same stay	Observation	Inpatient charge	INP charge code	<null>	8500A04A	1970-01-01	2099-12-31	<null>
+2000004690	Bone marrow transplant/stem cell transfusion, autogenous, with second bone marrow transplant/stem cell transfusion during same stay	Observation	Inpatient charge	INP charge code	<null>	8500A15A	1970-01-01	2099-12-31	<null>
+2000004691	Transplantation of intestine or pancreas	Observation	Inpatient charge	INP charge code	<null>	8500A16A	1970-01-01	2099-12-31	<null>
+2000004692	Injection of pancreatic tissue 	Observation	Inpatient charge	INP charge code	<null>	8500A16B	1970-01-01	2099-12-31	<null>
+2000004693	Corrective surgery for double malformation	Observation	Inpatient charge	INP charge code	<null>	8500A22Z	1970-01-01	2099-12-31	<null>
+2000004694	Early rehabilitation in persistent vegetative state and locked-in syndrome	Observation	Inpatient charge	INP charge code	<null>	8500A43Z	1970-01-01	2099-12-31	<null>
+2000004695	Early rehabilitation with specific OR procedure	Observation	Inpatient charge	INP charge code	<null>	8500B11Z	1970-01-01	2099-12-31	<null>
+2000004696	Epilepsy surgery with invasive preoperative video EEG	Observation	Inpatient charge	INP charge code	<null>	8500B13Z	1970-01-01	2099-12-31	<null>
+2000004697	Early rehabilitation for diseases and disorders of the nervous system, more than 27 days	Observation	Inpatient charge	INP charge code	<null>	8500B43Z	1970-01-01	2099-12-31	<null>
+2000004698	Social and neuropediatric and pediatric-psychosomatic therapy for diseases and disorders of the nervous system	Observation	Inpatient charge	INP charge code	<null>	8500B46Z	1970-01-01	2099-12-31	<null>
+2000004699	Multimodal complex treatment for Parkinson's disease	Observation	Inpatient charge	INP charge code	<null>	8500B49Z	1970-01-01	2099-12-31	<null>
+2000004700	Certain acute diseases and injuries of the spinal cord without complex surgery or more than 13 days of occupancy or not transferred away	Observation	Inpatient charge	INP charge code	<null>	8500B61B	1970-01-01	2099-12-31	<null>
+2000004701	Seizures, more than one day of occupancy, with complex diagnostics and therapy	Observation	Inpatient charge	INP charge code	<null>	8500B76A	1970-01-01	2099-12-31	<null>
+2000004702	Kochlea implantation, bilateral	Observation	Inpatient charge	INP charge code	<null>	8500D01A	1970-01-01	2099-12-31	<null>
+2000004703	Implantation of an active mechanical hearing implant	Observation	Inpatient charge	INP charge code	<null>	8500D23Z	1970-01-01	2099-12-31	<null>
+2000004704	Prolonged inpatient stay prior to transplantation in cases of high urgency for diseases and disorders of the respiratory system	Observation	Inpatient charge	INP charge code	<null>	8500E37Z	1970-01-01	2099-12-31	<null>
+2000004705	Early rehabilitation for diseases and disorders of the respiratory organs	Observation	Inpatient charge	INP charge code	<null>	8500E41Z	1970-01-01	2099-12-31	<null>
+2000004706	Tuberculosis, more than 14 days of occupancy	Observation	Inpatient charge	INP charge code	<null>	8500E76A	1970-01-01	2099-12-31	<null>
+2000004707	Early rehabilitation for diseases and disorders of the circulatory system, with specific OR procedure, except cardiothoracic procedures	Observation	Inpatient charge	INP charge code	<null>	8500F29Z	1970-01-01	2099-12-31	<null>
+2000004708	Prolonged inpatient stay prior to transplantation for high urgency diseases and disorders of the circulatory system	Observation	Inpatient charge	INP charge code	<null>	8500F37Z	1970-01-01	2099-12-31	<null>
+2000004709	Early rehabilitation for diseases and disorders of the circulatory system	Observation	Inpatient charge	INP charge code	<null>	8500F45Z	1970-01-01	2099-12-31	<null>
+2000004710	Stem cell transfusion for diseases and disorders of the circulatory system	Observation	Inpatient charge	INP charge code	<null>	8500F96Z	1970-01-01	2099-12-31	<null>
+2000004711	Early rehabilitation for diseases and disorders of the digestive organs	Observation	Inpatient charge	INP charge code	<null>	8500G51Z	1970-01-01	2099-12-31	<null>
+2000004712	Prolonged inpatient stay before transplantation for high urgency diseases and disorders of the hepatobiliary system and pancreas	Observation	Inpatient charge	INP charge code	<null>	8500H37Z	1970-01-01	2099-12-31	<null>
+2000004713	Early rehabilitation for diseases and disorders of the musculoskeletal system and connective tissue	Observation	Inpatient charge	INP charge code	<null>	8500I40Z	1970-01-01	2099-12-31	<null>
+2000004714	Early rehabilitation with specific OR procedure for diseases and disorders of the musculoskeletal system and connective tissue, more than 20 days	Observation	Inpatient charge	INP charge code	<null>	8500I96Z	1970-01-01	2099-12-31	<null>
+2000004715	Various interventions for diabetes mellitus with complications, with early rehabilitation or geriatric early rehabilitative complex treatment	Observation	Inpatient charge	INP charge code	<null>	8500K01Z	1970-01-01	2099-12-31	<null>
+2000004716	Early rehabilitation for endocrine, nutritional and metabolic diseases	Observation	Inpatient charge	INP charge code	<null>	8500K43Z	1970-01-01	2099-12-31	<null>
+2000004717	Sex reassignment surgery	Observation	Inpatient charge	INP charge code	<null>	8500U01Z	1970-01-01	2099-12-31	<null>
+2000004718	Social and neuropediatric and pediatric-psychosomatic therapy for mental diseases and disorders	Observation	Inpatient charge	INP charge code	<null>	8500U41Z	1970-01-01	2099-12-31	<null>
+2000004719	Multimodal pain management for mental illness and disorders, age < 19 years	Observation	Inpatient charge	INP charge code	<null>	8500U42A	1970-01-01	2099-12-31	<null>
+2000004720	Psychosomatic therapy, age < 18 years	Observation	Inpatient charge	INP charge code	<null>	8500U43Z	1970-01-01	2099-12-31	<null>
+2000004721	Polytrauma with ventilation > 72 hours or certain interventions or IntK > 392/368/552 expenditure points, with early rehabilitation	Observation	Inpatient charge	INP charge code	<null>	8500W01A	1970-01-01	2099-12-31	<null>
+2000004722	Early rehabilitation in polytrauma with OR procedure	Observation	Inpatient charge	INP charge code	<null>	8500W05Z	1970-01-01	2099-12-31	<null>
+2000004723	Early rehabilitation in polytrauma	Observation	Inpatient charge	INP charge code	<null>	8500W40Z	1970-01-01	2099-12-31	<null>
+2000004724	Surgical procedures for severe burns or ventilation > 95 hours for burns or intensive care complex treatment > 1176/1104/1104 expense points for burns	Observation	Inpatient charge	INP charge code	<null>	8500Y01Z	1970-01-01	2099-12-31	<null>
+2000004725	Severe burns	Observation	Inpatient charge	INP charge code	<null>	8500Y61Z	1970-01-01	2099-12-31	<null>
+2000004726	Liver donation (living donation)	Observation	Inpatient charge	INP charge code	<null>	8500Z02Z	1970-01-01	2099-12-31	<null>
+2000004727	Lung donation (living donation)	Observation	Inpatient charge	INP charge code	<null>	8500Z04Z	1970-01-01	2099-12-31	<null>
+2000004728	Bone marrow collection from autologous donor	Observation	Inpatient charge	INP charge code	<null>	8500Z41Z	1970-01-01	2099-12-31	<null>
+2000004729	Stem cell collection from foreign donor	Observation	Inpatient charge	INP charge code	<null>	8500Z42Z	1970-01-01	2099-12-31	<null>
+2000004730	Bone marrow collection from foreign donor	Observation	Inpatient charge	INP charge code	<null>	8500Z43Z	1970-01-01	2099-12-31	<null>
+2000004731	Annex 3b (partial inpatient) DRG fee catalog 2019 (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000366	1970-01-01	2099-12-31	<null>
+2000004732	Partial inpatient geriatric complex treatment, comprehensive treatment	Observation	Inpatient charge	INP charge code	<null>	8500A90A	1970-01-01	2099-12-31	<null>
+2000004733	Partial inpatient geriatric complex treatment, basic treatment	Observation	Inpatient charge	INP charge code	<null>	8500A90B	1970-01-01	2099-12-31	<null>
+2000004734	Renal failure, partial inpatient, age < 15 years	Observation	Inpatient charge	INP charge code	<null>	8500L90A	1970-01-01	2099-12-31	<null>
+2000004735	Nationwide (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000367	1970-01-01	2099-12-31	<null>
+2000004736	Daily flat rate (600,- EUR) according to §10 no. 1 FPV	Observation	Inpatient charge	INP charge code	<null>	85000000	1970-01-01	2099-12-31	<null>
+2000004737	Day clinic early rehabilitation	Observation	Inpatient charge	INP charge code	<null>	85000001	1970-01-01	2099-12-31	<null>
+2000004738	Partial inpatient sleep laboratory, diagnostics and mask adjustment, 1 night (split night)	Observation	Inpatient charge	INP charge code	<null>	85000002	1970-01-01	2099-12-31	<null>
+2000004739	Partial inpatient sleep lab, mask therapy initiation, 1 night	Observation	Inpatient charge	INP charge code	<null>	85000003	1970-01-01	2099-12-31	<null>
+2000004740	Day clinic oncology	Observation	Inpatient charge	INP charge code	<null>	85000004	1970-01-01	2099-12-31	<null>
+2000004741	Partial inpatient sleep laboratory - night charge	Observation	Inpatient charge	INP charge code	<null>	85000005	1970-01-01	2099-12-31	<null>
+2000004742	Day clinic pain therapy	Observation	Inpatient charge	INP charge code	<null>	85000006	1970-01-01	2099-12-31	<null>
+2000004743	Partial inpatient oncology and hematology	Observation	Inpatient charge	INP charge code	<null>	85000007	1970-01-01	2099-12-31	<null>
+2000004744	Day clinic pediatrics	Observation	Inpatient charge	INP charge code	<null>	85000008	1970-01-01	2099-12-31	<null>
+2000004745	Day clinic diabetology	Observation	Inpatient charge	INP charge code	<null>	85000009	1970-01-01	2099-12-31	<null>
+2000004746	Partial inpatient tumor therapy, gynecology, chemotherapy	Observation	Inpatient charge	INP charge code	<null>	85000011	1970-01-01	2099-12-31	<null>
+2000004747	Partial inpatient tumor therapy, internal medicine, staging	Observation	Inpatient charge	INP charge code	<null>	85000012	1970-01-01	2099-12-31	<null>
+2000004748	Partial inpatient tumor therapy, internal medicine, chemotherapy	Observation	Inpatient charge	INP charge code	<null>	85000013	1970-01-01	2099-12-31	<null>
+2000004749	Day clinic neurosurgery	Observation	Inpatient charge	INP charge code	<null>	85000015	1970-01-01	2099-12-31	<null>
+2000004750	Day clinic neurology	Observation	Inpatient charge	INP charge code	<null>	85000016	1970-01-01	2099-12-31	<null>
+2000004751	Day clinic rheumatology and immunology	Observation	Inpatient charge	INP charge code	<null>	85000017	1970-01-01	2099-12-31	<null>
+2000004752	Day clinic rheumatology and immunology - HIV	Observation	Inpatient charge	INP charge code	<null>	85000018	1970-01-01	2099-12-31	<null>
+2000004753	Day clinic plasmapheresis	Observation	Inpatient charge	INP charge code	<null>	85000019	1970-01-01	2099-12-31	<null>
+2000004754	Day clinic sleep laboratory	Observation	Inpatient charge	INP charge code	<null>	85000020	1970-01-01	2099-12-31	<null>
+2000004755	Day clinic naturopathy	Observation	Inpatient charge	INP charge code	<null>	85000021	1970-01-01	2099-12-31	<null>
+2000004756	Day clinic diabetology for children and adolescents	Observation	Inpatient charge	INP charge code	<null>	85000022	1970-01-01	2099-12-31	<null>
+2000004757	Partial inpatient chemotherapy	Observation	Inpatient charge	INP charge code	<null>	85000023	1970-01-01	2099-12-31	<null>
+2000004758	Day clinic photopheresis	Observation	Inpatient charge	INP charge code	<null>	85000024	1970-01-01	2099-12-31	<null>
+2000004759	Partial inpatient immunoadsorption / plasmapheresis in inflammatory neurological diseases	Observation	Inpatient charge	INP charge code	<null>	85000025	1970-01-01	2099-12-31	<null>
+2000004760	Partial inpatient interdisciplinary non-oncological diagnostics and therapy	Observation	Inpatient charge	INP charge code	<null>	85000026	1970-01-01	2099-12-31	<null>
+2000004761	Partial inpatient tumor therapy, chemotherapy	Observation	Inpatient charge	INP charge code	<null>	85000027	1970-01-01	2099-12-31	<null>
+2000004762	Partial inpatient tumor therapy, staging	Observation	Inpatient charge	INP charge code	<null>	85000028	1970-01-01	2099-12-31	<null>
+2000004763	Partial inpatient pediatric cardiology	Observation	Inpatient charge	INP charge code	<null>	85000029	1970-01-01	2099-12-31	<null>
+2000004764	Partial inpatient sleep treatment, elective cases for diagnostic polysomnography over one night	Observation	Inpatient charge	INP charge code	<null>	85000030	1970-01-01	2099-12-31	<null>
+2000004765	Partial inpatient sleep treatment, elective admissions for polysomnography with pressure adjustment over one night	Observation	Inpatient charge	INP charge code	<null>	85000031	1970-01-01	2099-12-31	<null>
+2000004766	Day clinic for nutritional and metabolic disorders	Observation	Inpatient charge	INP charge code	<null>	85000032	1970-01-01	2099-12-31	<null>
+2000004767	Day clinic pediatric rheumatology	Observation	Inpatient charge	INP charge code	<null>	85000033	1970-01-01	2099-12-31	<null>
+2000004768	Day clinic oncology, without administration of cytostatics	Observation	Inpatient charge	INP charge code	<null>	85000034	1970-01-01	2099-12-31	<null>
+2000004769	Day clinic oncology, with cytostatic administration, OPS 8-542.* or 8-547.0	Observation	Inpatient charge	INP charge code	<null>	85000035	1970-01-01	2099-12-31	<null>
+2000004770	Day clinic cardioversion	Observation	Inpatient charge	INP charge code	<null>	85000036	1970-01-01	2099-12-31	<null>
+2000004771	Partial inpatient radiation oncology with regional deep hyperthermia, OPS 8-600.1	Observation	Inpatient charge	INP charge code	<null>	85000037	1970-01-01	2099-12-31	<null>
+2000004772	Partial inpatient radiooncology with PBH Partial body hyperthermia in combination with chemotherapy and/or radiochemotherapy, OPS 8-601	Observation	Inpatient charge	INP charge code	<null>	85000038	1970-01-01	2099-12-31	<null>
+2000004773	Day clinic cell apheresis	Observation	Inpatient charge	INP charge code	<null>	85000039	1970-01-01	2099-12-31	<null>
+2000004774	Day clinic cell apheresis, second day of treatment	Observation	Inpatient charge	INP charge code	<null>	85000040	1970-01-01	2099-12-31	<null>
+2000004775	Day clinic dermatology	Observation	Inpatient charge	INP charge code	<null>	85000041	1970-01-01	2099-12-31	<null>
+2000004776	Partial inpatient bariatric surgery, follow-up control	Observation	Inpatient charge	INP charge code	<null>	85000042	1970-01-01	2099-12-31	<null>
+2000004777	Partial inpatient pain therapy (CT-assisted facet filtration)	Observation	Inpatient charge	INP charge code	<null>	85000043	1970-01-01	2099-12-31	<null>
+2000004778	Partial inpatient day clinic metabolic diseases (enzyme replacement therapy)	Observation	Inpatient charge	INP charge code	<null>	85000044	1970-01-01	2099-12-31	<null>
+2000004779	Partial inpatient neurology, treatment with botulinum toxin	Observation	Inpatient charge	INP charge code	<null>	85000045	1970-01-01	2099-12-31	<null>
+2000004780	Partial inpatient phoniatrics	Observation	Inpatient charge	INP charge code	<null>	85000046	1970-01-01	2099-12-31	<null>
+2000004781	Day clinic surgery	Observation	Inpatient charge	INP charge code	<null>	85000047	1970-01-01	2099-12-31	<null>
+2000004782	Day clinic immunoadsorption	Observation	Inpatient charge	INP charge code	<null>	85000048	1970-01-01	2099-12-31	<null>
+2000004783	Partial inpatient ophthalmology: measurement of intraocular pressure: day and night pressure measurement over 24 hrs.	Observation	Inpatient charge	INP charge code	<null>	85000049	1970-01-01	2099-12-31	<null>
+2000004784	Day clinic injections of botulinum toxin under sedation	Observation	Inpatient charge	INP charge code	<null>	85000050	1970-01-01	2099-12-31	<null>
+2000004785	Day clinic injections of botulinum toxin under anesthesia	Observation	Inpatient charge	INP charge code	<null>	85000051	1970-01-01	2099-12-31	<null>
+2000004786	Day clinic facet coagulation	Observation	Inpatient charge	INP charge code	<null>	85000052	1970-01-01	2099-12-31	<null>
+2000004787	Partial inpatient individual or group training of children and adolescents with diabetes for one day (type I)	Observation	Inpatient charge	INP charge code	<null>	85000053	1970-01-01	2099-12-31	<null>
+2000004788	Day clinic and therapy center for eating disorders (TCE), youth concept	Observation	Inpatient charge	INP charge code	<null>	85000054	1970-01-01	2099-12-31	<null>
+2000004789	Partial inpatient tinnitus/vertigo intensive therapy	Observation	Inpatient charge	INP charge code	<null>	85000055	1970-01-01	2099-12-31	<null>
+2000004790	Day clinic interdisciplinary multimodal pain therapy	Observation	Inpatient charge	INP charge code	<null>	85000056	1970-01-01	2099-12-31	<null>
+2000004791	Partial tumor therapy intravenously	Observation	Inpatient charge	INP charge code	<null>	85000057	1970-01-01	2099-12-31	<null>
+2000004792	Partial inpatient outpatient flat rate cardiac assist system	Observation	Inpatient charge	INP charge code	<null>	85000058	1970-01-01	2099-12-31	<null>
+2000004793	Day clinic pediatric oncology	Observation	Inpatient charge	INP charge code	<null>	85000059	1970-01-01	2099-12-31	<null>
+2000004794	Partial inpatient radiation oncology with hyperthermia of the chest wall, OPS 8-600.0	Observation	Inpatient charge	INP charge code	<null>	85000060	1970-01-01	2099-12-31	<null>
+2000004795	Partial inpatient pediatrics and pediatric urology	Observation	Inpatient charge	INP charge code	<null>	85000061	1970-01-01	2099-12-31	<null>
+2000004796	Day clinic geriatics	Observation	Inpatient charge	INP charge code	<null>	85000062	1970-01-01	2099-12-31	<null>
+2000004798	Day clinic pediatric nephrology	Observation	Inpatient charge	INP charge code	<null>	85000064	1970-01-01	2099-12-31	<null>
+2000004799	Day clinic nuclear medicine	Observation	Inpatient charge	INP charge code	<null>	85000065	1970-01-01	2099-12-31	<null>
+2000004800	Day clinic pneumology	Observation	Inpatient charge	INP charge code	<null>	85000066	1970-01-01	2099-12-31	<null>
+2000004801	Day clinic gynecology	Observation	Inpatient charge	INP charge code	<null>	85000067	1970-01-01	2099-12-31	<null>
+2000004802	Day clinic for pediatrics and pediatric psychosomatics/psychotherapy special facilities day-based (full inpatient)	Observation	Inpatient charge	INP charge code	<null>	85000068	1970-01-01	2099-12-31	<null>
+2000004803	Day clinic rheumatology 	Observation	Inpatient charge	INP charge code	<null>	85000069	1970-01-01	2099-12-31	<null>
+2000004804	Partial inpatient day clinic ENT, adults, cochlear aftercare	Observation	Inpatient charge	INP charge code	<null>	85000070	1970-01-01	2099-12-31	<null>
+2000004805	Partial inpatient day clinic ENT, children, cochlear aftercare	Observation	Inpatient charge	INP charge code	<null>	85000071	1970-01-01	2099-12-31	<null>
+2000004806	Partial inpatient day clinic nursing charge, medical follow-up care for cardiac assistance systems	Observation	Inpatient charge	INP charge code	<null>	85000072	1970-01-01	2099-12-31	<null>
+2000004807	Partial inpatient day clinic cell apheresis, OPS 8-823	Observation	Inpatient charge	INP charge code	<null>	85000073	1970-01-01	2099-12-31	<null>
+2000004808	Partial inpatient day clinic cell apheresis, OPS 8-825.0	Observation	Inpatient charge	INP charge code	<null>	85000074	1970-01-01	2099-12-31	<null>
+2000004809	Partial inpatient day clinic cell apheresis, OPS 8-825.1	Observation	Inpatient charge	INP charge code	<null>	85000075	1970-01-01	2099-12-31	<null>
+2000004810	Partial inpatient day clinic immunoglobulin therapy (1 to 2 billing days)	Observation	Inpatient charge	INP charge code	<null>	85000076	1970-01-01	2099-12-31	<null>
+2000004811	Partial inpatient day clinic immunoglobulin therapy (3 to 5 billing days)	Observation	Inpatient charge	INP charge code	<null>	85000077	1970-01-01	2099-12-31	<null>
+2000004812	Partial inpatient day clinic internal medicine/gastroenterology	Observation	Inpatient charge	INP charge code	<null>	85000078	1970-01-01	2099-12-31	<null>
+2000004813	Partial inpatient day clinic imaging procedures	Observation	Inpatient charge	INP charge code	<null>	85000079	1970-01-01	2099-12-31	<null>
+2000004814	Severe burned patients (for admissions in 2003)	Observation	Inpatient charge	INP charge code	<null>	85000080	1970-01-01	2099-12-31	<null>
+2000004815	Severe burned patients further treatment (for admissions in 2003)	Observation	Inpatient charge	INP charge code	<null>	85000081	1970-01-01	2099-12-31	<null>
+2000004816	Day clinic orthopedic pain clinic	Observation	Inpatient charge	INP charge code	<null>	85000082	1970-01-01	2099-12-31	<null>
+2000004817	Partial inpatient tinnitus treatment	Observation	Inpatient charge	INP charge code	<null>	85000083	1970-01-01	2099-12-31	<null>
+2000004818	Day clinic pulmonary medicine	Observation	Inpatient charge	INP charge code	<null>	85000084	1970-01-01	2099-12-31	<null>
+2000004819	Day clinic epileptology	Observation	Inpatient charge	INP charge code	<null>	85000085	1970-01-01	2099-12-31	<null>
+2000004820	Day clinic endoscopic surgery	Observation	Inpatient charge	INP charge code	<null>	85000086	1970-01-01	2099-12-31	<null>
+2000004821	Partial inpatient dialysis	Observation	Inpatient charge	INP charge code	<null>	85000087	1970-01-01	2099-12-31	<null>
+2000004822	Day clinic women's hospital oncology	Observation	Inpatient charge	INP charge code	<null>	85000088	1970-01-01	2099-12-31	<null>
+2000004823	Partial inpatient internal medicine - focus on oncology	Observation	Inpatient charge	INP charge code	<null>	85000089	1970-01-01	2099-12-31	<null>
+2000004824	Day clinic internal medicine - focus on diabetes	Observation	Inpatient charge	INP charge code	<null>	85000090	1970-01-01	2099-12-31	<null>
+2000004825	Day clinic gastroenterology 	Observation	Inpatient charge	INP charge code	<null>	85000091	1970-01-01	2099-12-31	<null>
+2000004826	Day clinic pediatrics - focus on oncology	Observation	Inpatient charge	INP charge code	<null>	85000092	1970-01-01	2099-12-31	<null>
+2000004827	Day clinic urology	Observation	Inpatient charge	INP charge code	<null>	85000093	1970-01-01	2099-12-31	<null>
+2000004828	Partial LDL apheresis	Observation	Inpatient charge	INP charge code	<null>	85000094	1970-01-01	2099-12-31	<null>
+2000004829	CAPD partial inpatient	Observation	Inpatient charge	INP charge code	<null>	85000095	1970-01-01	2099-12-31	<null>
+2000004830	Partial inpatient pediatric surgery	Observation	Inpatient charge	INP charge code	<null>	85000096	1970-01-01	2099-12-31	<null>
+2000004831	Day clinic palliative medicine	Observation	Inpatient charge	INP charge code	<null>	85000097	1970-01-01	2099-12-31	<null>
+2000004832	Day clinic tumor research 	Observation	Inpatient charge	INP charge code	<null>	85000098	1970-01-01	2099-12-31	<null>
+2000004833	Day clinic pulmonology (sleep laboratory)	Observation	Inpatient charge	INP charge code	<null>	85000099	1970-01-01	2099-12-31	<null>
+2000004834	Partial inpatient pediatric hematology and oncology	Observation	Inpatient charge	INP charge code	<null>	85000100	1970-01-01	2099-12-31	<null>
+2000004835	Partial inpatient ophthalmology	Observation	Inpatient charge	INP charge code	<null>	85000101	1970-01-01	2099-12-31	<null>
+2000004836	Partial inpatient peritoneal dialysis: intermittent, machine-assisted (IPD)	Observation	Inpatient charge	INP charge code	<null>	85000102	1970-01-01	2099-12-31	<null>
+2000004837	Partial inpatient continence flat rate	Observation	Inpatient charge	INP charge code	<null>	85000103	1970-01-01	2099-12-31	<null>
+2000004838	Partial inpatient center for vascular diseases and chronic problem wounds	Observation	Inpatient charge	INP charge code	<null>	85000104	1970-01-01	2099-12-31	<null>
+2000004839	Day clinic physical medicine	Observation	Inpatient charge	INP charge code	<null>	85000105	1970-01-01	2099-12-31	<null>
+2000004840	Partial inpatient internal medicine	Observation	Inpatient charge	INP charge code	<null>	85000106	1970-01-01	2099-12-31	<null>
+2000004841	Day clinic internal medicine, focus on geriatrics	Observation	Inpatient charge	INP charge code	<null>	85000107	1970-01-01	2099-12-31	<null>
+2000004842	Fee for partial inpatient diabetic training	Observation	Inpatient charge	INP charge code	<null>	85000108	1970-01-01	2099-12-31	<null>
+2000004843	Day clinic hematology	Observation	Inpatient charge	INP charge code	<null>	85000109	1970-01-01	2099-12-31	<null>
+2000004844	Day clinic HIV	Observation	Inpatient charge	INP charge code	<null>	85000110	1970-01-01	2099-12-31	<null>
+2000004845	Neurosurgical day clinic (attending physician)	Observation	Inpatient charge	INP charge code	<null>	85000111	1970-01-01	2099-12-31	<null>
+2000004846	Day clinic oncology (adults)	Observation	Inpatient charge	INP charge code	<null>	85000112	1970-01-01	2099-12-31	<null>
+2000004847	Day clinic radiation medicine	Observation	Inpatient charge	INP charge code	<null>	85000113	1970-01-01	2099-12-31	<null>
+2000004848	Day clinic dentistry, oral and maxillofacial surgery	Observation	Inpatient charge	INP charge code	<null>	85000114	1970-01-01	2099-12-31	<null>
+2000004849	Partial inpatient treatment of oncological patients, children	Observation	Inpatient charge	INP charge code	<null>	85000115	1970-01-01	2099-12-31	<null>
+2000004850	Day clinic diabetology/endocrinology	Observation	Inpatient charge	INP charge code	<null>	85000116	1970-01-01	2099-12-31	<null>
+2000004851	Day clinic ENT	Observation	Inpatient charge	INP charge code	<null>	85000117	1970-01-01	2099-12-31	<null>
+2000004852	Day clinic dentistry, oral and maxillofacial surgery	Observation	Inpatient charge	INP charge code	<null>	85000118	1970-01-01	2099-12-31	<null>
+2000004853	Day clinic cardiology	Observation	Inpatient charge	INP charge code	<null>	85000119	1970-01-01	2099-12-31	<null>
+2000004854	Day clinic vascular surgery	Observation	Inpatient charge	INP charge code	<null>	85000120	1970-01-01	2099-12-31	<null>
+2000004855	Day clinic oncology/chemotherapy	Observation	Inpatient charge	INP charge code	<null>	85000121	1970-01-01	2099-12-31	<null>
+2000004856	Day clinic heart surgery	Observation	Inpatient charge	INP charge code	<null>	85000122	1970-01-01	2099-12-31	<null>
+2000004857	Day clinic Schwerts craniocerebral injured patients	Observation	Inpatient charge	INP charge code	<null>	85000123	1970-01-01	2099-12-31	<null>
+2000004858	Partial inpatient ESWL	Observation	Inpatient charge	INP charge code	<null>	85000124	1970-01-01	2099-12-31	<null>
+2000004859	Partial inpatient treatment with imaging diagnostics (only for OPS 3-200, 3-201, 3-202, 3-206, 3-207, 3-208, 3-20x, 3-220, 3-221, 3-222, 3-225, 3-226, 3-228, 3-22x, 3-800, 3-801, 3-803, 3-804, 3-805, 3-808, 3-809, 3-80x, 3-820, 3-821, 3-822, 3-824, 3-825, 3-828, 3-82a, 3-82x, 3-601, 3-602, 3-603, 3-604, 3-605, 3-606, 3-607, 3-60x)	Observation	Inpatient charge	INP charge code	<null>	85000125	1970-01-01	2099-12-31	<null>
+2000004860	Day clinic nephrology	Observation	Inpatient charge	INP charge code	<null>	85000126	1970-01-01	2099-12-31	<null>
+2000004861	Partial inpatient service staging complex treatment	Observation	Inpatient charge	INP charge code	<null>	85000127	1970-01-01	2099-12-31	<null>
+2000004862	Partial inpatient service cacuum biopsy	Observation	Inpatient charge	INP charge code	<null>	85000128	1970-01-01	2099-12-31	<null>
+2000004863	Partial inpatient TCE PED/ERW	Observation	Inpatient charge	INP charge code	<null>	85000129	1970-01-01	2099-12-31	<null>
+2000004864	Partial inpatient stem cell collection from the autologous donor	Observation	Inpatient charge	INP charge code	<null>	85000130	1970-01-01	2099-12-31	<null>
+2000004865	Partial inpatient internal medicine, transfusion medicine	Observation	Inpatient charge	INP charge code	<null>	85000131	1970-01-01	2099-12-31	<null>
+2000004866	Partial regional deep hyperthermia	Observation	Inpatient charge	INP charge code	<null>	85000132	1970-01-01	2099-12-31	<null>
+2000004867	Partial inpatient skin day clinic - oncology	Observation	Inpatient charge	INP charge code	<null>	85000133	1970-01-01	2099-12-31	<null>
+2000004868	Partial inpatient ENT main department	Observation	Inpatient charge	INP charge code	<null>	85000134	1970-01-01	2099-12-31	<null>
+2000004869	Partial inpatient sleep laboratory, diagnostic night	Observation	Inpatient charge	INP charge code	<null>	85000135	1970-01-01	2099-12-31	<null>
+2000004870	Partial inpatient sleep laboratory, therapeutic night	Observation	Inpatient charge	INP charge code	<null>	85000136	1970-01-01	2099-12-31	<null>
+2000004871	Rheumatism day clinic in connection with ZE25.10	Observation	Inpatient charge	INP charge code	<null>	85000137	1970-01-01	2099-12-31	<null>
+2000004872	Day clinic radiation medicine, brachytherapy	Observation	Inpatient charge	INP charge code	<null>	85000138	1970-01-01	2099-12-31	<null>
+2000004873	Partial inpatient chemotherapy, children	Observation	Inpatient charge	INP charge code	<null>	85000139	1970-01-01	2099-12-31	<null>
+2000004874	Partial inpatient HIV day clinic, adults	Observation	Inpatient charge	INP charge code	<null>	85000140	1970-01-01	2099-12-31	<null>
+2000004875	Partial inpatient HIV day clinic, children	Observation	Inpatient charge	INP charge code	<null>	85000141	1970-01-01	2099-12-31	<null>
+2000004876	Partial inpatient day clinic metabolic diseases	Observation	Inpatient charge	INP charge code	<null>	85000142	1970-01-01	2099-12-31	<null>
+2000004877	Day clinic pediatrics	Observation	Inpatient charge	INP charge code	<null>	85000143	1970-01-01	2099-12-31	<null>
+2000004878	Day clinic neuropediatrics (DBZ)	Observation	Inpatient charge	INP charge code	<null>	85000144	1970-01-01	2099-12-31	<null>
+2000004879	Day clinic for proton therapy for eye tumors	Observation	Inpatient charge	INP charge code	<null>	85000145	1970-01-01	2099-12-31	<null>
+2000004880	Partial inpatient chemotherapy/infusion	Observation	Inpatient charge	INP charge code	<null>	85000146	1970-01-01	2099-12-31	<null>
+2000004881	Partial inpatient endocrinology	Observation	Inpatient charge	INP charge code	<null>	85000147	1970-01-01	2099-12-31	<null>
+2000004882	Pain therapy (for admissions in 2003)	Observation	Inpatient charge	INP charge code	<null>	85000148	1970-01-01	2099-12-31	<null>
+2000004883	Night clinic polysomnography level 4	Observation	Inpatient charge	INP charge code	<null>	85000149	1970-01-01	2099-12-31	<null>
+2000004884	Day clinic gynecology	Observation	Inpatient charge	INP charge code	<null>	85000150	1970-01-01	2099-12-31	<null>
+2000004885	Day clinic for cognitive neurology	Observation	Inpatient charge	INP charge code	<null>	85000151	1970-01-01	2099-12-31	<null>
+2000004886	Partial inpatient spine surgery	Observation	Inpatient charge	INP charge code	<null>	85000152	1970-01-01	2099-12-31	<null>
+2000004887	Partial inpatient day clinic parkinson	Observation	Inpatient charge	INP charge code	<null>	85000153	1970-01-01	2099-12-31	<null>
+2000004888	Partial inpatient day clinic rheumatology basic care charge	Observation	Inpatient charge	INP charge code	<null>	85000154	1970-01-01	2099-12-31	<null>
+2000004889	Partial inpatient services, neuropediatric day clinic	Observation	Inpatient charge	INP charge code	<null>	85000155	1970-01-01	2099-12-31	<null>
+2000004890	Tuberculosis, XDR/MDR	Observation	Inpatient charge	INP charge code	<null>	85000156	1970-01-01	2099-12-31	<null>
+2000004891	Therapy center for eating disorders, patients under 18 years of age	Observation	Inpatient charge	INP charge code	<null>	85000157	1970-01-01	2099-12-31	<null>
+2000004892	Therapy center for eating disorders, patients 18 years and older	Observation	Inpatient charge	INP charge code	<null>	85000158	1970-01-01	2099-12-31	<null>
+2000004893	Day clinic neuropsychology 	Observation	Inpatient charge	INP charge code	<null>	85000159	1970-01-01	2099-12-31	<null>
+2000004894	Brief psychological intervention, adults	Observation	Inpatient charge	INP charge code	<null>	85000175	2019-01-01	2099-12-31	<null>
+2000004895	Partial inpatient internal medicine, multimodal concept, interdisciplinary preparation of obesity patients, children and adolescents	Observation	Inpatient charge	INP charge code	<null>	85000176	2019-01-01	2099-12-31	<null>
+2000004896	Partial inpatient internal medicine, multimodal concept, conservative therapy according to concept, children and adolescents	Observation	Inpatient charge	INP charge code	<null>	85000177	2019-01-01	2099-12-31	<null>
+2000004897	Brief psychological intervention, children and adolescents	Observation	Inpatient charge	INP charge code	<null>	85000178	2019-01-01	2099-12-31	<null>
+2000004898	Partial inpatient internal medicine, multimodal concept, preparation for bariatric surgery according to concept, children and adolescents	Observation	Inpatient charge	INP charge code	<null>	85000179	2019-01-01	2099-12-31	<null>
+2000004899	Partial inpatient internal medicine, multimodal concept, interdisciplinary support of the consolidation phase, children and adolescents	Observation	Inpatient charge	INP charge code	<null>	85000180	2019-01-01	2099-12-31	<null>
+2000004900	Day clinic dermatology-oncology	Observation	Inpatient charge	INP charge code	<null>	85000181	2022-01-01	2099-12-31	<null>
+2000004901	Day clinic long / post-covid	Observation	Inpatient charge	INP charge code	<null>	85000182	2022-01-01	2099-12-31	<null>
+2000004902	Schleswig-Holstein (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000368	1970-01-01	2099-12-31	<null>
+2000004903	Schleswig-Holstein: Day clinic geriatrics 	Observation	Inpatient charge	INP charge code	<null>	85010001	1970-01-01	2099-12-31	<null>
+2000004904	Schleswig-Holstein: Day clinic early rehabilitation	Observation	Inpatient charge	INP charge code	<null>	85010002	1970-01-01	2099-12-31	<null>
+2000004905	Schleswig-Holstein: Day clinic children's hospital	Observation	Inpatient charge	INP charge code	<null>	85010003	1970-01-01	2099-12-31	<null>
+2000004906	Schleswig-Holstein: Day clinic oncology	Observation	Inpatient charge	INP charge code	<null>	85010004	1970-01-01	2099-12-31	<null>
+2000004907	Schleswig-Holstein: Partial inpatient dermatology	Observation	Inpatient charge	INP charge code	<null>	85010007	1970-01-01	2099-12-31	<null>
+2000004908	Schleswig-Holstein: Partial inpatient chemotherapy - gynecology	Observation	Inpatient charge	INP charge code	<null>	85010008	1970-01-01	2099-12-31	<null>
+2000004909	Schleswig-Holstein: Partial inpatient chemotherapy - internal medicine	Observation	Inpatient charge	INP charge code	<null>	85010010	1970-01-01	2099-12-31	<null>
+2000004910	Schleswig-Holstein: Partial inpatient chemotherapy - other departments	Observation	Inpatient charge	INP charge code	<null>	85010013	1970-01-01	2099-12-31	<null>
+2000004911	Schleswig-Holstein: Partial inpatient tinnitus treatment	Observation	Inpatient charge	INP charge code	<null>	85010015	1970-01-01	2099-12-31	<null>
+2000004912	Hamburg (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000369	1970-01-01	2099-12-31	<null>
+2000004913	Hamburg: Partial inpatient geriatrics	Observation	Inpatient charge	INP charge code	<null>	85020001	1970-01-01	2099-12-31	<null>
+2000004914	Hamburg: Partial inpatient pediatrics	Observation	Inpatient charge	INP charge code	<null>	85020002	1970-01-01	2099-12-31	<null>
+2000004915	Hamburg: Day clinic hematology	Observation	Inpatient charge	INP charge code	<null>	85020003	1970-01-01	2099-12-31	<null>
+2000004916	Hamburg: Day clinic pulmonary medicine	Observation	Inpatient charge	INP charge code	<null>	85020005	1970-01-01	2099-12-31	<null>
+2000004917	Hamburg: Day Clinic dermatology	Observation	Inpatient charge	INP charge code	<null>	85020006	1970-01-01	2099-12-31	<null>
+2000004918	Hamburg: HIV day clinic	Observation	Inpatient charge	INP charge code	<null>	85020007	1970-01-01	2099-12-31	<null>
+2000004919	Hamburg: Day clinic pain therapy	Observation	Inpatient charge	INP charge code	<null>	85020008	1970-01-01	2099-12-31	<null>
+2000004920	Hamburg: Day clinic early rehabilitation	Observation	Inpatient charge	INP charge code	<null>	85020009	1970-01-01	2099-12-31	<null>
+2000004921	Hamburg: Day clinic epileptology	Observation	Inpatient charge	INP charge code	<null>	85020010	1970-01-01	2099-12-31	<null>
+2000004922	Hamburg: Day clinic endoscopic surgery	Observation	Inpatient charge	INP charge code	<null>	85020011	1970-01-01	2099-12-31	<null>
+2000004923	Hamburg: Day clinic gynecology	Observation	Inpatient charge	INP charge code	<null>	85020012	1970-01-01	2099-12-31	<null>
+2000004924	Hamburg: Day clinic HELP 	Observation	Inpatient charge	INP charge code	<null>	85020015	1970-01-01	2099-12-31	<null>
+2000004925	Hamburg: Partial inpatient ophthalmology	Observation	Inpatient charge	INP charge code	<null>	85020017	1970-01-01	2099-12-31	<null>
+2000004926	Hamburg: Partial inpatient neurology	Observation	Inpatient charge	INP charge code	<null>	85020018	1970-01-01	2099-12-31	<null>
+2000004927	Lower Saxony (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000370	1970-01-01	2099-12-31	<null>
+2000004928	Lower Saxony: Partial inpatient dermatology	Observation	Inpatient charge	INP charge code	<null>	85030001	1970-01-01	2099-12-31	<null>
+2000004929	Lower Saxony: Partial inpatient internal medicine - focus on oncology	Observation	Inpatient charge	INP charge code	<null>	85030003	1970-01-01	2099-12-31	<null>
+2000004930	Lower Saxony: Partial inpatient pediatrics	Observation	Inpatient charge	INP charge code	<null>	85030004	1970-01-01	2099-12-31	<null>
+2000004931	Lower Saxony: Partial inpatient pediatric surgery	Observation	Inpatient charge	INP charge code	<null>	85030005	1970-01-01	2099-12-31	<null>
+2000004932	Lower Saxony: Partial inpatient oncology	Observation	Inpatient charge	INP charge code	<null>	85030007	1970-01-01	2099-12-31	<null>
+2000004933	Lower Saxony: Partial inpatient H.E.L.P. (LDL apheresis)	Observation	Inpatient charge	INP charge code	<null>	85030008	1970-01-01	2099-12-31	<null>
+2000004934	Lower Saxony: Day clinic gastroenterology	Observation	Inpatient charge	INP charge code	<null>	85030009	1970-01-01	2099-12-31	<null>
+2000004935	Bremen (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000371	1970-01-01	2099-12-31	<null>
+2000004936	Bremen: Day clinic geriatrics 	Observation	Inpatient charge	INP charge code	<null>	85040001	1970-01-01	2099-12-31	<null>
+2000004937	Bremen: Day clinic dermatology	Observation	Inpatient charge	INP charge code	<null>	85040002	1970-01-01	2099-12-31	<null>
+2000004938	Bremen: Day clinic internal medicine - focus on gastroenterology	Observation	Inpatient charge	INP charge code	<null>	85040003	1970-01-01	2099-12-31	<null>
+2000004939	Bremen: Partial inpatient neurology	Observation	Inpatient charge	INP charge code	<null>	85040005	1970-01-01	2099-12-31	<null>
+2000004940	Bremen: Partial inpatient pediatric oncology	Observation	Inpatient charge	INP charge code	<null>	85040006	1970-01-01	2099-12-31	<null>
+2000004941	Bremen: Day clinic internal medicine - focus on diabetes	Observation	Inpatient charge	INP charge code	<null>	85040007	1970-01-01	2099-12-31	<null>
+2000004942	Bremen: Day clinic internal medicine - focus on LDL apheresis	Observation	Inpatient charge	INP charge code	<null>	85040008	1970-01-01	2099-12-31	<null>
+2000004943	Bremen: Day clinic rheumatology	Observation	Inpatient charge	INP charge code	<null>	85040009	1970-01-01	2099-12-31	<null>
+2000004944	Bremen: Day clinic pediatrics	Observation	Inpatient charge	INP charge code	<null>	85040010	1970-01-01	2099-12-31	<null>
+2000004945	Bremen: Day clinic pediatrics - focus on oncology	Observation	Inpatient charge	INP charge code	<null>	85040011	1970-01-01	2099-12-31	<null>
+2000004946	Bremen: Day clinic urology	Observation	Inpatient charge	INP charge code	<null>	85040012	1970-01-01	2099-12-31	<null>
+2000004947	Bremen: Day clinic gynecology - focus on oncology	Observation	Inpatient charge	INP charge code	<null>	85040014	1970-01-01	2099-12-31	<null>
+2000004948	Bremen: Day clinic hematology and oncology	Observation	Inpatient charge	INP charge code	<null>	85040015	1970-01-01	2099-12-31	<null>
+2000004949	North Rhine-Westphalia (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000372	1970-01-01	2099-12-31	<null>
+2000004950	North Rhine-Westphalia: Day clinic geriatrics 	Observation	Inpatient charge	INP charge code	<null>	85050001	1970-01-01	2099-12-31	<null>
+2000004951	North Rhine-Westphalia: Partial inpatient dialysis	Observation	Inpatient charge	INP charge code	<null>	85050002	1970-01-01	2099-12-31	<null>
+2000004952	North Rhine-Westphalia: Day clinic dermatology	Observation	Inpatient charge	INP charge code	<null>	85050004	1970-01-01	2099-12-31	<null>
+2000004953	North Rhine-Westphalia: Day clinic HIV 	Observation	Inpatient charge	INP charge code	<null>	85050005	1970-01-01	2099-12-31	<null>
+2000004954	North Rhine-Westphalia: Day clinic adult oncology 	Observation	Inpatient charge	INP charge code	<null>	85050006	1970-01-01	2099-12-31	<null>
+2000004955	North Rhine-Westphalia: Day clinic pediatric oncology	Observation	Inpatient charge	INP charge code	<null>	85050007	1970-01-01	2099-12-31	<null>
+2000004956	North Rhine-Westphalia: Day clinic rheumatology 	Observation	Inpatient charge	INP charge code	<null>	85050009	1970-01-01	2099-12-31	<null>
+2000004957	North Rhine-Westphalia: Partial inpatient CAPD	Observation	Inpatient charge	INP charge code	<null>	85050010	1970-01-01	2099-12-31	<null>
+2000004958	North Rhine-Westphalia: Day clinic ENT - tinnitus	Observation	Inpatient charge	INP charge code	<null>	85050011	1970-01-01	2099-12-31	<null>
+2000004959	North Rhine-Westphalia: Day clinic orthopedic pain clinic	Observation	Inpatient charge	INP charge code	<null>	85050013	1970-01-01	2099-12-31	<null>
+2000004960	North Rhine-Westphalia: Partial inpatient pediatrics	Observation	Inpatient charge	INP charge code	<null>	85050015	1970-01-01	2099-12-31	<null>
+2000004961	North Rhine-Westphalia: Partial inpatient hematology and oncology	Observation	Inpatient charge	INP charge code	<null>	85050016	1970-01-01	2099-12-31	<null>
+2000004962	North Rhine-Westphalia: Day clinic palliative medicine	Observation	Inpatient charge	INP charge code	<null>	85050017	1970-01-01	2099-12-31	<null>
+2000004963	North Rhine-Westphalia: Day clinic naturopathy	Observation	Inpatient charge	INP charge code	<null>	85050018	1970-01-01	2099-12-31	<null>
+2000004964	North Rhine-Westphalia: Day clinic tumor research 	Observation	Inpatient charge	INP charge code	<null>	85050019	1970-01-01	2099-12-31	<null>
+2000004965	North Rhine-Westphalia: Day clinic gastroenterology	Observation	Inpatient charge	INP charge code	<null>	85050020	1970-01-01	2099-12-31	<null>
+2000004966	North Rhine-Westphalia: Day clinic gynecology	Observation	Inpatient charge	INP charge code	<null>	85050021	1970-01-01	2099-12-31	<null>
+2000004967	North Rhine-Westphalia: Day clinic ENT	Observation	Inpatient charge	INP charge code	<null>	85050022	1970-01-01	2099-12-31	<null>
+2000004968	North Rhine-Westphalia: Day clinic pulmonology (sleep laboratory)	Observation	Inpatient charge	INP charge code	<null>	85050024	1970-01-01	2099-12-31	<null>
+2000004969	North Rhine-Westphalia: Partial inpatient pediatric hematology and oncology	Observation	Inpatient charge	INP charge code	<null>	85050025	1970-01-01	2099-12-31	<null>
+2000004970	North Rhine-Westphalia: Partial inpatient sleep laboratory	Observation	Inpatient charge	INP charge code	<null>	85050026	1970-01-01	2099-12-31	<null>
+2000004971	North Rhine-Westphalia: Day clinic neurology 	Observation	Inpatient charge	INP charge code	<null>	85050027	1970-01-01	2099-12-31	<null>
+2000004972	North Rhine-Westphalia: Partial inpatient LDL apheresis	Observation	Inpatient charge	INP charge code	<null>	85050028	1970-01-01	2099-12-31	<null>
+2000004973	North Rhine-Westphalia: Day clinic pain clinic	Observation	Inpatient charge	INP charge code	<null>	85050029	1970-01-01	2099-12-31	<null>
+2000004974	North Rhine-Westphalia: Partial inpatient peritoneal dialysis: intermittent, machine-assisted (IPD)	Observation	Inpatient charge	INP charge code	<null>	85050030	1970-01-01	2099-12-31	<null>
+2000004975	North Rhine-Westphalia: Partial inpatient continence flat rate	Observation	Inpatient charge	INP charge code	<null>	85050031	1970-01-01	2099-12-31	<null>
+2000004976	Hesse (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000373	1970-01-01	2099-12-31	<null>
+2000004977	Hesse: Partial inpatient geriatrics	Observation	Inpatient charge	INP charge code	<null>	85060001	1970-01-01	2099-12-31	<null>
+2000004978	Hesse: Partial inpatient oncology	Observation	Inpatient charge	INP charge code	<null>	85060004	1970-01-01	2099-12-31	<null>
+2000004979	Hesse: Rheumatology day clinic	Observation	Inpatient charge	INP charge code	<null>	85060005	1970-01-01	2099-12-31	<null>
+2000004980	Hesse: Day clinic pediatrics	Observation	Inpatient charge	INP charge code	<null>	85060006	1970-01-01	2099-12-31	<null>
+2000004981	Hesse: Day clinic dermatology	Observation	Inpatient charge	INP charge code	<null>	85060007	1970-01-01	2099-12-31	<null>
+2000004982	Hesse: Day clinic pediatric cardiology/hematology	Observation	Inpatient charge	INP charge code	<null>	85060009	1970-01-01	2099-12-31	<null>
+2000004983	Hesse: Partial inpatient diabetic care	Observation	Inpatient charge	INP charge code	<null>	85060010	1970-01-01	2099-12-31	<null>
+2000004984	Hesse: Partial inpatient LDL apheresis	Observation	Inpatient charge	INP charge code	<null>	85060011	1970-01-01	2099-12-31	<null>
+2000004985	Hesse: Day clinic oncology, children	Observation	Inpatient charge	INP charge code	<null>	85060012	1970-01-01	2099-12-31	<null>
+2000004986	Hesse: Partial inpatient pediatric diagnostics	Observation	Inpatient charge	INP charge code	<null>	85060014	1970-01-01	2099-12-31	<null>
+2000004987	Rhineland-Palatinate (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000374	1970-01-01	2099-12-31	<null>
+2000004988	Rhineland-Palatinate: Dialysis, partial inpatient	Observation	Inpatient charge	INP charge code	<null>	85070001	1970-01-01	2099-12-31	<null>
+2000004989	Rhineland-Palatinate: Pain therapy, partial inpatient	Observation	Inpatient charge	INP charge code	<null>	85070002	1970-01-01	2099-12-31	<null>
+2000004990	Rhineland-Palatinate: Oncology, partial inpatient	Observation	Inpatient charge	INP charge code	<null>	85070003	1970-01-01	2099-12-31	<null>
+2000004991	Rhineland-Palatinate: Day clinic pediatrics	Observation	Inpatient charge	INP charge code	<null>	85070006	1970-01-01	2099-12-31	<null>
+2000004992	Rhineland-Palatinate: Day clinic internal medicine	Observation	Inpatient charge	INP charge code	<null>	85070009	1970-01-01	2099-12-31	<null>
+2000004993	Rhineland-Palatinate: Day clinic hematology	Observation	Inpatient charge	INP charge code	<null>	85070010	1970-01-01	2099-12-31	<null>
+2000004994	Rhineland-Palatinate: Day clinic pediatric oncology	Observation	Inpatient charge	INP charge code	<null>	85070011	1970-01-01	2099-12-31	<null>
+2000004995	Rhineland-Palatinate: Day clinic internal medicine, focus on geriatrics	Observation	Inpatient charge	INP charge code	<null>	85070012	1970-01-01	2099-12-31	<null>
+2000004996	Rhineland-Palatinate: Day clinic rheumatology 	Observation	Inpatient charge	INP charge code	<null>	85070013	1970-01-01	2099-12-31	<null>
+2000004997	Baden-Württemberg (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000375	1970-01-01	2099-12-31	<null>
+2000004998	Baden-Württemberg: Special orthopedic pain day clinic	Observation	Inpatient charge	INP charge code	<null>	85080001	1970-01-01	2099-12-31	<null>
+2000004999	Baden-Württemberg: Fee for partial inpatient diabetic education	Observation	Inpatient charge	INP charge code	<null>	85080002	1970-01-01	2099-12-31	<null>
+2000005000	Baden-Württemberg: Day clinic dermatology	Observation	Inpatient charge	INP charge code	<null>	85080003	1970-01-01	2099-12-31	<null>
+2000005001	Baden-Württemberg: Per day fee partial inpatient - internal medicine	Observation	Inpatient charge	INP charge code	<null>	85080005	1970-01-01	2099-12-31	<null>
+2000005002	Baden-Württemberg: Partial inpatient oncological treatment / focus on nephrology	Observation	Inpatient charge	INP charge code	<null>	85080006	1970-01-01	2099-12-31	<null>
+2000005003	Baden-Württemberg: Partial inpatient geriatrics	Observation	Inpatient charge	INP charge code	<null>	85080007	1970-01-01	2099-12-31	<null>
+2000005004	Baden-Württemberg: Day clinic general surgery	Observation	Inpatient charge	INP charge code	<null>	85080008	1970-01-01	2099-12-31	<null>
+2000005005	Baden-Württemberg: Day clinic thoracic and vascular surgery	Observation	Inpatient charge	INP charge code	<null>	85080009	1970-01-01	2099-12-31	<null>
+2000005006	Baden-Württemberg: Day clinic trauma, extremities, plastic and reconstructive surgery	Observation	Inpatient charge	INP charge code	<null>	85080010	1970-01-01	2099-12-31	<null>
+2000005007	Baden-Württemberg: Day clinic pediatrics	Observation	Inpatient charge	INP charge code	<null>	85080011	1970-01-01	2099-12-31	<null>
+2000005008	Baden-Württemberg: Day clinic ophthalmology	Observation	Inpatient charge	INP charge code	<null>	85080012	1970-01-01	2099-12-31	<null>
+2000005009	Baden-Württemberg: Day clinic ENT	Observation	Inpatient charge	INP charge code	<null>	85080013	1970-01-01	2099-12-31	<null>
+2000005010	Baden-Württemberg: Day clinic radiology/radiation therapy	Observation	Inpatient charge	INP charge code	<null>	85080014	1970-01-01	2099-12-31	<null>
+2000005011	Baden-Württemberg: Day clinic treatment of oncological patients (children)	Observation	Inpatient charge	INP charge code	<null>	85080015	1970-01-01	2099-12-31	<null>
+2000005012	Baden-Württemberg: Same-day care charge partial inpatient, general pediatrics	Observation	Inpatient charge	INP charge code	<null>	85080019	1970-01-01	2099-12-31	<null>
+2000005013	Baden-Württemberg: Same-day care charge partial inpatient, dermatology	Observation	Inpatient charge	INP charge code	<null>	85080021	1970-01-01	2099-12-31	<null>
+2000005014	Baden-Württemberg: Day clinic rheumatology 	Observation	Inpatient charge	INP charge code	<null>	85080023	1970-01-01	2099-12-31	<null>
+2000005015	Baden-Württemberg: Partial inpatient stereotactic irradiation	Observation	Inpatient charge	INP charge code	<null>	85080024	1970-01-01	2099-12-31	<null>
+2000005016	Baden-Württemberg: Neurosurgical day clinic (attending physician)	Observation	Inpatient charge	INP charge code	<null>	85080025	1970-01-01	2099-12-31	<null>
+2000005017	Baden-Württemberg: Day clinic oncology (adults)	Observation	Inpatient charge	INP charge code	<null>	85080026	1970-01-01	2099-12-31	<null>
+2000005018	Baden-Württemberg: Day clinic neurology 	Observation	Inpatient charge	INP charge code	<null>	85080030	1970-01-01	2099-12-31	<null>
+2000005019	Baden-Württemberg: Day clinic neurological pain center	Observation	Inpatient charge	INP charge code	<null>	85080031	1970-01-01	2099-12-31	<null>
+2000005020	Baden-Württemberg: Partial inpatient radiation oncology with local hyperthermia and regional deep hyperthermia	Observation	Inpatient charge	INP charge code	<null>	85080033	1970-01-01	2099-12-31	<null>
+2000005021	Bavaria (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000376	1970-01-01	2099-12-31	<null>
+2000005022	Bavaria: Day clinic geriatrics	Observation	Inpatient charge	INP charge code	<null>	85090001	1970-01-01	2099-12-31	<null>
+2000005023	Bavaria: Day clinic pediatrics	Observation	Inpatient charge	INP charge code	<null>	85090002	1970-01-01	2099-12-31	<null>
+2000005024	Bavaria: Partial inpatient skin day clinic	Observation	Inpatient charge	INP charge code	<null>	85090006	1970-01-01	2099-12-31	<null>
+2000005025	Bavaria: Partial inpatient ENT clinic	Observation	Inpatient charge	INP charge code	<null>	85090007	1970-01-01	2099-12-31	<null>
+2000005026	Bavaria: Day clinic hematology and internal oncology	Observation	Inpatient charge	INP charge code	<null>	85090008	1970-01-01	2099-12-31	<null>
+2000005027	Bavaria: Day clinic pain therapy	Observation	Inpatient charge	INP charge code	<null>	85090009	1970-01-01	2099-12-31	<null>
+2000005028	Bavaria: Partial inpatient pediatric surgery	Observation	Inpatient charge	INP charge code	<null>	85090010	1970-01-01	2099-12-31	<null>
+2000005029	Bavaria: Partial inpatient treatment of patients requiring oncological treatment	Observation	Inpatient charge	INP charge code	<null>	85090011	1970-01-01	2099-12-31	<null>
+2000005030	Bavaria: Partial inpatient diabetes treatment	Observation	Inpatient charge	INP charge code	<null>	85090012	1970-01-01	2099-12-31	<null>
+2000005031	Bavaria: Partial inpatient treatment of oncological patients, children	Observation	Inpatient charge	INP charge code	<null>	85090013	1970-01-01	2099-12-31	<null>
+2000005032	Bavaria: Day clinicv neurology 	Observation	Inpatient charge	INP charge code	<null>	85090014	1970-01-01	2099-12-31	<null>
+2000005033	Bavaria: Day clinic diabetology/endocrinology	Observation	Inpatient charge	INP charge code	<null>	85090015	1970-01-01	2099-12-31	<null>
+2000005034	Bavaria: Day clinic general surgery	Observation	Inpatient charge	INP charge code	<null>	85090017	1970-01-01	2099-12-31	<null>
+2000005035	Bavaria: Day Clinic women's clinic	Observation	Inpatient charge	INP charge code	<null>	85090018	1970-01-01	2099-12-31	<null>
+2000005036	Bavaria: Day clinic nuclear medicine	Observation	Inpatient charge	INP charge code	<null>	85090019	1970-01-01	2099-12-31	<null>
+2000005037	Bavaria: Day clinic radiation medicine	Observation	Inpatient charge	INP charge code	<null>	85090020	1970-01-01	2099-12-31	<null>
+2000005038	Bavaria: Day clinic dentistry, oral and maxillofacial surgery	Observation	Inpatient charge	INP charge code	<null>	85090021	1970-01-01	2099-12-31	<null>
+2000005039	Bavaria: Day clinic rheumatism 	Observation	Inpatient charge	INP charge code	<null>	85090022	1970-01-01	2099-12-31	<null>
+2000005040	Bavaria: Day clinic cardiology	Observation	Inpatient charge	INP charge code	<null>	85090024	1970-01-01	2099-12-31	<null>
+2000005041	Bavaria: Day clinic gastroenterology 	Observation	Inpatient charge	INP charge code	<null>	85090025	1970-01-01	2099-12-31	<null>
+2000005042	Bavaria: Day clinic hematology	Observation	Inpatient charge	INP charge code	<null>	85090026	1970-01-01	2099-12-31	<null>
+2000005043	Bavaria: Day clinic vascular surgery	Observation	Inpatient charge	INP charge code	<null>	85090027	1970-01-01	2099-12-31	<null>
+2000005044	Bavaria: Day clinic gynecology/obstetrics	Observation	Inpatient charge	INP charge code	<null>	85090028	1970-01-01	2099-12-31	<null>
+2000005045	Bavaria: Day clinic oncology/chemotherapy	Observation	Inpatient charge	INP charge code	<null>	85090029	1970-01-01	2099-12-31	<null>
+2000005046	Bavaria: Partial inpatient phoniatrics	Observation	Inpatient charge	INP charge code	<null>	85090030	1970-01-01	2099-12-31	<null>
+2000005047	Bavaria: Partial inpatient cardiac surgery	Observation	Inpatient charge	INP charge code	<null>	85090031	1970-01-01	2099-12-31	<null>
+2000005048	Bavaria: Day clinic severely craniocerebral injured patients	Observation	Inpatient charge	INP charge code	<null>	85090032	1970-01-01	2099-12-31	<null>
+2000005049	Bavaria: Day clinic internal acute medicine	Observation	Inpatient charge	INP charge code	<null>	85090033	1970-01-01	2099-12-31	<null>
+2000005050	Bavaria: Day clinic women's hospital (oncology)	Observation	Inpatient charge	INP charge code	<null>	85090035	1970-01-01	2099-12-31	<null>
+2000005051	Bavaria: Day clinic radiation medicine (oncology)	Observation	Inpatient charge	INP charge code	<null>	85090036	1970-01-01	2099-12-31	<null>
+2000005052	Bavaria: Partial inpatient internal medicine	Observation	Inpatient charge	INP charge code	<null>	85090037	1970-01-01	2099-12-31	<null>
+2000005053	Bavaria: Partial inpatient center for vascular diseases and chronic problem wounds	Observation	Inpatient charge	INP charge code	<null>	85090039	1970-01-01	2099-12-31	<null>
+2000005054	Bavaria: Day clinic ophthalmology	Observation	Inpatient charge	INP charge code	<null>	85090040	1970-01-01	2099-12-31	<null>
+2000005055	Bavaria: Day clinic neurology, neuromuscular treatment unit	Observation	Inpatient charge	INP charge code	<null>	85090041	1970-01-01	2099-12-31	<null>
+2000005056	Bavaria: Day clinic dentistry, oral and maxillofacial surgery	Observation	Inpatient charge	INP charge code	<null>	85090042	1970-01-01	2099-12-31	<null>
+2000005057	Bavaria: Day clinic physical medicine	Observation	Inpatient charge	INP charge code	<null>	85090043	1970-01-01	2099-12-31	<null>
+2000005058	Bavaria: Day clinic plasmapheresis 	Observation	Inpatient charge	INP charge code	<null>	85090044	1970-01-01	2099-12-31	<null>
+2000005059	Bavaria: Partial inpatient ESWL	Observation	Inpatient charge	INP charge code	<null>	85090050	1970-01-01	2099-12-31	<null>
+2000005060	Bavaria: Partial inpatient treatment with imaging diagnostics (only with OPS 3-200, 3-201, 3-202, 3-206, 3-207, 3-208, 3-20x, 3-220, 3-221, 3-222, 3-225, 3-226, 3-228, 3-22x, 3-800, 3-801, 3-803, 3-804, 3-805, 3-808, 3-809, 3-80x, 3-820, 3-821, 3-822, 3-824, 3-825, 3-828, 3-82a, 3-82x, 3-601, 3-602, 3-603, 3-604, 3-605, 3-606, 3-607, 3-60x)	Observation	Inpatient charge	INP charge code	<null>	85090051	1970-01-01	2099-12-31	<null>
+2000005061	Bavaria: Day clinic nephrology	Observation	Inpatient charge	INP charge code	<null>	85090052	1970-01-01	2099-12-31	<null>
+2000005062	Bavaria: Cystic fibrosis day clinic	Observation	Inpatient charge	INP charge code	<null>	85090053	1970-01-01	2099-12-31	<null>
+2000005063	Bavaria: Day clinic ENT	Observation	Inpatient charge	INP charge code	<null>	85090054	1970-01-01	2099-12-31	<null>
+2000005064	Bavaria: Partial inpatient service staging complex treatment	Observation	Inpatient charge	INP charge code	<null>	85090055	1970-01-01	2099-12-31	<null>
+2000005065	Bavaria: Partial inpatient service vacuum biopsy	Observation	Inpatient charge	INP charge code	<null>	85090056	1970-01-01	2099-12-31	<null>
+2000005066	Bavaria: Partial inpatient minimally invasive breast diagnostics (MIM)	Observation	Inpatient charge	INP charge code	<null>	85090057	1970-01-01	2099-12-31	<null>
+2000005067	Bayern: Teilstationär TCE PÄD/ERW	Observation	Inpatient charge	INP charge code	<null>	85090058	1970-01-01	2099-12-31	<null>
+2000005068	Bavaria: Partial inpatient TCE PÄD/ERW	Observation	Inpatient charge	INP charge code	<null>	85090059	1970-01-01	2099-12-31	<null>
+2000005069	Bavaria: Partial inpatient stem cell collection from autologous donor	Observation	Inpatient charge	INP charge code	<null>	85090060	1970-01-01	2099-12-31	<null>
+2000005070	Bavaria: Partial inpatient internal medicine, transfusion medicine	Observation	Inpatient charge	INP charge code	<null>	85090061	1970-01-01	2099-12-31	<null>
+2000005071	Bavaria: Partial inpatient regional deep hyperthermia	Observation	Inpatient charge	INP charge code	<null>	85090063	1970-01-01	2099-12-31	<null>
+2000005072	Bavaria: Partial body hyperthermia	Observation	Inpatient charge	INP charge code	<null>	85090064	1970-01-01	2099-12-31	<null>
+2000005073	Bavaria: Partial inpatient skin day clinic, oncology	Observation	Inpatient charge	INP charge code	<null>	85090065	1970-01-01	2099-12-31	<null>
+2000005074	Bavaria: Partial inpatient ENT main department	Observation	Inpatient charge	INP charge code	<null>	85090067	1970-01-01	2099-12-31	<null>
+2000005075	Bavaria: Partial inpatient sleep laboratory, diagnostic night	Observation	Inpatient charge	INP charge code	<null>	85090068	1970-01-01	2099-12-31	<null>
+2000005076	Bavaria: Partial inpatient sleep laboratory, therapeutic night	Observation	Inpatient charge	INP charge code	<null>	85090069	1970-01-01	2099-12-31	<null>
+2000005077	Bavaria: Partial inpatient first-night-effect polysomnography without meaningful results	Observation	Inpatient charge	INP charge code	<null>	85090070	1970-01-01	2099-12-31	<null>
+2000005078	Bavaria: Partial inpatient polysomnography	Observation	Inpatient charge	INP charge code	<null>	85090071	1970-01-01	2099-12-31	<null>
+2000005079	Bavaria: Partial inpatient extended polysomnography	Observation	Inpatient charge	INP charge code	<null>	85090072	1970-01-01	2099-12-31	<null>
+2000005080	Bavaria: Partial inpatient control examination polysomnography	Observation	Inpatient charge	INP charge code	<null>	85090073	1970-01-01	2099-12-31	<null>
+2000005081	Bavaria: Rheumatism day clinic in connection with ZE 25.10	Observation	Inpatient charge	INP charge code	<null>	85090074	1970-01-01	2099-12-31	<null>
+2000005082	Bavaria: Day clinic radiation medicine, brachytherapy	Observation	Inpatient charge	INP charge code	<null>	85090075	1970-01-01	2099-12-31	<null>
+2000005083	Saarland (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000377	1970-01-01	2099-12-31	<null>
+2000005084	Saarland: Partial inpatient oncology	Observation	Inpatient charge	INP charge code	<null>	85100001	1970-01-01	2099-12-31	<null>
+2000005085	Saarland: Day clinic internal medicine	Observation	Inpatient charge	INP charge code	<null>	85100003	1970-01-01	2099-12-31	<null>
+2000005086	Saarland: Partial inpatient LDL apheresis	Observation	Inpatient charge	INP charge code	<null>	85100004	1970-01-01	2099-12-31	<null>
+2000005087	Saarland: Day clinic follow-up care of patients with cochlear implants	Observation	Inpatient charge	INP charge code	<null>	85100006	1970-01-01	2099-12-31	<null>
+2000005088	Saarland: Day clinic shunt surgery	Observation	Inpatient charge	INP charge code	<null>	85100007	1970-01-01	2099-12-31	<null>
+2000005089	Berlin (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000378	1970-01-01	2099-12-31	<null>
+2000005090	Berlin: Partial inpatient chemotherapy, children	Observation	Inpatient charge	INP charge code	<null>	85110001	1970-01-01	2099-12-31	<null>
+2000005091	Berlin: Partial inpatient HIV day clinic, adults	Observation	Inpatient charge	INP charge code	<null>	85110002	1970-01-01	2099-12-31	<null>
+2000005092	Berlin: Partial inpatient HIV day clinic, children	Observation	Inpatient charge	INP charge code	<null>	85110003	1970-01-01	2099-12-31	<null>
+2000005093	Berlin: Partial inpatient LDL apheresis	Observation	Inpatient charge	INP charge code	<null>	85110004	1970-01-01	2099-12-31	<null>
+2000005094	Berlin: Partial inpatient day clinic metabolic diseases	Observation	Inpatient charge	INP charge code	<null>	85110005	1970-01-01	2099-12-31	<null>
+2000005095	Berlin: Partial dialysis, children	Observation	Inpatient charge	INP charge code	<null>	85110007	1970-01-01	2099-12-31	<null>
+2000005096	Berlin: Partial inpatient oncology day clinic	Observation	Inpatient charge	INP charge code	<null>	85110008	1970-01-01	2099-12-31	<null>
+2000005097	Berlin: Partial inpatient day clinic rheumatological diseases	Observation	Inpatient charge	INP charge code	<null>	85110009	1970-01-01	2099-12-31	<null>
+2000005098	Berlin: Partial inpatient dermatological day clinic	Observation	Inpatient charge	INP charge code	<null>	85110010	1970-01-01	2099-12-31	<null>
+2000005099	Berlin: Partial inpatient geriatrics	Observation	Inpatient charge	INP charge code	<null>	85110011	1970-01-01	2099-12-31	<null>
+2000005100	Berlin: Partial inpatient dialysis	Observation	Inpatient charge	INP charge code	<null>	85110012	1970-01-01	2099-12-31	<null>
+2000005101	Berlin: Partial inpatient gynecology	Observation	Inpatient charge	INP charge code	<null>	85110013	1970-01-01	2099-12-31	<null>
+2000005102	Berlin: Partial inpatient hematology	Observation	Inpatient charge	INP charge code	<null>	85110014	1970-01-01	2099-12-31	<null>
+2000005103	Berlin: Partial inpatient internal medicine	Observation	Inpatient charge	INP charge code	<null>	85110015	1970-01-01	2099-12-31	<null>
+2000005104	Berlin: Partial inpatient pediatrics	Observation	Inpatient charge	INP charge code	<null>	85110016	1970-01-01	2099-12-31	<null>
+2000005105	Berlin: Day clinic neurology 	Observation	Inpatient charge	INP charge code	<null>	85110017	1970-01-01	2099-12-31	<null>
+2000005106	Berlin: Day clinic neuropediatrics (DBZ)	Observation	Inpatient charge	INP charge code	<null>	85110018	1970-01-01	2099-12-31	<null>
+2000005107	Berlin: Day clinic for proton therapy for eye tumors	Observation	Inpatient charge	INP charge code	<null>	85110019	1970-01-01	2099-12-31	<null>
+2000005108	Brandenburg (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000379	1970-01-01	2099-12-31	<null>
+2000005109	Brandenburg: Day clinic geriatrics	Observation	Inpatient charge	INP charge code	<null>	85120001	1970-01-01	2099-12-31	<null>
+2000005110	Brandenburg: Day clinic rheumatology 	Observation	Inpatient charge	INP charge code	<null>	85120001	1970-01-01	2099-12-31	<null>
+2000005111	Brandenburg: Partial inpatient dialysis	Observation	Inpatient charge	INP charge code	<null>	85120003	1970-01-01	2099-12-31	<null>
+2000005112	Brandenburg: Day clinic orthopedics 	Observation	Inpatient charge	INP charge code	<null>	85120005	1970-01-01	2099-12-31	<null>
+2000005113	Brandenburg: Day clinic hematology	Observation	Inpatient charge	INP charge code	<null>	85120007	1970-01-01	2099-12-31	<null>
+2000005114	Brandenburg: Day clinic pediatrics	Observation	Inpatient charge	INP charge code	<null>	85120008	1970-01-01	2099-12-31	<null>
+2000005115	Brandenburg: Partial inpatient chemotherapy/infusion	Observation	Inpatient charge	INP charge code	<null>	85120010	1970-01-01	2099-12-31	<null>
+2000005116	Brandenburg: Partial inpatient neurology	Observation	Inpatient charge	INP charge code	<null>	85120011	1970-01-01	2099-12-31	<null>
+2000005117	Brandenburg: Partial inpatient endocrinology	Observation	Inpatient charge	INP charge code	<null>	85120012	1970-01-01	2099-12-31	<null>
+2000005118	Brandenburg: Partial inpatient angiology	Observation	Inpatient charge	INP charge code	<null>	85120013	1970-01-01	2099-12-31	<null>
+2000005119	Brandenburg: Partial inpatient sleep laboratory	Observation	Inpatient charge	INP charge code	<null>	85120014	1970-01-01	2099-12-31	<null>
+2000005120	Brandenburg: Partial inpatient gastroscopies in children	Observation	Inpatient charge	INP charge code	<null>	85120015	1970-01-01	2099-12-31	<null>
+2000005121	Mecklenburg-Vorpommern (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000380	1970-01-01	2099-12-31	<null>
+2000005122	Mecklenburg-Vorpommern: Geriatrics (day clinic)	Observation	Inpatient charge	INP charge code	<null>	85130001	1970-01-01	2099-12-31	<null>
+2000005123	Mecklenburg-Vorpommern: Pain therapy (for admissions in 2003)	Observation	Inpatient charge	INP charge code	<null>	85130002	1970-01-01	2099-12-31	<null>
+2000005124	Mecklenburg-Vorpommern: Oncology (day clinic)	Observation	Inpatient charge	INP charge code	<null>	85130004	1970-01-01	2099-12-31	<null>
+2000005125	Mecklenburg-Vorpommern: Rheumatology (day clinic)	Observation	Inpatient charge	INP charge code	<null>	85130005	1970-01-01	2099-12-31	<null>
+2000005126	Mecklenburg-Vorpommern: Pediatric nephrology (day clinic)	Observation	Inpatient charge	INP charge code	<null>	85130007	1970-01-01	2099-12-31	<null>
+2000005127	Mecklenburg-Vorpommern: Nuclear medicine (day clinic)	Observation	Inpatient charge	INP charge code	<null>	85130008	1970-01-01	2099-12-31	<null>
+2000005128	Mecklenburg-Vorpommern: Partial inpatient chemotherapy	Observation	Inpatient charge	INP charge code	<null>	85130009	1970-01-01	2099-12-31	<null>
+2000005129	Mecklenburg-Vorpommern: Pediatrics (day clinic)	Observation	Inpatient charge	INP charge code	<null>	85130010	1970-01-01	2099-12-31	<null>
+2000005130	Mecklenburg-Vorpommern: Pneumology (day clinic)	Observation	Inpatient charge	INP charge code	<null>	85130011	1970-01-01	2099-12-31	<null>
+2000005131	Mecklenburg-Vorpommern: Gynecology (day clinic)	Observation	Inpatient charge	INP charge code	<null>	85130012	1970-01-01	2099-12-31	<null>
+2000005132	Saxony (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000381	1970-01-01	2099-12-31	<null>
+2000005133	Saxony: Cardiology fee (for admissions in 2003)	Observation	Inpatient charge	INP charge code	<null>	85140001	1970-01-01	2099-12-31	<null>
+2000005134	Saxony: Day clinic pain therapy	Observation	Inpatient charge	INP charge code	<null>	85140002	1970-01-01	2099-12-31	<null>
+2000005135	Saxony: Day clinic dermatology	Observation	Inpatient charge	INP charge code	<null>	85140003	1970-01-01	2099-12-31	<null>
+2000005136	Saxony: Night clinic polysomnography level 4	Observation	Inpatient charge	INP charge code	<null>	85140004	1970-01-01	2099-12-31	<null>
+2000005137	Saxony: Day clinic oncology	Observation	Inpatient charge	INP charge code	<null>	85140005	1970-01-01	2099-12-31	<null>
+2000005138	Saxony: Day clinic internal medicine	Observation	Inpatient charge	INP charge code	<null>	85140006	1970-01-01	2099-12-31	<null>
+2000005139	Saxony: Day clinic pediatrics	Observation	Inpatient charge	INP charge code	<null>	85140007	1970-01-01	2099-12-31	<null>
+2000005140	Saxony: Day clinic pediatric surgery	Observation	Inpatient charge	INP charge code	<null>	85140008	1970-01-01	2099-12-31	<null>
+2000005141	Saxony: Day clinic gynecology	Observation	Inpatient charge	INP charge code	<null>	85140009	1970-01-01	2099-12-31	<null>
+2000005142	Saxony: Day clinic radiation medicine	Observation	Inpatient charge	INP charge code	<null>	85140010	1970-01-01	2099-12-31	<null>
+2000005143	Saxony: Partial inpatient LDL apheresis	Observation	Inpatient charge	INP charge code	<null>	85140011	1970-01-01	2099-12-31	<null>
+2000005144	Saxony: Day clinic for cognitive neurology	Observation	Inpatient charge	INP charge code	<null>	85140012	1970-01-01	2099-12-31	<null>
+2000005145	Saxony: Partial inpatient hematology	Observation	Inpatient charge	INP charge code	<null>	85140014	1970-01-01	2099-12-31	<null>
+2000005146	Saxony: Partial inpatient geriatrics	Observation	Inpatient charge	INP charge code	<null>	85140015	1970-01-01	2099-12-31	<null>
+2000005147	Saxony: Day clinic cardiology	Observation	Inpatient charge	INP charge code	<null>	85140016	1970-01-01	2099-12-31	<null>
+2000005148	Saxony: Day clinic urology	Observation	Inpatient charge	INP charge code	<null>	85140017	1970-01-01	2099-12-31	<null>
+2000005149	Saxony: Day clinic ear, nose, throat medicine	Observation	Inpatient charge	INP charge code	<null>	85140018	1970-01-01	2099-12-31	<null>
+2000005150	Saxony: Day clinic neurology 	Observation	Inpatient charge	INP charge code	<null>	85140019	1970-01-01	2099-12-31	<null>
+2000005151	Saxony: Ophthalmology partial inpatient	Observation	Inpatient charge	INP charge code	<null>	85140020	1970-01-01	2099-12-31	<null>
+2000005152	Saxony-Anhalt (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000382	1970-01-01	2099-12-31	<null>
+2000005153	Saxony-Anhalt: Partial inpatient geriatrics	Observation	Inpatient charge	INP charge code	<null>	85150002	1970-01-01	2099-12-31	<null>
+2000005154	Saxony-Anhalt: Partial inpatient oncology	Observation	Inpatient charge	INP charge code	<null>	85150003	1970-01-01	2099-12-31	<null>
+2000005155	Saxony-Anhalt: Partial inpatient diabetology	Observation	Inpatient charge	INP charge code	<null>	85150004	1970-01-01	2099-12-31	<null>
+2000005156	Saxony-Anhalt: Day clinic dermatology	Observation	Inpatient charge	INP charge code	<null>	85150005	1970-01-01	2099-12-31	<null>
+2000005157	Saxony-Anhalt: Partial inpatient pediatric oncology	Observation	Inpatient charge	INP charge code	<null>	85150005	1970-01-01	2099-12-31	<null>
+2000005158	Saxony-Anhalt: Partial inpatient pediatrics	Observation	Inpatient charge	INP charge code	<null>	85150007	1970-01-01	2099-12-31	<null>
+2000005159	Saxony-Anhalt: Day clinic bee and wasp allergosis	Observation	Inpatient charge	INP charge code	<null>	85150008	1970-01-01	2099-12-31	<null>
+2000005160	Saxony-Anhalt: Partial inpatient gynecological oncology	Observation	Inpatient charge	INP charge code	<null>	85150010	1970-01-01	2099-12-31	<null>
+2000005161	Saxony-Anhalt: Partial inpatient adult hematology and oncology	Observation	Inpatient charge	INP charge code	<null>	85150011	1970-01-01	2099-12-31	<null>
+2000005162	Saxony-Anhalt: Partial inpatient pediatric hematology, oncology and metabolic disorders	Observation	Inpatient charge	INP charge code	<null>	85150012	1970-01-01	2099-12-31	<null>
+2000005163	Saxony-Anhalt: Partial impatient ear, nose and throat diseases	Observation	Inpatient charge	INP charge code	<null>	85150013	1970-01-01	2099-12-31	<null>
+2000005164	Saxony-Anhalt: Partial inpatient urology	Observation	Inpatient charge	INP charge code	<null>	85150014	1970-01-01	2099-12-31	<null>
+2000005165	Saxony-Anhalt: Partial inpatient radiotherapy	Observation	Inpatient charge	INP charge code	<null>	85150015	1970-01-01	2099-12-31	<null>
+2000005166	Saxony-Anhalt: Partial inpatient orthopedics	Observation	Inpatient charge	INP charge code	<null>	85150016	1970-01-01	2099-12-31	<null>
+2000005167	Thuringia (partial inpatient, per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000383	1970-01-01	2099-12-31	<null>
+2000005168	Thuringia: Day clinic geriatrics	Observation	Inpatient charge	INP charge code	<null>	85160001	1970-01-01	2099-12-31	<null>
+2000005169	Thuringia: Partial inpatient dermatology	Observation	Inpatient charge	INP charge code	<null>	85160002	1970-01-01	2099-12-31	<null>
+2000005170	Thuringia: Partial inpatient orthopedics	Observation	Inpatient charge	INP charge code	<null>	85150003	1970-01-01	2099-12-31	<null>
+2000005171	Thuringia: Partial inpatient oncology	Observation	Inpatient charge	INP charge code	<null>	85160004	1970-01-01	2099-12-31	<null>
+2000005172	Thuringia: Partial inpatient diabetology	Observation	Inpatient charge	INP charge code	<null>	85160005	1970-01-01	2099-12-31	<null>
+2000005173	Thuringia: Partial inpatient neurology	Observation	Inpatient charge	INP charge code	<null>	85160006	1970-01-01	2099-12-31	<null>
+2000005174	Thuringia: Partial inpatient ophthalmology	Observation	Inpatient charge	INP charge code	<null>	85160007	1970-01-01	2099-12-31	<null>
+2000005175	Thuringia: Partial inpatient general pediatrics	Observation	Inpatient charge	INP charge code	<null>	85160008	1970-01-01	2099-12-31	<null>
+2000005176	Thuringia: Partial inpatient radiotherapy	Observation	Inpatient charge	INP charge code	<null>	85160009	1970-01-01	2099-12-31	<null>
+2000005177	Thuringia: Partial inpatient spine surgery	Observation	Inpatient charge	INP charge code	<null>	85160010	1970-01-01	2099-12-31	<null>
+2000005178	Thuringia: Partial inpatient sleep laboratory	Observation	Inpatient charge	INP charge code	<null>	85160011	1970-01-01	2099-12-31	<null>
+2000005179	Special facilities, partial inpatient (day-related)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000384	1970-01-01	2099-12-31	<null>
+2000005180	Special facility neuropediatric day clinic	Observation	Inpatient charge	INP charge code	<null>	85003001	1970-01-01	2099-12-31	<null>
+2000005181	Special facility for day clinic partial inpatient gastroscopies in children	Observation	Inpatient charge	INP charge code	<null>	85003002	1970-01-01	2099-12-31	<null>
+2000005182	Palliative medicine	Observation	Inpatient charge	INP charge code	<null>	85003005	1970-01-01	2099-12-31	<null>
+2000005183	Special facility for day clinic rheumatism, basic care charge	Observation	Inpatient charge	INP charge code	<null>	85003006	1970-01-01	2099-12-31	<null>
+2000005184	Special facility for partial inpatient treatment of severely craniocerebral injured patients	Observation	Inpatient charge	INP charge code	<null>	85003007	1970-01-01	2099-12-31	<null>
+2000005185	Special facility for partial inpatient treatment of oncological patients	Observation	Inpatient charge	INP charge code	<null>	85003008	1970-01-01	2099-12-31	<null>
+2000005186	Special facility for partial inpatient treatment of multiple sclerosis patients	Observation	Inpatient charge	INP charge code	<null>	85003009	1970-01-01	2099-12-31	<null>
+2000005187	Special facility for partial inpatient treatment, dermatology	Observation	Inpatient charge	INP charge code	<null>	85003010	2021-01-01	2099-12-31	<null>
+2000005188	Special facility for day clinic, general pediatrics	Observation	Inpatient charge	INP charge code	<null>	85003011	2021-01-01	2099-12-31	<null>
+2000005189	Special facilities in Bavaria, partial inpatient (day-related)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000385	1970-01-01	2099-12-31	<null>
+2000005190	Bavaria: Special facility for partial inpatient treatment of oncological patients	Observation	Inpatient charge	INP charge code	<null>	85093001	1970-01-01	2099-12-31	<null>
+2000005191	Bavaria: Special facility for partial inpatient treatment of severely craniocerebral injured patients	Observation	Inpatient charge	INP charge code	<null>	85093002	1970-01-01	2099-12-31	<null>
+2000005192	Bavaria: Special facility for partial inpatient treatment of multiple sclerosis patients	Observation	Inpatient charge	INP charge code	<null>	85093003	1970-01-01	2099-12-31	<null>
+2000005193	Special facilities, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000386	1970-01-01	2099-12-31	<null>
+2000005194	Special facility neurology - treatment of Parkinson's disease	Observation	Inpatient charge	INP charge code	<null>	85004001	1970-01-01	2099-12-31	<null>
+2000005195	Special facility for multidrug-resistant mycobacterioses	Observation	Inpatient charge	INP charge code	<null>	85004002	1970-01-01	2099-12-31	<null>
+2000005196	Special facility for environmental medicine	Observation	Inpatient charge	INP charge code	<null>	85004003	1970-01-01	2099-12-31	<null>
+2000005197	Special facility for the treatment of patients before LTX	Observation	Inpatient charge	INP charge code	<null>	85004005	1970-01-01	2099-12-31	<null>
+2000005198	Special facility center for microsurgery/replantation	Observation	Inpatient charge	INP charge code	<null>	85004006	1970-01-01	2099-12-31	<null>
+2000005199	Special facility trauma center	Observation	Inpatient charge	INP charge code	<null>	85004007	1970-01-01	2099-12-31	<null>
+2000005200	Special facility for drug withdrawal	Observation	Inpatient charge	INP charge code	<null>	85004008	1970-01-01	2099-12-31	<null>
+2000005201	Special facility for neurology, phase B	Observation	Inpatient charge	INP charge code	<null>	85004009	1970-01-01	2099-12-31	<null>
+2000005202	Special facility for neurology, phase B intensive care medicine	Observation	Inpatient charge	INP charge code	<null>	85004010	1970-01-01	2099-12-31	<null>
+2000005203	Special facility for palliative care of children	Observation	Inpatient charge	INP charge code	<null>	85004011	1970-01-01	2099-12-31	<null>
+2000005204	Special facility for child and adolescent pain therapy	Observation	Inpatient charge	INP charge code	<null>	85004013	1970-01-01	2099-12-31	<null>
+2000005205	Special facility palliative medicine	Observation	Inpatient charge	INP charge code	<null>	85004014	1970-01-01	2099-12-31	<null>
+2000005206	Special facility for special isolation unit, day charge 2 - suspected category C	Observation	Inpatient charge	INP charge code	<null>	85004015	1970-01-01	2099-12-31	<null>
+2000005207	Special facility for special isolation unit, day charge 1- category C	Observation	Inpatient charge	INP charge code	<null>	85004016	1970-01-01	2099-12-31	<null>
+2000005208	Special facility for special isolation unit, day charge 3- patients of category B+	Observation	Inpatient charge	INP charge code	<null>	85004017	1970-01-01	2099-12-31	<null>
+2000005209	Special facility for isolation unit, basic patient, isolated	Observation	Inpatient charge	INP charge code	<null>	85004018	1970-01-01	2099-12-31	<null>
+2000005210	Special facility for isolation unit, intensive care patient, not ventilated	Observation	Inpatient charge	INP charge code	<null>	85004019	1970-01-01	2099-12-31	<null>
+2000005211	Special facility for isolation unit, intensive care patient, ventilated	Observation	Inpatient charge	INP charge code	<null>	85004020	1970-01-01	2099-12-31	<null>
+2000005212	Special facility for long-term inpatient therapy for the care of severely disabled children and adolescents	Observation	Inpatient charge	INP charge code	<null>	85004021	1970-01-01	2099-12-31	<null>
+2000005213	Special facility for neurology (without ventilation)	Observation	Inpatient charge	INP charge code	<null>	85004022	1970-01-01	2099-12-31	<null>
+2000005214	Special facility for neurology (with ventilation)	Observation	Inpatient charge	INP charge code	<null>	85004023	1970-01-01	2099-12-31	<null>
+2000005215	Special facility for E76A, MDR	Observation	Inpatient charge	INP charge code	<null>	85004024	1970-01-01	2099-12-31	<null>
+2000005216	Special facility for E76A, XDR	Observation	Inpatient charge	INP charge code	<null>	85004025	1970-01-01	2099-12-31	<null>
+2000005217	Special facility for highly contagious patients, contact person	Observation	Inpatient charge	INP charge code	<null>	85004026	1970-01-01	2099-12-31	<null>
+2000005218	Special facility for highly contagious patients level III	Observation	Inpatient charge	INP charge code	<null>	85004027	1970-01-01	2099-12-31	<null>
+2000005219	Special facility for highly contagious patients level IV	Observation	Inpatient charge	INP charge code	<null>	85004028	1970-01-01	2099-12-31	<null>
+2000005220	Special facility for care charge isolation unit, category I	Observation	Inpatient charge	INP charge code	<null>	85004029	1970-01-01	2099-12-31	<null>
+2000005221	Special facility for care charge isolation unit, category II	Observation	Inpatient charge	INP charge code	<null>	85004030	1970-01-01	2099-12-31	<null>
+2000005222	Special facility for care charge isolation unit, contact person	Observation	Inpatient charge	INP charge code	<null>	85004031	1970-01-01	2099-12-31	<null>
+2000005223	Special facility internal medicine/focus on disability medicine	Observation	Inpatient charge	INP charge code	<null>	85004032	1970-01-01	2099-12-31	<null>
+2000005224	Special facility general surgery/focus on disability medicine	Observation	Inpatient charge	INP charge code	<null>	85004033	1970-01-01	2099-12-31	<null>
+2000005225	Special facility epilepsy surgery	Observation	Inpatient charge	INP charge code	<null>	85004034	1970-01-01	2099-12-31	<null>
+2000005226	Special facility for neurology, focus on epilepsy	Observation	Inpatient charge	INP charge code	<null>	85004035	1970-01-01	2099-12-31	<null>
+2000005227	Special facility AIDS/disability focus on disability medicine	Observation	Inpatient charge	INP charge code	<null>	85004036	1970-01-01	2099-12-31	<null>
+2000005228	Special facility child neurology and social pediatrics	Observation	Inpatient charge	INP charge code	<null>	85004037	1970-01-01	2099-12-31	<null>
+2000005229	Special facility for neonatal intensive care - perinatal center	Observation	Inpatient charge	INP charge code	<null>	85004038	1970-01-01	2099-12-31	<null>
+2000005230	Special facility intensive care unit for long-term ventilated children	Observation	Inpatient charge	INP charge code	<null>	85004039	1970-01-01	2099-12-31	<null>
+2000005231	Special facility early rehabilitation for long-term ventilated patients	Observation	Inpatient charge	INP charge code	<null>	85004040	1970-01-01	2099-12-31	<null>
+2000005232	Special facility pediatrics	Observation	Inpatient charge	INP charge code	<null>	85004041	1970-01-01	2099-12-31	<null>
+2000005233	Special facility for severely burned patients	Observation	Inpatient charge	INP charge code	<null>	85004042	1970-01-01	2099-12-31	<null>
+2000005234	Special facility severe burned patients	Observation	Inpatient charge	INP charge code	<null>	85004043	1970-01-01	2099-12-31	<null>
+2000005235	Special facility for neurology	Observation	Inpatient charge	INP charge code	<null>	85004044	1970-01-01	2099-12-31	<null>
+2000005236	Special facility for severe burned patients, children	Observation	Inpatient charge	INP charge code	<null>	85004045	1970-01-01	2099-12-31	<null>
+2000005237	Special facility for neurological early rehabilitation, children	Observation	Inpatient charge	INP charge code	<null>	85004046	1970-01-01	2099-12-31	<null>
+2000005238	Special facility for psychosomatics, children	Observation	Inpatient charge	INP charge code	<null>	85004047	1970-01-01	2099-12-31	<null>
+2000005239	Special facility severely craniocerebral injured persons	Observation	Inpatient charge	INP charge code	<null>	85004048	1970-01-01	2099-12-31	<null>
+2000005240	Special facility for epileptology	Observation	Inpatient charge	INP charge code	<null>	85004049	1970-01-01	2099-12-31	<null>
+2000005241	Special facility neurological early rehabilitation	Observation	Inpatient charge	INP charge code	<null>	85004050	1970-01-01	2099-12-31	<null>
+2000005242	Special facility neuropediatrics	Observation	Inpatient charge	INP charge code	<null>	85004051	1970-01-01	2099-12-31	<null>
+2000005243	Special facility for neurological early rehabilitation phase B and treatment of severely craniocerebral injured patients	Observation	Inpatient charge	INP charge code	<null>	85004052	1970-01-01	2099-12-31	<null>
+2000005244	Special facility for the full inpatient treatment of oncological patients	Observation	Inpatient charge	INP charge code	<null>	85004053	1970-01-01	2099-12-31	<null>
+2000005245	Special facility for severe burned patients, intensive care unit	Observation	Inpatient charge	INP charge code	<null>	85004054	1970-01-01	2099-12-31	<null>
+2000005246	Special facility for follow-up treatment of severely burned patients in normal units	Observation	Inpatient charge	INP charge code	<null>	85004055	1970-01-01	2099-12-31	<null>
+2000005247	Special facility orthopedics	Observation	Inpatient charge	INP charge code	<null>	85004056	1970-01-01	2099-12-31	<null>
+2000005248	Special facility for interdisciplinary pain therapy	Observation	Inpatient charge	INP charge code	<null>	85004057	1970-01-01	2099-12-31	<null>
+2000005249	Special facility for full inpatient treatment of multiple sclerosis patients	Observation	Inpatient charge	INP charge code	<null>	85004058	1970-01-01	2099-12-31	<null>
+2000005250	Special facility cystic fibrosis	Observation	Inpatient charge	INP charge code	<null>	85004059	1970-01-01	2099-12-31	<null>
+2000005251	Special facility dermatology	Observation	Inpatient charge	INP charge code	<null>	85004060	1970-01-01	2099-12-31	<null>
+2000005252	Special facility T-KK normal unit	Observation	Inpatient charge	INP charge code	<null>	85004061	1970-01-01	2099-12-31	<null>
+2000005253	Special facility T-KKINT intensive care unit	Observation	Inpatient charge	INP charge code	<null>	85004062	1970-01-01	2099-12-31	<null>
+2000005254	Special facility epilepsy center	Observation	Inpatient charge	INP charge code	<null>	85004063	1970-01-01	2099-12-31	<null>
+2000005255	Special facility for neurological early rehabilitation in phase B (without ventilation)	Observation	Inpatient charge	INP charge code	<null>	85004064	1970-01-01	2099-12-31	<null>
+2000005256	Special facility for neurological early rehabilitation in phase B (with ventilation)	Observation	Inpatient charge	INP charge code	<null>	85004065	1970-01-01	2099-12-31	<null>
+2000005257	Special facility for neurological treatment	Observation	Inpatient charge	INP charge code	<null>	85004066	1970-01-01	2099-12-31	<null>
+2000005258	Special facility for neurological treatment with ventilation	Observation	Inpatient charge	INP charge code	<null>	85004067	1970-01-01	2099-12-31	<null>
+2000005259	Special facility for the treatment of paraplegics	Observation	Inpatient charge	INP charge code	<null>	85004068	1970-01-01	2099-12-31	<null>
+2000005260	Special facility for neurology, focus on epilepsy (monitoring)	Observation	Inpatient charge	INP charge code	<null>	85004069	1970-01-01	2099-12-31	<null>
+2000005261	Special facility for neurology, phase B	Observation	Inpatient charge	INP charge code	<null>	85004070	1970-01-01	2099-12-31	<null>
+2000005262	Special facility for neurological early rehabilitation phase B, children	Observation	Inpatient charge	INP charge code	<null>	85004071	1970-01-01	2099-12-31	<null>
+2000005263	Special facility for dermatological special treatment	Observation	Inpatient charge	INP charge code	<null>	85004072	1970-01-01	2099-12-31	<null>
+2000005264	Special facility for the treatment of chronically ill children, adolescents and young adults with psychosocial disorders	Observation	Inpatient charge	INP charge code	<null>	85004073	1970-01-01	2099-12-31	<null>
+2000005265	Special facility for a neonatal satellite ward	Observation	Inpatient charge	INP charge code	<null>	85004079	2020-01-01	2099-12-31	<null>
+2000005266	Special facilities in Schleswig-Holstein, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000387	1970-01-01	2099-12-31	<null>
+2000005267	Schleswig-Holstein: Special facility for palliative medicine	Observation	Inpatient charge	INP charge code	<null>	85014001	1970-01-01	2099-12-31	<null>
+2000005268	Schleswig-Holstein: Special facility for pediatrics	Observation	Inpatient charge	INP charge code	<null>	85014003	1970-01-01	2099-12-31	<null>
+2000005269	Special facilities in Hamburg, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000388	1970-01-01	2099-12-31	<null>
+2000005270	Hamburg: Special facility for severely burned patients	Observation	Inpatient charge	INP charge code	<null>	85024001	1970-01-01	2099-12-31	<null>
+2000005271	Hamburg: Special facility for severe burned patients 1st phase	Observation	Inpatient charge	INP charge code	<null>	85024002	1970-01-01	2099-12-31	<null>
+2000005272	Hamburg: Special facility for severe burned patients 2nd phase	Observation	Inpatient charge	INP charge code	<null>	85024003	1970-01-01	2099-12-31	<null>
+2000005273	Hamburg: Special facility for high-profile paraplegics/respiratory paraplegics	Observation	Inpatient charge	INP charge code	<null>	85024004	1970-01-01	2099-12-31	<null>
+2000005274	Hamburg: Special facility for other paraplegia	Observation	Inpatient charge	INP charge code	<null>	85024005	1970-01-01	2099-12-31	<null>
+2000005275	Hamburg: Special facility for hand surgery	Observation	Inpatient charge	INP charge code	<null>	85024006	1970-01-01	2099-12-31	<null>
+2000005276	Special facilities in North Rhine-Westphalia, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000389	1970-01-01	2099-12-31	<null>
+2000005277	North Rhine-Westphalia: Special facility internal medicine/focus on medicine for the disabled	Observation	Inpatient charge	INP charge code	<null>	85054002	1970-01-01	2099-12-31	<null>
+2000005278	North Rhine-Westphalia: Special facility surgery/focus on medicine for the disabled	Observation	Inpatient charge	INP charge code	<null>	85054003	1970-01-01	2099-12-31	<null>
+2000005279	North Rhine-Westphalia: Special facility epilepsy surgery	Observation	Inpatient charge	INP charge code	<null>	85054004	1970-01-01	2099-12-31	<null>
+2000005280	North Rhine-Westphalia: Special facility neurology/focus on epilepsy medicine	Observation	Inpatient charge	INP charge code	<null>	85054005	1970-01-01	2099-12-31	<null>
+2000005281	North Rhine-Westphalia: Special facility AIDS/focus on medicine for the disabled	Observation	Inpatient charge	INP charge code	<null>	85054006	1970-01-01	2099-12-31	<null>
+2000005282	North Rhine-Westphalia: Special facility for child neurology and social pediatrics	Observation	Inpatient charge	INP charge code	<null>	85054007	1970-01-01	2099-12-31	<null>
+2000005283	North Rhine-Westphalia: Special facility for neonatal intensive care, perinatal center	Observation	Inpatient charge	INP charge code	<null>	85054008	1970-01-01	2099-12-31	<null>
+2000005284	North Rhine-Westphalia: Special facility intensive care unit for long-term ventilated children	Observation	Inpatient charge	INP charge code	<null>	85054009	1970-01-01	2099-12-31	<null>
+2000005285	North Rhine-Westphalia: Special facility early rehabilitation for long-term ventilated patients	Observation	Inpatient charge	INP charge code	<null>	85054010	1970-01-01	2099-12-31	<null>
+2000005286	North Rhine-Westphalia: Special facility for the treatment of patients with multiple sclerosis or Parkinson's disease	Observation	Inpatient charge	INP charge code	<null>	85054011	1970-01-01	2099-12-31	<null>
+2000005287	North Rhine-Westphalia: Special facility for severe burned patients	Observation	Inpatient charge	INP charge code	<null>	85054012	1970-01-01	2099-12-31	<null>
+2000005288	North Rhine-Westphalia: Special facility for spinal cord injury patients	Observation	Inpatient charge	INP charge code	<null>	85054013	1970-01-01	2099-12-31	<null>
+2000005289	North Rhine-Westphalia: Special facility for palliative medicine	Observation	Inpatient charge	INP charge code	<null>	85054014	1970-01-01	2099-12-31	<null>
+2000005290	Special facilities in Hesse, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000390	1970-01-01	2099-12-31	<null>
+2000005291	Hesse: Special facility for the treatment of severe burned patients	Observation	Inpatient charge	INP charge code	<null>	85064001	1970-01-01	2099-12-31	<null>
+2000005292	Hesse: Special facility for day-related full inpatient services in phoniatrics (clinic for voice and speech disorders)	Observation	Inpatient charge	INP charge code	<null>	85064002	1970-01-01	2099-12-31	<null>
+2000005293	Hesse: Special facility for day-related full inpatient services in neurology	Observation	Inpatient charge	INP charge code	<null>	85064003	1970-01-01	2099-12-31	<null>
+2000005294	Hesse: Special facility for palliative care	Observation	Inpatient charge	INP charge code	<null>	85064005	1970-01-01	2099-12-31	<null>
+2000005295	Hesse: Special facility for severe burned patients, children	Observation	Inpatient charge	INP charge code	<null>	85064006	1970-01-01	2099-12-31	<null>
+2000005296	Hesse: Special facility for neurological early rehabilitation, children	Observation	Inpatient charge	INP charge code	<null>	85064007	1970-01-01	2099-12-31	<null>
+2000005297	Hesse: Special facility for psychosomatic medicine, children	Observation	Inpatient charge	INP charge code	<null>	85064008	1970-01-01	2099-12-31	<null>
+2000005298	Hesse: Special facility for neurology phase B	Observation	Inpatient charge	INP charge code	<null>	85064009	1970-01-01	2099-12-31	<null>
+2000005299	Hesse: Special facility for neurology phase B, intensive	Observation	Inpatient charge	INP charge code	<null>	85064010	1970-01-01	2099-12-31	<null>
+2000005300	Special facilities in Rhineland-Palatinate, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000391	1970-01-01	2099-12-31	<null>
+2000005301	Rhineland-Palatinate: Special facility for the treatment of severely craniocerebral injured patients	Observation	Inpatient charge	INP charge code	<null>	85074003	1970-01-01	2099-12-31	<null>
+2000005302	Rhineland-Palatinate: Special facility for severe burned patients	Observation	Inpatient charge	INP charge code	<null>	85074005	1970-01-01	2099-12-31	<null>
+2000005303	Rhineland-Palatinate: Special facility full inpatient pain therapy	Observation	Inpatient charge	INP charge code	<null>	85074006	1970-01-01	2099-12-31	<null>
+2000005304	Rhineland-Palatinate: Special facility neurology, phase A	Observation	Inpatient charge	INP charge code	<null>	85074007	1970-01-01	2099-12-31	<null>
+2000005305	Rhineland-Palatinate: Special facility neurology, phase B	Observation	Inpatient charge	INP charge code	<null>	85074008	1970-01-01	2099-12-31	<null>
+2000005306	Rhineland-Palatinate: Special facility neurological early rehabilitation	Observation	Inpatient charge	INP charge code	<null>	85074009	1970-01-01	2099-12-31	<null>
+2000005307	Rhineland-Palatinate: Special facility for palliative medicine	Observation	Inpatient charge	INP charge code	<null>	85074010	1970-01-01	2099-12-31	<null>
+2000005308	Rhineland-Palatinate: Special facility child neurology	Observation	Inpatient charge	INP charge code	<null>	85074011	1970-01-01	2099-12-31	<null>
+2000005309	Special facilities in Baden-Württemberg, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000392	1970-01-01	2099-12-31	<null>
+2000005358	Special facilities in Saxony, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000397	1970-01-01	2099-12-31	<null>
+2000005310	Baden-Württemberg: Special facility for neurological early rehabilitation, phase B, and treatment of severely craniocerebral injured patients	Observation	Inpatient charge	INP charge code	<null>	85084001	1970-01-01	2099-12-31	<null>
+2000005311	Baden-Württemberg: Special facility for epileptology	Observation	Inpatient charge	INP charge code	<null>	85084002	1970-01-01	2099-12-31	<null>
+2000005312	Baden-Württemberg: Special facility for palliative medicine	Observation	Inpatient charge	INP charge code	<null>	85084004	1970-01-01	2099-12-31	<null>
+2000005313	Baden-Württemberg: Special facility for neurology	Observation	Inpatient charge	INP charge code	<null>	85084005	1970-01-01	2099-12-31	<null>
+2000005314	Baden-Württemberg: Special facility for severe burned patients	Observation	Inpatient charge	INP charge code	<null>	85084006	1970-01-01	2099-12-31	<null>
+2000005315	Baden-Württemberg: Special facility neuropediatrics	Observation	Inpatient charge	INP charge code	<null>	85084007	1970-01-01	2099-12-31	<null>
+2000005316	Special facilities in Bavaria, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000393	1970-01-01	2099-12-31	<null>
+2000005317	Bavaria: Special facility for full inpatient treatment of oncological patients	Observation	Inpatient charge	INP charge code	<null>	85094001	1970-01-01	2099-12-31	<null>
+2000005318	Bavaria: Special facility for severely craniocerebral injured persons	Observation	Inpatient charge	INP charge code	<null>	85094002	1970-01-01	2099-12-31	<null>
+2000005319	Bavaria: Special facility for severely burned patients, intensive care unit	Observation	Inpatient charge	INP charge code	<null>	85094003	1970-01-01	2099-12-31	<null>
+2000005320	Bavaria: Special facility for follow-up treatment of severely burned patients in normal units	Observation	Inpatient charge	INP charge code	<null>	85094004	1970-01-01	2099-12-31	<null>
+2000005321	Bavaria: Special facility internal medicine	Observation	Inpatient charge	INP charge code	<null>	85094006	1970-01-01	2099-12-31	<null>
+2000005322	Bavaria: Special facility orthopedics	Observation	Inpatient charge	INP charge code	<null>	85094007	1970-01-01	2099-12-31	<null>
+2000005323	Bavaria: Special facility internal medicine/focus on naturopathy	Observation	Inpatient charge	INP charge code	<null>	85094008	1970-01-01	2099-12-31	<null>
+2000005324	Bavaria: Special facility for interdisciplinary pain therapy	Observation	Inpatient charge	INP charge code	<null>	85094009	1970-01-01	2099-12-31	<null>
+2000005325	Bavaria: Special facility for the treatment of paraplegics	Observation	Inpatient charge	INP charge code	<null>	85094010	1970-01-01	2099-12-31	<null>
+2000005326	Bavaria: Special facility for the treatment of paraplegics in intensive care units	Observation	Inpatient charge	INP charge code	<null>	85094011	1970-01-01	2099-12-31	<null>
+2000005327	Bavaria: Special facility for severely craniocerebral injured, intensive care unit	Observation	Inpatient charge	INP charge code	<null>	85094012	1970-01-01	2099-12-31	<null>
+2000005328	Bavaria: Special facility for full inpatient treatment of multiple sclerosis patients	Observation	Inpatient charge	INP charge code	<null>	85094013	1970-01-01	2099-12-31	<null>
+2000005329	Bavaria: Special facility for palliative medicine	Observation	Inpatient charge	INP charge code	<null>	85094014	1970-01-01	2099-12-31	<null>
+2000005330	Bavaria: Special facility pediatrics	Observation	Inpatient charge	INP charge code	<null>	85094015	1970-01-01	2099-12-31	<null>
+2000005331	Bavaria: Special facility hyperthermia	Observation	Inpatient charge	INP charge code	<null>	85094017	1970-01-01	2099-12-31	<null>
+2000005332	Bavaria: Special facility pediatric cardiac surgery and cardiology	Observation	Inpatient charge	INP charge code	<null>	85094020	1970-01-01	2099-12-31	<null>
+2000005333	Bavaria: Special facility cystic fibrosis	Observation	Inpatient charge	INP charge code	<null>	85094021	1970-01-01	2099-12-31	<null>
+2000005334	Bavaria: Special facility dermatology	Observation	Inpatient charge	INP charge code	<null>	85094027	1970-01-01	2099-12-31	<null>
+2000005335	Bavaria: Special facility T-KK normal unit	Observation	Inpatient charge	INP charge code	<null>	85094028	1970-01-01	2099-12-31	<null>
+2000005336	Bavaria: Special facility T-KKINT intensive care unit	Observation	Inpatient charge	INP charge code	<null>	85094029	1970-01-01	2099-12-31	<null>
+2000005337	Bavaria: Special facility spine surgery for children and adolescents	Observation	Inpatient charge	INP charge code	<null>	85094030	1970-01-01	2099-12-31	<null>
+2000005338	Bavaria: Special facility neuropediatrics	Observation	Inpatient charge	INP charge code	<null>	85094031	1970-01-01	2099-12-31	<null>
+2000005339	Bavaria: Special facility epilepsy surgery	Observation	Inpatient charge	INP charge code	<null>	85094032	1970-01-01	2099-12-31	<null>
+2000005340	Bavaria: Special facility acute neurology	Observation	Inpatient charge	INP charge code	<null>	85094033	1970-01-01	2099-12-31	<null>
+2000005341	Bavaria: Special facility for pediatric and adolescent rheumatology	Observation	Inpatient charge	INP charge code	<null>	85094034	1970-01-01	2099-12-31	<null>
+2000005342	Bavaria: Special facility for severely craniocerebral injured patients, complex multimodular spasticity therapy	Observation	Inpatient charge	INP charge code	<null>	85094035	1970-01-01	2099-12-31	<null>
+2000005343	Bavaria: Special facility pediatrics	Observation	Inpatient charge	INP charge code	<null>	85094037	1970-01-01	2099-12-31	<null>
+2000005344	Bavaria: Special facility pediatric oncology	Observation	Inpatient charge	INP charge code	<null>	85094039	1970-01-01	2099-12-31	<null>
+2000005345	Bavaria: Special facility epilepsy center	Observation	Inpatient charge	INP charge code	<null>	85094040	1970-01-01	2099-12-31	<null>
+2000005346	Bavaria: Special facility acute neurology with focus on Parkinson's disease and multiple sclerosis	Observation	Inpatient charge	INP charge code	<null>	85094041	1970-01-01	2099-12-31	<null>
+2000005347	Special facilities in Berlin, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000394	1970-01-01	2099-12-31	<null>
+2000005348	Berlin: Special facility for palliative medicine	Observation	Inpatient charge	INP charge code	<null>	84114001	1970-01-01	2099-12-31	<null>
+2000005349	Special facilities in Brandenburg, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000395	1970-01-01	2099-12-31	<null>
+2000005350	Brandenburg: Special facility for epileptology	Observation	Inpatient charge	INP charge code	<null>	85124002	1970-01-01	2099-12-31	<null>
+2000005351	Brandenburg: Special facility for neurological early rehabilitation in phase B (without ventilation)	Observation	Inpatient charge	INP charge code	<null>	85124003	1970-01-01	2099-12-31	<null>
+2000005352	Brandenburg: Special facility for neurological early rehabilitation in phase B (with ventilation)	Observation	Inpatient charge	INP charge code	<null>	85124004	1970-01-01	2099-12-31	<null>
+2000005353	Special facilities in Mecklenburg-Vorpommern, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000396	1970-01-01	2099-12-31	<null>
+2000005354	Mecklenburg-Vorpommern: Special facility for neurological treatment	Observation	Inpatient charge	INP charge code	<null>	85134001	1970-01-01	2099-12-31	<null>
+2000005355	Mecklenburg-Vorpommern: Special facility for neurological treatment with ventilation	Observation	Inpatient charge	INP charge code	<null>	85134002	1970-01-01	2099-12-31	<null>
+2000005356	Mecklenburg-Vorpommern: Special facility for the treatment of paraplegics	Observation	Inpatient charge	INP charge code	<null>	85134003	1970-01-01	2099-12-31	<null>
+2000005357	Mecklenburg-Vorpommern: Special facility for the treatment of paraplegics with artificial ventilation	Observation	Inpatient charge	INP charge code	<null>	85134004	1970-01-01	2099-12-31	<null>
+2000005359	Saxony: Special facility for neurology, focus on epilepsy	Observation	Inpatient charge	INP charge code	<null>	85144006	1970-01-01	2099-12-31	<null>
+2000005360	Saxony: Special facility for neurology, focus on epilepsy (monitoring)	Observation	Inpatient charge	INP charge code	<null>	85144007	1970-01-01	2099-12-31	<null>
+2000005361	Saxony: Special facility for neurology, phase B	Observation	Inpatient charge	INP charge code	<null>	85144008	1970-01-01	2099-12-31	<null>
+2000005362	Saxony: Special facility for neurology, phase B intensive care medicine	Observation	Inpatient charge	INP charge code	<null>	85144009	1970-01-01	2099-12-31	<null>
+2000005363	Special facilities in Thuringia, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000398	1970-01-01	2099-12-31	<null>
+2000005364	Thuringia: Special facility for neurological early rehabilitation, phase B, children	Observation	Inpatient charge	INP charge code	<null>	85164001	1970-01-01	2099-12-31	<null>
+2000005365	Thuringia: Special facility for dermatological special treatment	Observation	Inpatient charge	INP charge code	<null>	85164002	1970-01-01	2099-12-31	<null>
+2000005366	Case-related fee pursuant to section 7 (1) no. 5 KHEntgG	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000399	1970-01-01	2099-12-31	<null>
+2000005367	Annex 3a (full inpatient) DRG fee catalog 2019 (case-related)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000400	1970-01-01	2099-12-31	<null>
+2000005368	Bone marrow transplant/stem cell transfusion, allogeneic, with second bone marrow transplant/stem cell transfusion during same stay	Observation	Inpatient charge	INP charge code	<null>	8600A04A	1970-01-01	2099-12-31	<null>
+2000005369	Bone marrow transplant/stem cell transfusion, autogenous, with second bone marrow transplant/stem cell transfusion during same stay	Observation	Inpatient charge	INP charge code	<null>	8600A15A	1970-01-01	2099-12-31	<null>
+2000005370	Transplantation of intestine or pancreas	Observation	Inpatient charge	INP charge code	<null>	8600A16A	1970-01-01	2099-12-31	<null>
+2000005371	Injection of pancreatic tissue 	Observation	Inpatient charge	INP charge code	<null>	8600A16B	1970-01-01	2099-12-31	<null>
+2000005372	Corrective surgery for double malformation	Observation	Inpatient charge	INP charge code	<null>	8600A22Z	1970-01-01	2099-12-31	<null>
+2000005373	Early rehabilitation in persistent vegetative state and locked-in syndrome	Observation	Inpatient charge	INP charge code	<null>	8600A43Z	1970-01-01	2099-12-31	<null>
+2000005374	Early rehabilitation with specific OR procedure	Observation	Inpatient charge	INP charge code	<null>	8600B11Z	1970-01-01	2099-12-31	<null>
+2000005375	Epilepsy surgery with invasive preoperative video EEG	Observation	Inpatient charge	INP charge code	<null>	8600B13Z	1970-01-01	2099-12-31	<null>
+2000005376	Early rehabilitation for diseases and disorders of the nervous system, more than 27 days	Observation	Inpatient charge	INP charge code	<null>	8600B43Z	1970-01-01	2099-12-31	<null>
+2000005377	Social and neuropediatric and pediatric-psychosomatic therapy for diseases and disorders of the nervous system	Observation	Inpatient charge	INP charge code	<null>	8600B46Z	1970-01-01	2099-12-31	<null>
+2000005378	Multimodal complex treatment for Parkinson's disease	Observation	Inpatient charge	INP charge code	<null>	8600B49Z	1970-01-01	2099-12-31	<null>
+2000005379	Certain acute diseases and injuries of the spinal cord without complex surgery or more than 13 days of occupancy or not transferred away	Observation	Inpatient charge	INP charge code	<null>	8600B61B	1970-01-01	2099-12-31	<null>
+2000005380	Seizures, more than one day of occupancy, with complex diagnostics and therapy	Observation	Inpatient charge	INP charge code	<null>	8600B76A	1970-01-01	2099-12-31	<null>
+2000005381	Kochlea implantation, bilateral	Observation	Inpatient charge	INP charge code	<null>	8600D01A	1970-01-01	2099-12-31	<null>
+2000005382	Implantation of an active mechanical hearing implant	Observation	Inpatient charge	INP charge code	<null>	8600D23Z	1970-01-01	2099-12-31	<null>
+2000005383	Prolonged inpatient stay prior to transplantation in cases of high urgency for diseases and disorders of the respiratory organs	Observation	Inpatient charge	INP charge code	<null>	8600E37Z	1970-01-01	2099-12-31	<null>
+2000005384	Early rehabilitation for diseases and disorders of the respiratory organs	Observation	Inpatient charge	INP charge code	<null>	8600E41Z	1970-01-01	2099-12-31	<null>
+2000005385	Tuberculosis, more than 14 days of occupancy	Observation	Inpatient charge	INP charge code	<null>	8600E76A	1970-01-01	2099-12-31	<null>
+2000005386	Early rehabilitation for diseases and disorders of the circulatory system, with specific OR procedure, except cardiothoracic procedures	Observation	Inpatient charge	INP charge code	<null>	8600F29Z	1970-01-01	2099-12-31	<null>
+2000005387	Prolonged inpatient stay prior to transplantation for high urgency diseases and disorders of the circulatory system	Observation	Inpatient charge	INP charge code	<null>	8600F37Z	1970-01-01	2099-12-31	<null>
+2000005388	Early rehabilitation for diseases and disorders of the circulatory system	Observation	Inpatient charge	INP charge code	<null>	8600F45Z	1970-01-01	2099-12-31	<null>
+2000005389	Stem cell transfusion for diseases and disorders of the circulatory system	Observation	Inpatient charge	INP charge code	<null>	8600F96Z	1970-01-01	2099-12-31	<null>
+2000005390	Early rehabilitation for diseases and disorders of the digestive organs	Observation	Inpatient charge	INP charge code	<null>	8600G51Z	1970-01-01	2099-12-31	<null>
+2000005391	Prolonged inpatient stay before transplantation for high urgency diseases and disorders of the hepatobiliary system and pancreas	Observation	Inpatient charge	INP charge code	<null>	8600H37Z	1970-01-01	2099-12-31	<null>
+2000005392	Early rehabilitation for diseases and disorders of the musculoskeletal system and connective tissue	Observation	Inpatient charge	INP charge code	<null>	8600I40Z	1970-01-01	2099-12-31	<null>
+2000005393	Early rehabilitation with specific OR procedure for diseases and disorders of the musculoskeletal system and connective tissue, more than 20 days	Observation	Inpatient charge	INP charge code	<null>	8600I96Z	1970-01-01	2099-12-31	<null>
+2000005394	Various interventions for diabetes mellitus with complications, with early rehabilitation or geriatric early rehabilitative complex treatment	Observation	Inpatient charge	INP charge code	<null>	8600K01Z	1970-01-01	2099-12-31	<null>
+2000005395	Early rehabilitation for endocrine, nutritional and metabolic diseases	Observation	Inpatient charge	INP charge code	<null>	8600K43Z	1970-01-01	2099-12-31	<null>
+2000005396	Sex reassignment surgery	Observation	Inpatient charge	INP charge code	<null>	8600U01Z	1970-01-01	2099-12-31	<null>
+2000005397	Social and neuropediatric and pediatric-psychosomatic therapy for mental diseases and disorders	Observation	Inpatient charge	INP charge code	<null>	8600U41Z	1970-01-01	2099-12-31	<null>
+2000005398	Multimodal pain management for mental diseases and disorders, age < 19 years	Observation	Inpatient charge	INP charge code	<null>	8600U42A	1970-01-01	2099-12-31	<null>
+2000005399	Psychosomatic therapy, age < 18 years	Observation	Inpatient charge	INP charge code	<null>	8600U43Z	1970-01-01	2099-12-31	<null>
+2000005400	Polytrauma with ventilation > 72 hours or certain interventions or IntK > 392/368/552 expenditure points, with early rehabilitation	Observation	Inpatient charge	INP charge code	<null>	8600W01A	1970-01-01	2099-12-31	<null>
+2000005401	Early rehabilitation in polytrauma with OR procedure	Observation	Inpatient charge	INP charge code	<null>	8600W05Z	1970-01-01	2099-12-31	<null>
+2000005402	Early rehabilitation in polytrauma	Observation	Inpatient charge	INP charge code	<null>	8600W40Z	1970-01-01	2099-12-31	<null>
+2000005403	Surgical procedures for severe burns or ventilation > 95 hours for burns or intensive care complex treatment > 1176/1104/1104 expense points for burns	Observation	Inpatient charge	INP charge code	<null>	8600Y01Z	1970-01-01	2099-12-31	<null>
+2000005404	Severe burns	Observation	Inpatient charge	INP charge code	<null>	8600Y61Z	1970-01-01	2099-12-31	<null>
+2000005405	Liver donation (living donation)	Observation	Inpatient charge	INP charge code	<null>	8600Z02Z	1970-01-01	2099-12-31	<null>
+2000005406	Lung donation (living donation)	Observation	Inpatient charge	INP charge code	<null>	8600Z04Z	1970-01-01	2099-12-31	<null>
+2000005407	Bone marrow collection from autologous donor	Observation	Inpatient charge	INP charge code	<null>	8600Z41Z	1970-01-01	2099-12-31	<null>
+2000005408	Stem cell collection from foreign donor	Observation	Inpatient charge	INP charge code	<null>	8600Z42Z	1970-01-01	2099-12-31	<null>
+2000005409	Bone marrow collection from unrelated donor	Observation	Inpatient charge	INP charge code	<null>	8600Z43Z	1970-01-01	2099-12-31	<null>
+2000005410	Annex 3b (day patient) DRG fee catalog 2019 (case-related)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000401	1970-01-01	2099-12-31	<null>
+2000005411	Partial inpatient geriatric complex treatment, comprehensive treatment	Observation	Inpatient charge	INP charge code	<null>	8600A90A	1970-01-01	2099-12-31	<null>
+2000005412	Partial inpatient geriatric complex treatment, basic treatment	Observation	Inpatient charge	INP charge code	<null>	8600A90B	1970-01-01	2099-12-31	<null>
+2000005413	Renal failure, partial impatient, age < 15 years	Observation	Inpatient charge	INP charge code	<null>	8600L90A	1970-01-01	2099-12-31	<null>
+2000005414	Nationwide (partial inpatient, case-based)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000402	1970-01-01	2099-12-31	<null>
+2000005415	Sleep apnea syndrome, partial inpatient	Observation	Inpatient charge	INP charge code	<null>	86000001	1970-01-01	2099-12-31	<null>
+2000005416	Partial inpatient sleep laboratory	Observation	Inpatient charge	INP charge code	<null>	86000002	1970-01-01	2099-12-31	<null>
+2000005417	Partial inpatient sleep laboratory, oxygen titration night with capnography, OPS 1-790 in connection with 9-500.0	Observation	Inpatient charge	INP charge code	<null>	86000003	1970-01-01	2099-12-31	<null>
+2000005418	Partial inpatient sleep laboratory, mask fitting night with discontinuation and conversion to oxygen titration with capnography, OPS 1-790 in connection with 8-717.0 and 9-500.0	Observation	Inpatient charge	INP charge code	<null>	86000004	1970-01-01	2099-12-31	<null>
+2000005419	Partial inpatient sleep laboratory, diagnostic night, and primary oxygen titration night with capnography (2 nights), OPS 1-790 in connection with 1-790 in conjunction with 9-500.0	Observation	Inpatient charge	INP charge code	<null>	86000005	1970-01-01	2099-12-31	<null>
+2000005420	Partial inpatient sleep laboratory, combined diagnostic/mask night and oxygen titration with capnography (2 nights), OPS 1-790 combined with 8-717.0 combined with 1-790 in connection with 9-500.0	Observation	Inpatient charge	INP charge code	<null>	86000006	1970-01-01	2099-12-31	<null>
+2000005421	Partial inpatient training for children and adolescents with diabetes, 5-day course	Observation	Inpatient charge	INP charge code	<null>	86000007	1970-01-01	2099-12-31	<null>
+2000005422	Partial inpatient treatment of wet age-related macular degeneration (AMD)	Observation	Inpatient charge	INP charge code	<null>	86000008	1970-01-01	2099-12-31	<null>
+2000005423	Partial inpatient extracorporeal shock wave lithotripsy (ESWL) for urinary calculi without auxiliary measures, except in cases of para-/tetraplegia	Observation	Inpatient charge	INP charge code	<null>	86000009	1970-01-01	2099-12-31	<null>
+2000005424	Partial inpatient sleep treatment, elective cases for polysomnography over at least 2 nights	Observation	Inpatient charge	INP charge code	<null>	86000010	1970-01-01	2099-12-31	<null>
+2000005425	Partial inpatient brachytherapy for diseases and disorders of the male reproductive organs, implantation of > 10 seeds	Observation	Inpatient charge	INP charge code	<null>	86000011	1970-01-01	2099-12-31	<null>
+2000005426	Other procedures for glaucoma with extracapsular extraction of the lens (ECCE) -partial inpatient treatment	Observation	Inpatient charge	INP charge code	<null>	86000012	1970-01-01	2099-12-31	<null>
+2000005427	Procedures on lacrimal gland and lacrimal ducts - partial inpatient treatment	Observation	Inpatient charge	INP charge code	<null>	86000013	1970-01-01	2099-12-31	<null>
+2000005428	Procedures on cornea, sclera and conjunctiva, eyelid or various procedures on lens - partial inpatient treatment	Observation	Inpatient charge	INP charge code	<null>	86000014	1970-01-01	2099-12-31	<null>
+2000005429	Glaucoma, cataract and diseases of the eyelid -partial inpatient treatment-	Observation	Inpatient charge	INP charge code	<null>	86000015	1970-01-01	2099-12-31	<null>
+2000005430	Schleswig-Holstein (partial inpatient, case-based)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000403	1970-01-01	2099-12-31	<null>
+2000005431	Schleswig-Holstein: Training of adults with diabetes (partial inpatient), CSII (pump), 5-day course	Observation	Inpatient charge	INP charge code	<null>	86010002	1970-01-01	2099-12-31	<null>
+2000005432	Schleswig-Holstein: Training of adults with diabetes (day-care center), ICT (intensified insulin therapy), 12-day course	Observation	Inpatient charge	INP charge code	<null>	86010004	1970-01-01	2099-12-31	<null>
+2000005433	Schleswig-Holstein: Partial inpatient cataract treatment	Observation	Inpatient charge	INP charge code	<null>	86010006	1970-01-01	2099-12-31	<null>
+2000005434	Hesse (partial inpatient, case-based)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000404	1970-01-01	2099-12-31	<null>
+2000005435	Hesse: Day clinical diagnostic care for adults (1x within 12 months from admission day)	Observation	Inpatient charge	INP charge code	<null>	86060011	1970-01-01	2099-12-31	<null>
+2000005436	Hesse: Day clinical therapeutic treatment of adults, especially in the fields of gastroenterology, oncology, urology, pneumology, etc. (1x within 3 months from admission day)	Observation	Inpatient charge	INP charge code	<null>	86060012	1970-01-01	2099-12-31	<null>
+2000005437	Hesse: Day clinicalal therapeutic treatment and training of adult diabetics (1x within 3 months from admission day)	Observation	Inpatient charge	INP charge code	<null>	86060013	1970-01-01	2099-12-31	<null>
+2000005438	Hesse: Day clinical pain therapy treatment for adults (integrated diagnostics already done) (1x within 3 months from admission day)	Observation	Inpatient charge	INP charge code	<null>	86060014	1970-01-01	2099-12-31	<null>
+2000005439	Hesse: Day clinical diagnostic care for children (1x within 3 months from admission day)	Observation	Inpatient charge	INP charge code	<null>	86060015	1970-01-01	2099-12-31	<null>
+2000005440	Hesse: Day clinical therapeutic treatment of children (1x within 3 months from admission day)	Observation	Inpatient charge	INP charge code	<null>	86060016	1970-01-01	2099-12-31	<null>
+2000005441	Hesse: Day clinic treatment terminated prematurely for medical reasons	Observation	Inpatient charge	INP charge code	<null>	86060017	1970-01-01	2099-12-31	<null>
+2000005442	Bavaria (partial inpatient, case-based)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000405	1970-01-01	2099-12-31	<null>
+2000005443	Bavaria: Regional deep hyperthermia, partial impatient	Observation	Inpatient charge	INP charge code	<null>	86090005	1970-01-01	2099-12-31	<null>
+2000005444	Bavaria: Partial inpatient treatment with linear accelerator	Observation	Inpatient charge	INP charge code	<null>	86090006	1970-01-01	2099-12-31	<null>
+2000005445	Bavaria: Partial inpatient head stereotaxy	Observation	Inpatient charge	INP charge code	<null>	86090007	1970-01-01	2099-12-31	<null>
+2000005446	Bavaria: Partial inpatient body stereotaxy	Observation	Inpatient charge	INP charge code	<null>	86090008	1970-01-01	2099-12-31	<null>
+2000005447	Bavaria: Partial inpatient sleep laboratory, first-night effect	Observation	Inpatient charge	INP charge code	<null>	86090009	1970-01-01	2099-12-31	<null>
+2000005448	Bavaria: Partial inpatient sleep laboratory with cardiorespiratory polysomnography	Observation	Inpatient charge	INP charge code	<null>	86090010	1970-01-01	2099-12-31	<null>
+2000005449	Bavaria: Partial inpatient sleep laboratory with cardiorespiratory polysomnography with cardiorespiratory polygraphy	Observation	Inpatient charge	INP charge code	<null>	86090011	1970-01-01	2099-12-31	<null>
+2000005450	Bavaria: Partial inpatient sleep laboratory, control examination	Observation	Inpatient charge	INP charge code	<null>	86090012	1970-01-01	2099-12-31	<null>
+2000005451	Mecklenburg-Vorpommern (partial inpatient, case-based)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000406	1970-01-01	2099-12-31	<null>
+2000005452	Mecklenburg-Vorpommern: Day clinic rheumatology 	Observation	Inpatient charge	INP charge code	<null>	86130008	1970-01-01	2099-12-31	<null>
+2000005453	Saxony-Anhalt (partial inpatient, case-based)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000407	1970-01-01	2099-12-31	<null>
+2000005454	Saxony-Anhalt: Partial inpatient oncology	Observation	Inpatient charge	INP charge code	<null>	86150001	1970-01-01	2099-12-31	<null>
+2000005455	Special facilities, full inpatient (case-related)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000408	1970-01-01	2099-12-31	<null>
+2000005456	Special facility for endovascular pulmonary valve replacement (System Melody Transcatheter Valve)	Observation	Inpatient charge	INP charge code	<null>	86004002	1970-01-01	2099-12-31	<null>
+2000005457	Invasive diagnostics with depth electrodes/stereo EEG, stereotactic robot-assisted (ROSA) implantation technique	Observation	Inpatient charge	INP charge code	<null>	86004003	1970-01-01	2099-12-31	<null>
+2000005458	FP special facility for palliative medicine	Observation	Inpatient charge	INP charge code	<null>	86004004	1970-01-01	2099-12-31	<null>
+2000005459	FP special facility for implantation of an active mechanical hearing implant, bilateral, children	Observation	Inpatient charge	INP charge code	<null>	86004008	2022-01-01	2099-12-31	<null>
+2000005460	Special facilities in Schleswig-Holstein, full inpatient (case-related)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000409	1970-01-01	2099-12-31	<null>
+2000005461	Schleswig-Holstein: Special facility for the treatment of Parkinson's disease patients	Observation	Inpatient charge	INP charge code	<null>	86014001	1970-01-01	2099-12-31	<null>
+2000005462	Special facilities in Bremen, full inpatient (case-related)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000410	1970-01-01	2099-12-31	<null>
+2000005463	Bremen: Special facility for invasive ablative procedures on the heart	Observation	Inpatient charge	INP charge code	<null>	86044003	1970-01-01	2099-12-31	<null>
+2000005464	Special facilities in Bavaria, full inpatient (case-related)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000411	1970-01-01	2099-12-31	<null>
+2000005465	Bavaria: Special facility epilepsy surgery, monitoring	Observation	Inpatient charge	INP charge code	<null>	86094003	1970-01-01	2099-12-31	<null>
+2000005466	Bavaria: Special facility epilepsy surgery, surface monitoring	Observation	Inpatient charge	INP charge code	<null>	86094004	1970-01-01	2099-12-31	<null>
+2000005467	Bavaria: Special facility epilepsy surgery, epilepsy intervention without monitoring	Observation	Inpatient charge	INP charge code	<null>	86094005	1970-01-01	2099-12-31	<null>
+2000005468	Special facilities in Mecklenburg-Vorpommern, full inpatient (case-related)	Observation	Inpatient charge	INP charge Hierarchy	<null>	OMOP6000412	1970-01-01	2099-12-31	<null>
+2000005469	Mecklenburg-Vorpommern: Special facility paraplegiological check	Observation	Inpatient charge	INP charge code	<null>	86134001	1970-01-01	2099-12-31	<null>
+2000005470	Mecklenburg-Vorpommern: Special facility for botox treatment	Observation	Inpatient charge	INP charge code	<null>	86134002	1970-01-01	2099-12-31	<null>

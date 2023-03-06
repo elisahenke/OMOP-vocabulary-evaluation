@@ -1,0 +1,264 @@
+concept_id	concept_name	domain_id	vocabulary_id	concept_class_id	standard_concept	concept_code	valid_start_date	valid_end_date	invalid_reason
+2000000847	Peripheral nerve lesions	Condition	HMK	HMK Hierarchy	<null>	PN	2004-07-01	2020-12-31	U
+2000000848	Peripheral nerve lesions/muscle diseases	Condition	HMK	HMK Hierarchy	<null>	PN	2021-01-01	2099-12-31	<null>
+2000000849	Complete/incomplete motor paresis of the extremities	Condition	HMK	HMK code	<null>	PNa	2004-07-01	2020-12-31	U
+2000000850	Damage/disorder of the movement function	Condition	HMK	HMK code	<null>	PNa	2021-01-01	2099-12-31	<null>
+2000000851	Functional disorders due to muscle tone disorders, also with sequelae such as contractures, muscle hypotonia	Condition	HMK	HMK code	<null>	PNb	2004-07-01	2020-12-31	U
+2000000852	Damage/disorder of the muscle function	Condition	HMK	HMK code	<null>	PNb	2021-01-01	2099-12-31	<null>
+2000000853	Coordination disorders and disorders of gross and fine motor skills	Condition	HMK	HMK code	<null>	PNc	2004-07-01	2020-12-31	D
+2000000854	Respiratory disorders with prognostic short-term need for treatment	Condition	HMK	HMK Hierarchy	<null>	AT1	2004-07-01	2020-12-31	D
+2000000855	Shortness of breath, also occurring in attacks	Condition	HMK	HMK code	<null>	AT1a	2004-07-01	2020-12-31	D
+2000000856	Sputum	Condition	HMK	HMK code	<null>	AT1b	2004-07-01	2020-12-31	D
+2000000857	Cough	Condition	HMK	HMK code	<null>	AT1c	2004-07-01	2020-12-31	D
+2000000858	Respiratory disorders with prognostic long-term need for treatment	Condition	HMK	HMK Hierarchy	<null>	AT2	2004-07-01	2020-12-31	D
+2000000859	Shortness of breath, also occurring in attacks	Condition	HMK	HMK code	<null>	AT2a	2004-07-01	2020-12-31	D
+2000000860	Sputum	Condition	HMK	HMK code	<null>	AT2b	2004-07-01	2020-12-31	D
+2000000861	Cough	Condition	HMK	HMK code	<null>	AT2c	2004-07-01	2020-12-31	D
+2000000862	Respiratory disorders associated with cystic fibrosis	Condition	HMK	HMK Hierarchy	<null>	AT3	2004-07-01	2020-12-31	D
+2000000863	Shortness of breath, also occurring in attacks	Condition	HMK	HMK code	<null>	AT3a	2004-07-01	2020-12-31	D
+2000000864	Sputum	Condition	HMK	HMK code	<null>	AT3b	2004-07-01	2020-12-31	D
+2000000865	Cough	Condition	HMK	HMK code	<null>	AT3c	2004-07-01	2020-12-31	D
+2000000866	Arterial vascular disease (in conservative treatment, after interventional/surgical treatment)	Condition	HMK	HMK Hierarchy	<null>	GE	2004-07-01	2099-12-31	<null>
+2000000867	Stress pain of the extremities (e.g. intermittent claudication), dysfunction due to muscle imbalance, insufficiency, shortening	Condition	HMK	HMK code	<null>	GEa	2004-07-01	2020-12-31	U
+2000000868	Pain of the extremities	Condition	HMK	HMK code	<null>	GEa	2021-01-01	2099-12-31	<null>
+2000000869	Damage/disorder of the muscle function	Condition	HMK	HMK code	<null>	Geb	2021-01-01	2099-12-31	<null>
+2000000870	Lymphatic drainage disorders with prognostic short-term need for treatment	Condition	HMK	HMK Hierarchy	<null>	LY1	2004-07-01	2020-12-31	D
+2000000871	Painless or painful, temporary or transient lymphatic/lymphostatic swelling	Condition	HMK	HMK code	<null>	LY1a	2004-07-01	2020-12-31	D
+2000000872	Pain, functional, stress disorders due to local swelling (e.g. edema, hematoma)	Condition	HMK	HMK code	<null>	LY1b	2004-07-01	2020-12-31	D
+2000000873	Lymphatic drainage disorders with prognostic long-term need for treatment	Condition	HMK	HMK Hierarchy	<null>	LY2	2004-07-01	2020-12-31	D
+2000000874	Chronic painless or painful prolonged or permanent manifest lymphedema with secondary damage to skin and subcutaneous tissue (also with movement restrictions, stasis dermatoses)	Condition	HMK	HMK code	<null>	LY2a	2004-07-01	2020-12-31	D
+2000000947	Damage of the voice sound	Condition	HMK	HMK code	<null>	SFa	2021-01-01	2099-12-31	<null>
+2000000948	Damage of the speech function with disorder of articulation	Condition	HMK	HMK code	<null>	SFb	2021-01-01	2099-12-31	<null>
+2000000949	Damage of the speech function as a result of hyperfunction of the laryngeal/tongue musculature	Condition	HMK	HMK code	<null>	SFc	2021-01-01	2099-12-31	<null>
+2000000950	Pathological disorders of the act of swallowing - dysphagia (swallowing disorder, unless it is not primarily an indication for surgery)	Condition	HMK	HMK Hierarchy	<null>	SC1	2004-07-01	2020-12-31	D
+2000000951	Damage in the head and neck area	Condition	HMK	HMK Hierarchy	<null>	SC2	2004-07-01	2020-12-31	D
+2000000952	Spinal diseases	Condition	HMK	HMK Hierarchy	<null>	SB1	2004-07-01	2020-12-31	U
+2000000953	Disorders of the spine, joints and extremities (with motor-functional damage)	Condition	HMK	HMK Hierarchy	<null>	SB1	2021-01-01	2099-12-31	<null>
+2000000954	Damage of the spine and joint function	Condition	HMK	HMK code	<null>	SB1a	2021-01-01	2099-12-31	<null>
+2000000955	Damage of the muscle function	Condition	HMK	HMK code	<null>	SB1b	2021-01-01	2099-12-31	<null>
+2000000956	Disorders after: traumatic injury, surgeries, burns, chemical burns - mainly in the area of the shoulder, arm, hand	Condition	HMK	HMK Hierarchy	<null>	SB2	2004-07-01	2020-12-31	U
+2000004663	Dysfunction due to congenital cranio- and orofacial malformations and dysfunction due to CNS disorders	Condition	HMK	HMK Hierarchy	<null>	ZNSZ	2017-07-01	2099-12-31	<null>
+2000004664	Pathological movement patterns of the mimic musculature as well as the tongue, chewing and pharyngeal musculature	Condition	HMK	HMK code	<null>	ZNSZa	2017-07-01	2099-12-31	<null>
+2000004665	Chronic pain syndrome in the dental, oral and maxillofacial region	Condition	HMK	HMK Hierarchy	<null>	CSZ	2017-07-01	2099-12-31	<null>
+2000004666	Persistent/recurrent pain of different pain character with and without radiation	Condition	HMK	HMK code	<null>	CSZa	2017-07-01	2099-12-31	<null>
+2000004667	Pain due to muscle tension disorders/disbalance of the craniomandibular musculature	Condition	HMK	HMK code	<null>	CSZb	2017-07-01	2099-12-31	<null>
+2000000837	Chronic pain	Condition	HMK	HMK code	<null>	CSa	2021-01-01	2099-12-31	<null>
+2000000884	Damage/disorder of urinary incontinence	Condition	HMK	HMK code	<null>	SO2b	2021-01-01	2099-12-31	<null>
+2000000982	Damage of the movement functions	Condition	HMK	HMK code	<null>	EN3a	2021-01-01	2099-12-31	<null>
+2000000875	Chronic lymphatic drainage disorders in malignant diseases	Condition	HMK	HMK Hierarchy	<null>	LY3	2004-07-01	2020-12-31	D
+2000000876	Chronic painless or painful prolonged or permanent manifest lymphedema with secondary damage to skin and subcutaneous tissue (also with movement restrictions, stasis dermatoses)	Condition	HMK	HMK code	<null>	LY3a	2004-07-01	2020-12-31	D
+2000000877	Disorder of the colon function	Condition	HMK	HMK Hierarchy	<null>	SO1	2004-07-01	2099-12-31	<null>
+2000000878	Temporary or permanent chronic damage of intestinal function with pain, diarrhea, constipation or flatulence	Condition	HMK	HMK code	<null>	SO1a	2004-07-01	2020-12-31	U
+2000000879	Damage/disorder of the defecation function	Condition	HMK	HMK code	<null>	SO1a	2021-01-01	2099-12-31	<null>
+2000000880	Pains	Condition	HMK	HMK code	<null>	SO1b	2021-01-01	2099-12-31	<null>
+2000000881	Excretory disorders (fecal incontinence, urinary incontinence)	Condition	HMK	HMK Hierarchy	<null>	SO2	2004-07-01	2099-12-31	<null>
+2000000882	Motor, functional disorders of the sphincter or pelvic floor musculature	Condition	HMK	HMK code	<null>	SO2a	2004-07-01	2020-12-31	U
+2000000883	Damage/disorder of fecal incontinence	Condition	HMK	HMK code	<null>	SO2a	2021-01-01	2099-12-31	<null>
+2000000885	Vertigo of different genesis and etiology	Condition	HMK	HMK Hierarchy	<null>	SO3	2004-07-01	2099-12-31	<null>
+2000000886	Unsteadiness of gait and stance, insecurity, anxiety	Condition	HMK	HMK code	<null>	SO3a	2004-07-01	2020-12-31	U
+2000000887	Damage/disorder of vestibular function	Condition	HMK	HMK code	<null>	SO3a	2021-01-01	2099-12-31	<null>
+2000000888	Dizziness, tendency to fall	Condition	HMK	HMK code	<null>	SO3b	2021-01-01	2099-12-31	<null>
+2000000889	Peripheral trophic disorders of diseases	Condition	HMK	HMK Hierarchy	<null>	SO4	2004-07-01	2020-12-31	U
+2000000890	Secondary peripheral trophic disorders of diseases	Condition	HMK	HMK Hierarchy	<null>	SO4	2021-01-01	2099-12-31	<null>
+2000000891	Trophic disturbances, local circulatory and regulatory disturbances	Condition	HMK	HMK code	<null>	SO4a	2004-07-01	2020-12-31	U
+2000000957	Diseases of the spine, joints and extremities (with motor-functional and sensorimotor-perceptive damage)	Condition	HMK	HMK Hierarchy	<null>	SB2	2021-01-01	2099-12-31	<null>
+2000000958	Damage of the spine and joint function	Condition	HMK	HMK code	<null>	SB2a	2021-01-01	2099-12-31	<null>
+2000000959	Damage of the muscle function	Condition	HMK	HMK code	<null>	SB2b	2021-01-01	2099-12-31	<null>
+2000000960	Damage of the sensory and locomotor functions	Condition	HMK	HMK code	<null>	SB2c	2021-01-01	2099-12-31	<null>
+2000000961	Amputations after completion of wound healing, congenital malformations - mainly arm/hand region	Condition	HMK	HMK Hierarchy	<null>	SB3	2004-07-01	2020-12-31	U
+2000000962	Systemic and autoimmune diseases with connective tissue, muscle and vascular involvement (with motor-functional/sensorimotor-perceptive damage)	Condition	HMK	HMK Hierarchy	<null>	SB3	2021-01-01	2099-12-31	<null>
+2000000963	Damage of the joint function	Condition	HMK	HMK code	<null>	SB3a	2021-01-01	2099-12-31	<null>
+2000004668	Pain-related movement disorders/dysfunction	Condition	HMK	HMK code	<null>	CSZc	2017-07-01	2099-12-31	<null>
+2000004669	Lymphatic drainage disorders in the oral and maxillary region including the draining lymphatic pathways in the neck region with a prognostic short-term need for treatment	Condition	HMK	HMK Hierarchy	<null>	LYZ1	2017-07-01	2099-12-31	<null>
+2000004670	Painless or painful, intermittent lymphatic/lymphostatic swelling	Condition	HMK	HMK code	<null>	LYZ1a	2017-07-01	2099-12-31	<null>
+2000004671	Pain, restricted movement of the mandible due to local swelling (e.g. edema, hematoma)	Condition	HMK	HMK code	<null>	LYZ1b	2017-07-01	2099-12-31	<null>
+2000004672	Chronic lymphatic drainage disorders in the oral and maxillary region including the draining lymphatic pathways in the neck region with prognostic long-term need for treatment	Condition	HMK	HMK Hierarchy	<null>	LYZ2	2017-07-01	2099-12-31	<null>
+2000000979	Damage of the mental functions	Condition	HMK	HMK code	<null>	EN2c	2021-01-01	2099-12-31	<null>
+2000000980	Spinal cord diseases	Condition	HMK	HMK Hierarchy	<null>	EN3	2004-07-01	2020-12-31	U
+2000000981	Peripheral nerve lesions/muscle diseases	Condition	HMK	HMK Hierarchy	<null>	EN3	2021-01-01	2099-12-31	<null>
+2000000917	Disorders of speech before the completion of speech development	Condition	HMK	HMK Hierarchy	<null>	SP1	2004-07-01	2099-12-31	<null>
+2000000918	Damage of cognitive-linguistic functions	Condition	HMK	HMK code	<null>	SP1a	2021-01-01	2099-12-31	<null>
+2000000919	Damage of the speech functions	Condition	HMK	HMK code	<null>	SP1b	2021-01-01	2099-12-31	<null>
+2000000920	Damage of the hearing functions	Condition	HMK	HMK code	<null>	SP1c	2021-01-01	2099-12-31	<null>
+2000000921	Auditory perception disorders	Condition	HMK	HMK Hierarchy	<null>	SP2	2004-07-01	2099-12-31	<null>
+2000001015	Damage of the skin	Condition	HMK	HMK code	<null>	LYb	2021-01-01	2099-12-31	<null>
+2000001016	Pains	Condition	HMK	HMK code	<null>	LYc	2021-01-01	2099-12-31	<null>
+2000000916	Damage of the voice with slowly progressive hoarseness with tonal coughing/clearing of throat	Condition	HMK	HMK code	<null>	ST4a	2021-01-01	2099-12-31	<null>
+2000000897	Pains	Condition	HMK	HMK code	<null>	SO5a	2021-01-01	2099-12-31	<null>
+2000000898	Diabetic foot syndrome	Condition	HMK	HMK Hierarchy	<null>	DF	2004-07-01	2099-12-31	<null>
+2000000899	Hyperkeratosis (painless and painful)	Condition	HMK	HMK code	<null>	DFa	2004-07-01	2099-12-31	<null>
+2000000900	Pathological nail growth (thickening, tendency to ingrowth)	Condition	HMK	HMK code	<null>	DFb	2004-07-01	2099-12-31	<null>
+2000000901	Simultaneous damage of a and b	Condition	HMK	HMK code	<null>	DFc	2004-07-01	2020-12-31	U
+2000000902	Hyperkeratosis and pathological nail growth	Condition	HMK	HMK code	<null>	DFc	2021-01-01	2099-12-31	<null>
+2000000983	Damage of the sensory functions	Condition	HMK	HMK code	<null>	EN3b	2021-01-01	2099-12-31	<null>
+2000000984	Peripheral nerve lesions	Condition	HMK	HMK Hierarchy	<null>	EN4	2004-07-01	2020-12-31	D
+2000000985	Developmental, behavioral, and emotional disorders with onset in childhood and adolescence	Condition	HMK	HMK Hierarchy	<null>	PS1	2004-07-01	2099-12-31	<null>
+2000000986	Damage of the global mental functions	Condition	HMK	HMK code	<null>	PS1a	2021-01-01	2099-12-31	<null>
+2000000987	Damage of the specific mental functions	Condition	HMK	HMK code	<null>	PS1b	2021-01-01	2099-12-31	<null>
+2000000988	Neurotic, stress, and somatoform disorders, behavioral problems with physical disorders or factors, personality and conduct disorders	Condition	HMK	HMK Hierarchy	<null>	PS2	2004-07-01	2020-12-31	U
+2000000989	Neurotic, stress, somatoform and personality disorders	Condition	HMK	HMK Hierarchy	<null>	PS2	2021-01-01	2099-12-31	<null>
+2000000990	Damage of the global mental functions	Condition	HMK	HMK code	<null>	PS2a	2021-01-01	2099-12-31	<null>
+2000000991	Damage of the specific mental functions	Condition	HMK	HMK code	<null>	PS2b	2021-01-01	2099-12-31	<null>
+2000004673	Chronic painless or painful, prolonged or permanently manifest lymphedema also with secondary damage to skin and subcutaneous tissue and/or with restricted movement of the mandible, congestive dermatoses	Condition	HMK	HMK code	<null>	LYZ2a	2017-07-01	2099-12-31	<null>
+2000004674	Speech disorders	Condition	HMK	HMK Hierarchy	<null>	SPZ	2017-07-01	2099-12-31	<null>
+2000000892	Damage/disorder of blood vessel function	Condition	HMK	HMK code	<null>	SO4a	2021-01-01	2099-12-31	<null>
+2000000893	Damage of the sympathetic nervous system	Condition	HMK	HMK code	<null>	SO4b	2021-01-01	2099-12-31	<null>
+2000000894	Prostatitis/adnexitis	Condition	HMK	HMK Hierarchy	<null>	SO5	2004-07-01	2020-12-31	U
+2000000895	Chronic adnexitis/chronic prostatitis	Condition	HMK	HMK Hierarchy	<null>	SO5	2021-01-01	2099-12-31	<null>
+2000000896	Pains with swelling and inflammation	Condition	HMK	HMK code	<null>	SO5a	2004-07-01	2020-12-31	U
+2000000907	Functional diseases of the voice	Condition	HMK	HMK Hierarchy	<null>	ST2	2004-07-01	2099-12-31	<null>
+2000000908	Damage of the voice with limited vocal resilience	Condition	HMK	HMK code	<null>	ST2a	2021-01-01	2099-12-31	<null>
+2000004656	Muscle tension disorders, shortening of elastic and contractile structures	Condition	HMK	HMK code	<null>	CD1c	2017-07-01	2099-12-31	<null>
+2000001005	Damage/disorder of the joint function	Condition	HMK	HMK code	<null>	EXa	2021-01-01	2099-12-31	<null>
+2000001006	Damage/disorder of the muscle function	Condition	HMK	HMK code	<null>	EXb	2021-01-01	2099-12-31	<null>
+2000000905	Damage of the voice with hoarseness, impairment of the voice tone	Condition	HMK	HMK code	<null>	ST1b	2021-01-01	2099-12-31	<null>
+2000000906	Damage of the voice with disturbed phonation breathing	Condition	HMK	HMK code	<null>	ST1c	2021-01-01	2099-12-31	<null>
+2000001017	Pathological damage of the foot as a result of a sensitive or sensorimotor neuropathy (primary or secondary)	Condition	HMK	HMK Hierarchy	<null>	NF	2020-07-01	2099-12-31	<null>
+2000000903	Organically caused diseases of the voice	Condition	HMK	HMK Hierarchy	<null>	ST1	2004-07-01	2099-12-31	<null>
+2000000904	Damage of the voice with limited vocal resilience	Condition	HMK	HMK code	<null>	ST1a	2021-01-01	2099-12-31	<null>
+2000000909	Damage of the voice with hoarseness, impairment of the voice tone	Condition	HMK	HMK code	<null>	ST2b	2021-01-01	2099-12-31	<null>
+2000000910	Damage of the voice with disturbed phonation breathing	Condition	HMK	HMK code	<null>	ST2c	2021-01-01	2099-12-31	<null>
+2000000911	Psychogenic diseases of the voice - aphonia	Condition	HMK	HMK Hierarchy	<null>	ST3	2004-07-01	2020-12-31	U
+2000000912	Psychogenic aphonia	Condition	HMK	HMK Hierarchy	<null>	ST3	2021-01-01	2099-12-31	<null>
+2000000913	Sudden onset of voicelessness with tonal coughing/clearing of throat	Condition	HMK	HMK code	<null>	ST3a	2021-01-01	2099-12-31	<null>
+2000000914	Psychogenic diseases of the voice - dysphonia	Condition	HMK	HMK Hierarchy	<null>	ST4	2004-07-01	2020-12-31	U
+2000000915	Psychogenic dysphonia	Condition	HMK	HMK Hierarchy	<null>	ST4	2021-01-01	2099-12-31	<null>
+2000000922	Disorders of the central auditory functions in the form of non-age-appropriate speech comprehension in background noise	Condition	HMK	HMK code	<null>	SP2a	2021-01-01	2099-12-31	<null>
+2000000815	Segmental movement disorders	Condition	HMK	HMK code	<null>	WS2d	2004-07-01	2020-12-31	D
+2000000964	Damage of the muscle function	Condition	HMK	HMK code	<null>	SB3b	2021-01-01	2099-12-31	<null>
+2000000965	Damage of the sensory and locomotor functions	Condition	HMK	HMK code	<null>	SB3c	2021-01-01	2099-12-31	<null>
+2000000966	Joint diseases mainly shoulder/elbow/hand with prognostic short-term need for treatment	Condition	HMK	HMK Hierarchy	<null>	SB4	2004-07-01	2020-12-31	D
+2000000967	Joint diseases/disorders of joint function with prognostic long-term need for treatment	Condition	HMK	HMK Hierarchy	<null>	SB5	2004-07-01	2020-12-31	D
+2000000968	Sympathetic reflex dystrophy, Sudeck's syndrome, CRPS (chronic regional pain syndrome)	Condition	HMK	HMK Hierarchy	<null>	SB6	2004-07-01	2020-12-31	D
+2000000969	Diseases with vascular, muscular and connective tissue involvement, especially systemic diseases	Condition	HMK	HMK Hierarchy	<null>	SB7	2004-07-01	2020-12-31	D
+2000000970	CNS diseases and/or developmental disorders until the age of 18	Condition	HMK	HMK Hierarchy	<null>	EN1	2004-07-01	2020-12-31	U
+2000000971	CNS diseases (brain) - developmental disorders	Condition	HMK	HMK Hierarchy	<null>	EN1	2021-01-01	2099-12-31	<null>
+2000000972	Damage of the movement functions	Condition	HMK	HMK code	<null>	EN1a	2021-01-01	2099-12-31	<null>
+2000000973	Damage of the sensory functions	Condition	HMK	HMK code	<null>	EN1b	2021-01-01	2099-12-31	<null>
+2000000974	Damage of the mental functions	Condition	HMK	HMK code	<null>	EN1c	2021-01-01	2099-12-31	<null>
+2000000975	CNS diseases after the age of 18	Condition	HMK	HMK Hierarchy	<null>	EN2	2004-07-01	2020-12-31	U
+2000000976	CNS diseases (spinal cord)/neuromuscular diseases	Condition	HMK	HMK Hierarchy	<null>	EN2	2021-01-01	2099-12-31	<null>
+2000000977	Damage of the movement functions	Condition	HMK	HMK code	<null>	EN2a	2021-01-01	2099-12-31	<null>
+2000000978	Damage of the sensory functions	Condition	HMK	HMK code	<null>	EN2b	2021-01-01	2099-12-31	<null>
+2000000992	Schizophrenia, schizotypal and delusional disorders, affective disorders	Condition	HMK	HMK Hierarchy	<null>	PS3	2004-07-01	2020-12-31	U
+2000000993	Delusional and affective disorders/dependency disorders - schizophrenia, schizotypal and delusional disorders, affective disorders, mental and behavioral disorders caused by psychotropic substances	Condition	HMK	HMK Hierarchy	<null>	PS3	2021-01-01	2099-12-31	<null>
+2000000994	Damage of the global mental functions	Condition	HMK	HMK code	<null>	PS3a	2021-01-01	2099-12-31	<null>
+2000000995	Damage of the specific mental functions	Condition	HMK	HMK code	<null>	PS3b	2021-01-01	2099-12-31	<null>
+2000000996	Mental and behavioral disorders caused by psychotropic substances	Condition	HMK	HMK Hierarchy	<null>	PS4	2004-07-01	2020-12-31	U
+2000000997	Dementia syndromes	Condition	HMK	HMK Hierarchy	<null>	PS4	2021-01-01	2099-12-31	<null>
+2000000998	Damage of the global mental functions	Condition	HMK	HMK code	<null>	PS4a	2021-01-01	2099-12-31	<null>
+2000000999	Damage of the specific mental functions	Condition	HMK	HMK code	<null>	PS4b	2021-01-01	2099-12-31	<null>
+2000001000	Dementia syndromes	Condition	HMK	HMK Hierarchy	<null>	PS5	2004-07-01	2020-12-31	D
+2000001007	CNS diseases including spinal cord/neuromuscular diseases	Condition	HMK	HMK Hierarchy	<null>	ZN	2021-01-01	2099-12-31	<null>
+2000001008	Damage/disorder of the movement and sensory function	Condition	HMK	HMK code	<null>	ZNa	2021-01-01	2099-12-31	<null>
+2000004675	Disorders of phonation in the oral, maxillofacial region, disorders of orofacial muscle balance	Condition	HMK	HMK code	<null>	SPZ1	2017-07-01	2099-12-31	<null>
+2000004676	Disorders of the oral swallowing act	Condition	HMK	HMK Hierarchy	<null>	SCZ	2017-07-01	2099-12-31	<null>
+2000004677	Disorders in the oral phase of the swallowing act (mitoric and sensory)	Condition	HMK	HMK code	<null>	SCZ1	2017-07-01	2099-12-31	<null>
+2000004678	Orofacial dysfunction	Condition	HMK	HMK Hierarchy	<null>	OFZ	2017-07-01	2099-12-31	<null>
+2000004679	Disorders of orofacial function without impairment of articulation (speech), e.g., habitual mouth breathing, oral habits	Condition	HMK	HMK code	<null>	OFZ1	2017-07-01	2099-12-31	<null>
+2000004680	Unguis incarnatus stage 1	Condition	HMK	HMK Hierarchy	<null>	UI1	2022-07-01	2099-12-31	<null>
+2000004681	Pathological nail growth with incipient inflammation	Condition	HMK	HMK code	<null>	UI1a	2022-07-01	2099-12-31	<null>
+2000004682	Unguis incarnatus stage 2 or 3	Condition	HMK	HMK Hierarchy	<null>	UI2	2022-07-01	2099-12-31	<null>
+2000004683	Pathological nail growth with manifest or chronic inflammation	Condition	HMK	HMK code	<null>	UI2a	2022-07-01	2099-12-31	<null>
+2000000805	Spinal diseases with prognostic short-term need for treatment	Condition	HMK	HMK Hierarchy	<null>	WS1	2004-07-01	2020-12-31	D
+2000000806	Dysfunction/pain due to joint dysfunction, joint blockage (also ISG or upper cervical joints)	Condition	HMK	HMK code	<null>	WS1a	2004-07-01	2020-12-31	D
+2000000807	Dysfunction/pain due to misuse or overuse of discoligamentous structures	Condition	HMK	HMK code	<null>	WS1b	2004-07-01	2020-12-31	D
+2000000808	Muscle imbalance, insufficiency, shortening	Condition	HMK	HMK code	<null>	WS1c	2004-07-01	2020-12-31	D
+2000000809	Segmental movement disorders	Condition	HMK	HMK code	<null>	WS1d	2004-07-01	2020-12-31	D
+2000000810	Pain/dysfunction due to muscle tension disorders, shortening of elastic and contractile structures, tissue swelling, stiffness, adhesions	Condition	HMK	HMK code	<null>	WS1e	2004-07-01	2020-12-31	D
+2000000811	Spinal diseases with prognostic long-term need for treatment (especially limitations of relevant activities of daily living, multistructural or functional damage)	Condition	HMK	HMK Hierarchy	<null>	WS2	2004-07-01	2020-12-31	D
+2000000812	Dysfunction/pain due to joint dysfunction, joint blockage (also ISG or upper cervical joints)	Condition	HMK	HMK code	<null>	WS2a	2004-07-01	2020-12-31	D
+2000000813	Dysfunction/pain due to misuse or overuse of discoligamentous structures	Condition	HMK	HMK code	<null>	WS2b	2004-07-01	2020-12-31	D
+2000000814	Muscle imbalance, insufficiency, shortening	Condition	HMK	HMK code	<null>	WS2c	2004-07-01	2020-12-31	D
+2000000816	Motor paresis of extremity muscles/sensomotor deficits	Condition	HMK	HMK code	<null>	WS2e	2004-07-01	2020-12-31	D
+2000000817	Pain/dysfunction due to muscle tension disorders, shortening of elastic and contractile structures, tissue swelling, stiffness, adhesions	Condition	HMK	HMK code	<null>	WS2f	2004-07-01	2020-12-31	D
+2000000818	D1 complex damage/dysfunction - in case of two leading damages/dysfunctions a to d in addition to f	Condition	HMK	HMK code	<null>	WS2g	2004-07-01	2020-12-31	D
+2000000819	Injuries/surgeries and diseases of the extremities and pelvis with prognostic short-term need for treatment	Condition	HMK	HMK Hierarchy	<null>	EX1	2004-07-01	2020-12-31	D
+2000000820	Joint dysfunction, movement disorder, contractures	Condition	HMK	HMK code	<null>	EX1a	2004-07-01	2020-12-31	D
+2000000821	Functional disorders due to muscle imbalance, insufficiency, shortening	Condition	HMK	HMK code	<null>	EX1b	2004-07-01	2020-12-31	D
+2000000822	Pain/dysfunction due to muscle tension disorders, shortening of elastic and contractile structures, tissue swelling, stiffness, adhesions	Condition	HMK	HMK code	<null>	EX1c	2004-07-01	2020-12-31	D
+2000000823	Injuries/surgeries and diseases of the extremities and pelvis with prognostic medium-term need for treatment (especially limitations of relevant activities of daily living, multistructural functional damage)	Condition	HMK	HMK Hierarchy	<null>	EX2	2004-07-01	2020-12-31	D
+2000000824	Joint dysfunction, movement disorder, contractures	Condition	HMK	HMK code	<null>	EX2a	2004-07-01	2020-12-31	D
+2000000825	Functional disorders due to muscle imbalance, insufficiency, shortening	Condition	HMK	HMK code	<null>	EX2b	2004-07-01	2020-12-31	D
+2000000826	Pain/dysfunction due to muscle tension disorders, shortening of elastic and contractile structures, tissue swelling, stiffness, adhesions	Condition	HMK	HMK code	<null>	EX2c	2004-07-01	2020-12-31	D
+2000000827	D1 complex damage/dysfunction - in case of two leading damages/dysfunctions a and b in addition to c	Condition	HMK	HMK code	<null>	EX2d	2004-07-01	2020-12-31	D
+2000000828	Injuries/surgeries and diseases of the extremities and pelvis with prognostic long-term need for treatment (especially limitations of relevant activities of daily living, multistructural functional damage)	Condition	HMK	HMK Hierarchy	<null>	EX3	2004-07-01	2020-12-31	D
+2000000829	Joint dysfunction, movement disorder, contractures	Condition	HMK	HMK code	<null>	EX3a	2004-07-01	2020-12-31	D
+2000000830	Functional disorders due to muscle imbalance, insufficiency, shortening	Condition	HMK	HMK code	<null>	EX3b	2004-07-01	2020-12-31	D
+2000000831	Pain/dysfunction due to muscle tension disorders, shortening of elastic and contractile structures, tissue swelling, stiffness, adhesions	Condition	HMK	HMK code	<null>	EX3c	2004-07-01	2020-12-31	D
+2000000832	D1 complex damage/dysfunction - in case of two leading damages/dysfunctions a and b in addition to c	Condition	HMK	HMK code	<null>	EX3d	2004-07-01	2020-12-31	D
+2000000833	Malformations and deformities, structural damage of the supporting and locomotor organs in infancy, toddlerhood and childhood	Condition	HMK	HMK Hierarchy	<null>	EX4	2004-07-01	2020-12-31	D
+2000000834	Functional disorders due to muscle shortening, tendon shortening, contractures, muscle insufficiency, dysbalance, shortening, segmental movement disorders	Condition	HMK	HMK code	<null>	EX4a	2004-07-01	2020-12-31	D
+2000000835	Chronic pain syndrome	Condition	HMK	HMK Hierarchy	<null>	CS	2004-07-01	2099-12-31	<null>
+2000000836	Nonspecific painful movement disorders, functional disorders, also in case of general deconditioning	Condition	HMK	HMK code	<null>	CSa	2004-07-01	2020-12-31	U
+2000000838	Pain/dysfunction due to muscle tension disorders, shortening of elastic and contractile structures, tissue swelling, stiffness, adhesions	Condition	HMK	HMK code	<null>	CSb	2004-07-01	2020-12-31	D
+2000000839	CNS diseases including the spinal cord up to the age of 18	Condition	HMK	HMK Hierarchy	<null>	ZN1	2004-07-01	2020-12-31	D
+2000000840	Movement disorders of extremities, trunk and head musculature e.g. with hemi-, tetra-, paraplegia/paresis	Condition	HMK	HMK code	<null>	ZN1a	2004-07-01	2020-12-31	D
+2000000841	Dysfunctions due to muscle tone disorders, e.g. spasticity, also with sequelae such as contractures, centrally induced muscle hypotonia	Condition	HMK	HMK code	<null>	ZN1b	2004-07-01	2020-12-31	D
+2000000842	Central coordination disorders and disorders of gross and fine motor skills, such as dystonia, choreatic-athetotic disorders, ataxic disorders	Condition	HMK	HMK code	<null>	ZN1c	2004-07-01	2020-12-31	D
+2000000843	CNS diseases including the spinal cord after the age of 18	Condition	HMK	HMK Hierarchy	<null>	ZN2	2004-07-01	2020-12-31	D
+2000000844	Movement disorders of extremities, trunk and head musculature e.g. with hemi-, tetra-, paraplegia/paresis	Condition	HMK	HMK code	<null>	ZN2a	2004-07-01	2020-12-31	D
+2000000845	Dysfunctions due to muscle tone disorders, e.g. spasticity, also with sequelae such as contractures, centrally induced muscle hypotonia	Condition	HMK	HMK code	<null>	ZN2b	2004-07-01	2020-12-31	D
+2000000846	Central coordination disorders and disorders of gross and fine motor skills, such as dystonia, choreatic-athetotic disorders, ataxic disorders	Condition	HMK	HMK code	<null>	ZN2c	2004-07-01	2020-12-31	D
+2000000923	Disorders of the central auditory functions in the form of non-age-appropriate speech sound discrimination/phonological awareness	Condition	HMK	HMK code	<null>	SP2b	2021-01-01	2099-12-31	<null>
+2000000924	Disorders of articulation, dyslalia	Condition	HMK	HMK Hierarchy	<null>	SP3	2004-07-01	2099-12-31	<null>
+2000000925	Damage of the speech function with disorder of the age-appropriate pronunciation of single/multiple speech sounds	Condition	HMK	HMK code	<null>	SP3a	2021-01-01	2099-12-31	<null>
+2000000926	Damage of the speech function with disorder of the age-appropriate oral motor function/sensory function	Condition	HMK	HMK code	<null>	SP3b	2021-01-01	2099-12-31	<null>
+2000000927	Damage of the speech differentiation	Condition	HMK	HMK code	<null>	SP3c	2021-01-01	2099-12-31	<null>
+2000000928	Speech disorders in profound hearing loss or deafness	Condition	HMK	HMK Hierarchy	<null>	SP4	2004-07-01	2020-12-31	U
+2000000929	Speech/language disorders in profound hearing loss or deafness	Condition	HMK	HMK Hierarchy	<null>	SP4	2021-01-01	2099-12-31	<null>
+2000000930	Damage to the speech and language function with impaired/absent spoken communication	Condition	HMK	HMK code	<null>	SP4a	2021-01-01	2099-12-31	<null>
+2000000931	Disorders of the speech after completion of the speech development - aphasias, dyphasias	Condition	HMK	HMK Hierarchy	<null>	SP5	2004-07-01	2099-12-31	<null>
+2000000932	Damage of the cognitive-linguistic functions	Condition	HMK	HMK code	<null>	SP5a	2021-01-01	2099-12-31	<null>
+2000000933	Damage of the speech function with disturbance of the articulation	Condition	HMK	HMK code	<null>	SP5b	2021-01-01	2099-12-31	<null>
+2000000934	Damage of the speech function with disturbance of the speech flow and the speech tempo	Condition	HMK	HMK code	<null>	SP5c	2021-01-01	2099-12-31	<null>
+2000000935	Speech motor disorders - dysarthria, dysarthrophonia, apraxia of speech	Condition	HMK	HMK Hierarchy	<null>	SP6	2004-07-01	2099-12-31	<null>
+2000000936	Damage of the speech function with disturbance of the articulation	Condition	HMK	HMK code	<null>	SP6a	2021-01-01	2099-12-31	<null>
+2000000937	Damage of the speech function with disturbance of the speech flow and the speech tempo	Condition	HMK	HMK code	<null>	SP6b	2021-01-01	2099-12-31	<null>
+2000000938	Damage of the voice function	Condition	HMK	HMK code	<null>	SP6c	2021-01-01	2099-12-31	<null>
+2000000939	Speech flow disorders - stuttering	Condition	HMK	HMK Hierarchy	<null>	RE1	2004-07-01	2099-12-31	<null>
+2000000940	Disorders of the flow of speech in the form of involuntary repetition of sounds and syllables, elongations and blockings	Condition	HMK	HMK code	<null>	RE1a	2021-01-01	2099-12-31	<null>
+2000000941	Disorders of the flow of speech with pronounced accompanying symptoms	Condition	HMK	HMK code	<null>	RE1b	2021-01-01	2099-12-31	<null>
+2000000942	Disorders of the flow of speech - poluttering	Condition	HMK	HMK Hierarchy	<null>	RE2	2004-07-01	2099-12-31	<null>
+2000000943	Disturbances of the flow of speech with rushed speech/unclear pronunciation	Condition	HMK	HMK code	<null>	RE2a	2021-01-01	2099-12-31	<null>
+2000000944	Disorders of the flow of speech with fluctuations in the tempo of speech	Condition	HMK	HMK code	<null>	RE2b	2021-01-01	2099-12-31	<null>
+2000000945	Disorders of the flow of speech with pronounced disturbance consciousness, avoidance behavior	Condition	HMK	HMK code	<null>	RE2c	2021-01-01	2099-12-31	<null>
+2000000946	Disorders of the voice and speech function - rhinophonia	Condition	HMK	HMK Hierarchy	<null>	SF	2004-07-01	2099-12-31	<null>
+2000001001	Spinal diseases	Condition	HMK	HMK Hierarchy	<null>	WS	2021-01-01	2099-12-31	<null>
+2000001002	Damage of the movement segments	Condition	HMK	HMK code	<null>	WSa	2021-01-01	2099-12-31	<null>
+2000001003	Damage/disorder of the muscle function	Condition	HMK	HMK code	<null>	WSb	2021-01-01	2099-12-31	<null>
+2000001004	Diseases of the extremities and pelvis	Condition	HMK	HMK Hierarchy	<null>	EX	2021-01-01	2099-12-31	<null>
+2000001009	Damage/disorder of the muscle function	Condition	HMK	HMK code	<null>	ZNb	2021-01-01	2099-12-31	<null>
+2000001010	Respiratory disorders	Condition	HMK	HMK Hierarchy	<null>	AT	2021-01-01	2099-12-31	<null>
+2000001011	Damage/disorder of the respiratory function	Condition	HMK	HMK code	<null>	ATa	2021-01-01	2099-12-31	<null>
+2000001012	Damage of the respiratory musculature (including diaphragm and auxiliary respiratory musculature)	Condition	HMK	HMK code	<null>	ATb	2021-01-01	2099-12-31	<null>
+2000001013	Lymphatic drainage disorders	Condition	HMK	HMK Hierarchy	<null>	LY	2021-01-01	2099-12-31	<null>
+2000001014	Damage of lymphatic vessels, lymph nodes, capillaries	Condition	HMK	HMK code	<null>	LYa	2021-01-01	2099-12-31	<null>
+2000001018	Hyperkeratosis (painless and painful)	Condition	HMK	HMK code	<null>	NFa	2020-07-01	2099-12-31	<null>
+2000001019	Pathological nail growth (thickening, tendency to ingrowth)	Condition	HMK	HMK code	<null>	NFb	2020-07-01	2099-12-31	<null>
+2000001020	Hyperkeratosis and pathological nail growth	Condition	HMK	HMK code	<null>	NFc	2020-07-01	2099-12-31	<null>
+2000001021	Pathological damage of the foot as a result of a paraplegic syndrome (complete or incomplete)	Condition	HMK	HMK Hierarchy	<null>	QF	2020-07-01	2099-12-31	<null>
+2000001022	Hyperkeratosis (painless and painful)	Condition	HMK	HMK code	<null>	QFa	2020-07-01	2099-12-31	<null>
+2000001023	Pathological nail growth (thickening, tendency to ingrowth)	Condition	HMK	HMK code	<null>	QFb	2020-07-01	2099-12-31	<null>
+2000001024	Hyperkeratosis and pathological nail growth	Condition	HMK	HMK code	<null>	QFc	2020-07-01	2099-12-31	<null>
+2000001025	Pathological disorders of the act of swallowing - dysphagia	Condition	HMK	HMK Hierarchy	<null>	SC	2021-01-01	2099-12-31	<null>
+2000001026	Damage of the act of swallowing in the oral phase	Condition	HMK	HMK code	<null>	SCa	2021-01-01	2099-12-31	<null>
+2000001027	Damage of the act of swallowing in the pharyngeal phase	Condition	HMK	HMK code	<null>	SCb	2021-01-01	2099-12-31	<null>
+2000001028	Damage of the act of swallowing in the esophageal phase	Condition	HMK	HMK code	<null>	SCc	2021-01-01	2099-12-31	<null>
+2000001029	Rare congenital metabolic diseases - congenital enzyme defects of protein metabolism, carbohydrate metabolism, fat and energy metabolism disorders	Condition	HMK	HMK Hierarchy	<null>	SAS	2018-01-01	2099-12-31	<null>
+2000001030	Disorders of the protein metabolism	Condition	HMK	HMK code	<null>	SASa	2018-01-01	2099-12-31	<null>
+2000001031	Disorder of the carbohydrate metabolism	Condition	HMK	HMK code	<null>	SASb	2018-01-01	2099-12-31	<null>
+2000001032	Disorder of the fat/energy metabolism	Condition	HMK	HMK code	<null>	SASc	2018-01-01	2099-12-31	<null>
+2000001033	Cystic fibrosis	Condition	HMK	HMK Hierarchy	<null>	CF	2018-01-01	2099-12-31	<null>
+2000001034	Compensated normal nutritional status	Condition	HMK	HMK code	<null>	CFa	2018-01-01	2099-12-31	<null>
+2000001035	(Impending) failure to thrive or (impending) weight loss	Condition	HMK	HMK code	<null>	CFb	2018-01-01	2099-12-31	<null>
+2000001036	Failure to thrive or weight loss associated with other organ manifestations/complications	Condition	HMK	HMK code	<null>	CFc	2018-01-01	2099-12-31	<null>
+2000004653	Craniomandibular disorders with prognostic short- to medium-term need for treatment	Condition	HMK	HMK Hierarchy	<null>	CD1	2017-07-01	2099-12-31	<null>
+2000004654	Pain due to incorrect/overloads and disorders of dynamic occlusion	Condition	HMK	HMK code	<null>	CD1a	2017-07-01	2099-12-31	<null>
+2000004655	Muscle imbalance, impaired muscle coordination (synergistic and antagonistic muscle groups), muscle insufficiency, muscle hypertrophy, muscle hyper-/hypotonia, muscle atrophy	Condition	HMK	HMK code	<null>	CD1b	2017-07-01	2099-12-31	<null>
+2000004657	Joint dysfunction, joint locking, movement dysfunction, pain/restriction of movement due to disc damage, joint damage, shortening of elastic and contractile structures	Condition	HMK	HMK code	<null>	CD1d	2017-07-01	2099-12-31	<null>
+2000004658	Craniomandibular disorders with prognostic long-term need for treatment, especially due to multiple structural or functional damage	Condition	HMK	HMK Hierarchy	<null>	CD2	2017-07-01	2099-12-31	<null>
+2000004659	Pain due to incorrect/overloads and disorders of dynamic occlusion	Condition	HMK	HMK code	<null>	CD2a	2017-07-01	2099-12-31	<null>
+2000004660	Muscle imbalance, impaired muscle coordination (synergistic and antagonistic muscle groups), muscle insufficiency, muscle hyper-/hypotonia	Condition	HMK	HMK code	<null>	CD2b	2017-07-01	2099-12-31	<null>
+2000004661	Muscle tension disorders, shortening of elastic and contractile structures	Condition	HMK	HMK code	<null>	CD2c	2017-07-01	2099-12-31	<null>
+2000004662	Joint dysfunction, joint locking, movement dysfunction, pain/restriction of movement due to disc damage, joint damage, shortening of elastic and contractile structures	Condition	HMK	HMK code	<null>	CD2d	2017-07-01	2099-12-31	<null>

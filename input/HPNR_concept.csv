@@ -1,0 +1,733 @@
+concept_id	concept_name	domain_id	vocabulary_id	concept_class_id	standard_concept	concept_code	valid_start_date	valid_end_date	invalid_reason
+2000000415	Individual treatment (15 minutes session)	Procedure	HPNR	Procedure	<null>	5004	2017-09-26	2099-12-31	<null>
+2000000423	Nutritional therapy intervention - individual treatment via video transmission according to § 7a section 6 (standard service time 60 minutes, including at least 30 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5023	2022-04-06	2099-12-31	<null>
+2000000798	Travel allowance per kilometer (nutrition therapy)	Observation	HPNR	Procedure	<null>	9941	2017-11-27	2099-12-31	<null>
+2000000109	Exercise pool 4 to 5 persons	Observation	HPNR	Procedure	<null>	0405	1970-01-01	2099-12-31	<null>
+2000000110	Physiotherapy, normal, individual treatment	Observation	HPNR	Procedure	<null>	05	1970-01-01	2099-12-31	<null>
+2000000111	Physiotherapy, including respiratory gymnastics, also on a neurophysiological basis	Observation	HPNR	Procedure	<null>	0501	1970-01-01	2099-12-31	<null>
+2000000112	Physiotherapy, including respiratory gymnastics including necessary massage	Observation	HPNR	Procedure	<null>	0502	1970-01-01	2099-12-31	<null>
+2000000764	Travel allowance	Observation	HPNR	Procedure	<null>	9906	1970-01-01	2099-12-31	<null>
+2000000765	Travel allowance per kilometer	Observation	HPNR	Procedure	<null>	9907	1970-01-01	2099-12-31	<null>
+2000000766	Travel allowance per double kilometer	Observation	HPNR	Procedure	<null>	9908	1970-01-01	2099-12-31	<null>
+2000000767	Travel allowance lump sum in closed localities	Observation	HPNR	Procedure	<null>	9909	1970-01-01	2099-12-31	<null>
+2000000770	Public transport	Observation	HPNR	Procedure	<null>	9912	1970-01-01	2099-12-31	<null>
+2000000304	D2	Observation	HPNR	Procedure	<null>	2002	1970-01-01	2099-12-31	<null>
+2000000354	45 minutes therapy time with the patients (2 participants), per participant	Observation	HPNR	Procedure	<null>	3220	1970-01-01	2099-12-31	<null>
+2000000221	Full ice bath	Procedure	HPNR	Procedure	<null>	1524	1970-01-01	2099-12-31	<null>
+2000000312	Test evaluation	Observation	HPNR	Procedure	<null>	3007	1970-01-01	2099-12-31	<null>
+2000000466	Natural moor exercise pool	Observation	HPNR	Procedure	<null>	6209	1970-01-01	2099-12-31	<null>
+2000000536	Natural moor pack 25 degrees celsius	Procedure	HPNR	Procedure	<null>	6628	1970-01-01	2099-12-31	<null>
+2000000537	Natural moor pack 30 degrees celsius	Procedure	HPNR	Procedure	<null>	6629	1970-01-01	2099-12-31	<null>
+2000004648	Hospital	Provider	HPNR	Provider	<null>	6	1970-01-01	2099-12-31	<null>
+2000000258	Partial bath	Procedure	HPNR	Procedure	<null>	1701	1970-01-01	2099-12-31	<null>
+2000000080	Massages	Observation	HPNR	Procedure	<null>	01	1970-01-01	2099-12-31	<null>
+2000000081	Massage (partial/large massage) also special massages (connective tissue, reflexology, segment, periosteum, brush and colon massages)	Observation	HPNR	Procedure	<null>	0101	1970-01-01	2099-12-31	<null>
+2000000082	Underwater pressure jet massage	Observation	HPNR	Procedure	<null>	0102	1970-01-01	2099-12-31	<null>
+2000000083	Special massages (connective tissue, reflexology, segment, periosteum, brush and colon massages)	Observation	HPNR	Procedure	<null>	0103	1970-01-01	2099-12-31	<null>
+2000000084	Partial massage	Observation	HPNR	Procedure	<null>	0104	1970-01-01	2099-12-31	<null>
+2000000085	Special massage	Observation	HPNR	Procedure	<null>	0105	1970-01-01	2099-12-31	<null>
+2000000086	Classical massage therapy (KMT)	Observation	HPNR	Procedure	<null>	0106	1970-01-01	2099-12-31	<null>
+2000000087	Connective tissue massage (BGM)	Observation	HPNR	Procedure	<null>	0107	1970-01-01	2099-12-31	<null>
+2000000088	Reflexology, segment, periosteum, brush and colon massages	Observation	HPNR	Procedure	<null>	0108	1970-01-01	2099-12-31	<null>
+2000000089	Manual lymphatic drainage	Observation	HPNR	Procedure	<null>	02	1970-01-01	2099-12-31	<null>
+2000000090	Large treatment	Observation	HPNR	Procedure	<null>	0201	1970-01-01	2099-12-31	<null>
+2000000091	Full treatment	Observation	HPNR	Procedure	<null>	0202	1970-01-01	2099-12-31	<null>
+2000000092	Full treatment with complex exercise therapy	Observation	HPNR	Procedure	<null>	0203	1970-01-01	2099-12-31	<null>
+2000000093	Compression bandaging	Observation	HPNR	Procedure	<null>	0204	1970-01-01	2099-12-31	<null>
+2000000094	Partial treatment	Observation	HPNR	Procedure	<null>	0205	1970-01-01	2099-12-31	<null>
+2000000095	Exercise therapy/exercise treatment, individual treatment	Observation	HPNR	Procedure	<null>	03	1970-01-01	2099-12-31	<null>
+2000000121	Physiotherapy on a neurophysiological basis	Observation	HPNR	Procedure	<null>	0602	1970-01-01	2099-12-31	<null>
+2000000122	Physiotherapy group, 3-5 persons	Observation	HPNR	Procedure	<null>	0603	1970-01-01	2099-12-31	<null>
+2000000123	Physiotherapy up to 4 persons	Observation	HPNR	Procedure	<null>	0604	1970-01-01	2099-12-31	<null>
+2000000124	Physiotherapy up to 6 persons	Observation	HPNR	Procedure	<null>	0605	1970-01-01	2099-12-31	<null>
+2000000125	Physiotherapy, also ortopedic gymnastics	Observation	HPNR	Procedure	<null>	0606	1970-01-01	2099-12-31	<null>
+2000000126	Physiotherapy (children)	Observation	HPNR	Procedure	<null>	0607	1970-01-01	2099-12-31	<null>
+2000000128	Physiotherapy, special, individual treatment	Observation	HPNR	Procedure	<null>	07	1970-01-01	2099-12-31	<null>
+2000000129	Physiotherapy on a neurophysiological basis, also respiratory therapy for cystic fibrosis (mucoviscidosis)	Observation	HPNR	Procedure	<null>	0701	1970-01-01	2099-12-31	<null>
+2000000130	Physiotherapy, also respiratory therapy, for mucoviscidosis and severe bronchial diseases, 60 min.	Observation	HPNR	Procedure	<null>	0702	1970-01-01	2099-12-31	<null>
+2000000172	Manual therapy for extremities	Observation	HPNR	Procedure	<null>	1202	1970-01-01	2099-12-31	<null>
+2000000173	Manual therapy for spine	Observation	HPNR	Procedure	<null>	1203	1970-01-01	2099-12-31	<null>
+2000000245	Interchangeable partial pouring	Procedure	HPNR	Procedure	<null>	1613	1970-01-01	2099-12-31	<null>
+2000000246	Interchangeable full pouring	Procedure	HPNR	Procedure	<null>	1614	1970-01-01	2099-12-31	<null>
+2000000247	Pours (incl. preceding warm foot bath)	Procedure	HPNR	Procedure	<null>	1615	1970-01-01	2099-12-31	<null>
+2000000248	Water treading	Procedure	HPNR	Procedure	<null>	1616	1970-01-01	2099-12-31	<null>
+2000000320	45 minutes (therapy time with the patient)	Observation	HPNR	Procedure	<null>	3103	1970-01-01	2099-12-31	<null>
+2000000321	60 minutes (therapy time with the patient)	Observation	HPNR	Procedure	<null>	3104	1970-01-01	2099-12-31	<null>
+2000000322	At least 40 minutes (therapy time on the patient)	Observation	HPNR	Procedure	<null>	3105	1970-01-01	2099-12-31	<null>
+2000000323	At least 55 minutes (therapy time on the patient)	Observation	HPNR	Procedure	<null>	3106	1970-01-01	2099-12-31	<null>
+2000000324	At least 70 minutes (therapy time on the patient)	Observation	HPNR	Procedure	<null>	3107	1970-01-01	2099-12-31	<null>
+2000000325	45 minutes	Observation	HPNR	Procedure	<null>	3108	1970-01-01	2099-12-31	<null>
+2000000326	30 minutes	Observation	HPNR	Procedure	<null>	3109	1970-01-01	2099-12-31	<null>
+2000000327	Electromechanical vibration massage	Observation	HPNR	Procedure	<null>	3110	1970-01-01	2099-12-31	<null>
+2000000328	60 minutes	Observation	HPNR	Procedure	<null>	3111	1970-01-01	2099-12-31	<null>
+2000000329	At least 25 minutes (therapy time on the patient)	Observation	HPNR	Procedure	<null>	3112	1970-01-01	2099-12-31	<null>
+2000000330	Electrotreatment	Observation	HPNR	Procedure	<null>	3113	1970-01-01	2099-12-31	<null>
+2000000435	Massages	Observation	HPNR	Procedure	<null>	60	1970-01-01	2099-12-31	<null>
+2000000436	Spa massage/full-body massage	Observation	HPNR	Procedure	<null>	6001	1970-01-01	2099-12-31	<null>
+2000000437	Rod massage	Observation	HPNR	Procedure	<null>	6002	1970-01-01	2099-12-31	<null>
+2000000438	Constipation massage	Observation	HPNR	Procedure	<null>	6003	1970-01-01	2099-12-31	<null>
+2000000439	Thoracic tapping massage	Observation	HPNR	Procedure	<null>	6004	1970-01-01	2099-12-31	<null>
+2000000440	Underwater pressure jet massage in medicinal water	Observation	HPNR	Procedure	<null>	6005	1970-01-01	2099-12-31	<null>
+2000000441	Underwater pressure jet massage in medicinal water with rest	Observation	HPNR	Procedure	<null>	6006	1970-01-01	2099-12-31	<null>
+2000000442	Underwater pressure jet massage including hydroelectric full bath with rest	Observation	HPNR	Procedure	<null>	6007	1970-01-01	2099-12-31	<null>
+2000000443	Partial massage	Observation	HPNR	Procedure	<null>	6008	1970-01-01	2099-12-31	<null>
+2000000444	Connective tissue/periosteum massage	Observation	HPNR	Procedure	<null>	6009	1970-01-01	2099-12-31	<null>
+2000000445	Underwater pressure jet massage in medicinal water with exercise pool	Observation	HPNR	Procedure	<null>	6010	1970-01-01	2099-12-31	<null>
+2000000446	Partial massage with movement exercises	Observation	HPNR	Procedure	<null>	6011	1970-01-01	2099-12-31	<null>
+2000000708	Brine bath for phototherapy	Procedure	HPNR	Procedure	<null>	7114	1970-01-01	2099-12-31	<null>
+2000000709	Arm or foot bath with brine for phototherapy	Procedure	HPNR	Procedure	<null>	7115	1970-01-01	2099-12-31	<null>
+2000000710	Brain performance training group (up to 4 patients)	Procedure	HPNR	Procedure	<null>	7116	1970-01-01	2099-12-31	<null>
+2000000779	Home visit of another patient (occupational therapy)	Observation	HPNR	Procedure	<null>	9921	1970-01-01	2099-12-31	<null>
+2000000780	Travel allowance lump sum in closed localities (physiotherapy)	Observation	HPNR	Procedure	<null>	9923	1970-01-01	2099-12-31	<null>
+2000000781	Travel allowance lump sum when exceeding the locality (physiotherapy)	Observation	HPNR	Procedure	<null>	9924	1970-01-01	2099-12-31	<null>
+2000000782	Travel allowance per kilometer (physiotherapy)	Observation	HPNR	Procedure	<null>	9925	1970-01-01	2099-12-31	<null>
+2000000783	Travel allowance lump sum in closed localities (speech therapy)	Observation	HPNR	Procedure	<null>	9926	1970-01-01	2099-12-31	<null>
+2000000784	Travel allowance lump sum when exceeding the locality (speech therapy)	Observation	HPNR	Procedure	<null>	9927	1970-01-01	2099-12-31	<null>
+2000000785	Travel allowance per kilometer (speech therapy)	Observation	HPNR	Procedure	<null>	9928	1970-01-01	2099-12-31	<null>
+2000000786	Travel allowance lump sum in closed localities (occupational therapy)	Observation	HPNR	Procedure	<null>	9929	1970-01-01	2099-12-31	<null>
+2000000787	Travel allowance lump sum when exceeding the locality (occupational therapy)	Observation	HPNR	Procedure	<null>	9930	1970-01-01	2099-12-31	<null>
+2000000788	Travel allowance per kilometer (occupational therapy)	Observation	HPNR	Procedure	<null>	9931	1970-01-01	2099-12-31	<null>
+2000000789	Home visit lump sum for counseling on integration into the home and social life	Observation	HPNR	Procedure	<null>	9932	1970-01-01	2099-12-31	<null>
+2000000790	Home visit including travel allowance (application lump sum)	Observation	HPNR	Procedure	<null>	9933	1970-01-01	2099-12-31	<null>
+2000000132	Physiotherapy for central movement disorders (adult treatment)	Observation	HPNR	Procedure	<null>	0704	1970-01-01	2099-12-31	<null>
+2000000133	Systematic sensomotoric development and exercise treatment	Observation	HPNR	Procedure	<null>	0705	1970-01-01	2099-12-31	<null>
+2000000134	Systematic sensomotoric treatment	Observation	HPNR	Procedure	<null>	0706	1970-01-01	2099-12-31	<null>
+2000000135	Functional development therapy	Observation	HPNR	Procedure	<null>	0707	1970-01-01	2099-12-31	<null>
+2000000316	Diagnostic on demand	Observation	HPNR	Procedure	<null>	3011	2021-03-17	2099-12-31	<null>
+2000000101	Chirogymnastics incl. post treatement rest	Observation	HPNR	Procedure	<null>	0306	1970-01-01	2099-12-31	<null>
+2000000102	Movement exercises on the sling-table	Observation	HPNR	Procedure	<null>	0307	1970-01-01	2099-12-31	<null>
+2000000103	Exercise treatment incl. accompanying cold therapy	Observation	HPNR	Procedure	<null>	0308	1970-01-01	2099-12-31	<null>
+2000000104	Exercise therapy/exercise treatment, group treatment	Observation	HPNR	Procedure	<null>	04	1970-01-01	2099-12-31	<null>
+2000000105	Movement exercises/orthopedic gymnastics	Observation	HPNR	Procedure	<null>	0401	1970-01-01	2099-12-31	<null>
+2000000106	Exercise pool up to 3 persons	Observation	HPNR	Procedure	<null>	0402	1970-01-01	2099-12-31	<null>
+2000000107	Exercise pool up to 5 persons	Observation	HPNR	Procedure	<null>	0403	1970-01-01	2099-12-31	<null>
+2000000108	Exercise pool up to 7 persons	Observation	HPNR	Procedure	<null>	0404	1970-01-01	2099-12-31	<null>
+2000000744	Measures of podological therapy	Observation	HPNR	Procedure	<null>	80	1970-01-01	2099-12-31	<null>
+2000000745	Corneal ablation	Observation	HPNR	Procedure	<null>	8001	1970-01-01	2099-12-31	<null>
+2000000746	Nail treatment	Observation	HPNR	Procedure	<null>	8002	1970-01-01	2099-12-31	<null>
+2000000747	Podological complex treatment	Observation	HPNR	Procedure	<null>	8003	1970-01-01	2099-12-31	<null>
+2000000748	Corneal ablation on one foot	Observation	HPNR	Procedure	<null>	8004	1970-01-01	2099-12-31	<null>
+2000000749	Nail treatment on one foot	Observation	HPNR	Procedure	<null>	8005	1970-01-01	2099-12-31	<null>
+2000000750	Podological complex treatment on one foot	Observation	HPNR	Procedure	<null>	8006	1970-01-01	2099-12-31	<null>
+2000000754	Message/report to the physician	Observation	HPNR	Procedure	<null>	97	1970-01-01	2099-12-31	<null>
+2000000755	Transmission fee	Observation	HPNR	Procedure	<null>	9701	1970-01-01	2099-12-31	<null>
+2000000756	Medical pedicure	Observation	HPNR	Procedure	<null>	98	1970-01-01	2099-12-31	<null>
+2000000757	Medical pedicure (orthonoxy)	Observation	HPNR	Procedure	<null>	9801	1970-01-01	2099-12-31	<null>
+2000000758	Home visit/travel allowance	Observation	HPNR	Procedure	<null>	99	1970-01-01	2099-12-31	<null>
+2000000759	Home visit	Observation	HPNR	Procedure	<null>	9901	1970-01-01	2099-12-31	<null>
+2000000760	Home visit of several patients (e.g. in a facility/community)	Observation	HPNR	Procedure	<null>	9902	1970-01-01	2099-12-31	<null>
+2000000761	Home visit up to 3 km	Observation	HPNR	Procedure	<null>	9903	1970-01-01	2099-12-31	<null>
+2000000762	Home visit up to 10 km	Observation	HPNR	Procedure	<null>	9904	1970-01-01	2099-12-31	<null>
+2000000763	Home visit from 11 km	Observation	HPNR	Procedure	<null>	9905	1970-01-01	2099-12-31	<null>
+2000000388	For mental disorders, 90 minutes, per participant	Observation	HPNR	Procedure	<null>	4203	1970-01-01	2099-12-31	<null>
+2000000389	5-6 patients, 60 minutes, per participant	Observation	HPNR	Procedure	<null>	4204	1970-01-01	2099-12-31	<null>
+2000000390	For motor disorders (2 participants)	Observation	HPNR	Procedure	<null>	4205	1970-01-01	2099-12-31	<null>
+2000000391	For sensorimotor/perceptive disorders (2 participants)	Observation	HPNR	Procedure	<null>	4206	1970-01-01	2099-12-31	<null>
+2000000392	Occupational therapy brain performance training ( 2 participants)	Observation	HPNR	Procedure	<null>	4207	1970-01-01	2099-12-31	<null>
+2000000393	For mental disorders (2 participants)	Observation	HPNR	Procedure	<null>	4208	1970-01-01	2099-12-31	<null>
+2000000394	For motor-functional disorders	Observation	HPNR	Procedure	<null>	4209	1970-01-01	2099-12-31	<null>
+2000000395	For sensorimotor-perceptive disorders	Observation	HPNR	Procedure	<null>	4210	1970-01-01	2099-12-31	<null>
+2000000396	Brain performance training	Observation	HPNR	Procedure	<null>	4211	1970-01-01	2099-12-31	<null>
+2000000397	For mental-functional disorders	Observation	HPNR	Procedure	<null>	4212	1970-01-01	2099-12-31	<null>
+2000000398	For mental-functional disorders (to the extent that prescribed contiguous sessions are dispensed as stress testing)	Observation	HPNR	Procedure	<null>	4213	1970-01-01	2099-12-31	<null>
+2000000399	Thermal application, heat/cold	Observation	HPNR	Procedure	<null>	43	1970-01-01	2099-12-31	<null>
+2000000400	Thermal application	Observation	HPNR	Procedure	<null>	4301	1970-01-01	2099-12-31	<null>
+2000000401	Splints	Observation	HPNR	Procedure	<null>	44	1970-01-01	2099-12-31	<null>
+2000000402	Splint, postoperative	Observation	HPNR	Procedure	<null>	4401	1970-01-01	2099-12-31	<null>
+2000000403	Splint, temporary	Observation	HPNR	Procedure	<null>	4402	1970-01-01	2099-12-31	<null>
+2000000404	Production/customization	Observation	HPNR	Procedure	<null>	4403	1970-01-01	2099-12-31	<null>
+2000000366	Report on special request	Observation	HPNR	Procedure	<null>	3303	2021-03-17	2099-12-31	<null>
+2000000768	Travel allowance per kilometer when exceeding the town border	Observation	HPNR	Procedure	<null>	9910	1970-01-01	2099-12-31	<null>
+2000000769	Travel allowance lump sum up to 15 km	Observation	HPNR	Procedure	<null>	9911	1970-01-01	2099-12-31	<null>
+2000000771	Home visit of a patient (e.g. in a facility/community)	Observation	HPNR	Procedure	<null>	9913	1970-01-01	2099-12-31	<null>
+2000000772	Home visit (for mobile physiotherapists)	Observation	HPNR	Procedure	<null>	9914	1970-01-01	2099-12-31	<null>
+2000000136	Physiotherapy for the treatment of central movement disorders up to the age of 18 according to Bobath (Physiotherapy-CNS-children according to Bobath)	Observation	HPNR	Procedure	<null>	0708	1970-01-01	2099-12-31	<null>
+2000000137	Physiotherapy for the treatment of central movement disorders up to the age of 18 according to Vojta (Physiotherapy-CNS-children according to Vojta)	Observation	HPNR	Procedure	<null>	0709	1970-01-01	2099-12-31	<null>
+2000000138	Physiotherapy for the treatment of central movement disorders, after the age of 18, according to Bobath (Physiotherapy-CNS according to Bobath)	Observation	HPNR	Procedure	<null>	0710	1970-01-01	2099-12-31	<null>
+2000000139	Physiotherapy for the treatment of central movement disorders, after the age of 18, according to Vojta (Physiotherapy-CNS according to Vojta)	Observation	HPNR	Procedure	<null>	0711	1970-01-01	2099-12-31	<null>
+2000000140	Physiotherapy for the treatment of central movement disorders, after the age of 18, according to PNF (Physiotherapy-CNS according to PNF)	Observation	HPNR	Procedure	<null>	0712	1970-01-01	2099-12-31	<null>
+2000000144	Physiotherapy, special, group treatment	Observation	HPNR	Procedure	<null>	08	1970-01-01	2099-12-31	<null>
+2000000145	Physiotherapy for mucoviscidosis and severe bronchial diseases	Observation	HPNR	Procedure	<null>	0801	1970-01-01	2099-12-31	<null>
+2000000146	Physiotherapy, also respiratory therapy for mucoviscidosis	Observation	HPNR	Procedure	<null>	0802	1970-01-01	2099-12-31	<null>
+2000000147	Physiotherapy, also respiratory therapy for mucoviscidosis 2-5 persons	Observation	HPNR	Procedure	<null>	0803	1970-01-01	2099-12-31	<null>
+2000000148	Physiotherapy on a neurophysiological basis, also respiratory therapy for cystic fibrosis (mucoviscidosis)	Observation	HPNR	Procedure	<null>	0804	1970-01-01	2099-12-31	<null>
+2000000149	Physiotherapy for cerebral dysfunctions for children up to 14 years (2-4 children)	Observation	HPNR	Procedure	<null>	0805	1970-01-01	2099-12-31	<null>
+2000000150	Physiotherapy for minimal cerebral dysfunction (MCD)/psychomotor function	Observation	HPNR	Procedure	<null>	0806	1970-01-01	2099-12-31	<null>
+2000000151	Physiotherapy for MCD/psychomotorics 2-4 children	Observation	HPNR	Procedure	<null>	0807	1970-01-01	2099-12-31	<null>
+2000000152	Physiotherapy for MCD/psychomotorics 3-5 children	Observation	HPNR	Procedure	<null>	0808	1970-01-01	2099-12-31	<null>
+2000000153	Physiotherapy for MCD/psychomotorics up to 6 children	Observation	HPNR	Procedure	<null>	0809	1970-01-01	2099-12-31	<null>
+2000000154	Physiotherapy in group for adults and children on neurophysiological and functional vegetative basis (3-5 persons)	Observation	HPNR	Procedure	<null>	0810	1970-01-01	2099-12-31	<null>
+2000000155	Treatment of sensomotoric perception disorders (children)	Observation	HPNR	Procedure	<null>	0811	1970-01-01	2099-12-31	<null>
+2000000156	Physiotherapy in exercise pool, individual treatment	Procedure	HPNR	Procedure	<null>	09	1970-01-01	2099-12-31	<null>
+2000000157	Physiotherapy in exercise pool	Procedure	HPNR	Procedure	<null>	0901	1970-01-01	2099-12-31	<null>
+2000000158	Physiotherapy in exercise pool incl. post treatement rest	Procedure	HPNR	Procedure	<null>	0902	1970-01-01	2099-12-31	<null>
+2000000159	Physiotherapy in exercise pool, group treatment	Procedure	HPNR	Procedure	<null>	10	1970-01-01	2099-12-31	<null>
+2000000160	Physiotherapy in exercise pool 2-5 persons	Procedure	HPNR	Procedure	<null>	1001	1970-01-01	2099-12-31	<null>
+2000000161	Physiotherapy in exercise pool 2-6 persons	Procedure	HPNR	Procedure	<null>	1002	1970-01-01	2099-12-31	<null>
+2000000162	Physiotherapy in exercise pool up to 3 persons	Procedure	HPNR	Procedure	<null>	1003	1970-01-01	2099-12-31	<null>
+2000000163	Physiotherapy in exercise pool up to 3 persons incl. post treatement rest	Procedure	HPNR	Procedure	<null>	1004	1970-01-01	2099-12-31	<null>
+2000000164	Physiotherapy in exercise pool 4 to 5 persons incl. post treatment rest	Procedure	HPNR	Procedure	<null>	1005	1970-01-01	2099-12-31	<null>
+2000000165	Traction treatment/extension treatment	Procedure	HPNR	Procedure	<null>	11	1970-01-01	2099-12-31	<null>
+2000000166	Simple device (Glisson sling)	Procedure	HPNR	Procedure	<null>	1101	1970-01-01	2099-12-31	<null>
+2000000167	Large device (Slant board)	Procedure	HPNR	Procedure	<null>	1102	1970-01-01	2099-12-31	<null>
+2000000168	Extension treatment in the sling table	Procedure	HPNR	Procedure	<null>	1103	1970-01-01	2099-12-31	<null>
+2000000169	Traction treatment with device	Procedure	HPNR	Procedure	<null>	1104	1970-01-01	2099-12-31	<null>
+2000000170	Manual therapy	Observation	HPNR	Procedure	<null>	12	1970-01-01	2099-12-31	<null>
+2000000171	Manual therapy	Observation	HPNR	Procedure	<null>	1201	1970-01-01	2099-12-31	<null>
+2000000707	Vaginal moor therapy	Procedure	HPNR	Procedure	<null>	7113	1970-01-01	2099-12-31	<null>
+2000000174	Cyriax	Observation	HPNR	Procedure	<null>	1204	1970-01-01	2099-12-31	<null>
+2000000179	Electrotreatment for paralysis	Procedure	HPNR	Procedure	<null>	1303	1970-01-01	2099-12-31	<null>
+2000000180	Stimulation current treatment	Procedure	HPNR	Procedure	<null>	1304	1970-01-01	2099-12-31	<null>
+2000000181	Ultrasound	Procedure	HPNR	Procedure	<null>	1305	1970-01-01	2099-12-31	<null>
+2000000182	Ultrasound stimulation current combination treatment	Procedure	HPNR	Procedure	<null>	1306	1970-01-01	2099-12-31	<null>
+2000000183	Shortwave diathermy - single-digit	Procedure	HPNR	Procedure	<null>	1307	1970-01-01	2099-12-31	<null>
+2000000184	Shortwave diathermy - multi-digit	Procedure	HPNR	Procedure	<null>	1308	1970-01-01	2099-12-31	<null>
+2000000185	Electrogymnastics	Procedure	HPNR	Procedure	<null>	1309	1970-01-01	2099-12-31	<null>
+2000000186	Two cell bath / four cell bath	Procedure	HPNR	Procedure	<null>	1310	1970-01-01	2099-12-31	<null>
+2000000187	Four cell bath with rest	Procedure	HPNR	Procedure	<null>	1311	1970-01-01	2099-12-31	<null>
+2000000188	Hydroelectric full bath (e.g. Stanger bath)	Procedure	HPNR	Procedure	<null>	1312	1970-01-01	2099-12-31	<null>
+2000000189	Iontophoresis	Procedure	HPNR	Procedure	<null>	1313	1970-01-01	2099-12-31	<null>
+2000000190	Hydroelectric full bath in combination with underwater pressure jet massage	Procedure	HPNR	Procedure	<null>	1314	1970-01-01	2099-12-31	<null>
+2000000191	Hydroelectric full bath with rest	Procedure	HPNR	Procedure	<null>	1315	1970-01-01	2099-12-31	<null>
+2000000192	Phototherapy	Procedure	HPNR	Procedure	<null>	14	1970-01-01	2099-12-31	<null>
+2000000193	Sun lamp	Procedure	HPNR	Procedure	<null>	1401	1970-01-01	2099-12-31	<null>
+2000000194	Colored light (e.g. Sollux, Vitalus, Hexamikron)	Procedure	HPNR	Procedure	<null>	1402	1970-01-01	2099-12-31	<null>
+2000000195	Quartz lamp pressure irradiation of a field	Procedure	HPNR	Procedure	<null>	1403	1970-01-01	2099-12-31	<null>
+2000000196	Quartz lamp pressure irradiation of multiple fields	Procedure	HPNR	Procedure	<null>	1404	1970-01-01	2099-12-31	<null>
+2000000197	Heat and cold therapy	Procedure	HPNR	Procedure	<null>	15	1970-01-01	2099-12-31	<null>
+2000000198	Hot packs incl. post treatement rest	Procedure	HPNR	Procedure	<null>	1501	1970-01-01	2099-12-31	<null>
+2000000199	Hot packs without post treatment rest	Procedure	HPNR	Procedure	<null>	1502	1970-01-01	2099-12-31	<null>
+2000000200	Hot packs with natural peloids	Procedure	HPNR	Procedure	<null>	1503	1970-01-01	2099-12-31	<null>
+2000000201	Hot packs with natural peloids (partial packing)	Procedure	HPNR	Procedure	<null>	1504	1970-01-01	2099-12-31	<null>
+2000000202	Hot packs with natural peloids (double packing)	Procedure	HPNR	Procedure	<null>	1505	1970-01-01	2099-12-31	<null>
+2000000203	Parapack packages	Procedure	HPNR	Procedure	<null>	1506	1970-01-01	2099-12-31	<null>
+2000000204	Parapack partial and half packing	Procedure	HPNR	Procedure	<null>	1507	1970-01-01	2099-12-31	<null>
+2000000205	Hot packs with natural moor/ fango	Procedure	HPNR	Procedure	<null>	1508	1970-01-01	2099-12-31	<null>
+2000000206	Natural moor partial bath (moor mud)	Procedure	HPNR	Procedure	<null>	1509	1970-01-01	2099-12-31	<null>
+2000000207	Natural moor half bath (moor mud)	Procedure	HPNR	Procedure	<null>	1510	1970-01-01	2099-12-31	<null>
+2000000208	Natural moor full bath (moor mud)	Procedure	HPNR	Procedure	<null>	1511	1970-01-01	2099-12-31	<null>
+2000000209	Moor extract, moor lye, moor salicyl bath	Procedure	HPNR	Procedure	<null>	1512	1970-01-01	2099-12-31	<null>
+2000000210	Moor extract sitz bath with rest pack	Procedure	HPNR	Procedure	<null>	1513	1970-01-01	2099-12-31	<null>
+2000000211	Moor iodine bath	Procedure	HPNR	Procedure	<null>	1514	1970-01-01	2099-12-31	<null>
+2000000212	Moor sulfur bath	Procedure	HPNR	Procedure	<null>	1515	1970-01-01	2099-12-31	<null>
+2000000213	Prepackages or compresses	Procedure	HPNR	Procedure	<null>	1516	1970-01-01	2099-12-31	<null>
+2000000214	Heat with incandescent light, radiator, hot air	Procedure	HPNR	Procedure	<null>	1517	1970-01-01	2099-12-31	<null>
+2000000215	Light bracket	Procedure	HPNR	Procedure	<null>	1518	1970-01-01	2099-12-31	<null>
+2000000216	Moist compresses with hot air	Procedure	HPNR	Procedure	<null>	1519	1970-01-01	2099-12-31	<null>
+2000000217	Warm compresses	Procedure	HPNR	Procedure	<null>	1520	1970-01-01	2099-12-31	<null>
+2000000218	Hay flower sack	Procedure	HPNR	Procedure	<null>	1521	1970-01-01	2099-12-31	<null>
+2000000219	Ice treatment	Procedure	HPNR	Procedure	<null>	1522	1970-01-01	2099-12-31	<null>
+2000000220	Partial ice bath	Procedure	HPNR	Procedure	<null>	1523	1970-01-01	2099-12-31	<null>
+2000000222	Cold packs	Procedure	HPNR	Procedure	<null>	1525	1970-01-01	2099-12-31	<null>
+2000000223	Dry pack	Procedure	HPNR	Procedure	<null>	1526	1970-01-01	2099-12-31	<null>
+2000000224	Cold air/cold gas therapy per large joint	Procedure	HPNR	Procedure	<null>	1527	1970-01-01	2099-12-31	<null>
+2000000225	Hot air bath	Procedure	HPNR	Procedure	<null>	1528	1970-01-01	2099-12-31	<null>
+2000000226	Natural moor three-quarter bath	Procedure	HPNR	Procedure	<null>	1529	1970-01-01	2099-12-31	<null>
+2000000227	Hot roll	Procedure	HPNR	Procedure	<null>	1530	1970-01-01	2099-12-31	<null>
+2000000228	Ultrasound heat therapy	Procedure	HPNR	Procedure	<null>	1531	1970-01-01	2099-12-31	<null>
+2000000229	Full bath with peloids e.g. fango, silt or moor	Procedure	HPNR	Procedure	<null>	1532	1970-01-01	2099-12-31	<null>
+2000000230	Partial bath with peloids e.g. fango, silt or moor	Procedure	HPNR	Procedure	<null>	1533	1970-01-01	2099-12-31	<null>
+2000000231	Cold therapy on one or more body part(s)	Procedure	HPNR	Procedure	<null>	1534	1970-01-01	2099-12-31	<null>
+2000000232	Hydrotherapy	Procedure	HPNR	Procedure	<null>	16	1970-01-01	2099-12-31	<null>
+2000000233	Partial bath	Procedure	HPNR	Procedure	<null>	1601	1970-01-01	2099-12-31	<null>
+2000000234	Sitz bath	Procedure	HPNR	Procedure	<null>	1602	1970-01-01	2099-12-31	<null>
+2000000235	Contrast partial bath	Procedure	HPNR	Procedure	<null>	1603	1970-01-01	2099-12-31	<null>
+2000000236	Contrast full bath	Procedure	HPNR	Procedure	<null>	1604	1970-01-01	2099-12-31	<null>
+2000000237	Partial bath ascending and descending	Procedure	HPNR	Procedure	<null>	1605	1970-01-01	2099-12-31	<null>
+2000000238	Full bath ascending and descending	Procedure	HPNR	Procedure	<null>	1606	1970-01-01	2099-12-31	<null>
+2000000239	Overheating bath	Procedure	HPNR	Procedure	<null>	1607	1970-01-01	2099-12-31	<null>
+2000000240	Steam shower	Procedure	HPNR	Procedure	<null>	1608	1970-01-01	2099-12-31	<null>
+2000000241	Steam shower with tempered shower and foot tub with warm water	Procedure	HPNR	Procedure	<null>	1609	1970-01-01	2099-12-31	<null>
+2000000242	Contrast shower	Procedure	HPNR	Procedure	<null>	1610	1970-01-01	2099-12-31	<null>
+2000000243	Partial pouring, partial flash pouring	Procedure	HPNR	Procedure	<null>	1611	1970-01-01	2099-12-31	<null>
+2000000244	Full pouring, full flash pouring	Procedure	HPNR	Procedure	<null>	1612	1970-01-01	2099-12-31	<null>
+2000000249	Water treading in groups	Procedure	HPNR	Procedure	<null>	1617	1970-01-01	2099-12-31	<null>
+2000000250	Rubbing off	Procedure	HPNR	Procedure	<null>	1618	1970-01-01	2099-12-31	<null>
+2000000251	Sweat packs	Procedure	HPNR	Procedure	<null>	1619	1970-01-01	2099-12-31	<null>
+2000000252	Wraps, compresses, pads	Procedure	HPNR	Procedure	<null>	1620	1970-01-01	2099-12-31	<null>
+2000000253	Cold pours	Procedure	HPNR	Procedure	<null>	1621	1970-01-01	2099-12-31	<null>
+2000000254	Alternate pours	Procedure	HPNR	Procedure	<null>	1622	1970-01-01	2099-12-31	<null>
+2000000255	Cold flash pours	Procedure	HPNR	Procedure	<null>	1623	1970-01-01	2099-12-31	<null>
+2000000256	Alternate flash pours	Procedure	HPNR	Procedure	<null>	1624	1970-01-01	2099-12-31	<null>
+2000000262	Full bath	Procedure	HPNR	Procedure	<null>	1705	1970-01-01	2099-12-31	<null>
+2000000263	Medical bath without additive	Procedure	HPNR	Procedure	<null>	1706	1970-01-01	2099-12-31	<null>
+2000000264	Medical full bath with additive and without rest	Procedure	HPNR	Procedure	<null>	1707	1970-01-01	2099-12-31	<null>
+2000000265	Medical full bath with additive and rest	Procedure	HPNR	Procedure	<null>	1708	1970-01-01	2099-12-31	<null>
+2000000266	Brush massage bath	Procedure	HPNR	Procedure	<null>	1709	1970-01-01	2099-12-31	<null>
+2000000267	Gas bath without additive	Procedure	HPNR	Procedure	<null>	1710	1970-01-01	2099-12-31	<null>
+2000000268	Gas bath with additive	Procedure	HPNR	Procedure	<null>	1711	1970-01-01	2099-12-31	<null>
+2000000269	Gas bath with additive and rest	Procedure	HPNR	Procedure	<null>	1712	1970-01-01	2099-12-31	<null>
+2000000270	Carbonic acid gas bath	Procedure	HPNR	Procedure	<null>	1713	1970-01-01	2099-12-31	<null>
+2000000271	Carbonic acid bath	Procedure	HPNR	Procedure	<null>	1714	1970-01-01	2099-12-31	<null>
+2000000272	Carbonic acid bath (2 kg natural brine)	Procedure	HPNR	Procedure	<null>	1715	1970-01-01	2099-12-31	<null>
+2000000273	Carbonic acid chalybeate bath	Procedure	HPNR	Procedure	<null>	1716	1970-01-01	2099-12-31	<null>
+2000000274	Lohtannin bath	Procedure	HPNR	Procedure	<null>	1717	1970-01-01	2099-12-31	<null>
+2000000275	Oxygen bath	Procedure	HPNR	Procedure	<null>	1718	1970-01-01	2099-12-31	<null>
+2000000276	Sulphur bath	Procedure	HPNR	Procedure	<null>	1719	1970-01-01	2099-12-31	<null>
+2000000277	Additives	Procedure	HPNR	Procedure	<null>	1720	1970-01-01	2099-12-31	<null>
+2000000278	Subaqueous intestinal bath	Procedure	HPNR	Procedure	<null>	1721	1970-01-01	2099-12-31	<null>
+2000000279	Intestinal bath with rest	Procedure	HPNR	Procedure	<null>	1722	1970-01-01	2099-12-31	<null>
+2000000280	Intestinal bath (Gymnacolon, Widrig, etc.)	Procedure	HPNR	Procedure	<null>	1723	1970-01-01	2099-12-31	<null>
+2000000281	Iodine thermal brine bath	Procedure	HPNR	Procedure	<null>	1724	1970-01-01	2099-12-31	<null>
+2000000282	Iodine, iodine sulphur bath	Procedure	HPNR	Procedure	<null>	1725	1970-01-01	2099-12-31	<null>
+2000000283	Bran bath	Procedure	HPNR	Procedure	<null>	1726	1970-01-01	2099-12-31	<null>
+2000000284	Soda bath	Procedure	HPNR	Procedure	<null>	1727	1970-01-01	2099-12-31	<null>
+2000000285	Brine bath	Procedure	HPNR	Procedure	<null>	1728	1970-01-01	2099-12-31	<null>
+2000000286	Sitz bath with brine additive	Procedure	HPNR	Procedure	<null>	1729	1970-01-01	2099-12-31	<null>
+2000000287	Tar bath	Procedure	HPNR	Procedure	<null>	1730	1970-01-01	2099-12-31	<null>
+2000000288	Full bath with peloids (e.g. fango, silt or moor)	Procedure	HPNR	Procedure	<null>	1731	1970-01-01	2099-12-31	<null>
+2000000294	Individual treatment with the addition of medication	Procedure	HPNR	Procedure	<null>	1803	1970-01-01	2099-12-31	<null>
+2000000295	Other remedial services	Observation	HPNR	Procedure	<null>	19	1970-01-01	2099-12-31	<null>
+2000000296	Instruction for birth preparation	Observation	HPNR	Procedure	<null>	1901	1970-01-01	2099-12-31	<null>
+2000000297	Cupping	Procedure	HPNR	Procedure	<null>	1902	1970-01-01	2099-12-31	<null>
+2000000298	Post treatement rest	Observation	HPNR	Procedure	<null>	1903	1970-01-01	2099-12-31	<null>
+2000000299	Postpartum gymnastics with instruction in the group	Observation	HPNR	Procedure	<null>	1904	1970-01-01	2099-12-31	<null>
+2000000300	Markdown	Observation	HPNR	Procedure	<null>	1905	1970-01-01	2099-12-31	<null>
+2000000302	Standardized combinations of remedies	Observation	HPNR	Procedure	<null>	20	1970-01-01	2099-12-31	<null>
+2000000305	Initial examination	Observation	HPNR	Procedure	<null>	30	1970-01-01	2099-12-31	<null>
+2000000306	Initial examination interview	Observation	HPNR	Procedure	<null>	3001	1970-01-01	2099-12-31	<null>
+2000000307	Initial speech therapy examination	Observation	HPNR	Procedure	<null>	3002	1970-01-01	2099-12-31	<null>
+2000000308	Speech therapy status/initial examination/survey	Observation	HPNR	Procedure	<null>	3003	1970-01-01	2099-12-31	<null>
+2000000309	Speech therapy status/initial examination for aphasia/dysarthria	Observation	HPNR	Procedure	<null>	3004	1970-01-01	2099-12-31	<null>
+2000000310	Discussion of the speech therapy status/survey	Observation	HPNR	Procedure	<null>	3005	1970-01-01	2099-12-31	<null>
+2000000311	Standardized procedures for the survey of the speech therapy status	Observation	HPNR	Procedure	<null>	3006	1970-01-01	2099-12-31	<null>
+2000000313	Speech therapy survey/speech therapy status in cases of unclear genesis	Observation	HPNR	Procedure	<null>	3008	1970-01-01	2099-12-31	<null>
+2000000314	Short speech therapy status	Observation	HPNR	Procedure	<null>	3009	1970-01-01	2099-12-31	<null>
+2000000315	Initial diagnostics	Observation	HPNR	Procedure	<null>	3010	1970-01-01	2099-12-31	<null>
+2000000317	Individual treatment (price includes preparation and follow-up)	Observation	HPNR	Procedure	<null>	31	1970-01-01	2099-12-31	<null>
+2000000318	15 minutes (therapy time on the patient)	Observation	HPNR	Procedure	<null>	3101	1970-01-01	2099-12-31	<null>
+2000000319	30 minutes (therapy time with the patient)	Observation	HPNR	Procedure	<null>	3102	1970-01-01	2099-12-31	<null>
+2000000334	Group treatment (price includes preparation and follow-up)	Observation	HPNR	Procedure	<null>	32	1970-01-01	2099-12-31	<null>
+2000000336	Maximum 3 participants, per participant	Observation	HPNR	Procedure	<null>	3202	1970-01-01	2099-12-31	<null>
+2000000337	Maximum 4 participants, per participant	Observation	HPNR	Procedure	<null>	3203	1970-01-01	2099-12-31	<null>
+2000000338	Maximum 5 participants, per participant	Observation	HPNR	Procedure	<null>	3204	1970-01-01	2099-12-31	<null>
+2000000339	Maximum 6 participants, per participant	Observation	HPNR	Procedure	<null>	3205	1970-01-01	2099-12-31	<null>
+2000000340	For stutterers, per participant	Observation	HPNR	Procedure	<null>	3206	1970-01-01	2099-12-31	<null>
+2000000341	Children, per participant	Observation	HPNR	Procedure	<null>	3207	1970-01-01	2099-12-31	<null>
+2000000342	Adults, per participant	Observation	HPNR	Procedure	<null>	3208	1970-01-01	2099-12-31	<null>
+2000000343	Children, group of 2, at least 60 minutes, per group	Observation	HPNR	Procedure	<null>	3209	1970-01-01	2099-12-31	<null>
+2000000344	Children, group of 3, at least 60 minutes, per group	Observation	HPNR	Procedure	<null>	3210	1970-01-01	2099-12-31	<null>
+2000000345	Children, group of 4, at least 60 minutes, per group	Observation	HPNR	Procedure	<null>	3211	1970-01-01	2099-12-31	<null>
+2000000346	Adults, group of 2, at least 90 minutes, per group	Observation	HPNR	Procedure	<null>	3212	1970-01-01	2099-12-31	<null>
+2000000347	Adults, group of 3, at least 90 minutes, per group	Observation	HPNR	Procedure	<null>	3213	1970-01-01	2099-12-31	<null>
+2000000348	Adults, group of 4, at least 90 minutes, per group	Observation	HPNR	Procedure	<null>	3214	1970-01-01	2099-12-31	<null>
+2000000349	Per participant for voice disorders	Observation	HPNR	Procedure	<null>	3215	1970-01-01	2099-12-31	<null>
+2000000350	Per participant for speech and/or voice disorders	Observation	HPNR	Procedure	<null>	3216	1970-01-01	2099-12-31	<null>
+2000000351	Per participant for voice disorders, at least 60 minutes	Observation	HPNR	Procedure	<null>	3217	1970-01-01	2099-12-31	<null>
+2000000352	Per participant for speech and/or voice disorders, at least 60 minutes	Observation	HPNR	Procedure	<null>	3218	1970-01-01	2099-12-31	<null>
+2000000353	30 minutes therapy time on the patient (2 participants), per participant	Observation	HPNR	Procedure	<null>	3219	1970-01-01	2099-12-31	<null>
+2000000355	60 minutes therapy time on the patient (2 participants), per participant	Observation	HPNR	Procedure	<null>	3221	1970-01-01	2099-12-31	<null>
+2000000356	Group with 3-5 patients (45 minutes therapy time with the patients), per participant	Observation	HPNR	Procedure	<null>	3222	1970-01-01	2099-12-31	<null>
+2000000357	Group of two (90 minutes therapy time with the patients), per participant	Observation	HPNR	Procedure	<null>	3223	1970-01-01	2099-12-31	<null>
+2000000358	Group with 3-5 patients (90 minutes therapy time with the patients), per participant	Observation	HPNR	Procedure	<null>	3224	1970-01-01	2099-12-31	<null>
+2000000363	Detailed speech therapy report	Observation	HPNR	Procedure	<null>	33	1970-01-01	2099-12-31	<null>
+2000000364	On request of the health insurance	Observation	HPNR	Procedure	<null>	3301	1970-01-01	2099-12-31	<null>
+2000000367	Consultation	Observation	HPNR	Procedure	<null>	34	1970-01-01	2099-12-31	<null>
+2000000368	Speech therapy consultation and/or speech therapy instruction of the caregiver	Observation	HPNR	Procedure	<null>	3401	1970-01-01	2099-12-31	<null>
+2000000369	Recording of findings	Observation	HPNR	Procedure	<null>	40	1970-01-01	2099-12-31	<null>
+2000000370	Recording of findings	Observation	HPNR	Procedure	<null>	4001	1970-01-01	2099-12-31	<null>
+2000000371	Functional analysis and anamnesis	Observation	HPNR	Procedure	<null>	4002	1970-01-01	2099-12-31	<null>
+2000000372	Individual treatment	Observation	HPNR	Procedure	<null>	41	1970-01-01	2099-12-31	<null>
+2000000373	Individual treatment (45 minutes)	Observation	HPNR	Procedure	<null>	4101	1970-01-01	2099-12-31	<null>
+2000000374	For motor disorders	Observation	HPNR	Procedure	<null>	4102	1970-01-01	2099-12-31	<null>
+2000000375	For sensorimotor/perceptive disorders	Observation	HPNR	Procedure	<null>	4103	1970-01-01	2099-12-31	<null>
+2000000376	Occupational therapy brain performance training	Observation	HPNR	Procedure	<null>	4104	1970-01-01	2099-12-31	<null>
+2000000377	For mental disorders	Observation	HPNR	Procedure	<null>	4105	1970-01-01	2099-12-31	<null>
+2000000378	Individual treatment (60 minutes)	Observation	HPNR	Procedure	<null>	4106	1970-01-01	2099-12-31	<null>
+2000000379	For motor-functional disorders (up to 3 sessions in one day) for advice on integration into the home and social environment	Observation	HPNR	Procedure	<null>	4107	1970-01-01	2099-12-31	<null>
+2000000380	For sensorimotor/perceptive disorders (up to 3 sessions in one day) for advice on integration into the home and social environment in the context of a home visit	Observation	HPNR	Procedure	<null>	4108	1970-01-01	2099-12-31	<null>
+2000000447	Brush massage including inredients or soap rubbing	Observation	HPNR	Procedure	<null>	6012	1970-01-01	2099-12-31	<null>
+2000000448	Suction wave massage/suction boots	Observation	HPNR	Procedure	<null>	6013	1970-01-01	2099-12-31	<null>
+2000000449	Underwater pressure jet massage (less than 600 l tub capacity)	Observation	HPNR	Procedure	<null>	6014	1970-01-01	2099-12-31	<null>
+2000000450	Syncardial massage	Observation	HPNR	Procedure	<null>	6015	1970-01-01	2099-12-31	<null>
+2000000452	Colon massage	Observation	HPNR	Procedure	<null>	6017	1970-01-01	2099-12-31	<null>
+2000000453	Underwater pressure jet massage with gymnastics and rest	Observation	HPNR	Procedure	<null>	6018	1970-01-01	2099-12-31	<null>
+2000000454	Manual lymphatic drainage	Observation	HPNR	Procedure	<null>	61	1970-01-01	2099-12-31	<null>
+2000000455	Lymphatic drainage G. migraine	Observation	HPNR	Procedure	<null>	6101	1970-01-01	2099-12-31	<null>
+2000000456	Partial treatment	Observation	HPNR	Procedure	<null>	6102	1970-01-01	2099-12-31	<null>
+2000000457	Exercise therapy, individual treatment	Observation	HPNR	Procedure	<null>	62	1970-01-01	2099-12-31	<null>
+2000000458	Exercise therapy in medicinal water (also seawater) in the exercise pool	Observation	HPNR	Procedure	<null>	6201	1970-01-01	2099-12-31	<null>
+2000000459	Exercise therapy in medicinal water (also seawater) in special therapy pools	Observation	HPNR	Procedure	<null>	6202	1970-01-01	2099-12-31	<null>
+2000000460	Therapeutic gymnastics	Observation	HPNR	Procedure	<null>	6203	1970-01-01	2099-12-31	<null>
+2000000461	Chirogymnastics	Observation	HPNR	Procedure	<null>	6204	1970-01-01	2099-12-31	<null>
+2000000462	Orthopedic gymnastics with massage	Observation	HPNR	Procedure	<null>	6205	1970-01-01	2099-12-31	<null>
+2000000463	Exercise therapy in medicinal water (also seawater) with extension	Observation	HPNR	Procedure	<null>	6206	1970-01-01	2099-12-31	<null>
+2000000464	Exercise therapy in medicinal water (also seawater) on neurophysiological basis	Observation	HPNR	Procedure	<null>	6207	1970-01-01	2099-12-31	<null>
+2000000465	Exercise therapy in medicinal water (also seawater) including dry gymnastics	Observation	HPNR	Procedure	<null>	6208	1970-01-01	2099-12-31	<null>
+2000000467	Respiratory gymnastics	Observation	HPNR	Procedure	<null>	6210	1970-01-01	2099-12-31	<null>
+2000000468	Physiotherapy and massage with ice treatment	Observation	HPNR	Procedure	<null>	6211	1970-01-01	2099-12-31	<null>
+2000000469	Exercise therapy with massage	Observation	HPNR	Procedure	<null>	6212	1970-01-01	2099-12-31	<null>
+2000000470	Individual gymnastics	Observation	HPNR	Procedure	<null>	6213	1970-01-01	2099-12-31	<null>
+2000000472	Exercise therapy, group treatment	Observation	HPNR	Procedure	<null>	63	1970-01-01	2099-12-31	<null>
+2000000473	Respiratory gymnastics/breath relaxation gymnastics	Observation	HPNR	Procedure	<null>	6301	1970-01-01	2099-12-31	<null>
+2000000474	Exercise therapy in medicinal water (also seawater) up to 3 persons	Observation	HPNR	Procedure	<null>	6302	1970-01-01	2099-12-31	<null>
+2000000475	Exercise therapy in medicinal water (also seawater) 4-9 persons	Observation	HPNR	Procedure	<null>	6303	1970-01-01	2099-12-31	<null>
+2000000476	Exercise therapy in medicinal water (also seawater) 10-20 persons	Observation	HPNR	Procedure	<null>	6304	1970-01-01	2099-12-31	<null>
+2000000477	Therapeutic gymnastics 2-8 persons	Observation	HPNR	Procedure	<null>	6305	1970-01-01	2099-12-31	<null>
+2000000478	Respiratory gymnastics up to 5 persons	Observation	HPNR	Procedure	<null>	6306	1970-01-01	2099-12-31	<null>
+2000000479	Movement exercises in the thermal exercise pool	Observation	HPNR	Procedure	<null>	6307	1970-01-01	2099-12-31	<null>
+2000000480	Movement exercises in the thermal bath	Observation	HPNR	Procedure	<null>	6308	1970-01-01	2099-12-31	<null>
+2000000481	Exercise therapy 10-20 persons	Observation	HPNR	Procedure	<null>	6309	1970-01-01	2099-12-31	<null>
+2000000482	Physical training including swimming in medicinal water (also seawater)	Observation	HPNR	Procedure	<null>	6310	1970-01-01	2099-12-31	<null>
+2000000483	Ergometer training including swimming in medicinal water (also seawater)	Observation	HPNR	Procedure	<null>	6311	1970-01-01	2099-12-31	<null>
+2000000484	Ergometer training	Observation	HPNR	Procedure	<null>	6312	1970-01-01	2099-12-31	<null>
+2000000485	Combined gymnastics (dry/medicinal water)	Observation	HPNR	Procedure	<null>	6313	1970-01-01	2099-12-31	<null>
+2000000487	Traction treatment/extension treatment	Procedure	HPNR	Procedure	<null>	64	1970-01-01	2099-12-31	<null>
+2000000492	Underwater extension with hydroelectric bath	Procedure	HPNR	Procedure	<null>	6405	1970-01-01	2099-12-31	<null>
+2000000493	Underwater extension with rest	Procedure	HPNR	Procedure	<null>	6406	1970-01-01	2099-12-31	<null>
+2000000494	Electrotherapy	Procedure	HPNR	Procedure	<null>	65	1970-01-01	2099-12-31	<null>
+2000000495	Electrogymnastics	Procedure	HPNR	Procedure	<null>	6501	1970-01-01	2099-12-31	<null>
+2000000496	Microwave	Procedure	HPNR	Procedure	<null>	6502	1970-01-01	2099-12-31	<null>
+2000000497	Low-frequency cuurents	Procedure	HPNR	Procedure	<null>	6503	1970-01-01	2099-12-31	<null>
+2000000498	High-frequency currents	Procedure	HPNR	Procedure	<null>	6504	1970-01-01	2099-12-31	<null>
+2000000499	Treshold current	Procedure	HPNR	Procedure	<null>	6505	1970-01-01	2099-12-31	<null>
+2000000500	Hydroelectric full bath with medicinal water	Procedure	HPNR	Procedure	<null>	6506	1970-01-01	2099-12-31	<null>
+2000000501	Hydroelectric full bath with medicinal water including rest	Procedure	HPNR	Procedure	<null>	6507	1970-01-01	2099-12-31	<null>
+2000000502	Hydroelectric partial bath with medicinal water	Procedure	HPNR	Procedure	<null>	6508	1970-01-01	2099-12-31	<null>
+2000000503	Stimulation current	Procedure	HPNR	Procedure	<null>	6509	1970-01-01	2099-12-31	<null>
+2000000504	Interference current	Procedure	HPNR	Procedure	<null>	6510	1970-01-01	2099-12-31	<null>
+2000000505	Iontophoresis of the eyes with medicinal water	Procedure	HPNR	Procedure	<null>	6511	1970-01-01	2099-12-31	<null>
+2000000506	Iontophoresis	Procedure	HPNR	Procedure	<null>	6512	1970-01-01	2099-12-31	<null>
+2000000651	Ozone bath	Procedure	HPNR	Procedure	<null>	6876	1970-01-01	2099-12-31	<null>
+2000000507	Hydroelectric full bath with massage	Procedure	HPNR	Procedure	<null>	6513	1970-01-01	2099-12-31	<null>
+2000000508	Heat and cold therapy	Procedure	HPNR	Procedure	<null>	66	1970-01-01	2099-12-31	<null>
+2000000509	Moor crawling bath	Procedure	HPNR	Procedure	<null>	6601	1970-01-01	2099-12-31	<null>
+2000000510	Moor treading	Procedure	HPNR	Procedure	<null>	6602	1970-01-01	2099-12-31	<null>
+2000000511	Kneading with natural peloids/sand	Procedure	HPNR	Procedure	<null>	6603	1970-01-01	2099-12-31	<null>
+2000000512	Packages with natural peloids	Procedure	HPNR	Procedure	<null>	6604	1970-01-01	2099-12-31	<null>
+2000000513	Packages with natural silt, single application pack	Procedure	HPNR	Procedure	<null>	6605	1970-01-01	2099-12-31	<null>
+2000000514	Heat application to one or more parts of the body (hot air, infrared, sollux)	Procedure	HPNR	Procedure	<null>	6606	1970-01-01	2099-12-31	<null>
+2000000515	Cryotherapy in combination with other services	Procedure	HPNR	Procedure	<null>	6607	1970-01-01	2099-12-31	<null>
+2000000516	Large wraps with and without additives (short, under and full wraps, scarf, lower and upper impactor, Spanish coat)	Procedure	HPNR	Procedure	<null>	6608	1970-01-01	2099-12-31	<null>
+2000000517	Medium wraps separately, with and without additives (calf, leg, lumbar and chest wraps or pads)	Procedure	HPNR	Procedure	<null>	6609	1970-01-01	2099-12-31	<null>
+2000000518	Small wraps separately, also heart compresses	Procedure	HPNR	Procedure	<null>	6610	1970-01-01	2099-12-31	<null>
+2000000522	Ice treatment of one or more parts of the body (also in combination with other services)	Procedure	HPNR	Procedure	<null>	6614	1970-01-01	2099-12-31	<null>
+2000000523	Brine ice pack/ice towel	Procedure	HPNR	Procedure	<null>	6615	1970-01-01	2099-12-31	<null>
+2000000524	Herbal steams	Procedure	HPNR	Procedure	<null>	6616	1970-01-01	2099-12-31	<null>
+2000000525	Sand bath	Procedure	HPNR	Procedure	<null>	6617	1970-01-01	2099-12-31	<null>
+2000000526	Natural mud normal pack with thermal bath	Procedure	HPNR	Procedure	<null>	6618	1970-01-01	2099-12-31	<null>
+2000000527	Hot packs with natural peloids (whole packs)	Procedure	HPNR	Procedure	<null>	6619	1970-01-01	2099-12-31	<null>
+2000000528	Hot packs with natural peloids (large packs)	Procedure	HPNR	Procedure	<null>	6620	1970-01-01	2099-12-31	<null>
+2000000529	Hot packs with natural peloids and massage	Procedure	HPNR	Procedure	<null>	6621	1970-01-01	2099-12-31	<null>
+2000000530	Sand heating bench	Procedure	HPNR	Procedure	<null>	6622	1970-01-01	2099-12-31	<null>
+2000000531	Natural moor pack with additive	Procedure	HPNR	Procedure	<null>	6623	1970-01-01	2099-12-31	<null>
+2000000532	Hay flower sack (large application)	Procedure	HPNR	Procedure	<null>	6624	1970-01-01	2099-12-31	<null>
+2000000533	Moor sitz bath	Procedure	HPNR	Procedure	<null>	6625	1970-01-01	2099-12-31	<null>
+2000000534	Moor hand bath	Procedure	HPNR	Procedure	<null>	6626	1970-01-01	2099-12-31	<null>
+2000000535	Natural moor pack 50 degrees celsius	Procedure	HPNR	Procedure	<null>	6627	1970-01-01	2099-12-31	<null>
+2000000538	Hot air with massage	Procedure	HPNR	Procedure	<null>	6630	1970-01-01	2099-12-31	<null>
+2000000539	Fango with massage	Procedure	HPNR	Procedure	<null>	6631	1970-01-01	2099-12-31	<null>
+2000000540	Hot air	Procedure	HPNR	Procedure	<null>	6632	1970-01-01	2099-12-31	<null>
+2000000541	Partial bath (natural peloids)	Procedure	HPNR	Procedure	<null>	6633	1970-01-01	2099-12-31	<null>
+2000000542	Half bath (natural peloids)	Procedure	HPNR	Procedure	<null>	6634	1970-01-01	2099-12-31	<null>
+2000000543	Full bath (natural peloids)	Procedure	HPNR	Procedure	<null>	6635	1970-01-01	2099-12-31	<null>
+2000000544	Hot pack chalk (large treatment)	Procedure	HPNR	Procedure	<null>	6636	1970-01-01	2099-12-31	<null>
+2000000545	Hot pack chalk (partial treatment)	Procedure	HPNR	Procedure	<null>	6637	1970-01-01	2099-12-31	<null>
+2000000546	Chalk bath	Procedure	HPNR	Procedure	<null>	6638	1970-01-01	2099-12-31	<null>
+2000000547	Cold pack chalk	Procedure	HPNR	Procedure	<null>	6639	1970-01-01	2099-12-31	<null>
+2000000548	Chalk cold compress	Procedure	HPNR	Procedure	<null>	6640	1970-01-01	2099-12-31	<null>
+2000000549	Hydrotherapy	Procedure	HPNR	Procedure	<null>	67	1970-01-01	2099-12-31	<null>
+2000000550	Large therapy	Procedure	HPNR	Procedure	<null>	6701	1970-01-01	2099-12-31	<null>
+2000000551	Small therapy	Procedure	HPNR	Procedure	<null>	6702	1970-01-01	2099-12-31	<null>
+2000000552	Kneipp full, three-quarter and half baths with additive	Procedure	HPNR	Procedure	<null>	6703	1970-01-01	2099-12-31	<null>
+2000000553	Arm or foot bath alternating	Procedure	HPNR	Procedure	<null>	6704	1970-01-01	2099-12-31	<null>
+2000000554	Arm or foot bath alternating with additive	Procedure	HPNR	Procedure	<null>	6705	1970-01-01	2099-12-31	<null>
+2000000555	Rising sitz or half bath	Procedure	HPNR	Procedure	<null>	6706	1970-01-01	2099-12-31	<null>
+2000000556	Washes	Procedure	HPNR	Procedure	<null>	6707	1970-01-01	2099-12-31	<null>
+2000000557	Sitz bath with additive	Procedure	HPNR	Procedure	<null>	6708	1970-01-01	2099-12-31	<null>
+2000000558	Brush massage bath with additive	Procedure	HPNR	Procedure	<null>	6709	1970-01-01	2099-12-31	<null>
+2000000559	Alternating part flash	Procedure	HPNR	Procedure	<null>	6710	1970-01-01	2099-12-31	<null>
+2000000560	Alternating full flash	Procedure	HPNR	Procedure	<null>	6711	1970-01-01	2099-12-31	<null>
+2000000561	Scottish alternating shower	Procedure	HPNR	Procedure	<null>	6712	1970-01-01	2099-12-31	<null>
+2000000562	Dry bushing	Procedure	HPNR	Procedure	<null>	6713	1970-01-01	2099-12-31	<null>
+2000000563	Flash pouring bath	Procedure	HPNR	Procedure	<null>	6714	1970-01-01	2099-12-31	<null>
+2000000564	Rising arm or foot bath	Procedure	HPNR	Procedure	<null>	6715	1970-01-01	2099-12-31	<null>
+2000000565	Rising arm or foot bath with additive	Procedure	HPNR	Procedure	<null>	6716	1970-01-01	2099-12-31	<null>
+2000000566	Arm or foot bath, cold	Procedure	HPNR	Procedure	<null>	6717	1970-01-01	2099-12-31	<null>
+2000000567	Arm or foot bath, warm	Procedure	HPNR	Procedure	<null>	6718	1970-01-01	2099-12-31	<null>
+2000000568	Kneipp treading bath (water treading)	Procedure	HPNR	Procedure	<null>	6719	1970-01-01	2099-12-31	<null>
+2000000569	Kneipp treatment	Procedure	HPNR	Procedure	<null>	6720	1970-01-01	2099-12-31	<null>
+2000000570	Steam box bath	Procedure	HPNR	Procedure	<null>	6721	1970-01-01	2099-12-31	<null>
+2000000571	Sauna bath	Procedure	HPNR	Procedure	<null>	6722	1970-01-01	2099-12-31	<null>
+2000000572	Partial steam bath	Procedure	HPNR	Procedure	<null>	6723	1970-01-01	2099-12-31	<null>
+2000000573	Brine hydrotherapy (single)	Procedure	HPNR	Procedure	<null>	6724	1970-01-01	2099-12-31	<null>
+2000000574	Brine hydrotherapy (group)	Procedure	HPNR	Procedure	<null>	6725	1970-01-01	2099-12-31	<null>
+2000000575	Medical baths	Procedure	HPNR	Procedure	<null>	68	1970-01-01	2099-12-31	<null>
+2000000576	Thermal tub bath with carbonic acid	Procedure	HPNR	Procedure	<null>	6801	1970-01-01	2099-12-31	<null>
+2000000577	Thermal mineral bath without addtive	Procedure	HPNR	Procedure	<null>	6802	1970-01-01	2099-12-31	<null>
+2000000578	Thermal mineral bath with addtive	Procedure	HPNR	Procedure	<null>	6803	1970-01-01	2099-12-31	<null>
+2000000579	Thermal mineral gas bath	Procedure	HPNR	Procedure	<null>	6804	1970-01-01	2099-12-31	<null>
+2000000580	Thermal carbonic acid dry gas bath	Procedure	HPNR	Procedure	<null>	6805	1970-01-01	2099-12-31	<null>
+2000000581	Thermal tub bath	Procedure	HPNR	Procedure	<null>	6806	1970-01-01	2099-12-31	<null>
+2000000582	Thermal tub bath with additive	Procedure	HPNR	Procedure	<null>	6807	1970-01-01	2099-12-31	<null>
+2000000583	Thermal tub bath with mud	Procedure	HPNR	Procedure	<null>	6808	1970-01-01	2099-12-31	<null>
+2000000584	Thermal bubble bath	Procedure	HPNR	Procedure	<null>	6809	1970-01-01	2099-12-31	<null>
+2000000585	Thermal partial bath	Procedure	HPNR	Procedure	<null>	6810	1970-01-01	2099-12-31	<null>
+2000000586	Thermal spring gas bath	Procedure	HPNR	Procedure	<null>	6811	1970-01-01	2099-12-31	<null>
+2000000587	Thermal, sulfur, brine bath	Procedure	HPNR	Procedure	<null>	6812	1970-01-01	2099-12-31	<null>
+2000000588	Mineral tub bath with additive and rest	Procedure	HPNR	Procedure	<null>	6813	1970-01-01	2099-12-31	<null>
+2000000589	Mineral partial bath with additive	Procedure	HPNR	Procedure	<null>	6814	1970-01-01	2099-12-31	<null>
+2000000590	Mineral partial bath according to Hauff	Procedure	HPNR	Procedure	<null>	6815	1970-01-01	2099-12-31	<null>
+2000000591	Mineral partial bath according to Hauff brine bath for children	Procedure	HPNR	Procedure	<null>	6816	1970-01-01	2099-12-31	<null>
+2000000592	Brine bath including rest	Procedure	HPNR	Procedure	<null>	6817	1970-01-01	2099-12-31	<null>
+2000000593	Brine bath including additive and rest	Procedure	HPNR	Procedure	<null>	6818	1970-01-01	2099-12-31	<null>
+2000000594	Brine bath with additive (e.g. valerian, oat straw, calamus root, etc.)	Procedure	HPNR	Procedure	<null>	6819	1970-01-01	2099-12-31	<null>
+2000000595	Brine bubble bath	Procedure	HPNR	Procedure	<null>	6820	1970-01-01	2099-12-31	<null>
+2000000596	Brine bubble bath with additive and rest	Procedure	HPNR	Procedure	<null>	6821	1970-01-01	2099-12-31	<null>
+2000000597	Brine half bath or sitz bath without additive	Procedure	HPNR	Procedure	<null>	6822	1970-01-01	2099-12-31	<null>
+2000000598	Brine half bath or sitz bath with additive	Procedure	HPNR	Procedure	<null>	6823	1970-01-01	2099-12-31	<null>
+2000000599	brine carbonic acid spruce needle bath	Procedure	HPNR	Procedure	<null>	6824	1970-01-01	2099-12-31	<null>
+2000000601	Solemar single applications	Procedure	HPNR	Procedure	<null>	6826	1970-01-01	2099-12-31	<null>
+2000000602	Iodine brine bath	Procedure	HPNR	Procedure	<null>	6827	1970-01-01	2099-12-31	<null>
+2000000603	Iodine brine brush bath	Procedure	HPNR	Procedure	<null>	6828	1970-01-01	2099-12-31	<null>
+2000000604	Iodine brine tub bath with additive	Procedure	HPNR	Procedure	<null>	6829	1970-01-01	2099-12-31	<null>
+2000000605	Iodine brine brush bath with additive	Procedure	HPNR	Procedure	<null>	6830	1970-01-01	2099-12-31	<null>
+2000000606	Iodine, sulfur brine partial bath	Procedure	HPNR	Procedure	<null>	6831	1970-01-01	2099-12-31	<null>
+2000000607	Iodine, sulfur brine sitz bath	Procedure	HPNR	Procedure	<null>	6832	1970-01-01	2099-12-31	<null>
+2000000608	Iodine, sulfur full bath with additive	Procedure	HPNR	Procedure	<null>	6833	1970-01-01	2099-12-31	<null>
+2000000609	Sea water bath without additive	Procedure	HPNR	Procedure	<null>	6834	1970-01-01	2099-12-31	<null>
+2000000610	Sea water bath with additive	Procedure	HPNR	Procedure	<null>	6835	1970-01-01	2099-12-31	<null>
+2000000611	Sea water with CO-2, air or oxygen	Procedure	HPNR	Procedure	<null>	6836	1970-01-01	2099-12-31	<null>
+2000000612	Sea water warm bath	Procedure	HPNR	Procedure	<null>	6837	1970-01-01	2099-12-31	<null>
+2000000613	Freshwater bath (spruce needle, moor extract, sulfur, chamomile, balnacid, hay flowers, brombaldrian etc.)	Procedure	HPNR	Procedure	<null>	6838	1970-01-01	2099-12-31	<null>
+2000000614	Mud baths	Procedure	HPNR	Procedure	<null>	6839	1970-01-01	2099-12-31	<null>
+2000000615	Fresh water bath with herbal extract	Procedure	HPNR	Procedure	<null>	6840	1970-01-01	2099-12-31	<null>
+2000000616	Fresh water bath with carbonic acid	Procedure	HPNR	Procedure	<null>	6841	1970-01-01	2099-12-31	<null>
+2000000617	Fresh water bath with oxygen	Procedure	HPNR	Procedure	<null>	6842	1970-01-01	2099-12-31	<null>
+2000000618	Fresh water bath with oxygen and spruce needle	Procedure	HPNR	Procedure	<null>	6843	1970-01-01	2099-12-31	<null>
+2000000619	Fresh water bath with carbonic acid and spruce needle	Procedure	HPNR	Procedure	<null>	6844	1970-01-01	2099-12-31	<null>
+2000000620	Fresh water bath with salicyl moor, sulfur, moor or similar additives	Procedure	HPNR	Procedure	<null>	6845	1970-01-01	2099-12-31	<null>
+2000000621	Fresh water bath/mineral bath with prescribed drug additive and rest	Procedure	HPNR	Procedure	<null>	6846	1970-01-01	2099-12-31	<null>
+2000000622	Carbonic acid mixed bath	Procedure	HPNR	Procedure	<null>	6847	1970-01-01	2099-12-31	<null>
+2000000623	Carbonic acid thermal sitz bath with additive	Procedure	HPNR	Procedure	<null>	6848	1970-01-01	2099-12-31	<null>
+2000000624	Carbonic acid thermal sitz bath without additive	Procedure	HPNR	Procedure	<null>	6849	1970-01-01	2099-12-31	<null>
+2000000625	Carbonic acid thermal partial bath	Procedure	HPNR	Procedure	<null>	6850	1970-01-01	2099-12-31	<null>
+2000000626	Carbonic acid thermal bath 	Procedure	HPNR	Procedure	<null>	6851	1970-01-01	2099-12-31	<null>
+2000000627	Carbonic acid thermal bath with additive	Procedure	HPNR	Procedure	<null>	6852	1970-01-01	2099-12-31	<null>
+2000000628	Carbonic acid thermal bath with flow through	Procedure	HPNR	Procedure	<null>	6853	1970-01-01	2099-12-31	<null>
+2000000629	Carbonic acid bath with additive	Procedure	HPNR	Procedure	<null>	6854	1970-01-01	2099-12-31	<null>
+2000000630	Dry gas baths	Procedure	HPNR	Procedure	<null>	6855	1970-01-01	2099-12-31	<null>
+2000000631	Vault bath	Procedure	HPNR	Procedure	<null>	6856	1970-01-01	2099-12-31	<null>
+2000000632	Hungarian weight bath	Procedure	HPNR	Procedure	<null>	6857	1970-01-01	2099-12-31	<null>
+2000000633	Neurodermatitis or psoriasis treatment (brine bath and UVA/B irradiation)	Procedure	HPNR	Procedure	<null>	6858	1970-01-01	2099-12-31	<null>
+2000000634	Spruce needle extract bath	Procedure	HPNR	Procedure	<null>	6859	1970-01-01	2099-12-31	<null>
+2000000635	Air bubble bath without additive/bubble stream bath	Procedure	HPNR	Procedure	<null>	6860	1970-01-01	2099-12-31	<null>
+2000000636	Air bubble bath with additive	Procedure	HPNR	Procedure	<null>	6861	1970-01-01	2099-12-31	<null>
+2000000637	Brush bath	Procedure	HPNR	Procedure	<null>	6862	1970-01-01	2099-12-31	<null>
+2000000638	Oak bark bath	Procedure	HPNR	Procedure	<null>	6863	1970-01-01	2099-12-31	<null>
+2000000639	Oat straw bath	Procedure	HPNR	Procedure	<null>	6864	1970-01-01	2099-12-31	<null>
+2000000640	Wheat bran bath	Procedure	HPNR	Procedure	<null>	6865	1970-01-01	2099-12-31	<null>
+2000000641	Horsetail bath	Procedure	HPNR	Procedure	<null>	6866	1970-01-01	2099-12-31	<null>
+2000000642	Partial ice bath	Procedure	HPNR	Procedure	<null>	6867	1970-01-01	2099-12-31	<null>
+2000000643	Oxygen bath with additive	Procedure	HPNR	Procedure	<null>	6868	1970-01-01	2099-12-31	<null>
+2000000644	Rubriment bath	Procedure	HPNR	Procedure	<null>	6869	1970-01-01	2099-12-31	<null>
+2000000645	Chamomile sitz bath	Procedure	HPNR	Procedure	<null>	6870	1970-01-01	2099-12-31	<null>
+2000000646	Radon bath	Procedure	HPNR	Procedure	<null>	6871	1970-01-01	2099-12-31	<null>
+2000000647	Mother liquor (1 liter)	Procedure	HPNR	Procedure	<null>	6872	1970-01-01	2099-12-31	<null>
+2000000648	Clay full bath	Procedure	HPNR	Procedure	<null>	6873	1970-01-01	2099-12-31	<null>
+2000000649	Clay ramming bath	Procedure	HPNR	Procedure	<null>	6874	1970-01-01	2099-12-31	<null>
+2000000650	Seat rubbing bath	Procedure	HPNR	Procedure	<null>	6875	1970-01-01	2099-12-31	<null>
+2000000652	Thermal spring bubble bath	Procedure	HPNR	Procedure	<null>	6877	1970-01-01	2099-12-31	<null>
+2000000653	Natural moor full bath with additive	Procedure	HPNR	Procedure	<null>	6878	1970-01-01	2099-12-31	<null>
+2000000654	Natural moor arm/foot bath with additive	Procedure	HPNR	Procedure	<null>	6879	1970-01-01	2099-12-31	<null>
+2000000655	Brine bath and UVA/B spot irradiation (neurodermatitis or psoriasis treatment)	Procedure	HPNR	Procedure	<null>	6880	1970-01-01	2099-12-31	<null>
+2000000656	Steam bath (e.g. with carbonic acid)	Procedure	HPNR	Procedure	<null>	6881	1970-01-01	2099-12-31	<null>
+2000000657	Steam shower (e.g. with carbonic acid)	Procedure	HPNR	Procedure	<null>	6882	1970-01-01	2099-12-31	<null>
+2000000658	Spring bath	Procedure	HPNR	Procedure	<null>	6883	1970-01-01	2099-12-31	<null>
+2000000659	Oxygen bath with massage	Procedure	HPNR	Procedure	<null>	6884	1970-01-01	2099-12-31	<null>
+2000000660	Carbonic acid bath with physiotherapy	Procedure	HPNR	Procedure	<null>	6885	1970-01-01	2099-12-31	<null>
+2000000661	Carbonic acid bath with massage	Procedure	HPNR	Procedure	<null>	6886	1970-01-01	2099-12-31	<null>
+2000000662	Four-cell bath e.g. with brine (also with medicinal water or sea water)	Procedure	HPNR	Procedure	<null>	6887	1970-01-01	2099-12-31	<null>
+2000000663	Half bath	Procedure	HPNR	Procedure	<null>	6888	1970-01-01	2099-12-31	<null>
+2000000664	Inhalation therapy	Procedure	HPNR	Procedure	<null>	70	1970-01-01	2099-12-31	<null>
+2000000665	Nose/throat/mouth shower with additive	Procedure	HPNR	Procedure	<null>	7001	1970-01-01	2099-12-31	<null>
+2000000666	Nose/throat/mouth shower with additive and medicine additive	Procedure	HPNR	Procedure	<null>	7002	1970-01-01	2099-12-31	<null>
+2000000667	Brine/sea water inhalation mouth, nose and eye shower	Procedure	HPNR	Procedure	<null>	7003	1970-01-01	2099-12-31	<null>
+2000000668	Brine/sea water single inhalation with additive	Procedure	HPNR	Procedure	<null>	7004	1970-01-01	2099-12-31	<null>
+2000000669	Brine/sea water room inhalation	Procedure	HPNR	Procedure	<null>	7005	1970-01-01	2099-12-31	<null>
+2000000670	Brine/sea water single inhalation	Procedure	HPNR	Procedure	<null>	7006	1970-01-01	2099-12-31	<null>
+2000000671	Brine/sea water room inhalation with additive	Procedure	HPNR	Procedure	<null>	7007	1970-01-01	2099-12-31	<null>
+2000000672	Aerosol inhalation	Procedure	HPNR	Procedure	<null>	7008	1970-01-01	2099-12-31	<null>
+2000000673	Apparatus or single inhalation	Procedure	HPNR	Procedure	<null>	7009	1970-01-01	2099-12-31	<null>
+2000000674	Apparatus or single inhalation with drugs and extracts	Procedure	HPNR	Procedure	<null>	7010	1970-01-01	2099-12-31	<null>
+2000000675	Room inhalation in the group with mineral water and additive	Procedure	HPNR	Procedure	<null>	7011	1970-01-01	2099-12-31	<null>
+2000000676	Room inhalation brine and drugs (single cabin)	Procedure	HPNR	Procedure	<null>	7012	1970-01-01	2099-12-31	<null>
+2000000677	Ultrasound room inhalation	Procedure	HPNR	Procedure	<null>	7013	1970-01-01	2099-12-31	<null>
+2000000678	Ultrasound (single cabin)	Procedure	HPNR	Procedure	<null>	7014	1970-01-01	2099-12-31	<null>
+2000000679	Inhalation on single device with drug additive	Procedure	HPNR	Procedure	<null>	7015	1970-01-01	2099-12-31	<null>
+2000000680	Inhalation on single device with vibration	Procedure	HPNR	Procedure	<null>	7016	1970-01-01	2099-12-31	<null>
+2000000681	Aerosol nebulization with self-prepared drug	Procedure	HPNR	Procedure	<null>	7017	1970-01-01	2099-12-31	<null>
+2000000682	Aerosol nebulization with drug and prescription	Procedure	HPNR	Procedure	<null>	7018	1970-01-01	2099-12-31	<null>
+2000000683	Oxygen drug nebulizer	Procedure	HPNR	Procedure	<null>	7019	1970-01-01	2099-12-31	<null>
+2000000684	Treatment with positive pressure ventilator (IPPB)	Procedure	HPNR	Procedure	<null>	7020	1970-01-01	2099-12-31	<null>
+2000000685	Inhalation additives	Procedure	HPNR	Procedure	<null>	7021	1970-01-01	2099-12-31	<null>
+2000000687	Special inhalation	Procedure	HPNR	Procedure	<null>	7023	1970-01-01	2099-12-31	<null>
+2000000688	Radon emanation	Procedure	HPNR	Procedure	<null>	7024	1970-01-01	2099-12-31	<null>
+2000000689	Cave therapy	Procedure	HPNR	Procedure	<null>	7025	1970-01-01	2099-12-31	<null>
+2000000690	Radon tunnel (additional position)	Procedure	HPNR	Procedure	<null>	7026	1970-01-01	2099-12-31	<null>
+2000000691	Radon tunnel (additional position)	Procedure	HPNR	Procedure	<null>	7027	1970-01-01	2099-12-31	<null>
+2000000692	Radon tunnel (additional position)	Procedure	HPNR	Procedure	<null>	7028	1970-01-01	2099-12-31	<null>
+2000000693	Radon tunnel (additional position)	Procedure	HPNR	Procedure	<null>	7029	1970-01-01	2099-12-31	<null>
+2000000694	Other spa-specific forms of treatment	Procedure	HPNR	Procedure	<null>	71	1970-01-01	2099-12-31	<null>
+2000000695	Phototherapy	Procedure	HPNR	Procedure	<null>	7101	1970-01-01	2099-12-31	<null>
+2000000696	Sulfur phototherapy	Procedure	HPNR	Procedure	<null>	7102	1970-01-01	2099-12-31	<null>
+2000000697	Brine phototherapy	Procedure	HPNR	Procedure	<null>	7103	1970-01-01	2099-12-31	<null>
+2000000698	Brine rinse	Procedure	HPNR	Procedure	<null>	7104	1970-01-01	2099-12-31	<null>
+2000000699	Iodine-brine spray treatment on the eye	Procedure	HPNR	Procedure	<null>	7105	1970-01-01	2099-12-31	<null>
+2000000700	Phototherapy (spot irradiation)	Procedure	HPNR	Procedure	<null>	7106	1970-01-01	2099-12-31	<null>
+2000000701	Phototherapy (partial treatment)	Procedure	HPNR	Procedure	<null>	7107	1970-01-01	2099-12-31	<null>
+2000000702	Phototherapy (drug)	Procedure	HPNR	Procedure	<null>	7108	1970-01-01	2099-12-31	<null>
+2000000703	Healing mud/healing clay	Procedure	HPNR	Procedure	<null>	7109	1970-01-01	2099-12-31	<null>
+2000000704	Cortisone free head treatment	Procedure	HPNR	Procedure	<null>	7110	1970-01-01	2099-12-31	<null>
+2000000705	Light-oil bath (under medical supervision)	Procedure	HPNR	Procedure	<null>	7111	1970-01-01	2099-12-31	<null>
+2000000731	Shower	Observation	HPNR	Procedure	<null>	7216	1970-01-01	2099-12-31	<null>
+2000000732	Swimming in the exercise pool	Observation	HPNR	Procedure	<null>	7217	1970-01-01	2099-12-31	<null>
+2000000733	Climatotherapy	Observation	HPNR	Procedure	<null>	7218	1970-01-01	2099-12-31	<null>
+2000000734	Findings and the like	Observation	HPNR	Procedure	<null>	7219	1970-01-01	2099-12-31	<null>
+2000000735	Surcharge for disabled cabin	Observation	HPNR	Procedure	<null>	7220	1970-01-01	2099-12-31	<null>
+2000000736	Analysis/diagnostics in the movement laboratory	Observation	HPNR	Procedure	<null>	7221	1970-01-01	2099-12-31	<null>
+2000000737	Accompanying card (only on medical instruction)	Observation	HPNR	Procedure	<null>	7222	1970-01-01	2099-12-31	<null>
+2000000738	Tinnitus (ear noise management training)	Observation	HPNR	Procedure	<null>	7223	1970-01-01	2099-12-31	<null>
+2000000739	Additional positions for bath additives	Observation	HPNR	Procedure	<null>	73	1970-01-01	2099-12-31	<null>
+2000000740	Addition 1	Observation	HPNR	Procedure	<null>	7301	1970-01-01	2099-12-31	<null>
+2000000741	Addition 2	Observation	HPNR	Procedure	<null>	7302	1970-01-01	2099-12-31	<null>
+2000000742	Addition 3	Observation	HPNR	Procedure	<null>	7303	1970-01-01	2099-12-31	<null>
+2000000743	Addition 4	Observation	HPNR	Procedure	<null>	7304	1970-01-01	2099-12-31	<null>
+2000000773	Home visit of another patient	Observation	HPNR	Procedure	<null>	9915	1970-01-01	2099-12-31	<null>
+2000000774	Home visit (physiotherapy)	Observation	HPNR	Procedure	<null>	9916	1970-01-01	2099-12-31	<null>
+2000000775	Home visit of another patient (physiotherapy)	Observation	HPNR	Procedure	<null>	9917	1970-01-01	2099-12-31	<null>
+2000000776	Home visit (speech therapy)	Observation	HPNR	Procedure	<null>	9918	1970-01-01	2099-12-31	<null>
+2000000777	Home visit of another patient (speech therapy)	Observation	HPNR	Procedure	<null>	9919	1970-01-01	2099-12-31	<null>
+2000000778	Home visit (occupational therapy)	Observation	HPNR	Procedure	<null>	9920	1970-01-01	2099-12-31	<null>
+2000000791	Home visit of several patients (e.g. in a facility/community) including travel allowance (application lump sum)	Observation	HPNR	Procedure	<null>	9934	1970-01-01	2099-12-31	<null>
+2000004643	Masseur, masseur and medical bath attendant	Provider	HPNR	Provider	<null>	1	1970-01-01	2099-12-31	<null>
+2000004644	Physiotherapist	Provider	HPNR	Provider	<null>	2	1970-01-01	2099-12-31	<null>
+2000004645	Speech and language therapist/respiratory, speech and voice teacher (Schlaffhorst-Andersen School)	Provider	HPNR	Provider	<null>	3	1970-01-01	2099-12-31	<null>
+2000004646	Other speech therapist (used if different remuneration regulations exist according to state law)	Provider	HPNR	Provider	<null>	4	1970-01-01	2099-12-31	<null>
+2000004647	Occupational therapist	Provider	HPNR	Provider	<null>	5	1970-01-01	2099-12-31	<null>
+2000004649	Podiatrist	Provider	HPNR	Provider	<null>	7	1970-01-01	2099-12-31	<null>
+2000004650	Providers of outpatient preventive services in approved health resorts	Provider	HPNR	Provider	<null>	8	1970-01-01	2099-12-31	<null>
+2000004651	Others service providers	Provider	HPNR	Provider	<null>	9	1970-01-01	2099-12-31	<null>
+2000004652	Nutrition therapy service providers	Provider	HPNR	Provider	<null>	A	1970-01-01	2099-12-31	<null>
+2000000113	Physiotherapy, including respiratory gymnastics, also on a neurophysiological basis including necessary massage	Observation	HPNR	Procedure	<null>	0503	1970-01-01	2099-12-31	<null>
+2000000114	Physiotherapeutic treatment with ice application incl. necessary massages	Observation	HPNR	Procedure	<null>	0504	1970-01-01	2099-12-31	<null>
+2000000115	Physiotherapy (children)	Observation	HPNR	Procedure	<null>	0505	1970-01-01	2099-12-31	<null>
+2000000116	Physiotherapeutic treatment with stimulation current	Observation	HPNR	Procedure	<null>	0506	1970-01-01	2099-12-31	<null>
+2000000117	Device-supported physiotherapy (physiotherapy device), parallel individual treatment for up to 3 patients, per patient	Observation	HPNR	Procedure	<null>	0507	1970-01-01	2099-12-31	<null>
+2000000119	Physiotherapy, normal, group treatment	Observation	HPNR	Procedure	<null>	06	1970-01-01	2099-12-31	<null>
+2000000120	Physiotherapy, also respiratory therapy, 2-5 persons	Observation	HPNR	Procedure	<null>	0601	1970-01-01	2099-12-31	<null>
+2000000131	Physiotherapy for central movement disorders (treatment for children)	Observation	HPNR	Procedure	<null>	0703	1970-01-01	2099-12-31	<null>
+2000000261	Half bath with additive	Procedure	HPNR	Procedure	<null>	1704	1970-01-01	2099-12-31	<null>
+2000000706	Photo-chemotherapy	Procedure	HPNR	Procedure	<null>	7112	1970-01-01	2099-12-31	<null>
+2000000303	D1	Observation	HPNR	Procedure	<null>	2001	1970-01-01	2099-12-31	<null>
+2000000335	Per participant	Observation	HPNR	Procedure	<null>	3201	1970-01-01	2099-12-31	<null>
+2000000451	Large massage	Observation	HPNR	Procedure	<null>	6016	1970-01-01	2099-12-31	<null>
+2000000176	Electrotherapy	Procedure	HPNR	Procedure	<null>	13	1970-01-01	2099-12-31	<null>
+2000000177	Recording of findings	Procedure	HPNR	Procedure	<null>	1301	1970-01-01	2099-12-31	<null>
+2000000178	Electrotreatment	Procedure	HPNR	Procedure	<null>	1302	1970-01-01	2099-12-31	<null>
+2000000257	Medical baths	Procedure	HPNR	Procedure	<null>	17	1970-01-01	2099-12-31	<null>
+2000000259	Hauff's partial baths	Procedure	HPNR	Procedure	<null>	1702	1970-01-01	2099-12-31	<null>
+2000000260	Sitz bath	Procedure	HPNR	Procedure	<null>	1703	1970-01-01	2099-12-31	<null>
+2000000488	Perl's therapy	Procedure	HPNR	Procedure	<null>	6401	1970-01-01	2099-12-31	<null>
+2000000489	Underwater extension	Procedure	HPNR	Procedure	<null>	6402	1970-01-01	2099-12-31	<null>
+2000000490	Kuhlmann extirator	Procedure	HPNR	Procedure	<null>	6403	1970-01-01	2099-12-31	<null>
+2000000381	For mental-functional disorders (up to 2 sessions in one day) for advice on integration into the home and social environment in the context of a home visit	Observation	HPNR	Procedure	<null>	4109	1970-01-01	2099-12-31	<null>
+2000000382	For mental-functional disorders (to the extent that prescribed contiguous sessions are dispensed as stress testing)	Observation	HPNR	Procedure	<null>	4110	1970-01-01	2099-12-31	<null>
+2000000383	Advice on integration into the home and social environment	Observation	HPNR	Procedure	<null>	4111	1970-01-01	2099-12-31	<null>
+2000000385	Group treatment	Observation	HPNR	Procedure	<null>	42	1970-01-01	2099-12-31	<null>
+2000000386	60 minutes, per participant	Observation	HPNR	Procedure	<null>	4201	1970-01-01	2099-12-31	<null>
+2000000387	3-5 patients, 45 minutes, per participant	Observation	HPNR	Procedure	<null>	4202	1970-01-01	2099-12-31	<null>
+2000000405	Material costs	Observation	HPNR	Procedure	<null>	4404	1970-01-01	2099-12-31	<null>
+2000000406	Temporary splints without cost estimate	Observation	HPNR	Procedure	<null>	4405	1970-01-01	2099-12-31	<null>
+2000000407	Temporary splints after cost estimate	Observation	HPNR	Procedure	<null>	4406	1970-01-01	2099-12-31	<null>
+2000000408	Other services	Observation	HPNR	Procedure	<null>	45	1970-01-01	2099-12-31	<null>
+2000000409	Production of aids/adaptations per minute	Observation	HPNR	Procedure	<null>	4501	1970-01-01	2099-12-31	<null>
+2000000410	Material costs	Observation	HPNR	Procedure	<null>	4502	1970-01-01	2099-12-31	<null>
+2000000411	Measures of nutrition therapy	Procedure	HPNR	Procedure	<null>	50	1970-01-01	2099-12-31	<null>
+2000000491	Underwater extension with underwater massage	Procedure	HPNR	Procedure	<null>	6404	1970-01-01	2099-12-31	<null>
+2000000721	Leech treatment	Observation	HPNR	Procedure	<null>	7206	1970-01-01	2099-12-31	<null>
+2000000722	Drinking cure (card of 10)	Observation	HPNR	Procedure	<null>	7207	1970-01-01	2099-12-31	<null>
+2000000723	Drinking cure (card of 25)	Observation	HPNR	Procedure	<null>	7208	1970-01-01	2099-12-31	<null>
+2000000724	Drinking cure (card of 50)	Observation	HPNR	Procedure	<null>	7209	1970-01-01	2099-12-31	<null>
+2000000725	Additional position for further packs with natural peloids 	Observation	HPNR	Procedure	<null>	7210	1970-01-01	2099-12-31	<null>
+2000000726	Drinking and gargling cure complete	Observation	HPNR	Procedure	<null>	7211	1970-01-01	2099-12-31	<null>
+2000000727	Rental fee for protective jacket	Observation	HPNR	Procedure	<null>	7212	1970-01-01	2099-12-31	<null>
+2000000728	Sputum bottles	Observation	HPNR	Procedure	<null>	7213	1970-01-01	2099-12-31	<null>
+2000000729	Oxygen delivery	Observation	HPNR	Procedure	<null>	7214	1970-01-01	2099-12-31	<null>
+2000000730	Rheumatism group (health insurance share)	Observation	HPNR	Procedure	<null>	7215	1970-01-01	2099-12-31	<null>
+2000000290	Carbonic acid gas bath (CO2 dry bath) as partial bath	Procedure	HPNR	Procedure	<null>	1733	2005-11-15	2099-12-31	<null>
+2000000801	Hygienic measures Corona (billable from the effective date until the date specified in the COVID-19VSt-SchutzVO valid until 31.03.2021 or the HygPV valid from 01.04.2021)	Observation	HPNR	Procedure	<null>	9944	2020-04-24	2099-12-31	<null>
+2000000711	Brain performance training group (up to 6 patients)	Procedure	HPNR	Procedure	<null>	7117	1970-01-01	2099-12-31	<null>
+2000000712	Running therapy/vascular training	Procedure	HPNR	Procedure	<null>	7118	1970-01-01	2099-12-31	<null>
+2000000713	Exercise spa as controlled self-treatment for severely disabled people	Procedure	HPNR	Procedure	<null>	7119	1970-01-01	2099-12-31	<null>
+2000000714	UV irradiation	Procedure	HPNR	Procedure	<null>	7120	1970-01-01	2099-12-31	<null>
+2000000715	Other remedial services	Procedure	HPNR	Procedure	<null>	72	1970-01-01	2099-12-31	<null>
+2000000716	Pregnancy exercises	Observation	HPNR	Procedure	<null>	7201	1970-01-01	2099-12-31	<null>
+2000000717	Walking exercises	Observation	HPNR	Procedure	<null>	7202	1970-01-01	2099-12-31	<null>
+2000000718	Spa gymnastics group	Observation	HPNR	Procedure	<null>	7203	1970-01-01	2099-12-31	<null>
+2000000719	Drinking cure (only within the scope of approved bathing cures)	Observation	HPNR	Procedure	<null>	7204	1970-01-01	2099-12-31	<null>
+2000000720	Bath additives	Observation	HPNR	Procedure	<null>	7205	1970-01-01	2099-12-31	<null>
+2000000143	Physiotherapy for the treatment of central movement disorders, up to the age of 18, according to Bobath as individual treatment (Physiotherapy-CNS-children according to Bobath) as a telemedical service (standard treatment time 30 to 45 minutes)	Observation	HPNR	Procedure	<null>	0728	2022-04-01	2099-12-31	<null>
+2000000289	Carbonic acid gas bath (CO2 dry bath) as a full, three-quarter or half bath	Procedure	HPNR	Procedure	<null>	1732	2005-11-15	2099-12-31	<null>
+2000000301	Physiotherapy report on special written request	Observation	HPNR	Procedure	<null>	1906	2021-08-01	2099-12-31	<null>
+2000000331	Individual therapy (telemedical service) standard treatment time: 30 minutes	Observation	HPNR	Procedure	<null>	3122	2022-04-01	2099-12-31	<null>
+2000000332	Individual therapy (telemedical service) standard treatment time: 45 minutes	Observation	HPNR	Procedure	<null>	3123	2022-04-01	2099-12-31	<null>
+2000000333	Individual therapy (telemedical service) standard treatment time: 60 minutes	Observation	HPNR	Procedure	<null>	3124	2022-04-01	2099-12-31	<null>
+2000000359	Group therapy of 2 patients, per patient (telemedical service) standard treatment time: 45 minutes	Observation	HPNR	Procedure	<null>	3240	2022-04-01	2099-12-31	<null>
+2000000360	Group therapy of 3-5 patients, per patient (telemedical service) standard treatment time: 45 minutes	Observation	HPNR	Procedure	<null>	3242	2022-04-01	2099-12-31	<null>
+2000000361	Group therapy of 2 patients, per patient (telemedical service) standard treatment time: 90 minutes	Observation	HPNR	Procedure	<null>	3243	2022-04-01	2099-12-31	<null>
+2000000362	Group therapy of 3-5 patients, per patient (telemedical service) standard treatment time: 90 minutes	Observation	HPNR	Procedure	<null>	3244	2022-04-01	2099-12-31	<null>
+2000000365	Order report	Observation	HPNR	Procedure	<null>	3302	2021-03-17	2099-12-31	<null>
+2000000384	For occupational therapy brain performance training for advice on integration into the home and social environment	Observation	HPNR	Procedure	<null>	4112	2022-01-01	2099-12-31	<null>
+2000000412	Nutritional therapy anamnesis (30 minutes session)	Procedure	HPNR	Procedure	<null>	5001	2017-09-26	2099-12-31	<null>
+2000000413	Nutritional therapy anamnesis (15 minutes session)	Procedure	HPNR	Procedure	<null>	5002	2017-09-26	2099-12-31	<null>
+2000000414	Individual treatment (30 minutes session)	Procedure	HPNR	Procedure	<null>	5003	2017-09-26	2099-12-31	<null>
+2000000416	Individual treatment in the home or social environment (up to 4x per year up to 4x 30 minutes per prescription are billable)	Procedure	HPNR	Procedure	<null>	5005	2017-09-26	2099-12-31	<null>
+2000000417	Group treatment (30 minutes session)	Procedure	HPNR	Procedure	<null>	5006	2017-09-26	2099-12-31	<null>
+2000000418	Group treatment (15 minutes session)	Procedure	HPNR	Procedure	<null>	5007	2017-09-26	2099-12-31	<null>
+2000000419	Calculation and evaluation of nutrition protocols and development of corresponding individual recommendations	Procedure	HPNR	Procedure	<null>	5008	2017-09-26	2099-12-31	<null>
+2000000420	Necessary coordination of therapy with a third party	Procedure	HPNR	Procedure	<null>	5009	2017-09-26	2099-12-31	<null>
+2000000421	Nutritional therapy anamnesis via video transmission according to § 7a section 6 (standard service time 60 minutes, including at least 30 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5021	2022-04-06	2099-12-31	<null>
+2000000422	Nutritional therapy anamnesis via video transmission according to § 7a section 6 (standard service time 30 minutes, including at least 15 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5022	2022-04-06	2099-12-31	<null>
+2000000424	Nutritional therapy intervention - individual treatment via video transmission according to § 7a section 6 (standard service time 30 minutes, including at least 15 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5024	2022-04-06	2099-12-31	<null>
+2000000425	Nutritional therapy intervention - individual treatment in the home or social environment via video transmission according to § 7a section 6 (standard service time 60 minutes, including at least 30 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5025	2022-04-06	2099-12-31	<null>
+2000000426	Nutritional therapy intervention - group treatment via video transmission according to § 7a section 6 (standard service time 60 minutes, including at least 30 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5026	2022-04-06	2099-12-31	<null>
+2000000427	Nutritional therapy intervention - group treatment via video transmission according to § 7a section 6 (standard service time 30 minutes, including at least 15 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5027	2022-04-06	2099-12-31	<null>
+2000000799	Home visit in the context of individual treatment in the home or social environment (nutrition therapy)	Observation	HPNR	Procedure	<null>	9942	2017-11-27	2099-12-31	<null>
+2000000800	Travel allowance per kilometer in the context of individual treatment in the home or social environment (nutrition therapy)	Observation	HPNR	Procedure	<null>	9943	2017-11-27	2099-12-31	<null>
+2000000096	Movement exercises/orthopedic gymnastics	Observation	HPNR	Procedure	<null>	0301	1970-01-01	2099-12-31	<null>
+2000000097	Respiratory gymnastics	Observation	HPNR	Procedure	<null>	0302	1970-01-01	2099-12-31	<null>
+2000000098	Respiratory and circulatory gymnastics	Observation	HPNR	Procedure	<null>	0303	1970-01-01	2099-12-31	<null>
+2000000099	Respiratory gymnastics with massage	Observation	HPNR	Procedure	<null>	0304	1970-01-01	2099-12-31	<null>
+2000000100	Exercise pool	Observation	HPNR	Procedure	<null>	0305	1970-01-01	2099-12-31	<null>
+2000000291	Inhalation therapy	Procedure	HPNR	Procedure	<null>	18	1970-01-01	2099-12-31	<null>
+2000000292	Individual treatment	Procedure	HPNR	Procedure	<null>	1801	1970-01-01	2099-12-31	<null>
+2000000293	Room inhalation	Procedure	HPNR	Procedure	<null>	1802	1970-01-01	2099-12-31	<null>
+2000000519	Schroth cure package	Procedure	HPNR	Procedure	<null>	6611	1970-01-01	2099-12-31	<null>
+2000000520	Clay plaster large	Procedure	HPNR	Procedure	<null>	6612	1970-01-01	2099-12-31	<null>
+2000000521	Cold air therapy	Procedure	HPNR	Procedure	<null>	6613	1970-01-01	2099-12-31	<null>
+2000000175	Manual therapy: individual treatment as telemedical service (standard treatment time 15 to 25 minutes)	Observation	HPNR	Procedure	<null>	1221	2022-04-01	2099-12-31	<null>
+2000000118	General physiotherapy (also on a neurophysiological basis): individual treatment as a telemedical service (standard treatment time 15 to 25 minutes)	Observation	HPNR	Procedure	<null>	0521	2022-04-01	2099-12-31	<null>
+2000000127	General physiotherapy (also on a neurophysiological basis): group treatment (2 - 5 patients) as a telemedical service (standard treatment time 20 to 30 minutes)	Observation	HPNR	Procedure	<null>	0621	2022-04-01	2099-12-31	<null>
+2000000141	Physiotherapy for the treatment of central movement disorders, after the age of 18, according to Bobath as individual treatment (Physiotherapy-CNS according to Bobath) as a telemedical service (standard treatment time 25 to 35 minutes)	Observation	HPNR	Procedure	<null>	0720	2022-04-01	2099-12-31	<null>
+2000000142	Physiotherapy for the treatment of severe diseases of the respiratory organs (esp. cystic fibrosis or pulmonary diseases with pulmonary damage comparable to cystic fibrosis), individual treatment as telemedical service (standard treatment time 60 minutes)	Observation	HPNR	Procedure	<null>	0722	2022-04-01	2099-12-31	<null>
+2000000600	Solemar open bathing cure	Procedure	HPNR	Procedure	<null>	6825	1970-01-01	2099-12-31	<null>
+2000000686	Radon tunnel	Procedure	HPNR	Procedure	<null>	7022	1970-01-01	2099-12-31	<null>
+2000000428	Nutritional therapy anamnesis as telephone consultation according to § 7a section 6 (standard service time 60 minutes, including once max. 30 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5031	2022-04-06	2099-12-31	<null>
+2000000429	Nutritional therapy anamnesis as telephone consultation according to § 7a section 6 (standard service time 30 minutes, including once at least 15 minutes up to max. 30 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5032	2022-04-06	2099-12-31	<null>
+2000000430	Nutritional therapy intervention - individual treatment as telephone consultation according to § 7a section 6 (standard service time 60 minutes, including once max. 30 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5033	2022-04-06	2099-12-31	<null>
+2000000431	Nutritional therapy intervention - individual treatment as telephone consultation according to § 7a section 6 (standard service time 30 minutes, including once at least 15 minutes up to max. 30 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5034	2022-04-06	2099-12-31	<null>
+2000000432	Nutritional therapy intervention - individual treatment in the home or social environment as telephone consultation according to § 7a section 6 (standard service time 60 minutes, including once max. 30 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5035	2022-04-06	2099-12-31	<null>
+2000000433	Nutritional therapy intervention - group treatment as telephone consultation according to § 7a section 6 (standard service time 60 minutes, including once max. 30 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5036	2022-04-06	2099-12-31	<null>
+2000000434	Nutrition therapy intervention - group treatment as telephone consultation according to § 7a section 6 (standard service time 30 minutes, including once at least 15 minutes up to max. 30 minutes with the patient)	Procedure	HPNR	Procedure	<null>	5037	2022-04-06	2099-12-31	<null>
+2000000471	Movement exercises in 32 degress warm seawater	Observation	HPNR	Procedure	<null>	6214	2005-11-15	2099-12-31	<null>
+2000000486	Physiotherapy in the exercise pool seawater	Observation	HPNR	Procedure	<null>	6314	2005-11-15	2099-12-31	<null>
+2000000751	Podological treatment (small)	Observation	HPNR	Procedure	<null>	8010	2020-12-03	2099-12-31	<null>
+2000000752	Podological treatment (large)	Observation	HPNR	Procedure	<null>	8020	2020-12-03	2099-12-31	<null>
+2000000753	Podological recording of findings	Observation	HPNR	Procedure	<null>	8030	2020-12-03	2099-12-31	<null>
+2000000792	Home visit including travel allowance (application lump sum, if other reimbursement positions are been agreed in a contract in deviation from X9933)	Observation	HPNR	Procedure	<null>	9935	2005-11-15	2099-12-31	<null>
+2000000793	Home visit of several patients (e.g. in a facility/community) including travel allowance (applicaton lump sum, if other reimbursement positions are agreed in a contract in deviation from X9934)	Observation	HPNR	Procedure	<null>	9936	2005-11-15	2099-12-31	<null>
+2000000794	Home visit (nutrition therapy)	Observation	HPNR	Procedure	<null>	9937	2017-11-27	2099-12-31	<null>
+2000000795	Home visit of another patient (nutrition therapy)	Observation	HPNR	Procedure	<null>	9938	2017-11-27	2099-12-31	<null>
+2000000796	Travel allowance lump sum in closed localities (nutrition therapy)	Observation	HPNR	Procedure	<null>	9939	2017-11-27	2099-12-31	<null>
+2000000797	Travel allowance lump sum when exceeding the locality (nutrition therapy)	Observation	HPNR	Procedure	<null>	9940	2017-11-27	2099-12-31	<null>
