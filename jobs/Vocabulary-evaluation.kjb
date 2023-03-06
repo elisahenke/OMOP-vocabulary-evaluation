@@ -635,11 +635,12 @@
   </hops>
   <notepads>
     <notepad>
-      <note>Arztfachgruppen??? -> in source_to_concept_map</note>
-      <xloc>777</xloc>
-      <yloc>193</yloc>
+      <note>Arztfachgruppen??? -> in source_to_concept_map
+Diagnosetyp??? -> concept</note>
+      <xloc>896</xloc>
+      <yloc>96</yloc>
       <width>275</width>
-      <heigth>26</heigth>
+      <heigth>42</heigth>
       <fontname>Segoe UI</fontname>
       <fontsize>9</fontsize>
       <fontbold>N</fontbold>
