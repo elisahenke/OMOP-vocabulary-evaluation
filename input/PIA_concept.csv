@@ -70,3 +70,6 @@ concept_id	concept_name	domain_id	vocabulary_id	concept_class_id	standard_concep
 2000000070	Crisis intervention	Procedure	PIA	Procedure	<null>	PIA-82Z	2018-07-01	2099-12-31	<null>
 2000000071	Psychotherapy	Procedure	PIA	Procedure	<null>	PIA-83Z	2018-07-01	2099-12-31	<null>
 2000000072	Outreach treatment without travel time	Procedure	PIA	Procedure	<null>	PIA-86Z	2018-07-01	2099-12-31	<null>
+2000011844	Start of treatment with referral	Procedure	PIA	Procedure	<null>	PIA-91Z	2018-07-01	2099-12-31	<null>
+2000011845	Start of treatment as follow-up treatment after inpatient treatment	Procedure	PIA	Procedure	<null>	PIA-92Z	2018-07-01	2099-12-31	<null>
+2000011846	Transition to contract medical care	Procedure	PIA	Procedure	<null>	PIA-93Z	2018-07-01	2099-12-31	<null>
