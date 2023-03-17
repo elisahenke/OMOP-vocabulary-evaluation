@@ -1,75 +1,75 @@
 concept_id	concept_name	domain_id	vocabulary_id	concept_class_id	standard_concept	concept_code	valid_start_date	valid_end_date	invalid_reason
-2000000002	PIA service without doctor or psychologist contact, without outreach treatment	Procedure	PIA	Procedure	<null>	PIA-001	1970-01-01	2099-12-31	D
-2000000003	PIA service with doctor or psychologist contact, without outreach treatment	Procedure	PIA	Procedure	<null>	PIA-002	1970-01-01	2099-12-31	D
-2000000004	PIA service with doctor or psychologist contact, with outreach treatment	Procedure	PIA	Procedure	<null>	PIA-003	1970-01-01	2099-12-31	D
-2000000005	PIA service without doctor or psychologist contact, with outreach treatment	Procedure	PIA	Procedure	<null>	PIA-004	1970-01-01	2099-12-31	D
-2000000006	Physicians' services, individual treatment, up to 20 min.	Procedure	PIA	Procedure	<null>	PIA-11A	2018-07-01	2099-12-31	<null>
-2000000007	Physicians' services, individual treatment, > 20 to 60 min.	Procedure	PIA	Procedure	<null>	PIA-11B	2018-07-01	2099-12-31	<null>
-2000000008	Physicians' services, individual treatment, > 60 min.	Procedure	PIA	Procedure	<null>	PIA-11C	2018-07-01	2099-12-31	<null>
-2000000009	Physicians' services, small group, up to 60 min.	Procedure	PIA	Procedure	<null>	PIA-14A	2018-07-01	2099-12-31	<null>
-2000000010	Physicians' services, small group, > 60 to 90 min.	Procedure	PIA	Procedure	<null>	PIA-14B	2018-07-01	2099-12-31	<null>
-2000000011	Physicians' services, small group, > 90 min.	Procedure	PIA	Procedure	<null>	PIA-14C	2018-07-01	2099-12-31	<null>
-2000000012	Physicians' services, large group, up to 60 min.	Procedure	PIA	Procedure	<null>	PIA-15A	2018-07-01	2099-12-31	<null>
-2000000013	Physicians' services, large group, > 60 to 90 min.	Procedure	PIA	Procedure	<null>	PIA-15B	2018-07-01	2099-12-31	<null>
-2000000014	Physicians' services, large group, > 90 min.	Procedure	PIA	Procedure	<null>	PIA-15C	2018-07-01	2099-12-31	<null>
-2000000015	Physicians' services, travel time for outreach treatment, up to 20 min.	Procedure	PIA	Procedure	<null>	PIA-16A	2018-07-01	2099-12-31	<null>
-2000000016	Physicians' services, travel time for outreach treatment, > 20 to 60 min.	Procedure	PIA	Procedure	<null>	PIA-16B	2018-07-01	2099-12-31	<null>
-2000000017	Physicians' services, travel time for outreach treatment, > 60 min.	Procedure	PIA	Procedure	<null>	PIA-16C	2018-07-01	2099-12-31	<null>
-2000000018	Psychologists' services, individual treatment, up to 20 min.	Procedure	PIA	Procedure	<null>	PIA-21A	2018-07-01	2099-12-31	<null>
-2000000019	Psychologists' services, individual treatment, > 20 to 60 min.	Procedure	PIA	Procedure	<null>	PIA-21B	2018-07-01	2099-12-31	<null>
-2000000020	Psychologists' services, individual treatment, > 60 min.	Procedure	PIA	Procedure	<null>	PIA-21C	2018-07-01	2099-12-31	<null>
-2000000021	Psychologists' services, small group, up to 60 min.	Procedure	PIA	Procedure	<null>	PIA-24A	2018-07-01	2099-12-31	<null>
-2000000022	Psychologists' services, small group, > 60 to 90 min.	Procedure	PIA	Procedure	<null>	PIA-24B	2018-07-01	2099-12-31	<null>
-2000000023	Psychologists' services, small group, > 90 min.	Procedure	PIA	Procedure	<null>	PIA-24C	2018-07-01	2099-12-31	<null>
-2000000024	Psychologists' services, large group, up to 60 min.	Procedure	PIA	Procedure	<null>	PIA-25A	2018-07-01	2099-12-31	<null>
-2000000025	Psychologists' services, large group, > 60 to 90 min.	Procedure	PIA	Procedure	<null>	PIA-25B	2018-07-01	2099-12-31	<null>
-2000000026	Psychologists' services, large group, > 90 min.	Procedure	PIA	Procedure	<null>	PIA-25C	2018-07-01	2099-12-31	<null>
-2000000027	Psychologists' services, travel time for outreach treatment, up to 20 min.	Procedure	PIA	Procedure	<null>	PIA-26A	2018-07-01	2099-12-31	<null>
-2000000028	Psychologists' services, travel time for outreach treatment, > 20 to 60 min.	Procedure	PIA	Procedure	<null>	PIA-26B	2018-07-01	2099-12-31	<null>
-2000000029	Psychologists' services, travel time for outreach treatment, > 60 min.	Procedure	PIA	Procedure	<null>	PIA-26C	2018-07-01	2099-12-31	<null>
-2000000030	Nursing staff services, individual treatment, up to 20 min.	Procedure	PIA	Procedure	<null>	PIA-31A	2018-07-01	2099-12-31	<null>
-2000000031	Nursing staff services, individual treatment, > 20 to 60 min.	Procedure	PIA	Procedure	<null>	PIA-31B	2018-07-01	2099-12-31	<null>
-2000000032	Nursing staff services, individual treatment, > 60 min.	Procedure	PIA	Procedure	<null>	PIA-31C	2018-07-01	2099-12-31	<null>
-2000000033	Nursing staff services, small group, up to 60 min.	Procedure	PIA	Procedure	<null>	PIA-34A	2018-07-01	2099-12-31	<null>
-2000000034	Nursing staff services, small group, > 60 to 90 min.	Procedure	PIA	Procedure	<null>	PIA-34B	2018-07-01	2099-12-31	<null>
-2000000035	Nursing staff services, small group, > 90 min.	Procedure	PIA	Procedure	<null>	PIA-34C	2018-07-01	2099-12-31	<null>
-2000000036	Nursing staff services, large group, up to 60 min.	Procedure	PIA	Procedure	<null>	PIA-35A	2018-07-01	2099-12-31	<null>
-2000000037	Nursing staff services, large group, > 60 to 90 min.	Procedure	PIA	Procedure	<null>	PIA-35B	2018-07-01	2099-12-31	<null>
-2000000038	Nursing staff services, large group, > 90 min.	Procedure	PIA	Procedure	<null>	PIA-35C	2018-07-01	2099-12-31	<null>
-2000000039	Nursing staff services, travel time for outreach treatment, up to 20 min.	Procedure	PIA	Procedure	<null>	PIA-36A	2018-07-01	2099-12-31	<null>
-2000000040	Nursing staff services, travel time for outreach treatment, > 20 to 60 min.	Procedure	PIA	Procedure	<null>	PIA-36B	2018-07-01	2099-12-31	<null>
-2000000041	Nursing staff services, travel time for outreach treatment, > 60 min.	Procedure	PIA	Procedure	<null>	PIA-36C	2018-07-01	2099-12-31	<null>
-2000000042	Social pedagogues' services, individual treatment, up to 20 min.	Procedure	PIA	Procedure	<null>	PIA-41A	2018-07-01	2099-12-31	<null>
-2000000043	Social pedagogues' services, individual treatment, > 20 to 60 min.	Procedure	PIA	Procedure	<null>	PIA-41B	2018-07-01	2099-12-31	<null>
-2000000044	Social pedagogues' services, individual treatment, > 60 min.	Procedure	PIA	Procedure	<null>	PIA-41C	2018-07-01	2099-12-31	<null>
-2000000045	Social pedagogues' services, small group, up to 60 min.	Procedure	PIA	Procedure	<null>	PIA-44A	2018-07-01	2099-12-31	<null>
-2000000046	Social pedagogues' services, small group, > 60 to 90 min.	Procedure	PIA	Procedure	<null>	PIA-44B	2018-07-01	2099-12-31	<null>
-2000000047	Social pedagogues' services, small group, > 90 min.	Procedure	PIA	Procedure	<null>	PIA-44C	2018-07-01	2099-12-31	<null>
-2000000048	Social pedagogues' services, large group, up to 60 min.	Procedure	PIA	Procedure	<null>	PIA-45A	2018-07-01	2099-12-31	<null>
-2000000049	Social pedagogues' services, large group, > 60 to 90 min.	Procedure	PIA	Procedure	<null>	PIA-45B	2018-07-01	2099-12-31	<null>
-2000000050	Social pedagogues' services, large group, > 90 min.	Procedure	PIA	Procedure	<null>	PIA-45C	2018-07-01	2099-12-31	<null>
-2000000051	Social pedagogues' services, travel time for outreach treatment, up to 20 min.	Procedure	PIA	Procedure	<null>	PIA-46A	2018-07-01	2099-12-31	<null>
-2000000052	Social pedagogues' services, travel time for outreach treatment, > 20 to 60 min.	Procedure	PIA	Procedure	<null>	PIA-46B	2018-07-01	2099-12-31	<null>
-2000000053	Social pedagogues' services, travel time for outreach treatment, > 60 min.	Procedure	PIA	Procedure	<null>	PIA-46C	2018-07-01	2099-12-31	<null>
-2000000054	Special therapist services, individual treatment, up to 20 min.	Procedure	PIA	Procedure	<null>	PIA-51A	2018-07-01	2099-12-31	<null>
-2000000055	Special therapist services, individual treatment, > 20 to 60 min.	Procedure	PIA	Procedure	<null>	PIA-51B	2018-07-01	2099-12-31	<null>
-2000000056	Special therapist services, individual treatment, > 60 min.	Procedure	PIA	Procedure	<null>	PIA-51C	2018-07-01	2099-12-31	<null>
-2000000057	Special therapist services, small group, up to 60 min.	Procedure	PIA	Procedure	<null>	PIA-54A	2018-07-01	2099-12-31	<null>
-2000000058	Special therapist services, small group, > 60 to 90 min.	Procedure	PIA	Procedure	<null>	PIA-54B	2018-07-01	2099-12-31	<null>
-2000000059	Special therapist services, small group, > 90 min.	Procedure	PIA	Procedure	<null>	PIA-54C	2018-07-01	2099-12-31	<null>
-2000000060	Special therapist services, large group, up to 60 min.	Procedure	PIA	Procedure	<null>	PIA-55A	2018-07-01	2099-12-31	<null>
-2000000061	Special therapist services, large group, > 60 to 90 min.	Procedure	PIA	Procedure	<null>	PIA-55B	2018-07-01	2099-12-31	<null>
-2000000062	Special therapist services, large group, > 90 min.	Procedure	PIA	Procedure	<null>	PIA-55C	2018-07-01	2099-12-31	<null>
-2000000063	Special therapist services, travel time for outreach treatment, up to 20 min.	Procedure	PIA	Procedure	<null>	PIA-56A	2018-07-01	2099-12-31	<null>
-2000000064	Special therapist services, travel time for outreach treatment, > 20 to 60 min.	Procedure	PIA	Procedure	<null>	PIA-56B	2018-07-01	2099-12-31	<null>
-2000000065	Special therapist services, travel time for outreach treatment, > 60 min.	Procedure	PIA	Procedure	<null>	PIA-56C	2018-07-01	2099-12-31	<null>
-2000000066	Case conference	Procedure	PIA	Procedure	<null>	PIA-60Z	2018-07-01	2099-12-31	<null>
-2000000067	Elaborate laboratory tests	Procedure	PIA	Procedure	<null>	PIA-17Z	2018-07-01	2099-12-31	<null>
-2000000068	Elaborate instrumental diagnostics	Procedure	PIA	Procedure	<null>	PIA-18Z	2018-07-01	2099-12-31	<null>
-2000000069	Medication setting and conversion	Procedure	PIA	Procedure	<null>	PIA-81Z	2018-07-01	2099-12-31	<null>
-2000000070	Crisis intervention	Procedure	PIA	Procedure	<null>	PIA-82Z	2018-07-01	2099-12-31	<null>
-2000000071	Psychotherapy	Procedure	PIA	Procedure	<null>	PIA-83Z	2018-07-01	2099-12-31	<null>
-2000000072	Outreach treatment without travel time	Procedure	PIA	Procedure	<null>	PIA-86Z	2018-07-01	2099-12-31	<null>
-2000011844	Start of treatment with referral	Procedure	PIA	Procedure	<null>	PIA-91Z	2018-07-01	2099-12-31	<null>
-2000011845	Start of treatment as follow-up treatment after inpatient treatment	Procedure	PIA	Procedure	<null>	PIA-92Z	2018-07-01	2099-12-31	<null>
-2000011846	Transition to contract medical care	Procedure	PIA	Procedure	<null>	PIA-93Z	2018-07-01	2099-12-31	<null>
+2000000002	PIA service without doctor or psychologist contact, without outreach treatment	Procedure	PIA	Procedure		PIA-001	1970-01-01	2018-12-31	D
+2000000003	PIA service with doctor or psychologist contact, without outreach treatment	Procedure	PIA	Procedure		PIA-002	1970-01-01	2018-12-31	D
+2000000004	PIA service with doctor or psychologist contact, with outreach treatment	Procedure	PIA	Procedure		PIA-003	1970-01-01	2018-12-31	D
+2000000005	PIA service without doctor or psychologist contact, with outreach treatment	Procedure	PIA	Procedure		PIA-004	1970-01-01	2018-12-31	D
+2000000006	Physicians' services, individual treatment, up to 20 min.	Procedure	PIA	Procedure		PIA-11A	2018-07-01	2099-12-31	
+2000000007	Physicians' services, individual treatment, > 20 to 60 min.	Procedure	PIA	Procedure		PIA-11B	2018-07-01	2099-12-31	
+2000000008	Physicians' services, individual treatment, > 60 min.	Procedure	PIA	Procedure		PIA-11C	2018-07-01	2099-12-31	
+2000000009	Physicians' services, small group, up to 60 min.	Procedure	PIA	Procedure		PIA-14A	2018-07-01	2099-12-31	
+2000000010	Physicians' services, small group, > 60 to 90 min.	Procedure	PIA	Procedure		PIA-14B	2018-07-01	2099-12-31	
+2000000011	Physicians' services, small group, > 90 min.	Procedure	PIA	Procedure		PIA-14C	2018-07-01	2099-12-31	
+2000000012	Physicians' services, large group, up to 60 min.	Procedure	PIA	Procedure		PIA-15A	2018-07-01	2099-12-31	
+2000000013	Physicians' services, large group, > 60 to 90 min.	Procedure	PIA	Procedure		PIA-15B	2018-07-01	2099-12-31	
+2000000014	Physicians' services, large group, > 90 min.	Procedure	PIA	Procedure		PIA-15C	2018-07-01	2099-12-31	
+2000000015	Physicians' services, travel time for outreach treatment, up to 20 min.	Procedure	PIA	Procedure		PIA-16A	2018-07-01	2099-12-31	
+2000000016	Physicians' services, travel time for outreach treatment, > 20 to 60 min.	Procedure	PIA	Procedure		PIA-16B	2018-07-01	2099-12-31	
+2000000017	Physicians' services, travel time for outreach treatment, > 60 min.	Procedure	PIA	Procedure		PIA-16C	2018-07-01	2099-12-31	
+2000000018	Psychologists' services, individual treatment, up to 20 min.	Procedure	PIA	Procedure		PIA-21A	2018-07-01	2099-12-31	
+2000000019	Psychologists' services, individual treatment, > 20 to 60 min.	Procedure	PIA	Procedure		PIA-21B	2018-07-01	2099-12-31	
+2000000020	Psychologists' services, individual treatment, > 60 min.	Procedure	PIA	Procedure		PIA-21C	2018-07-01	2099-12-31	
+2000000021	Psychologists' services, small group, up to 60 min.	Procedure	PIA	Procedure		PIA-24A	2018-07-01	2099-12-31	
+2000000022	Psychologists' services, small group, > 60 to 90 min.	Procedure	PIA	Procedure		PIA-24B	2018-07-01	2099-12-31	
+2000000023	Psychologists' services, small group, > 90 min.	Procedure	PIA	Procedure		PIA-24C	2018-07-01	2099-12-31	
+2000000024	Psychologists' services, large group, up to 60 min.	Procedure	PIA	Procedure		PIA-25A	2018-07-01	2099-12-31	
+2000000025	Psychologists' services, large group, > 60 to 90 min.	Procedure	PIA	Procedure		PIA-25B	2018-07-01	2099-12-31	
+2000000026	Psychologists' services, large group, > 90 min.	Procedure	PIA	Procedure		PIA-25C	2018-07-01	2099-12-31	
+2000000027	Psychologists' services, travel time for outreach treatment, up to 20 min.	Procedure	PIA	Procedure		PIA-26A	2018-07-01	2099-12-31	
+2000000028	Psychologists' services, travel time for outreach treatment, > 20 to 60 min.	Procedure	PIA	Procedure		PIA-26B	2018-07-01	2099-12-31	
+2000000029	Psychologists' services, travel time for outreach treatment, > 60 min.	Procedure	PIA	Procedure		PIA-26C	2018-07-01	2099-12-31	
+2000000030	Nursing staff services, individual treatment, up to 20 min.	Procedure	PIA	Procedure		PIA-31A	2018-07-01	2099-12-31	
+2000000031	Nursing staff services, individual treatment, > 20 to 60 min.	Procedure	PIA	Procedure		PIA-31B	2018-07-01	2099-12-31	
+2000000032	Nursing staff services, individual treatment, > 60 min.	Procedure	PIA	Procedure		PIA-31C	2018-07-01	2099-12-31	
+2000000033	Nursing staff services, small group, up to 60 min.	Procedure	PIA	Procedure		PIA-34A	2018-07-01	2099-12-31	
+2000000034	Nursing staff services, small group, > 60 to 90 min.	Procedure	PIA	Procedure		PIA-34B	2018-07-01	2099-12-31	
+2000000035	Nursing staff services, small group, > 90 min.	Procedure	PIA	Procedure		PIA-34C	2018-07-01	2099-12-31	
+2000000036	Nursing staff services, large group, up to 60 min.	Procedure	PIA	Procedure		PIA-35A	2018-07-01	2099-12-31	
+2000000037	Nursing staff services, large group, > 60 to 90 min.	Procedure	PIA	Procedure		PIA-35B	2018-07-01	2099-12-31	
+2000000038	Nursing staff services, large group, > 90 min.	Procedure	PIA	Procedure		PIA-35C	2018-07-01	2099-12-31	
+2000000039	Nursing staff services, travel time for outreach treatment, up to 20 min.	Procedure	PIA	Procedure		PIA-36A	2018-07-01	2099-12-31	
+2000000040	Nursing staff services, travel time for outreach treatment, > 20 to 60 min.	Procedure	PIA	Procedure		PIA-36B	2018-07-01	2099-12-31	
+2000000041	Nursing staff services, travel time for outreach treatment, > 60 min.	Procedure	PIA	Procedure		PIA-36C	2018-07-01	2099-12-31	
+2000000042	Social pedagogues' services, individual treatment, up to 20 min.	Procedure	PIA	Procedure		PIA-41A	2018-07-01	2099-12-31	
+2000000043	Social pedagogues' services, individual treatment, > 20 to 60 min.	Procedure	PIA	Procedure		PIA-41B	2018-07-01	2099-12-31	
+2000000044	Social pedagogues' services, individual treatment, > 60 min.	Procedure	PIA	Procedure		PIA-41C	2018-07-01	2099-12-31	
+2000000045	Social pedagogues' services, small group, up to 60 min.	Procedure	PIA	Procedure		PIA-44A	2018-07-01	2099-12-31	
+2000000046	Social pedagogues' services, small group, > 60 to 90 min.	Procedure	PIA	Procedure		PIA-44B	2018-07-01	2099-12-31	
+2000000047	Social pedagogues' services, small group, > 90 min.	Procedure	PIA	Procedure		PIA-44C	2018-07-01	2099-12-31	
+2000000048	Social pedagogues' services, large group, up to 60 min.	Procedure	PIA	Procedure		PIA-45A	2018-07-01	2099-12-31	
+2000000049	Social pedagogues' services, large group, > 60 to 90 min.	Procedure	PIA	Procedure		PIA-45B	2018-07-01	2099-12-31	
+2000000050	Social pedagogues' services, large group, > 90 min.	Procedure	PIA	Procedure		PIA-45C	2018-07-01	2099-12-31	
+2000000051	Social pedagogues' services, travel time for outreach treatment, up to 20 min.	Procedure	PIA	Procedure		PIA-46A	2018-07-01	2099-12-31	
+2000000052	Social pedagogues' services, travel time for outreach treatment, > 20 to 60 min.	Procedure	PIA	Procedure		PIA-46B	2018-07-01	2099-12-31	
+2000000053	Social pedagogues' services, travel time for outreach treatment, > 60 min.	Procedure	PIA	Procedure		PIA-46C	2018-07-01	2099-12-31	
+2000000054	Special therapist services, individual treatment, up to 20 min.	Procedure	PIA	Procedure		PIA-51A	2018-07-01	2099-12-31	
+2000000055	Special therapist services, individual treatment, > 20 to 60 min.	Procedure	PIA	Procedure		PIA-51B	2018-07-01	2099-12-31	
+2000000056	Special therapist services, individual treatment, > 60 min.	Procedure	PIA	Procedure		PIA-51C	2018-07-01	2099-12-31	
+2000000057	Special therapist services, small group, up to 60 min.	Procedure	PIA	Procedure		PIA-54A	2018-07-01	2099-12-31	
+2000000058	Special therapist services, small group, > 60 to 90 min.	Procedure	PIA	Procedure		PIA-54B	2018-07-01	2099-12-31	
+2000000059	Special therapist services, small group, > 90 min.	Procedure	PIA	Procedure		PIA-54C	2018-07-01	2099-12-31	
+2000000060	Special therapist services, large group, up to 60 min.	Procedure	PIA	Procedure		PIA-55A	2018-07-01	2099-12-31	
+2000000061	Special therapist services, large group, > 60 to 90 min.	Procedure	PIA	Procedure		PIA-55B	2018-07-01	2099-12-31	
+2000000062	Special therapist services, large group, > 90 min.	Procedure	PIA	Procedure		PIA-55C	2018-07-01	2099-12-31	
+2000000063	Special therapist services, travel time for outreach treatment, up to 20 min.	Procedure	PIA	Procedure		PIA-56A	2018-07-01	2099-12-31	
+2000000064	Special therapist services, travel time for outreach treatment, > 20 to 60 min.	Procedure	PIA	Procedure		PIA-56B	2018-07-01	2099-12-31	
+2000000065	Special therapist services, travel time for outreach treatment, > 60 min.	Procedure	PIA	Procedure		PIA-56C	2018-07-01	2099-12-31	
+2000000066	Case conference	Procedure	PIA	Procedure		PIA-60Z	2018-07-01	2099-12-31	
+2000000067	Elaborate laboratory tests	Procedure	PIA	Procedure		PIA-17Z	2018-07-01	2099-12-31	
+2000000068	Elaborate instrumental diagnostics	Procedure	PIA	Procedure		PIA-18Z	2018-07-01	2099-12-31	
+2000000069	Medication setting and conversion	Procedure	PIA	Procedure		PIA-81Z	2018-07-01	2099-12-31	
+2000000070	Crisis intervention	Procedure	PIA	Procedure		PIA-82Z	2018-07-01	2099-12-31	
+2000000071	Psychotherapy	Procedure	PIA	Procedure		PIA-83Z	2018-07-01	2099-12-31	
+2000000072	Outreach treatment without travel time	Procedure	PIA	Procedure		PIA-86Z	2018-07-01	2099-12-31	
+2000011844	Start of treatment with referral	Procedure	PIA	Procedure		PIA-91Z	2018-07-01	2099-12-31	
+2000011845	Start of treatment as follow-up treatment after inpatient treatment	Procedure	PIA	Procedure		PIA-92Z	2018-07-01	2099-12-31	
+2000011846	Transition to contract medical care	Procedure	PIA	Procedure		PIA-93Z	2018-07-01	2099-12-31	
