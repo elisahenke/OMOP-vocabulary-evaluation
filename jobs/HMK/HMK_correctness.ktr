@@ -977,7 +977,7 @@
     </partitioning>
     <directory>%%java.io.tmpdir%%</directory>
     <prefix>out</prefix>
-    <cache_size>500</cache_size>
+    <cache_size>5000</cache_size>
     <main>Group by</main>
     <compare>
       <condition>
