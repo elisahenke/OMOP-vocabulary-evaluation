@@ -1,0 +1,105 @@
+source_code	source_concept_id	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	valid_start_date	valid_end_date	invalid_reason
+32	0	Provider Specialty	Geriatrie	38004478	Medicare Specialty	1970-01-01	2099-12-31	<null>
+6	0	Provider Specialty	Chirurgie	38004447	Medicare Specialty	1970-01-01	2099-12-31	<null>
+58	0	Provider Specialty	Psychiatrie und Psychotherapie	38004469	Medicare Specialty	1970-01-01	2099-12-31	<null>
+84	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+94	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+68	0	Provider Specialty	Psychologischer Psychotherapeut	0	None	1970-01-01	2099-12-31	<null>
+74	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+16	0	Provider Specialty	Gynäkologische Endokrinologie und Reproduktionsmedizin	45756826	ABMS	1970-01-01	2099-12-31	<null>
+33	0	Provider Specialty	Infektiologie	38004484	Medicare Specialty	1970-01-01	2099-12-31	<null>
+85	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+59	0	Provider Specialty	Forensische Psychiatrie	45756775	ABMS	1970-01-01	2099-12-31	<null>
+7	0	Provider Specialty	Gefäßchirurgie	38004496	Medicare Specialty	1970-01-01	2099-12-31	<null>
+75	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+69	0	Provider Specialty	Kinder- und Jugendlichen-Psychotherapeut	0	None	1970-01-01	2099-12-31	<null>
+95	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+17	0	Provider Specialty	Gynäkologische Onkologie	38004513	Medicare Specialty	1970-01-01	2099-12-31	<null>
+34	0	Provider Specialty	Kinderarzt (Hausarzt)	38004477	Medicare Specialty	1970-01-01	2099-12-31	<null>
+8	0	Provider Specialty	Viszeralchirurgie	38004456	Medicare Specialty	1970-01-01	2099-12-31	<null>
+60	0	Provider Specialty	Psychosomatische Medizin und Psychotherapie	45756823	ABMS	1970-01-01	2099-12-31	<null>
+86	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+76	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+70	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+96	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+37	0	Provider Specialty	Neonatologie (Hausarzt)	45756786	ABMS	1970-01-01	2099-12-31	<null>
+11	0	Provider Specialty	Unfallchirurgie	38004016	NUCC	1970-01-01	2099-12-31	<null>
+63	0	Provider Specialty	Kinderradiologie	45756816	ABMS	1970-01-01	2099-12-31	<null>
+65	0	Provider Specialty	Strahlentherapie	38004509	Medicare Specialty	1970-01-01	2099-12-31	<null>
+77	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+89	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+38	0	Provider Specialty	Neuropädiatrie (Hausarzt)	45756788	ABMS	1970-01-01	2099-12-31	<null>
+91	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+13	0	Provider Specialty	Plastische Chirurgie	38004467	Medicare Specialty	1970-01-01	2099-12-31	<null>
+12	0	Provider Specialty	Chirurgie/Rheumatologie	38004491	Medicare Specialty	1970-01-01	2099-12-31	<null>
+64	0	Provider Specialty	Neuroradiologie	45756791	ABMS	1970-01-01	2099-12-31	<null>
+66	0	Provider Specialty	Transfusionsmedizin	45756752	ABMS	1970-01-01	2099-12-31	<null>
+35	0	Provider Specialty	Kinder-Hämatologie und –Onkologie (Hausarzt)	45756811	ABMS	1970-01-01	2099-12-31	<null>
+71	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+90	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+9	0	Provider Specialty	Kinderchirurgie	45756819	ABMS	1970-01-01	2099-12-31	<null>
+67	0	Provider Specialty	Urologie	38004474	Medicare Specialty	1970-01-01	2099-12-31	<null>
+14	0	Provider Specialty	Thoraxchirurgie	38004473	Medicare Specialty	1970-01-01	2099-12-31	<null>
+92	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+61	0	Provider Specialty	Psychotherapeutisch tätiger Arzt	0	None	1970-01-01	2099-12-31	<null>
+36	0	Provider Specialty	Kinder-Kardiologie (Hausarzt)	45756805	ABMS	1970-01-01	2099-12-31	<null>
+15	0	Provider Specialty	Frauenheilkunde	38003902	NUCC	1970-01-01	2099-12-31	<null>
+10	0	Provider Specialty	Orthopädie	38004465	Medicare Specialty	1970-01-01	2099-12-31	<null>
+29	0	Provider Specialty	Nephrologie	38004479	Medicare Specialty	1970-01-01	2099-12-31	<null>
+72	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+87	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+81	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+62	0	Provider Specialty	Radiologie	45756825	ABMS	1970-01-01	2099-12-31	<null>
+93	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+30	0	Provider Specialty	Pneumologie	38004472	Medicare Specialty	1970-01-01	2099-12-31	<null>
+22	0	Provider Specialty	Humangenetik	45756760	ABMS	1970-01-01	2099-12-31	<null>
+3	0	Provider Specialty	Internist (Hausarzt)	38004456	Medicare Specialty	1970-01-01	2099-12-31	<null>
+55	0	Provider Specialty	Neuropathologie	45756790	ABMS	1970-01-01	2099-12-31	<null>
+82	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+73	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+88	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+31	0	Provider Specialty	Innere Medizin/Rheumatologie	38004491	Medicare Specialty	1970-01-01	2099-12-31	<null>
+23	0	Provider Specialty	Internist	38004456	Medicare Specialty	1970-01-01	2099-12-31	<null>
+4	0	Provider Specialty	Anästhesiologie	38004450	Medicare Specialty	1970-01-01	2099-12-31	<null>
+56	0	Provider Specialty	Pathologie	38004466	Medicare Specialty	1970-01-01	2099-12-31	<null>
+26	0	Provider Specialty	Gastroenterologie	38004455	Medicare Specialty	1970-01-01	2099-12-31	<null>
+24	0	Provider Specialty	Angiologie	38004149	NUCC	1970-01-01	2099-12-31	<null>
+83	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+45	0	Provider Specialty	Kinder-Pneumologie (Facharzt)	45756815	ABMS	1970-01-01	2099-12-31	<null>
+5	0	Provider Specialty	Augenheilkunde	38004463	Medicare Specialty	1970-01-01	2099-12-31	<null>
+-4	0	Provider Specialty	Fachgruppenübergreifende Praxen, hausärztlich	38004446	Medicare Specialty	1970-01-01	2099-12-31	<null>
+0	0	Provider Specialty	unbekannte Fachgruppe	38003794	NUCC	1970-01-01	2099-12-31	<null>
+27	0	Provider Specialty	Hämatologie und Onkologie	38004502	Medicare Specialty	1970-01-01	2099-12-31	<null>
+25	0	Provider Specialty	Endokrinologie und Diabetologie	45756771	ABMS	1970-01-01	2099-12-31	<null>
+19	0	Provider Specialty	Hals-Nasen-Ohrenheilkunde	38004449	Medicare Specialty	1970-01-01	2099-12-31	<null>
+78	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+57	0	Provider Specialty	Physikalische und Rehabilitative Medizin	38004468	Medicare Specialty	1970-01-01	2099-12-31	<null>
+28	0	Provider Specialty	Kardiologie	38004451	Medicare Specialty	1970-01-01	2099-12-31	<null>
+46	0	Provider Specialty	Kinder- und Jugendmedizin mit Schwerpunkt und Teilnahme an haus- und fachärztlicher Versorgung	0	None	1970-01-01	2099-12-31	<null>
+1	0	Provider Specialty	Allgemeinmediziner (Hausarzt)	38004446	Medicare Specialty	1970-01-01	2099-12-31	<null>
+20	0	Provider Specialty	Phoniatrie	38004460	Medicare Specialty	1970-01-01	2099-12-31	<null>
+-3	0	Provider Specialty	Fachgruppenübergreifende Praxen, fachärztlich	38003794	NUCC	1970-01-01	2099-12-31	<null>
+97	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+52	0	Provider Specialty	Neurochirurgie	38004459	Medicare Specialty	1970-01-01	2099-12-31	<null>
+79	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+2	0	Provider Specialty	Arzt/Praktischer Arzt (Hausarzt)	38003851	NUCC	1970-01-01	2099-12-31	<null>
+47	0	Provider Specialty	Kinder- und Jugendpsychiatrie/-psychotherapie	45756756	ABMS	1970-01-01	2099-12-31	<null>
+53	0	Provider Specialty	Neurologie	38004458	Medicare Specialty	1970-01-01	2099-12-31	<null>
+42	0	Provider Specialty	Kinder-Kardiologie (Facharzt)	45756805	ABMS	1970-01-01	2099-12-31	<null>
+21	0	Provider Specialty	Geschlechtskrankheiten	38004484	Medicare Specialty	1970-01-01	2099-12-31	<null>
+98	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+-2	0	Provider Specialty	Fachgruppenübergreifende Praxen, versorgungsbereichsübergreifend	0	None	1970-01-01	2099-12-31	<null>
+39	0	Provider Specialty	Kinder-Pneumologie (Hausarzt)	45756815	ABMS	1970-01-01	2099-12-31	<null>
+54	0	Provider Specialty	Nuklearmedizin	38004476	Medicare Specialty	1970-01-01	2099-12-31	<null>
+80	0	Provider Specialty	zur freien Verfügung der KVen	0	None	1970-01-01	2099-12-31	<null>
+50	0	Provider Specialty	Mund-Kiefer-Gesichtschirurgie	38003826	NUCC	1970-01-01	2099-12-31	<null>
+43	0	Provider Specialty	Neonatologie (Facharzt)	45756786	ABMS	1970-01-01	2099-12-31	<null>
+48	0	Provider Specialty	Laboratoriumsmedizin	38003937	NUCC	1970-01-01	2099-12-31	<null>
+51	0	Provider Specialty	Nervenheilkunde	38004458	Medicare Specialty	1970-01-01	2099-12-31	<null>
+99	0	Provider Specialty	sonstige Fachgruppen	38003794	NUCC	1970-01-01	2099-12-31	<null>
+40	0	Provider Specialty	Kinderarzt (Facharzt)	38004477	Medicare Specialty	1970-01-01	2099-12-31	<null>
+49	0	Provider Specialty	Mikrobiologie	45756800	ABMS	1970-01-01	2099-12-31	<null>
+-1	0	Provider Specialty	Fachgruppenübergreifende Praxen, mit teilw. unbek. Versorgungsbereich	0	None	1970-01-01	2099-12-31	<null>
+44	0	Provider Specialty	Neuropädiatrie (Facharzt)	45756788	ABMS	1970-01-01	2099-12-31	<null>
+41	0	Provider Specialty	Kinder-Hämatologie und –Onkologie (Facharzt)	45756811	ABMS	1970-01-01	2099-12-31	<null>
+18	0	Provider Specialty	Spezielle Geburtshilfe und Perinatalmedizin	45756786	ABMS	1970-01-01	2099-12-31	<null>

@@ -1,0 +1,29 @@
+concept_id	concept_name	domain_id	vocabulary_id	concept_class_id	standard_concept	concept_code	valid_start_date	valid_end_date	invalid_reason
+32890	Admission diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976960	2020-08-20	2099-12-31	<null>
+32891	Cause of death	Condition Status	Condition Status	Condition Status	S	OMOP4976961	2020-08-20	2099-12-31	<null>
+32892	Condition to be diagnosed by procedure	Condition Status	Condition Status	Condition Status	S	OMOP4976962	2020-08-20	2099-12-31	<null>
+32893	Confirmed diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976963	2020-08-20	2099-12-31	<null>
+32894	Contributory cause of death	Condition Status	Condition Status	Condition Status	S	OMOP4976964	2020-08-20	2099-12-31	<null>
+32895	Death diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976965	2020-08-20	2099-12-31	<null>
+32896	Discharge diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976966	2020-08-20	2099-12-31	<null>
+32897	Immediate cause of death	Condition Status	Condition Status	Condition Status	S	OMOP4976967	2020-08-20	2099-12-31	<null>
+32898	Postoperative diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976968	2020-08-20	2099-12-31	<null>
+32899	Preliminary diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976969	2020-08-20	2099-12-31	<null>
+32900	Preoperative diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976970	2020-08-20	2099-12-31	<null>
+32901	Primary admission diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976971	2020-08-20	2099-12-31	<null>
+32902	Primary diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976972	2020-08-20	2099-12-31	<null>
+32903	Primary discharge diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976973	2020-08-20	2099-12-31	<null>
+32904	Primary referral diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976974	2020-08-20	2099-12-31	<null>
+32905	Referral diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976975	2020-08-20	2099-12-31	<null>
+32906	Resolved condition	Condition Status	Condition Status	Condition Status	S	OMOP4976976	2020-08-20	2099-12-31	<null>
+32907	Secondary admission diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976977	2020-08-20	2099-12-31	<null>
+32908	Secondary diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976978	2020-08-20	2099-12-31	<null>
+32909	Secondary discharge diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976979	2020-08-20	2099-12-31	<null>
+32910	Secondary referral diagnosis	Condition Status	Condition Status	Condition Status	S	OMOP4976980	2020-08-20	2099-12-31	<null>
+32911	Underlying cause of death	Condition Status	Condition Status	Condition Status	S	OMOP4976981	2020-08-20	2099-12-31	<null>
+2000000073	Department diagnosis (department primary diagnosis, department secondary diagnosis, surgical diagnosis, additional key diagnosis (for surgery))	Condition Status	Condition Status	Condition Status	<null>	5	1970-01-01	2099-12-31	<null>
+2000000074	Extension diagnosis, referral diagnosis, treatment diagnosis	Condition Status	Condition Status	Condition Status	<null>	6	1970-01-01	2099-12-31	<null>
+2000000075	Diagnosis of the referral within the outpatient specialized medical care (for § 116b)	Condition Status	Condition Status	Condition Status	<null>	12	1970-01-01	2099-12-31	<null>
+2000000076	Treatment diagnosis/outpatient diagnosis	Condition Status	Condition Status	Condition Status	<null>	13	1970-01-01	2099-12-31	<null>
+2000000077	Co-treated diagnosis for § 117 (1) and (2) SGB V (university outpatient clinic)	Condition Status	Condition Status	Condition Status	<null>	14	1970-01-01	2099-12-31	<null>
+2000000078	Concomitant pathogenetically linked somatic diagnosis in the case of § 118 (3) SGB V (psychiatric institutional outpatient clinic)	Condition Status	Condition Status	Condition Status	<null>	15	1970-01-01	2099-12-31	<null>

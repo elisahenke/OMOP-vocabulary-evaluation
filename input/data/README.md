@@ -9,4 +9,6 @@ This folder contains the CSV files of the vocabularies to be evaluated:
 - ASV
 - Ambulante Entgeltarten
 - Stationäre Entgeltarten
+- Diagnosetyp
+- Arztfachgruppen
 
