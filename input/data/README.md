@@ -11,4 +11,5 @@ This folder contains the CSV files of the vocabularies to be evaluated:
 - Stationäre Entgeltarten
 - Diagnoseart
 - Arztfachgruppen
+- OPS
 
