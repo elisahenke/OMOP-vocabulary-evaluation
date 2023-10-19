@@ -568,13 +568,13 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>Diagnosetyp</name>
+      <name>Diagnoseart</name>
       <description/>
       <type>JOB</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/Diagnosetyp/Diagnosetyp.kjb</filename>
+      <filename>${Internal.Entry.Current.Directory}/Diagnoseart/Diagnoseart.kjb</filename>
       <jobname/>
       <directory/>
       <arg_from_previous>N</arg_from_previous>
@@ -708,7 +708,7 @@
     </hop>
     <hop>
       <from>Start</from>
-      <to>Diagnosetyp</to>
+      <to>Diagnoseart</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
