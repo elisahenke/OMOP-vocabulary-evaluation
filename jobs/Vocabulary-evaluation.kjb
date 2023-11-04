@@ -642,13 +642,13 @@
       <attributes_kjc/>
     </entry>
     <entry>
-      <name>OPS</name>
+      <name>ATC</name>
       <description/>
       <type>JOB</type>
       <attributes/>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/OPS/OPS.kjb</filename>
+      <filename>${Internal.Entry.Current.Directory}/ATC/ATC.kjb</filename>
       <jobname/>
       <directory/>
       <arg_from_previous>N</arg_from_previous>
@@ -674,8 +674,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>576</xloc>
-      <yloc>720</yloc>
+      <xloc>320</xloc>
+      <yloc>112</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
@@ -763,7 +763,7 @@
     </hop>
     <hop>
       <from>Start</from>
-      <to>OPS</to>
+      <to>ATC</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
