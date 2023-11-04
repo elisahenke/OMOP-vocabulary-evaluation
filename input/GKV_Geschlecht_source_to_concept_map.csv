@@ -1,0 +1,5 @@
+source_code	source_concept_id	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	valid_start_date	valid_end_date	invalid_reason
+4	0	Gender	diverse	0	None	1970-01-01	2099-12-31	
+3	0	Gender	unspecified	0	None	1970-01-01	2099-12-31	
+2	0	Gender	female	8532	Gender	1970-01-01	2099-12-31	
+1	0	Gender	male	8507	Gender	1970-01-01	2099-12-31	

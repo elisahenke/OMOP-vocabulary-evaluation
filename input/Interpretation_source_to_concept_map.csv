@@ -1,0 +1,40 @@
+source_code	source_concept_id	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	valid_start_date	valid_end_date	invalid_reason
+UNE	0	Lab Interpretation	Unexpected	0	None	1970-01-01	2099-12-31	
+ND	0	Lab Interpretation	Not detected	9190	SNOMED	1970-01-01	2099-12-31	
+LX	0	Lab Interpretation	below low threshold	4129640	SNOMED	1970-01-01	2099-12-31	
+EX	0	Lab Interpretation	outside threshold	4088483	SNOMED	1970-01-01	2099-12-31	
+LL	0	Lab Interpretation	Critical low	40484960	SNOMED	1970-01-01	2099-12-31	
+<	0	Lab Interpretation	Off scale low	4171756	SNOMED	1970-01-01	2099-12-31	
+EXP	0	Lab Interpretation	Expected	0	None	1970-01-01	2099-12-31	
+SYN-R	0	Lab Interpretation	Synergy - resistant	0	None	1970-01-01	2099-12-31	
+DET	0	Lab Interpretation	Detected	4126681	SNOMED	1970-01-01	2099-12-31	
+D	0	Lab Interpretation	Significant change down	4053347	SNOMED	1970-01-01	2099-12-31	
+W	0	Lab Interpretation	Worse	4334741	SNOMED	1970-01-01	2099-12-31	
+RR	0	Lab Interpretation	Reactive	4011063	SNOMED	1970-01-01	2099-12-31	
+IND	0	Lab Interpretation	Indeterminate	4088484	SNOMED	1970-01-01	2099-12-31	
+POS	0	Lab Interpretation	Positive	9191	SNOMED	1970-01-01	2099-12-31	
+HU	0	Lab Interpretation	Significantly high	4123513	SNOMED	1970-01-01	2099-12-31	
+SYN-S	0	Lab Interpretation	Synergy - susceptible	0	None	1970-01-01	2099-12-31	
+H	0	Lab Interpretation	High	4328749	SNOMED	1970-01-01	2099-12-31	
+NEG	0	Lab Interpretation	Negative	9189	SNOMED	1970-01-01	2099-12-31	
+WR	0	Lab Interpretation	Weakly reactive	0	None	1970-01-01	2099-12-31	
+U	0	Lab Interpretation	Significant change up	4146067	SNOMED	1970-01-01	2099-12-31	
+E	0	Lab Interpretation	Equivocal	4093404	SNOMED	1970-01-01	2099-12-31	
+HX	0	Lab Interpretation	above high threshold	4126029	SNOMED	1970-01-01	2099-12-31	
+IE	0	Lab Interpretation	Insufficient evidence	4307430	SNOMED	1970-01-01	2099-12-31	
+N	0	Lab Interpretation	Normal	4093403	SNOMED	1970-01-01	2099-12-31	
+SDD	0	Lab Interpretation	Susceptible-dose dependent	0	None	1970-01-01	2099-12-31	
+B	0	Lab Interpretation	Better	4146220	SNOMED	1970-01-01	2099-12-31	
+NR	0	Lab Interpretation	Non-reactive	4305306	SNOMED	1970-01-01	2099-12-31	
+HH	0	Lab Interpretation	Critical high	40484958	SNOMED	1970-01-01	2099-12-31	
+A	0	Lab Interpretation	Abnormal	4088483	SNOMED	1970-01-01	2099-12-31	
+CAR	0	Lab Interpretation	Carrier	4078483	SNOMED	1970-01-01	2099-12-31	
+LU	0	Lab Interpretation	Significantly low	4125550	SNOMED	1970-01-01	2099-12-31	
+S	0	Lab Interpretation	Susceptible	4038110	SNOMED	1970-01-01	2099-12-31	
+L	0	Lab Interpretation	Low	4267416	SNOMED	1970-01-01	2099-12-31	
+R	0	Lab Interpretation	Resistant	4148441	SNOMED	1970-01-01	2099-12-31	
+>	0	Lab Interpretation	Off scale high	4172704	SNOMED	1970-01-01	2099-12-31	
+NS	0	Lab Interpretation	Non-susceptible	0	None	1970-01-01	2099-12-31	
+I	0	Lab Interpretation	Intermediate	4043352	SNOMED	1970-01-01	2099-12-31	
+NCL	0	Lab Interpretation	No CLSI defined breakpoint	0	None	1970-01-01	2099-12-31	
+AA	0	Lab Interpretation	Critical abnormal	4088483	SNOMED	1970-01-01	2099-12-31	

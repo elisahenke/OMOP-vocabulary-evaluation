@@ -2,14 +2,28 @@
 
 This folder contains the CSV files of the vocabularies to be evaluated:
 
+- Ambulante Entgeltarten
+- Art der ambulanten Behandlung
+- Art des Aufenthaltes/Behandlung
+- Arztfachgruppen
+- ASV
+- ATC
+- Aufnahmeanlass
+- Aufnahmegrund
+- Behandlungsart
+- Diagnosesicherheit
+- EBM
+- Entlass-/Verlegungsgrund
+- Fachabteilungsschlüssel
+- Geschlecht
 - HMK
 - HPNR
-- EBM
+- Interpretation
+- Kontakt-Klasse
+- PCCL
+- Pflegegrad
+- Pflegestufe
 - PIA
-- ASV
-- Ambulante Entgeltarten
+- Schweregrad
+- Seitenlokalisation
 - Stationäre Entgeltarten
-- Diagnoseart
-- Arztfachgruppen
-- OPS
-
