@@ -342,7 +342,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>800</xloc>
-      <yloc>96</yloc>
+      <yloc>80</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -379,7 +379,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>560</xloc>
-      <yloc>96</yloc>
+      <yloc>80</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -416,7 +416,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>672</xloc>
-      <yloc>96</yloc>
+      <yloc>80</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -453,7 +453,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>208</xloc>
-      <yloc>208</yloc>
+      <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -526,7 +526,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1152</xloc>
+      <xloc>1184</xloc>
       <yloc>416</yloc>
       <attributes_kjc/>
     </entry>
@@ -563,7 +563,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1152</xloc>
+      <xloc>1168</xloc>
       <yloc>304</yloc>
       <attributes_kjc/>
     </entry>
@@ -601,7 +601,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>672</xloc>
-      <yloc>720</yloc>
+      <yloc>784</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -638,7 +638,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>832</xloc>
-      <yloc>720</yloc>
+      <yloc>784</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -675,7 +675,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>272</xloc>
-      <yloc>128</yloc>
+      <yloc>112</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -712,7 +712,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>352</xloc>
-      <yloc>704</yloc>
+      <yloc>768</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -749,7 +749,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>512</xloc>
-      <yloc>720</yloc>
+      <yloc>784</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -786,7 +786,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>400</xloc>
-      <yloc>96</yloc>
+      <yloc>80</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -823,7 +823,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>1056</xloc>
-      <yloc>128</yloc>
+      <yloc>112</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -859,7 +859,7 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1152</xloc>
+      <xloc>1184</xloc>
       <yloc>512</yloc>
       <attributes_kjc/>
     </entry>
@@ -897,7 +897,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>240</xloc>
-      <yloc>640</yloc>
+      <yloc>704</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -934,7 +934,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>1136</xloc>
-      <yloc>208</yloc>
+      <yloc>192</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -970,8 +970,8 @@
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>
-      <xloc>1120</xloc>
-      <yloc>624</yloc>
+      <xloc>1168</xloc>
+      <yloc>608</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1008,7 +1008,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>992</xloc>
-      <yloc>704</yloc>
+      <yloc>768</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1045,7 +1045,7 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>176</xloc>
-      <yloc>320</yloc>
+      <yloc>304</yloc>
       <attributes_kjc/>
     </entry>
     <entry>
@@ -1119,7 +1119,44 @@
       <draw>Y</draw>
       <nr>0</nr>
       <xloc>928</xloc>
-      <yloc>96</yloc>
+      <yloc>80</yloc>
+      <attributes_kjc/>
+    </entry>
+    <entry>
+      <name>Art_Aufenthalt_Behandlung</name>
+      <description/>
+      <type>JOB</type>
+      <attributes/>
+      <specification_method>filename</specification_method>
+      <job_object_id/>
+      <filename>${Internal.Entry.Current.Directory}/Art_Aufenthalt_Behandlung/Art_Aufenthalt_Behandlung.kjb</filename>
+      <jobname/>
+      <directory/>
+      <arg_from_previous>N</arg_from_previous>
+      <params_from_previous>N</params_from_previous>
+      <exec_per_row>N</exec_per_row>
+      <set_logfile>N</set_logfile>
+      <logfile/>
+      <logext/>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <loglevel>Nothing</loglevel>
+      <slave_server_name/>
+      <wait_until_finished>Y</wait_until_finished>
+      <follow_abort_remote>N</follow_abort_remote>
+      <expand_remote_job>N</expand_remote_job>
+      <create_parent_folder>N</create_parent_folder>
+      <pass_export>N</pass_export>
+      <run_configuration>Pentaho local</run_configuration>
+      <parameters>
+        <pass_all_parameters>Y</pass_all_parameters>
+      </parameters>
+      <set_append_logfile>N</set_append_logfile>
+      <parallel>N</parallel>
+      <draw>Y</draw>
+      <nr>0</nr>
+      <xloc>1120</xloc>
+      <yloc>704</yloc>
       <attributes_kjc/>
     </entry>
   </entries>
@@ -1316,6 +1353,15 @@
     <hop>
       <from>Start</from>
       <to>Art_ambulante_Behandlung</to>
+      <from_nr>0</from_nr>
+      <to_nr>0</to_nr>
+      <enabled>Y</enabled>
+      <evaluation>Y</evaluation>
+      <unconditional>Y</unconditional>
+    </hop>
+    <hop>
+      <from>Start</from>
+      <to>Art_Aufenthalt_Behandlung</to>
       <from_nr>0</from_nr>
       <to_nr>0</to_nr>
       <enabled>Y</enabled>
