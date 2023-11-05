@@ -447,23 +447,13 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Input_Stationäre_Entgeltart</from>
-      <to>Select values</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Input_Stationäre_Entgeltart_concept</from>
+      <from>Input_Stationäre_Entgeltarten_concept</from>
       <to>Stream lookup</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Stream lookup</from>
       <to>FilterRows_concept_id</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select values</from>
-      <to>FilterRows_null</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -479,6 +469,11 @@
     <hop>
       <from>Group by</from>
       <to>Stream lookup</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Input_Stationäre_Entgeltart</from>
+      <to>FilterRows_null</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -512,8 +507,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>960</xloc>
-      <yloc>208</yloc>
+      <xloc>864</xloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -547,8 +542,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>400</xloc>
-      <yloc>208</yloc>
+      <xloc>304</xloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -593,8 +588,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>672</xloc>
-      <yloc>208</yloc>
+      <xloc>576</xloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -609,7 +604,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${PATH_TO_INPUT}\Stationäre_Entgeltart.csv</filename>
+    <filename>${PATH_TO_INPUT_DATA}\Stationäre_Entgeltart.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -656,13 +651,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>96</xloc>
-      <yloc>208</yloc>
+      <xloc>128</xloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Input_Stationäre_Entgeltart_concept</name>
+    <name>Input_Stationäre_Entgeltarten_concept</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -672,7 +667,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${PATH_TO_INPUT}\Stationäre_Entgeltart_concept.csv</filename>
+    <filename>${PATH_TO_INPUT}\Stationäre_Entgeltarten_concept.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -807,8 +802,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>800</xloc>
-      <yloc>64</yloc>
+      <xloc>704</xloc>
+      <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -837,7 +832,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_INPUT}\Stationäre_Entgeltart_available_concepts</name>
+      <name>${PATH_TO_OUTPUT}\Stationäre_Entgeltart_available_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -888,8 +883,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>960</xloc>
-      <yloc>352</yloc>
+      <xloc>864</xloc>
+      <yloc>336</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -918,7 +913,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_INPUT}\Stationäre_Entgeltart_missing_concepts</name>
+      <name>${PATH_TO_OUTPUT}\Stationäre_Entgeltart_missing_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -969,39 +964,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1184</xloc>
-      <yloc>208</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select values</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>StationÃ¤re_Entgeltarten_code</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>256</xloc>
-      <yloc>208</yloc>
+      <xloc>1088</xloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1042,8 +1006,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>544</xloc>
-      <yloc>208</yloc>
+      <xloc>448</xloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1058,7 +1022,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <from>Input_Stationäre_Entgeltart_concept</from>
+    <from>Input_Stationäre_Entgeltarten_concept</from>
     <input_sorted>N</input_sorted>
     <preserve_memory>Y</preserve_memory>
     <sorted_list>N</sorted_list>
@@ -1084,8 +1048,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>800</xloc>
-      <yloc>208</yloc>
+      <xloc>704</xloc>
+      <yloc>192</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
