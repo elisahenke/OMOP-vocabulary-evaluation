@@ -447,11 +447,6 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Input_EBM</from>
-      <to>Select values</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Input_EBM_concept</from>
       <to>Stream lookup</to>
       <enabled>Y</enabled>
@@ -459,11 +454,6 @@
     <hop>
       <from>Stream lookup</from>
       <to>FilterRows_concept_id</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select values</from>
-      <to>FilterRows_null</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -479,6 +469,11 @@
     <hop>
       <from>Group by</from>
       <to>Stream lookup</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Input_EBM</from>
+      <to>FilterRows_null</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -512,8 +507,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1040</xloc>
-      <yloc>208</yloc>
+      <xloc>832</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -547,8 +542,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>416</xloc>
-      <yloc>208</yloc>
+      <xloc>208</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -593,8 +588,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>704</xloc>
-      <yloc>208</yloc>
+      <xloc>496</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -609,7 +604,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${PATH_TO_INPUT}\EBM.csv</filename>
+    <filename>${PATH_TO_INPUT_DATA}\EBM.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -656,8 +651,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>96</xloc>
-      <yloc>208</yloc>
+      <xloc>64</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -807,8 +802,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>864</xloc>
-      <yloc>64</yloc>
+      <xloc>656</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -837,7 +832,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_INPUT}\EBM_available_concepts</name>
+      <name>${PATH_TO_OUTPUT}\EBM_available_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -888,8 +883,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1040</xloc>
-      <yloc>352</yloc>
+      <xloc>832</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -918,7 +913,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_INPUT}\EBM_missing_concepts</name>
+      <name>${PATH_TO_OUTPUT}\EBM_missing_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -969,39 +964,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1264</xloc>
-      <yloc>208</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select values</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>EBM_code</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>256</xloc>
-      <yloc>208</yloc>
+      <xloc>1056</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1042,8 +1006,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>560</xloc>
-      <yloc>208</yloc>
+      <xloc>352</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1084,8 +1048,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>864</xloc>
-      <yloc>208</yloc>
+      <xloc>656</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
