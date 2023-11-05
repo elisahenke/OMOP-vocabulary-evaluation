@@ -462,18 +462,8 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Input_Ambulante_Entgeltart</from>
-      <to>Select values</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Input_Ambulante_Entgeltart_concept</from>
+      <from>Input_Ambulante_Entgeltarten_concept</from>
       <to>Stream lookup_Ambulante_Entgeltart</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select values</from>
-      <to>FilterRows_null</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -516,6 +506,11 @@
       <to>Output_Ambulante_Entgeltart_invalid_concepts</to>
       <enabled>Y</enabled>
     </hop>
+    <hop>
+      <from>Input_Ambulante_Entgeltart</from>
+      <to>FilterRows_null</to>
+      <enabled>Y</enabled>
+    </hop>
   </order>
   <step>
     <name>Add constants</name>
@@ -551,7 +546,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>464</xloc>
+      <xloc>432</xloc>
       <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
@@ -592,7 +587,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>576</xloc>
+      <xloc>544</xloc>
       <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
@@ -678,7 +673,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>912</xloc>
+      <xloc>880</xloc>
       <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
@@ -713,8 +708,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>736</xloc>
-      <yloc>416</yloc>
+      <xloc>816</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -760,7 +755,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>336</xloc>
+      <xloc>304</xloc>
       <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
@@ -807,8 +802,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>512</xloc>
-      <yloc>416</yloc>
+      <xloc>592</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -840,7 +835,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>688</xloc>
+      <xloc>656</xloc>
       <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
@@ -898,8 +893,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>912</xloc>
-      <yloc>128</yloc>
+      <xloc>992</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -914,7 +909,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${PATH_TO_INPUT}\Ambulante_Entgeltart.csv</filename>
+    <filename>${PATH_TO_INPUT_DATA}\Ambulante_Entgeltart.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -961,13 +956,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>80</xloc>
+      <xloc>144</xloc>
       <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Input_Ambulante_Entgeltart_concept</name>
+    <name>Input_Ambulante_Entgeltarten_concept</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -977,7 +972,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${PATH_TO_INPUT}\Ambulante_Entgeltart_concept.csv</filename>
+    <filename>${PATH_TO_INPUT}\Ambulante_Entgeltarten_concept.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -1112,8 +1107,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1168</xloc>
-      <yloc>224</yloc>
+      <xloc>1248</xloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1191,8 +1186,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>912</xloc>
-      <yloc>416</yloc>
+      <xloc>992</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1221,7 +1216,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_INPUT}\Ambulante_Entgeltart_invalid_concepts</name>
+      <name>${PATH_TO_OUTPUT}\Ambulante_Entgeltart_invalid_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -1284,8 +1279,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>512</xloc>
-      <yloc>544</yloc>
+      <xloc>592</xloc>
+      <yloc>448</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1314,7 +1309,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_INPUT}\Ambulante_Entgeltart_valid_concepts</name>
+      <name>${PATH_TO_OUTPUT}\Ambulante_Entgeltart_valid_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -1377,8 +1372,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>288</xloc>
-      <yloc>416</yloc>
+      <xloc>368</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1416,42 +1411,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>912</xloc>
-      <yloc>320</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select values</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>Ambulante_Entgeltart_code</name>
-      </field>
-      <field>
-        <name>Ambulante_Entgeltart_date</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>224</xloc>
-      <yloc>32</yloc>
+      <xloc>992</xloc>
+      <yloc>224</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1524,7 +1485,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>800</xloc>
+      <xloc>768</xloc>
       <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1540,7 +1501,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <from>Input_Ambulante_Entgeltart_concept</from>
+    <from>Input_Ambulante_Entgeltarten_concept</from>
     <input_sorted>N</input_sorted>
     <preserve_memory>Y</preserve_memory>
     <sorted_list>N</sorted_list>
@@ -1578,8 +1539,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>912</xloc>
-      <yloc>224</yloc>
+      <xloc>992</xloc>
+      <yloc>128</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
