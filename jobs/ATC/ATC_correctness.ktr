@@ -482,13 +482,18 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Blocking step 2</from>
-      <to>FilterRows_vocabulary_id_ATC_GM</to>
+      <from>FilterRows_vocabulary_id_ATC_GM</from>
+      <to>Output_ATC_GM_valid_concepts</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>FilterRows_vocabulary_id_ATC_GM</from>
-      <to>Output_ATC_GM_valid_concepts</to>
+      <from>Blocking step 2</from>
+      <to>Filter rows_concept_id</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows_concept_id</from>
+      <to>FilterRows_vocabulary_id_ATC_GM</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -725,7 +730,7 @@
     </remotesteps>
     <GUI>
       <xloc>1072</xloc>
-      <yloc>272</yloc>
+      <yloc>384</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1140,7 +1145,7 @@
     </remotesteps>
     <GUI>
       <xloc>1072</xloc>
-      <yloc>416</yloc>
+      <yloc>528</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1233,7 +1238,7 @@
     </remotesteps>
     <GUI>
       <xloc>1344</xloc>
-      <yloc>272</yloc>
+      <yloc>384</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1284,6 +1289,41 @@
     <GUI>
       <xloc>368</xloc>
       <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filter rows_concept_id</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>FilterRows_vocabulary_id_ATC_GM</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>concept_id</leftvalue>
+        <function>IS NOT NULL</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1072</xloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
