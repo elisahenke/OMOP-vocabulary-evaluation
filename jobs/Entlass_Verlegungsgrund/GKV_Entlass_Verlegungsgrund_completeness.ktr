@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>Entlass_Verlegungsgrund_correctness</name>
+    <name>GKV_Entlass_Verlegungsgrund_completeness</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
+    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
     </parameters>
@@ -427,9 +428,9 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2023/11/05 11:49:35.987</created_date>
+    <created_date>2023/11/05 11:49:23.056</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2023/11/05 11:49:35.987</modified_date>
+    <modified_date>2023/11/05 11:49:23.056</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
@@ -437,23 +438,68 @@
   </notepads>
   <order>
     <hop>
+      <from>Add constants</from>
+      <to>Formula</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Calculator</from>
+      <to>Strings cut</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>Concat fields</from>
-      <to>Group by</to>
+      <to>Split field to rows</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Dummy (do nothing)</from>
+      <to>Sort rows</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows_1</from>
+      <to>Filter rows_2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows_1</from>
+      <to>Replace in string</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows_2</from>
+      <to>Calculator</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows_2</from>
+      <to>Filter rows_3</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows_3</from>
+      <to>Replace in string 2</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>FilterRows_concept_id</from>
-      <to>Replace in string 3</to>
+      <to>Output_Entlass_Verlegungsgrund_available_concepts</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>FilterRows_valid_dates</from>
-      <to>Output_Entlass_Verlegungsgrund_invalid_concepts</to>
+      <from>FilterRows_concept_id</from>
+      <to>Output_Entlass_Verlegungsgrund_missing_concepts</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>FilterRows_valid_dates</from>
-      <to>Output_Entlass_Verlegungsgrund_valid_concepts</to>
+      <from>FilterRows_null</from>
+      <to>Add constants</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Formula</from>
+      <to>Filter rows_1</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -472,58 +518,18 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>MetaData</from>
-      <to>FilterRows_valid_dates</to>
+      <from>Replace in string</from>
+      <to>Dummy (do nothing)</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
       <from>Replace in string 3</from>
-      <to>MetaData</to>
+      <to>Select values</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Sort rows</from>
-      <to>Concat fields</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Stream lookup</from>
-      <to>FilterRows_concept_id</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Formula</from>
-      <to>Filter rows_1_2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter rows_1_2</from>
-      <to>Filter rows_3</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter rows_1_2</from>
-      <to>Replace in string</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Filter rows_3</from>
+      <from>Replace in string 2</from>
       <to>Strings cut</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Strings cut</from>
-      <to>Concat fields 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Split field to rows</from>
-      <to>Replace in string 2</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Concat fields 2</from>
-      <to>Split field to rows</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -532,26 +538,106 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Replace in string</from>
-      <to>Dummy (do nothing)</to>
+      <from>Sort rows</from>
+      <to>Group by</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Replace in string 2</from>
-      <to>Select values</to>
+      <from>Split field to rows</from>
+      <to>Replace in string 3</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>FilterRows_null</from>
-      <to>Formula</to>
+      <from>Stream lookup</from>
+      <to>FilterRows_concept_id</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Dummy (do nothing)</from>
-      <to>Sort rows</to>
+      <from>Strings cut</from>
+      <to>Concat fields</to>
       <enabled>Y</enabled>
     </hop>
   </order>
+  <step>
+    <name>Add constants</name>
+    <type>Constant</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>zero</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif>0</nullif>
+        <length>-1</length>
+        <precision>-1</precision>
+        <set_empty_string>N</set_empty_string>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>448</xloc>
+      <yloc>48</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Calculator</name>
+    <type>Calculator</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <failIfNoFile>Y</failIfNoFile>
+    <calculation>
+      <field_name>code_concat</field_name>
+      <calc_type>ADD</calc_type>
+      <field_a>zero</field_a>
+      <field_b>Entlass_Verlegungsgrund_code</field_b>
+      <field_c/>
+      <value_type>String</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <remove>N</remove>
+      <conversion_mask/>
+      <decimal_symbol/>
+      <grouping_symbol/>
+      <currency_symbol/>
+    </calculation>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1072</xloc>
+      <yloc>48</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
   <step>
     <name>Concat fields</name>
     <type>ConcatFields</type>
@@ -564,7 +650,7 @@
       <schema_name/>
     </partitioning>
     <separator>;</separator>
-    <enclosure/>
+    <enclosure>"</enclosure>
     <enclosure_forced>N</enclosure_forced>
     <enclosure_fix_disabled>N</enclosure_fix_disabled>
     <header>N</header>
@@ -595,7 +681,7 @@
     </file>
     <fields>
       <field>
-        <name>Entlass_Verlegungsgrund_code</name>
+        <name>code_1_2</name>
         <type>String</type>
         <format/>
         <currency/>
@@ -607,7 +693,7 @@
         <precision>-1</precision>
       </field>
       <field>
-        <name>Entlass_Verlegungsgrund_date</name>
+        <name>code_3</name>
         <type>String</type>
         <format/>
         <currency/>
@@ -620,7 +706,7 @@
       </field>
     </fields>
     <ConcatFields>
-      <targetFieldName>code_date</targetFieldName>
+      <targetFieldName>codes</targetFieldName>
       <targetFieldLength>0</targetFieldLength>
       <removeSelectedFields>N</removeSelectedFields>
     </ConcatFields>
@@ -633,8 +719,171 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>848</xloc>
-      <yloc>368</yloc>
+      <xloc>1200</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Dummy (do nothing)</name>
+    <type>Dummy</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>688</xloc>
+      <yloc>304</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filter rows_1</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Replace in string</send_true_to>
+    <send_false_to>Filter rows_2</send_false_to>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <conditions>
+          <condition>
+            <negated>N</negated>
+            <operator>OR</operator>
+            <leftvalue>code_length</leftvalue>
+            <function>=</function>
+            <rightvalue/>
+            <value>
+              <name>constant</name>
+              <type>Integer</type>
+              <text>1</text>
+              <length>-1</length>
+              <precision>0</precision>
+              <isnull>N</isnull>
+              <mask>####0;-####0</mask>
+            </value>
+          </condition>
+        </conditions>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>688</xloc>
+      <yloc>48</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filter rows_2</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Calculator</send_true_to>
+    <send_false_to>Filter rows_3</send_false_to>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>code_length</leftvalue>
+        <function>=</function>
+        <rightvalue/>
+        <value>
+          <name>constant</name>
+          <type>Integer</type>
+          <text>2</text>
+          <length>-1</length>
+          <precision>0</precision>
+          <isnull>N</isnull>
+          <mask>####0;-####0</mask>
+        </value>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>800</xloc>
+      <yloc>48</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filter rows_3</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Replace in string 2</send_true_to>
+    <send_false_to/>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>code_length</leftvalue>
+        <function>=</function>
+        <rightvalue/>
+        <value>
+          <name>constant</name>
+          <type>Integer</type>
+          <text>3</text>
+          <length>-1</length>
+          <precision>0</precision>
+          <isnull>N</isnull>
+          <mask>####0;-####0</mask>
+        </value>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>800</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -649,8 +898,8 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <send_true_to>Replace in string 3</send_true_to>
-    <send_false_to>Output_Seitenlokalisation_missing_concepts</send_false_to>
+    <send_true_to>Output_Entlass_Verlegungsgrund_available_concepts</send_true_to>
+    <send_false_to>Output_Entlass_Verlegungsgrund_missing_concepts</send_false_to>
     <compare>
       <condition>
         <negated>N</negated>
@@ -668,8 +917,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1008</xloc>
-      <yloc>560</yloc>
+      <xloc>560</xloc>
+      <yloc>592</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -684,26 +933,14 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <send_true_to>Formula</send_true_to>
+    <send_true_to>Add constants</send_true_to>
     <send_false_to/>
     <compare>
       <condition>
         <negated>N</negated>
-        <conditions>
-          <condition>
-            <negated>N</negated>
-            <leftvalue>Entlass_Verlegungsgrund_code</leftvalue>
-            <function>IS NOT NULL</function>
-            <rightvalue/>
-          </condition>
-          <condition>
-            <negated>N</negated>
-            <operator>AND</operator>
-            <leftvalue>Entlass_Verlegungsgrund_date</leftvalue>
-            <function>IS NOT NULL</function>
-            <rightvalue/>
-          </condition>
-        </conditions>
+        <leftvalue>Entlass_Verlegungsgrund_code</leftvalue>
+        <function>IS NOT NULL</function>
+        <rightvalue/>
       </condition>
     </compare>
     <attributes/>
@@ -715,14 +952,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>272</xloc>
+      <xloc>304</xloc>
       <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>FilterRows_valid_dates</name>
-    <type>FilterRows</type>
+    <name>Formula</name>
+    <type>Formula</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -731,28 +968,14 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <send_true_to>Output_Entlass_Verlegungsgrund_valid_concepts</send_true_to>
-    <send_false_to>Output_Entlass_Verlegungsgrund_invalid_concepts</send_false_to>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <conditions>
-          <condition>
-            <negated>N</negated>
-            <leftvalue>Entlass_Verlegungsgrund_date</leftvalue>
-            <function>&gt;=</function>
-            <rightvalue>valid_start_date</rightvalue>
-          </condition>
-          <condition>
-            <negated>N</negated>
-            <operator>AND</operator>
-            <leftvalue>Entlass_Verlegungsgrund_date</leftvalue>
-            <function>&lt;=</function>
-            <rightvalue>valid_end_date</rightvalue>
-          </condition>
-        </conditions>
-      </condition>
-    </compare>
+    <formula>
+      <field_name>code_length</field_name>
+      <formula_string>LEN ([Entlass_Verlegungsgrund_code])</formula_string>
+      <value_type>Integer</value_type>
+      <value_length>-1</value_length>
+      <value_precision>-1</value_precision>
+      <replace_field/>
+    </formula>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -762,8 +985,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1168</xloc>
-      <yloc>752</yloc>
+      <xloc>560</xloc>
+      <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -791,19 +1014,13 @@
         <name>Entlass_Verlegungsgrund_code</name>
       </field>
       <field>
-        <name>Entlass_Verlegungsgrund_date</name>
-      </field>
-      <field>
         <name>code_clean</name>
-      </field>
-      <field>
-        <name>code_date</name>
       </field>
     </group>
     <fields>
       <field>
         <aggregate>count</aggregate>
-        <subject>code_date</subject>
+        <subject>code_clean</subject>
         <type>COUNT_ALL</type>
         <valuefield>sum</valuefield>
       </field>
@@ -817,8 +1034,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>848</xloc>
-      <yloc>464</yloc>
+      <xloc>560</xloc>
+      <yloc>400</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -851,17 +1068,17 @@
       <field>
         <name>Entlass_Verlegungsgrund_code</name>
         <type>String</type>
-        <format>#</format>
+        <format/>
         <currency>$</currency>
         <decimal>,</decimal>
         <group>.</group>
-        <length>15</length>
-        <precision>0</precision>
+        <length>-1</length>
+        <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
       <field>
         <name>Entlass_Verlegungsgrund_date</name>
-        <type>String</type>
+        <type>Date</type>
         <format>yyyy-MM-dd</format>
         <currency>$</currency>
         <decimal>,</decimal>
@@ -880,7 +1097,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>112</xloc>
+      <xloc>144</xloc>
       <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1020,92 +1237,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>592</xloc>
-      <yloc>560</yloc>
+      <xloc>320</xloc>
+      <yloc>496</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>MetaData</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <select_unspecified>N</select_unspecified>
-      <meta>
-        <name>Entlass_Verlegungsgrund_date</name>
-        <rename>Entlass_Verlegungsgrund_date</rename>
-        <type>Date</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask>yyyy-MM-dd</conversion_mask>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>valid_start_date</name>
-        <rename>valid_start_date</rename>
-        <type>Date</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask>yyyy-MM-dd</conversion_mask>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-      <meta>
-        <name>valid_end_date</name>
-        <rename>valid_end_date</rename>
-        <type>Date</type>
-        <length>-2</length>
-        <precision>-2</precision>
-        <conversion_mask>yyyy-MM-dd</conversion_mask>
-        <date_format_lenient>false</date_format_lenient>
-        <date_format_locale/>
-        <date_format_timezone/>
-        <lenient_string_to_number>false</lenient_string_to_number>
-        <encoding/>
-        <decimal_symbol/>
-        <grouping_symbol/>
-        <currency_symbol/>
-        <storage_type/>
-      </meta>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1168</xloc>
-      <yloc>656</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Output_Entlass_Verlegungsgrund_invalid_concepts</name>
+    <name>Output_Entlass_Verlegungsgrund_available_concepts</name>
     <type>TextFileOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -1129,7 +1267,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_OUTPUT}\Entlass_Verlegungsgrund_invalid_concepts</name>
+      <name>${PATH_TO_OUTPUT}\Entlass_Verlegungsgrund_available_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -1148,20 +1286,8 @@
     <fields>
       <field>
         <name>Entlass_Verlegungsgrund_code</name>
-        <type>String</type>
+        <type>Integer</type>
         <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>Entlass_Verlegungsgrund_date</name>
-        <type>Date</type>
-        <format>yyyy-MM-dd</format>
         <currency/>
         <decimal/>
         <group/>
@@ -1192,13 +1318,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1168</xloc>
-      <yloc>880</yloc>
+      <xloc>560</xloc>
+      <yloc>736</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Output_Entlass_Verlegungsgrund_valid_concepts</name>
+    <name>Output_Entlass_Verlegungsgrund_missing_concepts</name>
     <type>TextFileOutput</type>
     <description/>
     <distribute>Y</distribute>
@@ -1222,7 +1348,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_OUTPUT}\Entlass_Verlegungsgrund_valid_concepts</name>
+      <name>${PATH_TO_OUTPUT}\Entlass_Verlegungsgrund_missing_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -1241,20 +1367,8 @@
     <fields>
       <field>
         <name>Entlass_Verlegungsgrund_code</name>
-        <type>String</type>
+        <type>Integer</type>
         <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>Entlass_Verlegungsgrund_date</name>
-        <type>Date</type>
-        <format>yyyy-MM-dd</format>
         <currency/>
         <decimal/>
         <group/>
@@ -1285,8 +1399,47 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>912</xloc>
-      <yloc>752</yloc>
+      <xloc>816</xloc>
+      <yloc>592</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Replace in string</name>
+    <type>ReplaceString</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <in_stream_name>Entlass_Verlegungsgrund_code</in_stream_name>
+        <out_stream_name>code_clean</out_stream_name>
+        <use_regex>no</use_regex>
+        <replace_string/>
+        <replace_by_string/>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>yes</whole_word>
+        <case_sensitive>no</case_sensitive>
+        <is_unicode>no</is_unicode>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>688</xloc>
+      <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1303,14 +1456,14 @@
     </partitioning>
     <fields>
       <field>
-        <in_stream_name>Entlass_Verlegungsgrund_date</in_stream_name>
-        <out_stream_name/>
+        <in_stream_name>codes_cut</in_stream_name>
+        <out_stream_name>code_clean</out_stream_name>
         <use_regex>no</use_regex>
-        <replace_string>.</replace_string>
-        <replace_by_string>-</replace_by_string>
+        <replace_string/>
+        <replace_by_string/>
         <set_empty_string>N</set_empty_string>
         <replace_field_by_string/>
-        <whole_word>no</whole_word>
+        <whole_word>yes</whole_word>
         <case_sensitive>no</case_sensitive>
         <is_unicode>no</is_unicode>
       </field>
@@ -1324,8 +1477,90 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1168</xloc>
-      <yloc>560</yloc>
+      <xloc>1328</xloc>
+      <yloc>304</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Replace in string 2</name>
+    <type>ReplaceString</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <in_stream_name>Entlass_Verlegungsgrund_code</in_stream_name>
+        <out_stream_name>code_concat</out_stream_name>
+        <use_regex>no</use_regex>
+        <replace_string/>
+        <replace_by_string/>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>yes</whole_word>
+        <case_sensitive>no</case_sensitive>
+        <is_unicode>no</is_unicode>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>928</xloc>
+      <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <select_unspecified>N</select_unspecified>
+      <remove>
+        <name>code_1_2</name>
+      </remove>
+      <remove>
+        <name>code_3</name>
+      </remove>
+      <remove>
+        <name>codes</name>
+      </remove>
+      <remove>
+        <name>codes_cut</name>
+      </remove>
+      <remove>
+        <name>code_concat</name>
+      </remove>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1200</xloc>
+      <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1364,14 +1599,6 @@
         <collator_strength>0</collator_strength>
         <presorted>N</presorted>
       </field>
-      <field>
-        <name>Entlass_Verlegungsgrund_date</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -1382,243 +1609,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>848</xloc>
-      <yloc>272</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Stream lookup</name>
-    <type>StreamLookup</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <from>Input_Entlass_Verlegungsgrund_source_to_concept_map</from>
-    <input_sorted>N</input_sorted>
-    <preserve_memory>Y</preserve_memory>
-    <sorted_list>N</sorted_list>
-    <integer_pair>N</integer_pair>
-    <lookup>
-      <key>
-        <name>code_clean</name>
-        <field>source_code</field>
-      </key>
-      <value>
-        <name>target_concept_id</name>
-        <rename>concept_id</rename>
-        <default/>
-        <type>Integer</type>
-      </value>
-      <value>
-        <name>valid_start_date</name>
-        <rename>valid_start_date</rename>
-        <default/>
-        <type>Date</type>
-      </value>
-      <value>
-        <name>valid_end_date</name>
-        <rename>valid_end_date</rename>
-        <default/>
-        <type>Date</type>
-      </value>
-    </lookup>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>848</xloc>
-      <yloc>560</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Formula</name>
-    <type>Formula</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <formula>
-      <field_name>code_length</field_name>
-      <formula_string>LEN ([Entlass_Verlegungsgrund_code])</formula_string>
-      <value_type>Integer</value_type>
-      <value_length>-1</value_length>
-      <value_precision>-1</value_precision>
-      <replace_field/>
-    </formula>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>400</xloc>
-      <yloc>48</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Filter rows_1_2</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <send_true_to>Replace in string</send_true_to>
-    <send_false_to>Filter rows_3</send_false_to>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <conditions>
-          <condition>
-            <negated>N</negated>
-            <leftvalue>code_length</leftvalue>
-            <function>=</function>
-            <rightvalue/>
-            <value>
-              <name>constant</name>
-              <type>Integer</type>
-              <text>2</text>
-              <length>-1</length>
-              <precision>0</precision>
-              <isnull>N</isnull>
-              <mask>####0;-####0</mask>
-            </value>
-          </condition>
-          <condition>
-            <negated>N</negated>
-            <operator>OR</operator>
-            <leftvalue>code_length</leftvalue>
-            <function>=</function>
-            <rightvalue/>
-            <value>
-              <name>constant</name>
-              <type>Integer</type>
-              <text>1</text>
-              <length>-1</length>
-              <precision>0</precision>
-              <isnull>N</isnull>
-              <mask>####0;-####0</mask>
-            </value>
-          </condition>
-        </conditions>
-      </condition>
-    </compare>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>528</xloc>
-      <yloc>48</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Filter rows_3</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <send_true_to>Strings cut</send_true_to>
-    <send_false_to/>
-    <compare>
-      <condition>
-        <negated>N</negated>
-        <leftvalue>code_length</leftvalue>
-        <function>=</function>
-        <rightvalue/>
-        <value>
-          <name>constant</name>
-          <type>Integer</type>
-          <text>3</text>
-          <length>-1</length>
-          <precision>0</precision>
-          <isnull>N</isnull>
-          <mask>####0;-####0</mask>
-        </value>
-      </condition>
-    </compare>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>656</xloc>
-      <yloc>48</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Strings cut</name>
-    <type>StringCut</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>Entlass_Verlegungsgrund_code</in_stream_name>
-        <out_stream_name>code_1_2</out_stream_name>
-        <cut_from>0</cut_from>
-        <cut_to>2</cut_to>
-      </field>
-      <field>
-        <in_stream_name>Entlass_Verlegungsgrund_code</in_stream_name>
-        <out_stream_name>code_3</out_stream_name>
-        <cut_from>2</cut_from>
-        <cut_to>3</cut_to>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>784</xloc>
-      <yloc>48</yloc>
+      <xloc>560</xloc>
+      <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1649,125 +1641,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1040</xloc>
-      <yloc>48</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Concat fields 2</name>
-    <type>ConcatFields</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <separator>;</separator>
-    <enclosure>"</enclosure>
-    <enclosure_forced>N</enclosure_forced>
-    <enclosure_fix_disabled>N</enclosure_fix_disabled>
-    <header>N</header>
-    <footer>N</footer>
-    <format>DOS</format>
-    <compression>None</compression>
-    <encoding/>
-    <endedLine/>
-    <fileNameInField>N</fileNameInField>
-    <fileNameField/>
-    <create_parent_folder>Y</create_parent_folder>
-    <file>
-      <name/>
-      <servlet_output>N</servlet_output>
-      <do_not_open_new_file_init>Y</do_not_open_new_file_init>
-      <extention>txt</extention>
-      <append>N</append>
-      <split>N</split>
-      <haspartno>N</haspartno>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <add_to_result_filenames>Y</add_to_result_filenames>
-      <pad>N</pad>
-      <fast_dump>N</fast_dump>
-      <splitevery>0</splitevery>
-    </file>
-    <fields>
-      <field>
-        <name>code_1_2</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>code_3</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-    </fields>
-    <ConcatFields>
-      <targetFieldName>codes</targetFieldName>
-      <targetFieldLength>0</targetFieldLength>
-      <removeSelectedFields>N</removeSelectedFields>
-    </ConcatFields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>912</xloc>
-      <yloc>48</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Dummy (do nothing)</name>
-    <type>Dummy</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>848</xloc>
+      <xloc>1328</xloc>
       <yloc>176</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Select values</name>
-    <type>SelectValues</type>
+    <name>Stream lookup</name>
+    <type>StreamLookup</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -1776,21 +1657,23 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <fields>
-      <select_unspecified>N</select_unspecified>
-      <remove>
-        <name>code_1_2</name>
-      </remove>
-      <remove>
-        <name>code_3</name>
-      </remove>
-      <remove>
-        <name>codes</name>
-      </remove>
-      <remove>
-        <name>codes_cut</name>
-      </remove>
-    </fields>
+    <from>Input_Entlass_Verlegungsgrund_source_to_concept_map</from>
+    <input_sorted>N</input_sorted>
+    <preserve_memory>Y</preserve_memory>
+    <sorted_list>N</sorted_list>
+    <integer_pair>N</integer_pair>
+    <lookup>
+      <key>
+        <name>code_clean</name>
+        <field>source_code</field>
+      </key>
+      <value>
+        <name>target_concept_id</name>
+        <rename>concept_id</rename>
+        <default/>
+        <type>Integer</type>
+      </value>
+    </lookup>
     <attributes/>
     <cluster_schema/>
     <remotesteps>
@@ -1800,14 +1683,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1184</xloc>
-      <yloc>176</yloc>
+      <xloc>560</xloc>
+      <yloc>496</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Replace in string</name>
-    <type>ReplaceString</type>
+    <name>Strings cut</name>
+    <type>StringCut</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -1818,16 +1701,16 @@
     </partitioning>
     <fields>
       <field>
-        <in_stream_name>Entlass_Verlegungsgrund_code</in_stream_name>
-        <out_stream_name>code_clean</out_stream_name>
-        <use_regex>no</use_regex>
-        <replace_string/>
-        <replace_by_string/>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>yes</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
+        <in_stream_name>code_concat</in_stream_name>
+        <out_stream_name>code_1_2</out_stream_name>
+        <cut_from>0</cut_from>
+        <cut_to>2</cut_to>
+      </field>
+      <field>
+        <in_stream_name>code_concat</in_stream_name>
+        <out_stream_name>code_3</out_stream_name>
+        <cut_from>2</cut_from>
+        <cut_to>3</cut_to>
       </field>
     </fields>
     <attributes/>
@@ -1839,47 +1722,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>528</xloc>
+      <xloc>1072</xloc>
       <yloc>176</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Replace in string 2</name>
-    <type>ReplaceString</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>codes_cut</in_stream_name>
-        <out_stream_name>code_clean</out_stream_name>
-        <use_regex>no</use_regex>
-        <replace_string/>
-        <replace_by_string/>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>yes</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1184</xloc>
-      <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
