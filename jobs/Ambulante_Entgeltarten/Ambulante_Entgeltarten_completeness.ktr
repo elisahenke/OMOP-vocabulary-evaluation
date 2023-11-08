@@ -437,17 +437,12 @@
   </notepads>
   <order>
     <hop>
-      <from>Input_Ambulante_Entgeltart</from>
-      <to>Select values</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Stream lookup_Ambulante_Entgeltart</from>
       <to>FilterRows_concept_id_Ambulante_Entgeltart</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Input_Ambulante_Entgeltart_concept</from>
+      <from>Input_Ambulante_Entgeltarten_concept</from>
       <to>Stream lookup_Ambulante_Entgeltart</to>
       <enabled>Y</enabled>
     </hop>
@@ -459,11 +454,6 @@
     <hop>
       <from>FilterRows_concept_id_Ambulante_Entgeltart</from>
       <to>Output_Ambulante_Entgeltart_available_concepts</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select values</from>
-      <to>FilterRows_null</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -494,6 +484,11 @@
     <hop>
       <from>FilterRows_concept_id_Ambulante_Entgeltart</from>
       <to>Output_Ambulante_Entgeltart_missing_concepts</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Input_Ambulante_Entgeltart</from>
+      <to>FilterRows_null</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -531,7 +526,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>480</xloc>
+      <xloc>416</xloc>
       <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
@@ -572,7 +567,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>592</xloc>
+      <xloc>528</xloc>
       <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
@@ -607,7 +602,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1088</xloc>
+      <xloc>1024</xloc>
       <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
@@ -642,7 +637,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>352</xloc>
+      <xloc>288</xloc>
       <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
@@ -675,7 +670,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>704</xloc>
+      <xloc>640</xloc>
       <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
@@ -727,7 +722,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>928</xloc>
+      <xloc>864</xloc>
       <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
@@ -743,7 +738,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${PATH_TO_INPUT}\Ambulante_Entgeltart.csv</filename>
+    <filename>${PATH_TO_INPUT_DATA}\Ambulante_Entgeltart.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -790,13 +785,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>96</xloc>
+      <xloc>128</xloc>
       <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Input_Ambulante_Entgeltart_concept</name>
+    <name>Input_Ambulante_Entgeltarten_concept</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -806,7 +801,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${PATH_TO_INPUT}\Ambulante_Entgeltart_concept.csv</filename>
+    <filename>${PATH_TO_INPUT}\Ambulante_Entgeltarten_concept.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -941,7 +936,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1088</xloc>
+      <xloc>1024</xloc>
       <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
@@ -971,7 +966,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_INPUT}\Ambulante_Entgeltart_available_concepts</name>
+      <name>${PATH_TO_OUTPUT}\Ambulante_Entgeltart_available_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -1022,14 +1017,14 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1088</xloc>
+      <xloc>1024</xloc>
       <yloc>416</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Select values</name>
-    <type>SelectValues</type>
+    <name>Output_Ambulante_Entgeltart_missing_concepts</name>
+    <type>TextFileOutput</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -1038,11 +1033,61 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
+    <separator>;</separator>
+    <enclosure/>
+    <enclosure_forced>N</enclosure_forced>
+    <enclosure_fix_disabled>N</enclosure_fix_disabled>
+    <header>Y</header>
+    <footer>N</footer>
+    <format>DOS</format>
+    <compression>None</compression>
+    <encoding>UTF-8</encoding>
+    <endedLine/>
+    <fileNameInField>N</fileNameInField>
+    <fileNameField/>
+    <create_parent_folder>Y</create_parent_folder>
+    <file>
+      <name>${PATH_TO_OUTPUT}\Ambulante_Entgeltart_missing_concepts</name>
+      <servlet_output>N</servlet_output>
+      <do_not_open_new_file_init>N</do_not_open_new_file_init>
+      <extention>csv</extention>
+      <append>N</append>
+      <split>N</split>
+      <haspartno>N</haspartno>
+      <add_date>N</add_date>
+      <add_time>N</add_time>
+      <SpecifyFormat>N</SpecifyFormat>
+      <date_time_format/>
+      <add_to_result_filenames>Y</add_to_result_filenames>
+      <pad>N</pad>
+      <fast_dump>N</fast_dump>
+      <splitevery/>
+    </file>
     <fields>
       <field>
         <name>Ambulante_Entgeltart_code</name>
+        <type>String</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
       </field>
-      <select_unspecified>N</select_unspecified>
+      <field>
+        <name>count</name>
+        <type>Integer</type>
+        <format/>
+        <currency/>
+        <decimal/>
+        <group/>
+        <nullif/>
+        <trim_type>none</trim_type>
+        <length>-1</length>
+        <precision>-1</precision>
+      </field>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -1053,8 +1098,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>240</xloc>
-      <yloc>160</yloc>
+      <xloc>1312</xloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1095,7 +1140,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>816</xloc>
+      <xloc>752</xloc>
       <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1111,7 +1156,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <from>Input_Ambulante_Entgeltart_concept</from>
+    <from>Input_Ambulante_Entgeltarten_concept</from>
     <input_sorted>N</input_sorted>
     <preserve_memory>Y</preserve_memory>
     <sorted_list>N</sorted_list>
@@ -1137,89 +1182,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1088</xloc>
+      <xloc>1024</xloc>
       <yloc>160</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Output_Ambulante_Entgeltart_missing_concepts</name>
-    <type>TextFileOutput</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <separator>;</separator>
-    <enclosure/>
-    <enclosure_forced>N</enclosure_forced>
-    <enclosure_fix_disabled>N</enclosure_fix_disabled>
-    <header>Y</header>
-    <footer>N</footer>
-    <format>DOS</format>
-    <compression>None</compression>
-    <encoding>UTF-8</encoding>
-    <endedLine/>
-    <fileNameInField>N</fileNameInField>
-    <fileNameField/>
-    <create_parent_folder>Y</create_parent_folder>
-    <file>
-      <name>${PATH_TO_INPUT}\Ambulante_Entgeltart_missing_concepts</name>
-      <servlet_output>N</servlet_output>
-      <do_not_open_new_file_init>N</do_not_open_new_file_init>
-      <extention>csv</extention>
-      <append>N</append>
-      <split>N</split>
-      <haspartno>N</haspartno>
-      <add_date>N</add_date>
-      <add_time>N</add_time>
-      <SpecifyFormat>N</SpecifyFormat>
-      <date_time_format/>
-      <add_to_result_filenames>Y</add_to_result_filenames>
-      <pad>N</pad>
-      <fast_dump>N</fast_dump>
-      <splitevery/>
-    </file>
-    <fields>
-      <field>
-        <name>Ambulante_Entgeltart_code</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-      <field>
-        <name>count</name>
-        <type>Integer</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif/>
-        <trim_type>none</trim_type>
-        <length>-1</length>
-        <precision>-1</precision>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1376</xloc>
-      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>

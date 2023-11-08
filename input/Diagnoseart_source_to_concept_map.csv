@@ -1,7 +1,5 @@
 source_code	source_concept_id	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	valid_start_date	valid_end_date	invalid_reason
-1	0	Diagnosis Type	Entlassung/Verlegungsdiagnose	32896	Condition Status	2000-01-01	2099-12-31	<null>
-2	0	Diagnosis Type	sonstige Diagnose(ohne Aufnahme- oder Einweisungsdiagnose, ab 2003 auch als Nebendiagnose bezeichnet)	32908	Condition Status	2000-01-01	2099-12-31	<null>
-3	0	Diagnosis Type	Aufnahmediagnose	32890	Condition Status	2000-01-01	2099-12-31	<null>
-4	0	Diagnosis Type	Einweisungsdiagnose	32905	Condition Status	2000-01-01	2099-12-31	<null>
-5	0	Diagnosis Type	FAB-Diagnose (Fachabteilungshauptdiagnose + Fachabteilungsnebendiagnose + Operationsdiagnose + Zusatzschlüsseldiagnose (zur OP))	2000000073	Condition Status	2000-01-01	2099-12-31	<null>
-6	0	Diagnosis Type	Verlängerungsdiagnose + Überweisungsdiagnose + Behandlungsdiagnose	2000000074	Condition Status	2000-01-01	2099-12-31	<null>
+3	0	Diagnosis Type	Admission diagnosis	32890	Condition Status	1970-01-01	2099-12-31	
+1	0	Diagnosis Type	Discharge/transfer diagnosis	32896	Condition Status	1970-01-01	2099-12-31	
+4	0	Diagnosis Type	Referral diagnosis	32905	Condition Status	1970-01-01	2099-12-31	
+2	0	Diagnosis Type	other diagnosis (without admission or referral diagnosis/from 2003 also referred to as secondary diagnosis)	32908	Condition Status	1970-01-01	2099-12-31	

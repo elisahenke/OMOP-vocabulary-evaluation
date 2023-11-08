@@ -1,0 +1,6 @@
+source_code	source_concept_id	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	valid_start_date	valid_end_date	invalid_reason
+4	0	Nursing Stage	Hardship case	4258479	SNOMED	1970-01-01	2099-12-31	
+1	0	Nursing Stage	Nursing stage 1	4258479	SNOMED	1970-01-01	2099-12-31	
+3	0	Nursing Stage	Nursing stage 3	4258479	SNOMED	1970-01-01	2099-12-31	
+2	0	Nursing Stage	Nursing stage 2	4258479	SNOMED	1970-01-01	2099-12-31	
+0	0	Nursing Stage	Nursing stage 0	0	None	1970-01-01	2099-12-31	

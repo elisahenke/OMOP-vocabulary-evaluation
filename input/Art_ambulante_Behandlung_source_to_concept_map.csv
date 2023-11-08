@@ -1,0 +1,11 @@
+source_code	source_concept_id	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	valid_start_date	valid_end_date	invalid_reason
+AIV	0	Visit Type AMB	Integrated care	0	None	1970-01-01	2099-12-31	
+115B	0	Visit Type AMB	Cases according to § 115b SGB V	21498468	LOINC	1970-01-01	2099-12-31	
+116B	0	Visit Type AMB	Cases according to § 116b SGB V (old)	44792364	SNOMED	1970-01-01	2099-12-31	
+PIA	0	Visit Type AMB	Psychiatric outpatient clinics (PIA, § 118 SGB V)	45885087	LOINC	1970-01-01	2099-12-31	
+HSA	0	Visit Type AMB	University outpatient clinics (HSA, § 117 Abs. 1 und 2 SGB V)	45878058	LOINC	1970-01-01	2099-12-31	
+KSA	0	Visit Type AMB	Children's Special Outpatient Clinics (KSA, § 120 Abs. 1a SGB V)	0	None	1970-01-01	2099-12-31	
+ASV	0	Visit Type AMB	Outpatient specialized medical care (§ 116b SGB V (new))	38004240	NUCC	1970-01-01	2099-12-31	
+SPZ	0	Visit Type AMB	Social Pediatric Centers (SPC, § 119 SGB V)	36310373	LOINC	1970-01-01	2099-12-31	
+APA	0	Visit Type AMB	Outpatient clinics at training centers according to § 6 PsychThG (APA, § 117 Abs. 3 SGB V)	45885087	LOINC	1970-01-01	2099-12-31	
+MZEB	0	Visit Type AMB	Medical treatment centers for adults with mental retardation or severe multiple disabilities (MZEB, § 119c SGB V)	38004314	NUCC	1970-01-01	2099-12-31	

@@ -1,0 +1,17 @@
+concept_id	concept_name	domain_id	vocabulary_id	concept_class_id	standard_concept	concept_code	valid_start_date	valid_end_date	invalid_reason
+2000022501	Inpatient rehabilitation measure	Observation	Rehabilitation type	Procedure		4	1970-01-01	2099-12-31	
+2000022502	Inpatient preventive measure	Observation	Rehabilitation type	Procedure		5	1970-01-01	2099-12-31	
+2000022503	Follow-up rehabilitation	Observation	Rehabilitation type	Procedure		9	1970-01-01	2099-12-31	
+2000022504	Preventive maternity cure with full cost coverage	Observation	Rehabilitation type	Procedure		11	1970-01-01	2099-12-31	
+2000022505	Preventive maternity cure with partial cost coverage	Observation	Rehabilitation type	Procedure		12	1970-01-01	2099-12-31	
+2000022506	Maternal convalescent cures with full cost coverage	Observation	Rehabilitation type	Procedure		13	1970-01-01	2099-12-31	
+2000022507	Maternal convalescent cures with partial cost coverage	Observation	Rehabilitation type	Procedure		14	1970-01-01	2099-12-31	
+2000022508	Inpatient rehabilitation with reduced co-payment	Observation	Rehabilitation type	Procedure		15	1970-01-01	2099-12-31	
+2000022509	Inpatient rehabilitation measure in accordance with § 40 Abs. 2 SGB V within the scope of the DMP	Observation	Rehabilitation type	Procedure		21	1970-01-01	2099-12-31	
+2000022510	Inpatient preventive measure in accordance with § 23 Abs. 4 SGB V within the scope of the DMP	Observation	Rehabilitation type	Procedure		22	1970-01-01	2099-12-31	
+2000022511	Inpatient rehabilitation measure with reduced co-payment in accordance with § 40 Abs. 7 SGB V within the scope of the DMP	Observation	Rehabilitation type	Procedure		24	1970-01-01	2099-12-31	
+2000022512	Inpatient rehabilitation measure in accordance with § 40 Abs. 2 SGB V within the scope of integrated care	Observation	Rehabilitation type	Procedure		25	1970-01-01	2099-12-31	
+2000022513	Inpatient preventive measure in accordance with § 23 Abs. 4 SGB V within the scope of integrated care	Observation	Rehabilitation type	Procedure		26	1970-01-01	2099-12-31	
+2000022514	Inpatient follow-up rehabilitation measure in accordance with § 40 Abs. 6 SGB V within the scope of integrated care	Observation	Rehabilitation type	Procedure		27	1970-01-01	2099-12-31	
+2000022515	Inpatient rehabilitation measure with reduced co-payment in accordance with § 40 Abs. 7 SGB V within the scope of integrated care	Observation	Rehabilitation type	Procedure		28	1970-01-01	2099-12-31	
+2000022516	Treatment type not assignable	Observation	Rehabilitation type	Procedure		99	1970-01-01	2099-12-31	

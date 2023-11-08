@@ -477,18 +477,8 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Input_Ambulante_Entgeltart_EBM</from>
-      <to>Select values</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Input_EBM_concept</from>
       <to>Stream lookup_EBM</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select values</from>
-      <to>FilterRows_null</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -514,6 +504,11 @@
     <hop>
       <from>Group by</from>
       <to>FilterRows_EBM</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Input_Ambulante_Entgeltart</from>
+      <to>FilterRows_null</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -850,7 +845,7 @@
     </GUI>
   </step>
   <step>
-    <name>Input_Ambulante_Entgeltart_EBM</name>
+    <name>Input_Ambulante_Entgeltart</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -860,7 +855,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${PATH_TO_INPUT}\Ambulante_Entgeltart_EBM.csv</filename>
+    <filename>${PATH_TO_INPUT_DATA}\Ambulante_Entgeltart.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -907,7 +902,7 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>96</xloc>
+      <xloc>176</xloc>
       <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>
@@ -1088,7 +1083,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_INPUT}\Ambulante_Entgeltart_EBM_available_concepts</name>
+      <name>${PATH_TO_OUTPUT}\Ambulante_Entgeltart_EBM_available_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -1169,7 +1164,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_INPUT}\Ambulante_Entgeltart_EBM_missing_concepts</name>
+      <name>${PATH_TO_OUTPUT}\Ambulante_Entgeltart_EBM_missing_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -1222,37 +1217,6 @@
     <GUI>
       <xloc>1216</xloc>
       <yloc>384</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select values</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>Ambulante_Entgeltart_code</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>240</xloc>
-      <yloc>48</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
