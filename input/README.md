@@ -3,9 +3,11 @@
 This folder contains exports of specific vocabularies in OMOP CDM as CSV-files which are needed for evaluation:
 
 - Ambulante_Entgeltarten_concept
-- ATC_concept
-- ATC_GM_concept
+- *ATC_concept
+- *ATC_GM_concept
+- ATC_WHO_concept
 - Behandlungsart_concept
+- Diagnoseart_concept
 - EBM_concept
 - HMK_concept
 - HPNR_concept
@@ -19,6 +21,7 @@ This folder contains exports of specific vocabularies in OMOP CDM as CSV-files w
 - ASV_source_to_concept_map
 - Aufnahmeanlass_source_to_concept_map
 - Aufnahmegrund_source_to_concept_map
+- Diagnoseart_source_to_concept_map
 - Diagnosesicherheit_source_to_concept_map
 - Entlass_Verlegungsgrund_source_to_concept_map
 - Geschlecht_source_to_concept_map
@@ -29,3 +32,5 @@ This folder contains exports of specific vocabularies in OMOP CDM as CSV-files w
 - Seitenlokalisation_source_to_concept_map
 
 - Fachabteilungsschlüssel_care_site
+
+*Datenquelle des amtlichen ATC-Index mit DDD-Angaben: GKV-Arzneimittelindex im Wissenschaftlichen Institut der AOK (WIdO), AOK Bundesverband GbR Stand 08.11.2023

@@ -11,6 +11,7 @@ This folder contains the CSV files of the vocabularies to be evaluated:
 - Aufnahmeanlass
 - Aufnahmegrund
 - Behandlungsart
+- Diagnoseart
 - Diagnosesicherheit
 - EBM
 - Entlass-/Verlegungsgrund
