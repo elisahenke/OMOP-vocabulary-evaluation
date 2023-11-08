@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <transformation>
   <info>
-    <name>Diagnoseart_KH_STAT_ICD_completeness</name>
+    <name>Diagnoseart_completeness</name>
     <description/>
     <extended_description/>
     <trans_version/>
     <trans_type>Normal</trans_type>
-    <trans_status>0</trans_status>
     <directory>/</directory>
     <parameters>
     </parameters>
@@ -428,20 +427,15 @@
     <clusterschemas>
     </clusterschemas>
     <created_user>-</created_user>
-    <created_date>2023/03/20 09:59:48.914</created_date>
+    <created_date>2023/11/08 15:10:05.521</created_date>
     <modified_user>-</modified_user>
-    <modified_date>2023/03/20 09:59:48.914</modified_date>
+    <modified_date>2023/11/08 15:10:05.521</modified_date>
     <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
   </notepads>
   <order>
-    <hop>
-      <from>FilterRows_concept_id</from>
-      <to>Output_Diagnoseart_available_concepts</to>
-      <enabled>Y</enabled>
-    </hop>
     <hop>
       <from>FilterRows_concept_id</from>
       <to>Output_Diagnoseart_missing_concepts</to>
@@ -458,18 +452,8 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Input_Diagnoseart_KH_STAT_ICD</from>
-      <to>Select values</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Input_Diagnosetyp_source_to_concept_map</from>
+      <from>Input_Diagnoseart_source_to_concept_map</from>
       <to>Stream lookup</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Select values</from>
-      <to>FilterRows_null</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -478,8 +462,53 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
+      <from>Input_Diagnoseart</from>
+      <to>FilterRows_null</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
       <from>Stream lookup</from>
+      <to>Filter rows_target_concept_id</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Input_Diagnoseart_concept</from>
+      <to>Stream lookup 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows_target_concept_id</from>
+      <to>Stream lookup 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Stream lookup 2</from>
       <to>FilterRows_concept_id</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Filter rows_target_concept_id</from>
+      <to>Select values</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>FilterRows_concept_id</from>
+      <to>Select values 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values</from>
+      <to>Dummy (do nothing)</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 2</from>
+      <to>Dummy (do nothing)</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Dummy (do nothing)</from>
+      <to>Output_Diagnoseart_available_concepts</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -494,7 +523,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <send_true_to>Output_Diagnoseart_available_concepts</send_true_to>
+    <send_true_to>Select values 2</send_true_to>
     <send_false_to>Output_Diagnoseart_missing_concepts</send_false_to>
     <compare>
       <condition>
@@ -513,8 +542,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1120</xloc>
-      <yloc>208</yloc>
+      <xloc>1136</xloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -534,7 +563,7 @@
     <compare>
       <condition>
         <negated>N</negated>
-        <leftvalue>Diagnosetyp_code</leftvalue>
+        <leftvalue>Diagnoseart_code</leftvalue>
         <function>IS NOT NULL</function>
         <rightvalue/>
       </condition>
@@ -548,8 +577,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>480</xloc>
-      <yloc>208</yloc>
+      <xloc>272</xloc>
+      <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -574,13 +603,13 @@
     <give_back_row>N</give_back_row>
     <group>
       <field>
-        <name>Diagnosetyp_code</name>
+        <name>Diagnoseart_code</name>
       </field>
     </group>
     <fields>
       <field>
         <aggregate>count</aggregate>
-        <subject>Diagnosetyp_code</subject>
+        <subject>Diagnoseart_code</subject>
         <type>COUNT_ALL</type>
         <valuefield>sum</valuefield>
       </field>
@@ -594,13 +623,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>800</xloc>
-      <yloc>208</yloc>
+      <xloc>576</xloc>
+      <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Input_Diagnoseart_KH_STAT_ICD</name>
+    <name>Input_Diagnoseart</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -610,7 +639,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${PATH_TO_INPUT}\Diagnosetyp_KH_STAT_ICD.csv</filename>
+    <filename>${PATH_TO_INPUT_DATA}\Diagnoseart.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -626,8 +655,8 @@
     <encoding/>
     <fields>
       <field>
-        <name>Diagnosetyp_code</name>
-        <type>Integer</type>
+        <name>Diagnoseart_code</name>
+        <type>String</type>
         <format>#</format>
         <currency>$</currency>
         <decimal>,</decimal>
@@ -637,7 +666,7 @@
         <trim_type>none</trim_type>
       </field>
       <field>
-        <name>Diagnosetyp_date</name>
+        <name>Diagnoseart_date</name>
         <type>String</type>
         <format>#,###,###.#</format>
         <currency>$</currency>
@@ -657,13 +686,13 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>112</xloc>
-      <yloc>208</yloc>
+      <xloc>96</xloc>
+      <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
   <step>
-    <name>Input_Diagnosetyp_source_to_concept_map</name>
+    <name>Input_Diagnoseart_source_to_concept_map</name>
     <type>CsvInput</type>
     <description/>
     <distribute>Y</distribute>
@@ -673,7 +702,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${PATH_TO_INPUT}\Diagnosetyp_source_to_concept_map.csv</filename>
+    <filename>${PATH_TO_INPUT}\Diagnoseart_source_to_concept_map.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -690,7 +719,7 @@
     <fields>
       <field>
         <name>source_code</name>
-        <type>Integer</type>
+        <type>String</type>
         <format>#</format>
         <currency>$</currency>
         <decimal>,</decimal>
@@ -728,7 +757,7 @@
         <currency>$</currency>
         <decimal>,</decimal>
         <group>.</group>
-        <length>128</length>
+        <length>107</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -783,7 +812,7 @@
         <currency>$</currency>
         <decimal>,</decimal>
         <group>.</group>
-        <length>6</length>
+        <length>-1</length>
         <precision>-1</precision>
         <trim_type>none</trim_type>
       </field>
@@ -797,8 +826,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>944</xloc>
-      <yloc>80</yloc>
+      <xloc>720</xloc>
+      <yloc>32</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -827,7 +856,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_INPUT}\Diagnoseart_KH_STAT_ICD_available_concepts</name>
+      <name>${PATH_TO_OUTPUT}\Diagnoseart_available_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -845,7 +874,7 @@
     </file>
     <fields>
       <field>
-        <name>Diagnosetyp_code</name>
+        <name>Diagnoseart_code</name>
         <type>String</type>
         <format/>
         <currency/>
@@ -878,8 +907,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1120</xloc>
-      <yloc>352</yloc>
+      <xloc>912</xloc>
+      <yloc>480</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -908,7 +937,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_INPUT}\Diagnoseart_KH_STAT_ICD_missing_concepts</name>
+      <name>${PATH_TO_OUTPUT}\Diagnoseart_missing_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -926,7 +955,7 @@
     </file>
     <fields>
       <field>
-        <name>Diagnosetyp_code</name>
+        <name>Diagnoseart_code</name>
         <type>String</type>
         <format/>
         <currency/>
@@ -959,39 +988,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1344</xloc>
-      <yloc>208</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
-    <name>Select values</name>
-    <type>SelectValues</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <name>Diagnosetyp_code</name>
-      </field>
-      <select_unspecified>N</select_unspecified>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>320</xloc>
-      <yloc>208</yloc>
+      <xloc>1360</xloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1015,7 +1013,7 @@
     <unique_rows>N</unique_rows>
     <fields>
       <field>
-        <name>Diagnosetyp_code</name>
+        <name>Diagnoseart_code</name>
         <ascending>Y</ascending>
         <case_sensitive>N</case_sensitive>
         <collator_enabled>N</collator_enabled>
@@ -1032,8 +1030,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>656</xloc>
-      <yloc>208</yloc>
+      <xloc>432</xloc>
+      <yloc>160</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1048,18 +1046,246 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <from>Input_Diagnosetyp_source_to_concept_map</from>
+    <from>Input_Diagnoseart_source_to_concept_map</from>
     <input_sorted>N</input_sorted>
     <preserve_memory>Y</preserve_memory>
     <sorted_list>N</sorted_list>
     <integer_pair>N</integer_pair>
     <lookup>
       <key>
-        <name>Diagnosetyp_code</name>
+        <name>Diagnoseart_code</name>
         <field>source_code</field>
       </key>
       <value>
         <name>target_concept_id</name>
+        <rename>target_concept_id</rename>
+        <default/>
+        <type>Integer</type>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>720</xloc>
+      <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Filter rows_target_concept_id</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Select values</send_true_to>
+    <send_false_to>Stream lookup 2</send_false_to>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>target_concept_id</leftvalue>
+        <function>IS NOT NULL</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Input_Diagnoseart_concept</name>
+    <type>CsvInput</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <filename>${PATH_TO_INPUT}\Diagnoseart_concept.csv</filename>
+    <filename_field/>
+    <rownum_field/>
+    <include_filename>N</include_filename>
+    <separator>	</separator>
+    <enclosure/>
+    <header>Y</header>
+    <buffer_size>50000</buffer_size>
+    <lazy_conversion>Y</lazy_conversion>
+    <add_filename_result>N</add_filename_result>
+    <parallel>N</parallel>
+    <newline_possible>N</newline_possible>
+    <format>mixed</format>
+    <encoding/>
+    <fields>
+      <field>
+        <name>concept_id</name>
+        <type>Integer</type>
+        <format>#</format>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>concept_name</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>143</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>domain_id</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>vocabulary_id</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>concept_class_id</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>16</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>standard_concept</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>concept_code</name>
+        <type>String</type>
+        <format>#</format>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>15</length>
+        <precision>0</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>valid_start_date</name>
+        <type>Date</type>
+        <format>yyyy-MM-dd</format>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>valid_end_date</name>
+        <type>Date</type>
+        <format>yyyy-MM-dd</format>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+      <field>
+        <name>invalid_reason</name>
+        <type>String</type>
+        <format/>
+        <currency>$</currency>
+        <decimal>,</decimal>
+        <group>.</group>
+        <length>-1</length>
+        <precision>-1</precision>
+        <trim_type>none</trim_type>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1136</xloc>
+      <yloc>32</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Stream lookup 2</name>
+    <type>StreamLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <from>Input_Diagnoseart_concept</from>
+    <input_sorted>N</input_sorted>
+    <preserve_memory>Y</preserve_memory>
+    <sorted_list>N</sorted_list>
+    <integer_pair>N</integer_pair>
+    <lookup>
+      <key>
+        <name>Diagnoseart_code</name>
+        <field>concept_code</field>
+      </key>
+      <value>
+        <name>concept_id</name>
         <rename>concept_id</rename>
         <default/>
         <type>Integer</type>
@@ -1074,8 +1300,105 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>944</xloc>
-      <yloc>208</yloc>
+      <xloc>1136</xloc>
+      <yloc>160</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>Diagnoseart_code</name>
+        <rename/>
+      </field>
+      <field>
+        <name>count</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>288</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 2</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>Diagnoseart_code</name>
+        <rename/>
+      </field>
+      <field>
+        <name>count</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1136</xloc>
+      <yloc>384</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Dummy (do nothing)</name>
+    <type>Dummy</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>384</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
