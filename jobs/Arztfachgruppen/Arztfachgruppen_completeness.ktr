@@ -430,7 +430,7 @@
     <created_date>2023/03/22 14:17:00.859</created_date>
     <modified_user>-</modified_user>
     <modified_date>2023/03/22 14:17:00.859</modified_date>
-    <key_for_session_key/>
+    <key_for_session_key>H4sIAAAAAAAAAAMAAAAAAAAAAAA=</key_for_session_key>
     <is_key_private>N</is_key_private>
   </info>
   <notepads>
@@ -604,7 +604,7 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <filename>${PATH_TO_INPUT}\Arztfachgruppen.csv</filename>
+    <filename>${PATH_TO_INPUT_DATA}\Arztfachgruppen.csv</filename>
     <filename_field/>
     <rownum_field/>
     <include_filename>N</include_filename>
@@ -621,7 +621,7 @@
     <fields>
       <field>
         <name>Arztfachgruppe_code</name>
-        <type>Integer</type>
+        <type>String</type>
         <format>#</format>
         <currency>$</currency>
         <decimal>,</decimal>
@@ -810,7 +810,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_INPUT}\Arztfachgruppen_available_concepts</name>
+      <name>${PATH_TO_OUTPUT}\Arztfachgruppen_available_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -891,7 +891,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>${PATH_TO_INPUT}\Arztfachgruppen_missing_concepts</name>
+      <name>${PATH_TO_OUTPUT}\Arztfachgruppen_missing_concepts</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>

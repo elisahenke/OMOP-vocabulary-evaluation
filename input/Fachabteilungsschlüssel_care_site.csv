@@ -1,0 +1,486 @@
+care_site_id	care_site_name	place_of_service_concept_id	location_id	care_site_source_value	place_of_service_source_value
+1	Pseudo-specialty department for hospital reference	4113007		0000	
+2	Pseudo-specialty department for the stay in case of transfer back	0		0001	
+3	Pseudo-specialty department for external stay on readmission	0		0002	
+4	Pseudo-specialty department for external stay with absence over midnight in BPflV sector	0		0003	
+152	Pseudo-specialty department for period without direct patient contact (for inpatient-equivalent treatment)	4113007		0004	
+5	Internal medicine	4169306		0100	
+54	Internal medicine/Geriatrics	4148505		0102	
+55	Internal medicine/Cardiology	4149946		0103	
+56	Internal medicine/Nephrology	4150069		0104	
+57	Internal medicine/Hematology and internal oncology	4147085		0105	
+58	Internal medicine/Endocrinology	4148500		0106	
+59	Internal medicine/Gastroenterology	4147090		0107	
+60	Internal medicine/Pneumology	4169306		0108	
+61	Internal medicine/Rheumatology	4147094		0109	
+62	Internal medicine/Pulmonary and bronchial medicine	4167031		0114	
+63	Internal medicine/Tumor Research	4169306		0150	
+64	Internal medicine/Coloproctology	4169306		0151	
+65	Internal medicine/Infectious diseases	4147092		0152	
+66	Internal medicine/Diabetes	4147089		0153	
+67	Internal medicine/Natural medicine	4169306		0154	
+68	Internal medicine/Stroke patients	44814160		0156	
+153	Internal medicine	4169306		0190	
+154	Internal medicine	4169306		0191	
+155	Internal medicine	4169306		0192	
+156	Internal medicine	4169306		0193	
+157	Internal medicine	4169306		0194	
+158	Internal medicine	4169306		0195	
+159	Internal medicine	4169306		0196	
+160	Internal medicine	4169306		0197	
+161	Internal medicine	4169306		0198	
+6	Geriatrics	4148505		0200	
+69	Geriatrics/Gynecology	4150072		0224	
+7	Geriatrics/day clinic (for partial inpatient care rates)	4148505		0260	
+8	Geriatrics/night clinic (for partial inpatient care rates)	4148505		0261	
+162	Geriatrics	4148505		0290	
+163	Geriatrics	4148505		0291	
+164	Geriatrics	4148505		0292	
+165	Geriatrics	4148505		0293	
+166	Geriatrics	4148505		0294	
+167	Geriatrics	4148505		0295	
+168	Geriatrics	4148505		0296	
+169	Geriatrics	4148505		0297	
+170	Geriatrics	4148505		0298	
+9	Cardiology	4149946		0300	
+171	Cardiology	4149946		0390	
+172	Cardiology	4149946		0391	
+173	Cardiology	4149946		0392	
+174	Cardiology	4149946		0393	
+175	Cardiology	4149946		0394	
+176	Cardiology	4149946		0395	
+177	Cardiology	4149946		0396	
+178	Cardiology	4149946		0397	
+179	Cardiology	4149946		0398	
+10	Nephrology	4150069		0400	
+70	Nephrology/Pediatrics	4302508		0410	
+71	Nephrology/Intensive care medicine	4148981		0436	
+180	Nephrology	4150069		0490	
+181	Nephrology	4150069		0491	
+182	Nephrology	4150069		0492	
+183	Nephrology	4150069		0493	
+184	Nephrology	4150069		0494	
+185	Nephrology	4150069		0495	
+186	Nephrology	4150069		0496	
+187	Nephrology	4150069		0497	
+188	Nephrology	4150069		0498	
+11	Hematology and internal oncology	4147085		0500	
+72	Hematology and internal oncology/Pediatrics	4147096		0510	
+73	Hematology and internal oncology/Gynecology	4150072		0524	
+74	Hematology and internal oncology/Radiation medicine	4147086		0533	
+189	Hematology and internal oncology	4147085		0590	
+190	Hematology and internal oncology	4147085		0591	
+191	Hematology and internal oncology	4147085		0592	
+192	Hematology and internal oncology	4147085		0593	
+193	Hematology and internal oncology	4147085		0594	
+194	Hematology and internal oncology	4147085		0595	
+195	Hematology and internal oncology	4147085		0596	
+196	Hematology and internal oncology	4147085		0597	
+197	Hematology and internal oncology	4147085		0598	
+12	Endocrinology	4148500		0600	
+75	Endocrinology/Gastroenterology	4147090		0607	
+76	Endocrinology/Pediatrics Specialty	4148500		0610	
+198	Endocrinology	4148500		0690	
+199	Endocrinology	4148500		0691	
+200	Endocrinology	4148500		0692	
+201	Endocrinology	4148500		0693	
+202	Endocrinology	4148500		0694	
+203	Endocrinology	4148500		0695	
+204	Endocrinology	4148500		0696	
+205	Endocrinology	4148500		0697	
+206	Endocrinology	4148500		0698	
+13	Gastroenterology	4147090		0700	
+77	Gastroenterology/Endocrinology	4148500		0706	
+78	Gastroenterology/Pediatrics	4147090		0710	
+207	Gastroenterology	4147090		0790	
+208	Gastroenterology	4147090		0791	
+209	Gastroenterology	4147090		0792	
+210	Gastroenterology	4147090		0793	
+211	Gastroenterology	4147090		0794	
+212	Gastroenterology	4147090		0795	
+213	Gastroenterology	4147090		0796	
+214	Gastroenterology	4147090		0797	
+215	Gastroenterology	4147090		0798	
+14	Pneumology	4167031		0800	
+216	Pneumology	4167031		0890	
+217	Pneumology	4167031		0891	
+218	Pneumology	4167031		0892	
+219	Pneumology	4167031		0893	
+220	Pneumology	4167031		0894	
+221	Pneumology	4167031		0895	
+222	Pneumology	4167031		0896	
+223	Pneumology	4167031		0897	
+224	Pneumology	4167031		0898	
+15	Rheumatology	4147094		0900	
+79	Rheumatology/Pediatrics	4147094		0910	
+225	Rheumatology	4147094		0990	
+226	Rheumatology	4147094		0991	
+227	Rheumatology	4147094		0992	
+228	Rheumatology	4147094		0993	
+229	Rheumatology	4147094		0994	
+230	Rheumatology	4147094		0995	
+231	Rheumatology	4147094		0996	
+232	Rheumatology	4147094		0997	
+233	Rheumatology	4147094		0998	
+16	Pediatrics	4150073		1000	
+80	Pediatrics/Nephrology	4150069		1004	
+17	Pediatrics/Hematology and internal oncology	4147096		1005	
+18	Pediatrics/Endocrinology	4148500		1006	
+19	Pediatrics/Gastroenterology	4147090		1007	
+20	Pediatrics/Rheumatology	4147094		1009	
+21	Pediatrics/Pediatric Cardiology	4149946		1011	
+81	Pediatrics/Neonatology	4235267		1012	
+82	Pediatrics/Pulmonary and bronchial medicine	4167883		1014	
+83	Pediatrics/Pediatric Neurology	4147095		1028	
+84	Pediatrics/Perinatal Medicine	3656389		1050	
+85	Long term area children	0		1051	
+234	Pediatrics	4150073		1090	
+235	Pediatrics	4150073		1091	
+236	Pediatrics	4150073		1092	
+237	Pediatrics	4150073		1093	
+238	Pediatrics	4150073		1094	
+239	Pediatrics	4150073		1095	
+240	Pediatrics	4150073		1096	
+241	Pediatrics	4150073		1097	
+242	Pediatrics	4150073		1098	
+22	Pediatric Cardiology	4248532		1100	
+86	Pediatric Cardiology/Intensive care medicine	4148497		1136	
+243	Pediatric Cardiology	4248532		1190	
+244	Pediatric Cardiology	4248532		1191	
+245	Pediatric Cardiology	4248532		1192	
+246	Pediatric Cardiology	4248532		1193	
+247	Pediatric Cardiology	4248532		1194	
+248	Pediatric Cardiology	4248532		1195	
+249	Pediatric Cardiology	4248532		1196	
+250	Pediatric Cardiology	4248532		1197	
+251	Pediatric Cardiology	4248532		1198	
+23	Neonatology	4235267		1200	
+252	Neonatology	4235267		1290	
+253	Neonatology	4235267		1291	
+254	Neonatology	4235267		1292	
+255	Neonatology	4235267		1293	
+256	Neonatology	4235267		1294	
+257	Neonatology	4235267		1295	
+258	Neonatology	4235267		1296	
+259	Neonatology	4235267		1297	
+260	Neonatology	4235267		1298	
+24	Pediatric Surgery	4150084		1300	
+261	Pediatric Surgery	4150084		1390	
+262	Pediatric Surgery	4150084		1391	
+263	Pediatric Surgery	4150084		1392	
+264	Pediatric Surgery	4150084		1393	
+265	Pediatric Surgery	4150084		1394	
+266	Pediatric Surgery	4150084		1395	
+267	Pediatric Surgery	4150084		1396	
+268	Pediatric Surgery	4150084		1397	
+269	Pediatric Surgery	4150084		1398	
+25	Pulmonary and bronchial medicine	4167031		1400	
+87	Pulmonary and bronchial medicine/Pediatrics	4167883		1410	
+270	Pulmonary and bronchial medicine	4167031		1490	
+271	Pulmonary and bronchial medicine	4167031		1491	
+272	Pulmonary and bronchial medicine	4167031		1492	
+273	Pulmonary and bronchial medicine	4167031		1493	
+274	Pulmonary and bronchial medicine	4167031		1494	
+275	Pulmonary and bronchial medicine	4167031		1495	
+276	Pulmonary and bronchial medicine	4167031		1496	
+277	Pulmonary and bronchial medicine	4167031		1497	
+278	Pulmonary and bronchial medicine	4167031		1498	
+26	General surgery	4148993		1500	
+88	General surgery/Pediatric Surgery	4150084		1513	
+89	General surgery/Trauma Surgery	4148517		1516	
+90	General surgery/Vascular surgery	4150086		1518	
+91	General surgery/Plastic surgery	4150085		1519	
+92	General surgery/Thoracic Surgery	4148989		1520	
+93	Surgery/Orthopaedics	4150083		1523	
+94	General surgery/Intensive care medicine	4148981		1536	
+95	General surgery/Abdominal and vascular surgery	4150086		1550	
+96	General surgery/Hand Surgery	4147109		1551	
+279	General surgery	4148993		1590	
+280	General surgery	4148993		1591	
+281	General surgery	4148993		1592	
+282	General surgery	4148993		1593	
+283	General surgery	4148993		1594	
+284	General surgery	4148993		1595	
+285	General surgery	4148993		1596	
+286	General surgery	4148993		1597	
+287	General surgery	4148993		1598	
+27	Trauma Surgery	4148517		1600	
+288	Trauma Surgery	4148517		1690	
+289	Trauma Surgery	4148517		1691	
+290	Trauma Surgery	4148517		1692	
+291	Trauma Surgery	4148517		1693	
+292	Trauma Surgery	4148517		1694	
+293	Trauma Surgery	4148517		1695	
+294	Trauma Surgery	4148517		1696	
+295	Trauma Surgery	4148517		1697	
+296	Trauma Surgery	4148517		1698	
+28	Neurosurgery	4148515		1700	
+297	Neurosurgery	4148515		1790	
+298	Neurosurgery	4148515		1791	
+299	Neurosurgery	4148515		1792	
+300	Neurosurgery	4148515		1793	
+301	Neurosurgery	4148515		1794	
+302	Neurosurgery	4148515		1795	
+303	Neurosurgery	4148515		1796	
+304	Neurosurgery	4148515		1797	
+305	Neurosurgery	4148515		1798	
+29	Vascular Surgery	4150086		1800	
+306	Vascular Surgery	4150086		1890	
+307	Vascular Surgery	4150086		1891	
+308	Vascular Surgery	4150086		1892	
+309	Vascular Surgery	4150086		1893	
+310	Vascular Surgery	4150086		1894	
+311	Vascular Surgery	4150086		1895	
+312	Vascular Surgery	4150086		1896	
+313	Vascular Surgery	4150086		1897	
+314	Vascular Surgery	4150086		1898	
+30	Plastic surgery	4150085		1900	
+315	Plastic surgery	4150085		1990	
+316	Plastic surgery	4150085		1991	
+317	Plastic surgery	4150085		1992	
+318	Plastic surgery	4150085		1993	
+319	Plastic surgery	4150085		1994	
+320	Plastic surgery	4150085		1995	
+321	Plastic surgery	4150085		1996	
+322	Plastic surgery	4150085		1997	
+323	Plastic surgery	4150085		1998	
+31	Thoracic Surgery	4148989		2000	
+97	Thoracic Surgery/Cardiac surgery	4148988		2021	
+98	Thoracic Surgery/Intensive care medicine	4148981		2036	
+99	Thoracic Surgery/Cardiac surgery, intensive care medicine	4148981		2050	
+324	Thoracic Surgery	4148989		2090	
+325	Thoracic Surgery	4148989		2091	
+326	Thoracic Surgery	4148989		2092	
+327	Thoracic Surgery	4148989		2093	
+328	Thoracic Surgery	4148989		2094	
+329	Thoracic Surgery	4148989		2095	
+330	Thoracic Surgery	4148989		2096	
+331	Thoracic Surgery	4148989		2097	
+332	Thoracic Surgery	4148989		2098	
+32	Cardiac Surgery	4148511		2100	
+100	Cardiac Surgery/Vascular surgery	4150086		2118	
+101	Cardiac Surgery/Thoracic surgery	4148988		2120	
+102	Cardiac Surgery/intensive care medicine	4148981		2136	
+103	Cardiac Surgery/Thoracic surgery, intensive care medicine	4148981		2150	
+333	Cardiac Surgery	4148511		2190	
+334	Cardiac Surgery	4148511		2191	
+335	Cardiac Surgery	4148511		2192	
+336	Cardiac Surgery	4148511		2193	
+337	Cardiac Surgery	4148511		2194	
+338	Cardiac Surgery	4148511		2195	
+339	Cardiac Surgery	4148511		2196	
+340	Cardiac Surgery	4148511		2197	
+341	Cardiac Surgery	4148511		2198	
+33	Urology	4148995		2200	
+342	Urology	4148995		2290	
+343	Urology	4148995		2291	
+344	Urology	4148995		2292	
+345	Urology	4148995		2293	
+346	Urology	4148995		2294	
+347	Urology	4148995		2295	
+348	Urology	4148995		2296	
+349	Urology	4148995		2297	
+350	Urology	4148995		2298	
+34	Orthopedics	4150083		2300	
+104	Orthopedics/Rheumatology	4147094		2309	
+105	Orthopedics/Surgery	4150080		2315	
+52	Orthopedics and trauma surgery	4148517		2316	
+351	Orthopedics	4150083		2390	
+352	Orthopedics	4150083		2391	
+353	Orthopedics	4150083		2392	
+354	Orthopedics	4150083		2393	
+355	Orthopedics	4150083		2394	
+356	Orthopedics	4150083		2395	
+357	Orthopedics	4150083		2396	
+358	Orthopedics	4150083		2397	
+359	Orthopedics	4150083		2398	
+35	Gynecology and obstetrics	4148985		2400	
+106	Gynecology/Geriatrics	4148505		2402	
+107	Gynecology/Hematology and internal oncology	4147085		2405	
+108	Gynecology/Endocrinology	4148500		2406	
+53	Gynecology	4150072		2425	
+360	Gynecology and obstetrics	4148985		2490	
+361	Gynecology and obstetrics	4148985		2491	
+362	Gynecology and obstetrics	4148985		2492	
+363	Gynecology and obstetrics	4148985		2493	
+364	Gynecology and obstetrics	4148985		2494	
+365	Gynecology and obstetrics	4148985		2495	
+366	Gynecology and obstetrics	4148985		2496	
+367	Gynecology and obstetrics	4148985		2497	
+368	Gynecology and obstetrics	4148985		2498	
+36	Obstetrics	4148986		2500	
+369	Obstetrics	4148986		2590	
+370	Obstetrics	4148986		2591	
+371	Obstetrics	4148986		2592	
+372	Obstetrics	4148986		2593	
+373	Obstetrics	4148986		2594	
+374	Obstetrics	4148986		2595	
+375	Obstetrics	4148986		2596	
+376	Obstetrics	4148986		2597	
+377	Obstetrics	4148986		2598	
+37	Otolaryngology	4148991		2600	
+378	Otolaryngology	4148991		2690	
+379	Otolaryngology	4148991		2691	
+380	Otolaryngology	4148991		2692	
+381	Otolaryngology	4148991		2693	
+382	Otolaryngology	4148991		2694	
+383	Otolaryngology	4148991		2695	
+384	Otolaryngology	4148991		2696	
+385	Otolaryngology	4148991		2697	
+386	Otolaryngology	4148991		2698	
+38	Ophthalmology	4148516		2700	
+387	Ophthalmology	4148516		2790	
+388	Ophthalmology	4148516		2791	
+389	Ophthalmology	4148516		2792	
+390	Ophthalmology	4148516		2793	
+391	Ophthalmology	4148516		2794	
+392	Ophthalmology	4148516		2795	
+393	Ophthalmology	4148516		2796	
+394	Ophthalmology	4148516		2797	
+395	Ophthalmology	4148516		2798	
+39	Neurology	4150070		2800	
+109	Neurology/Pediatrics	4147095		2810	
+110	Neurology/Gerontology	4148505		2851	
+111	Neurology/Stroke patients	44814160		2856	
+396	Neurology	4150070		2890	
+397	Neurology	4150070		2891	
+398	Neurology	4150070		2892	
+399	Neurology	4150070		2893	
+400	Neurology	4150070		2894	
+401	Neurology	4150070		2895	
+402	Neurology	4150070		2896	
+403	Neurology	4150070		2897	
+404	Neurology	4150070		2898	
+40	General psychiatry	4150077		2900	
+112	General psychiatry/Neurology	4150070		2928	
+113	General psychiatry/Child and adolescent psychiatry	4147101		2930	
+114	General psychiatry/Psychosomatics/Psychotherapy	4150077		2931	
+115	General psychiatry/Addiction Treatment	37312474		2950	
+116	General psychiatry/Gerontopsychiatry	4150078		2951	
+117	General psychiatry/Forensic treatment	4147102		2952	
+118	General psychiatry/Addiction Treatment, day clinic	37312474		2953	
+119	General psychiatry/Addiction Treatment, night clinic	37312474		2954	
+120	General psychiatry/Gerontopsychiatry, day clinic	4150078		2955	
+121	General psychiatry/Gerontopsychiatry, night clinic	4150078		2956	
+122	General psychiatry/day clinic (for partial inpatient care rates)	4150077		2960	
+123	General psychiatry/night clinic (for partial inpatient care rates)	4150077		2961	
+405	General psychiatry	4150077		2990	
+406	General psychiatry	4150077		2991	
+407	General psychiatry	4150077		2992	
+408	General psychiatry	4150077		2993	
+409	General psychiatry	4150077		2994	
+410	General psychiatry	4150077		2995	
+411	General psychiatry	4150077		2996	
+412	General psychiatry	4150077		2997	
+413	General psychiatry	4150077		2998	
+41	Child and adolescent psychiatry	4147101		3000	
+124	Child and adolescent psychiatry/day clinic (for partial inpatient care rates)	4147101		3060	
+125	Child and adolescent psychiatry/night clinic (for partial inpatient care rates)	4147101		3061	
+414	Child and adolescent psychiatry	4147101		3090	
+415	Child and adolescent psychiatry	4147101		3091	
+416	Child and adolescent psychiatry	4147101		3092	
+417	Child and adolescent psychiatry	4147101		3093	
+418	Child and adolescent psychiatry	4147101		3094	
+419	Child and adolescent psychiatry	4147101		3095	
+420	Child and adolescent psychiatry	4147101		3096	
+421	Child and adolescent psychiatry	4147101		3097	
+422	Child and adolescent psychiatry	4147101		3098	
+42	Psychosomatics/Psychotherapy	4150862		3100	
+126	Psychosomatics/Psychotherapy/ Child and adolescent psychosomatics	36717519		3110	
+127	Psychosomatics/Psychotherapy/day clinic (for partial inpatient care rates)	4150862		3160	
+128	Psychosomatics/Psychotherapy/night clinic (for partial inpatient care rates)	4150862		3161	
+423	Psychosomatics/Psychotherapy	4150862		3190	
+424	Psychosomatics/Psychotherapy	4150862		3191	
+425	Psychosomatics/Psychotherapy	4150862		3192	
+426	Psychosomatics/Psychotherapy	4150862		3193	
+427	Psychosomatics/Psychotherapy	4150862		3194	
+428	Psychosomatics/Psychotherapy	4150862		3195	
+429	Psychosomatics/Psychotherapy	4150862		3196	
+430	Psychosomatics/Psychotherapy	4150862		3197	
+431	Psychosomatics/Psychotherapy	4150862		3198	
+43	Nuclear Medicine	4148984		3200	
+129	Nuclear Medicine/Radiation Medicine	4147086		3233	
+432	Nuclear Medicine	4148984		3290	
+433	Nuclear Medicine	4148984		3291	
+434	Nuclear Medicine	4148984		3292	
+435	Nuclear Medicine	4148984		3293	
+436	Nuclear Medicine	4148984		3294	
+437	Nuclear Medicine	4148984		3295	
+438	Nuclear Medicine	4148984		3296	
+439	Nuclear Medicine	4148984		3297	
+440	Nuclear Medicine	4148984		3298	
+44	Radiation Medicine	4147086		3300	
+130	Radiation Medicine/Hematology and internal oncology	4147085		3305	
+131	Radiation Medicine/Radiology	4150079		3350	
+441	Radiation Medicine	4147086		3390	
+442	Radiation Medicine	4147086		3391	
+443	Radiation Medicine	4147086		3392	
+444	Radiation Medicine	4147086		3393	
+445	Radiation Medicine	4147086		3394	
+446	Radiation Medicine	4147086		3395	
+447	Radiation Medicine	4147086		3396	
+448	Radiation Medicine	4147086		3397	
+449	Radiation Medicine	4147086		3398	
+45	Dermatology	4150066		3400	
+132	Dermatology/day clinic (for partial inpatient care rates)	4150066		3460	
+450	Dermatology	4150066		3490	
+451	Dermatology	4150066		3491	
+452	Dermatology	4150066		3492	
+453	Dermatology	4150066		3493	
+454	Dermatology	4150066		3494	
+455	Dermatology	4150066		3495	
+456	Dermatology	4150066		3496	
+457	Dermatology	4150066		3497	
+458	Dermatology	4150066		3498	
+46	Dentistry, oral and maxillofacial surgery	4148990		3500	
+459	Dentistry, oral and maxillofacial surgery	4148990		3590	
+460	Dentistry, oral and maxillofacial surgery	4148990		3591	
+461	Dentistry, oral and maxillofacial surgery	4148990		3592	
+462	Dentistry, oral and maxillofacial surgery	4148990		3593	
+463	Dentistry, oral and maxillofacial surgery	4148990		3594	
+464	Dentistry, oral and maxillofacial surgery	4148990		3595	
+465	Dentistry, oral and maxillofacial surgery	4148990		3596	
+466	Dentistry, oral and maxillofacial surgery	4148990		3597	
+467	Dentistry, oral and maxillofacial surgery	4148990		3598	
+47	Intensive Care Medicine	4148981		3600	
+133	Intensive Care Medicine/Internal medicine	4169306		3601	
+134	Intensive Care Medicine/Cardiology	4149943		3603	
+135	Intensive Care Medicine/Pediatrics	4148497		3610	
+136	Intensive Care Medicine/Neurosurgery	4148515		3617	
+137	Intensive Care Medicine/Surgery	4305366		3618	
+138	Intensive Care Medicine/Cardiac Surgery	4149943		3621	
+139	Intensive Care Medicine/Urology	4148995		3622	
+140	Intensive Care Medicine/Gynecology and obstetrics	4148985		3624	
+141	Intensive Care Medicine/Otolaryngology	4148991		3626	
+142	Intensive Care Medicine/Neurology	4148496		3628	
+143	Surgical intensive care/Surgery	4305366		3650	
+144	Intensive Care Medicine/Thoracic Cardiac Surgery	4148988		3651	
+145	Intensive Care Medicine/Cardiothoracic Surgery	4148988		3652	
+468	Intensive Care Medicine	4148981		3690	
+469	Intensive Care Medicine	4148981		3691	
+470	Intensive Care Medicine	4148981		3692	
+471	Intensive Care Medicine	4148981		3693	
+472	Intensive Care Medicine	4148981		3694	
+473	Intensive Care Medicine	4148981		3695	
+474	Intensive Care Medicine	4148981		3696	
+475	Intensive Care Medicine	4148981		3697	
+476	Intensive Care Medicine	4148981		3698	
+48	Other specialist department	4113007		3700	
+146	Angiology	36717557		3750	
+49	Radiology	4150079		3751	
+147	Palliative Care	4147093		3752	
+50	Pain therapy	4150075		3753	
+148	Therapeutic department	0		3754	
+149	Spine Surgery	37079536		3755	
+51	Addiction Medicine	37312474		3756	
+150	Visceral Surgery	0		3757	
+151	Weaning unit	44803606		3758	
+477	Other specialist department	4113007		3790	
+478	Other specialist department	4113007		3791	
+479	Other specialist department	4113007		3792	
+480	Other specialist department	4113007		3793	
+481	Other specialist department	4113007		3794	
+482	Other specialist department	4113007		3795	
+483	Other specialist department	4113007		3796	
+484	Other specialist department	4113007		3797	
+485	Other specialist department	4113007		3798	

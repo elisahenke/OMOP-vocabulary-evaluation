@@ -1,0 +1,21 @@
+source_code	source_concept_id	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	valid_start_date	valid_end_date	invalid_reason
+FLD	0	Visit Type	field	0	None	1970-01-01	2099-12-31	
+E	0	Visit Type	Emergency	9203	Visit	1970-01-01	2099-12-31	
+PRENC	0	Visit Type	pre-admission	0	None	1970-01-01	2099-12-31	
+OBSENC	0	Visit Type	observation encounter	581385	CMS Place of Service	1970-01-01	2099-12-31	
+C	0	Visit Type	Commercial Account	0	None	1970-01-01	2099-12-31	
+O	0	Visit Type	Outpatient	9202	Visit	1970-01-01	2099-12-31	
+I	0	Visit Type	Inpatient	9201	Visit	1970-01-01	2099-12-31	
+HH	0	Visit Type	home health	581476	Visit	1970-01-01	2099-12-31	
+EMER	0	Visit Type	emergency	9203	Visit	1970-01-01	2099-12-31	
+U	0	Visit Type	Unknown	0	None	1970-01-01	2099-12-31	
+VR	0	Visit Type	virtual	0	None	1970-01-01	2099-12-31	
+NONAC	0	Visit Type	inpatient non-acute	9201	Visit	1970-01-01	2099-12-31	
+B	0	Visit Type	Obstetrics	0	None	1970-01-01	2099-12-31	
+R	0	Visit Type	Recurring patient	9201	Visit	1970-01-01	2099-12-31	
+P	0	Visit Type	Preadmit	0	None	1970-01-01	2099-12-31	
+ACUTE	0	Visit Type	inpatient acute	38004279	NUCC	1970-01-01	2099-12-31	
+IMP	0	Visit Type	inpatient encounter	9201	Visit	1970-01-01	2099-12-31	
+AMB	0	Visit Type	ambulatory	8883	CMS Place of Service	1970-01-01	2099-12-31	
+SS	0	Visit Type	short stay	0	None	1970-01-01	2099-12-31	
+N	0	Visit Type	Not Applicable	0	None	1970-01-01	2099-12-31	

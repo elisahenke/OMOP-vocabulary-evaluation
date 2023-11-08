@@ -1,69 +1,69 @@
 source_code	source_concept_id	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	valid_start_date	valid_end_date	invalid_reason
-2D0100	0	ASV	Neuromuskuläre Erkrankungen	44812002	SNOMED	2021-05-06	2099-12-31	<null>
-030800	0	ASV	pädiatrische Kardiologie	0	None	1970-01-01	2099-12-31	<null>
-021400	0	ASV	Kurzdarmsyndrom	4131798	SNOMED	1970-01-01	2099-12-31	<null>
-1B0100	0	ASV	Rheumatologische Erkrankungen, Erwachsene	138845	SNOMED	2018-04-19	2099-12-31	<null>
-020700	0	ASV	primär sklerosierende Cholangitis	4058821	SNOMED	1970-01-01	2099-12-31	<null>
-021300	0	ASV	neuromuskuläre Erkrankungen	44812002	SNOMED	1970-01-01	2099-12-31	<null>
-1A0600	0	ASV	Kopf- und Halstumore	4111017	SNOMED	2021-05-06	2099-12-31	<null>
-020800	0	ASV	Morbus Wilson	4229262	SNOMED	1970-01-01	2099-12-31	<null>
-030900	0	ASV	Frühgeborene mit Folgeschäden	4217564	SNOMED	1970-01-01	2099-12-31	<null>
-020600	0	ASV	biliäre Zirrhose	192675	SNOMED	1970-01-01	2099-12-31	<null>
-1A0200	0	ASV	Onkologische Erkrankungen, gynäkologische Tumore ohne Subspezialisierung	4216788	SNOMED	2016-08-10	2099-12-31	<null>
-030700	0	ASV	Anfallsleiden	4029498	SNOMED	1970-01-01	2099-12-31	<null>
-2E0100	0	ASV	schwerwiegende immunologische Erkrankungen: Erkrankungsgruppe 1 Sarkoidose	438688	SNOMED	2020-04-07	2099-12-31	<null>
-2C0100	0	ASV	Hämophilie	4236898	SNOMED	2019-07-04	2099-12-31	<null>
-020300	0	ASV	Fehlbildungen, angeborenen Skelettsystemfehlbildungen und neuromuskulären Erkrankungen	4309222	SNOMED	1970-01-01	2099-12-31	<null>
-030600	0	ASV	Multiple Sklerose	374919	SNOMED	1970-01-01	2099-12-31	<null>
-030302	0	ASV	schwere Verlaufsformen rheumatologischer Erkrankungen: Kinder und Jugendliche	138845	SNOMED	1970-01-01	2099-12-31	<null>
-2A0100	0	ASV	Tuberkulose, Tuberkulose und atypische Mykobakteriose	4008721	SNOMED	2014-04-01	2099-12-31	<null>
-2A0100	0	ASV	Tuberkulose, Tuberkulose und atypische Mykobakteriose	434557	SNOMED	2014-04-01	2099-12-31	<null>
-2B0100	0	ASV	Mukoviszidose	441267	SNOMED	2017-03-18	2099-12-31	<null>
-020400	0	ASV	schwerwiegende Immunologische Erkrankungen	440371	SNOMED	1970-01-01	2099-12-31	<null>
-1A0201	0	ASV	Onkologische Erkrankungen, Mammakarzinom	4116071	SNOMED	2016-08-10	2099-12-31	<null>
-2L0100	0	ASV	pulmonale Hypertonie	4322024	SNOMED	2016-06-01	2099-12-31	<null>
-030101	0	ASV	onkologische Erkrankungen: Gastrointestinale Tumore, Tumore der Bauchhöhle"	4216788	SNOMED	1970-01-01	2099-12-31	<null>
-1A0400	0	ASV	Hauttumore	444209	SNOMED	2019-11-05	2099-12-31	<null>
-020200	0	ASV	Gerinnungsstörungen (Hämophilie)	432585	SNOMED	1970-01-01	2099-12-31	<null>
-1B0101	0	ASV	Rheumatologische Erkrankungen, Kinder	138845	SNOMED	2018-04-19	2099-12-31	<null>
-021002	0	ASV	angeborene Stoffwechselstörungen: Hypothyreose	140673	SNOMED	1970-01-01	2099-12-31	<null>
-020302	0	ASV	Fehlbildungen	4064671	SNOMED	1970-01-01	2099-12-31	<null>
-2O0100	0	ASV	ausgewählte seltene Lebererkrankungen	194984	SNOMED	2018-08-16	2099-12-31	<null>
-030301	0	ASV	schwere Verlaufsformen rheumatologischer Erkrankungen: Erwachsene	138845	SNOMED	1970-01-01	2099-12-31	<null>
-1A0500	0	ASV	Tumore der Lunge und des Thorax	4111018	SNOMED	2020-04-07	2099-12-31	<null>
-1A0500	0	ASV	Tumore der Lunge und des Thorax	4128888	SNOMED	2020-04-07	2099-12-31	<null>
-2K0100	0	ASV	Marfan-Syndrom	258540	SNOMED	2015-06-30	2099-12-31	<null>
-030500	0	ASV	Tuberkulose	434557	SNOMED	1970-01-01	2099-12-31	<null>
-2H0100	0	ASV	Morbus Wilson	4229262	SNOMED	2018-06-12	2099-12-31	<null>
-1A0100	0	ASV	Onkologische Erkrankungen, Gastrointestinale Tumore und Tumore der Bauchhöhle	4216788	SNOMED	2014-07-26	2099-12-31	<null>
-030107	0	ASV	onkologische Erkrankungen: Tumore des Auges	4160345	SNOMED	1970-01-01	2099-12-31	<null>
-030200	0	ASV	HIV/AIDS	4267414	SNOMED	1970-01-01	2099-12-31	<null>
-021500	0	ASV	Vor- und Nachbehandlung bei Lebertransplantation	0	None	1970-01-01	2099-12-31	<null>
-1A0300	0	ASV	Urologische Tumore	4216788	SNOMED	2018-04-26	2099-12-31	<null>
-021003	0	ASV	angeborene Stoffwechselstörungen: Phenylketonurie	432872	SNOMED	1970-01-01	2099-12-31	<null>
-020301	0	ASV	angeborenen Skelettsystemfehlbildungen	4309222	SNOMED	1970-01-01	2099-12-31	<null>
-021100	0	ASV	Marfan-Syndrom	258540	SNOMED	1970-01-01	2099-12-31	<null>
-030400	0	ASV	schwere Herzinsuffizienz (NYHA Stadium 3–4)	442310	SNOMED	1970-01-01	2099-12-31	<null>
-010200	0	ASV	Brachytherapie	40317890	SNOMED	1970-01-01	2099-12-31	<null>
-021200	0	ASV	Pulmonale Hypertonie	4322024	SNOMED	1970-01-01	2099-12-31	<null>
-020100	0	ASV	Mukoviszidose	441267	SNOMED	1970-01-01	2099-12-31	<null>
-030106	0	ASV	onkologische Erkrankungen: Kopf- und Halstumore	4111017	SNOMED	1970-01-01	2099-12-31	<null>
-020900	0	ASV	Transsexualismus	4231241	SNOMED	1970-01-01	2099-12-31	<null>
-030300	0	ASV	schwere Verlaufsformen rheumatologischer Erkrankungen	138845	SNOMED	1970-01-01	2099-12-31	<null>
-021001	0	ASV	angeborene Stoffwechselstörungen: Adrenogenitales Syndrom	196369	SNOMED	1970-01-01	2099-12-31	<null>
-031000	0	ASV	Querschnittslähmung bei Komplikationen, die eine interdisziplinäre Versorgung erforderlich machen	192606	SNOMED	1970-01-01	2099-12-31	<null>
-1A0202	0	ASV	Onkologische Erkrankungen, Subspezialisierung andere gynäkologische Tumore	4216788	SNOMED	2016-08-10	2099-12-31	<null>
-030109	0	ASV	onkologische Erkrankungen: Urologische Tumore	4216788	SNOMED	1970-01-01	2099-12-31	<null>
-021005	0	ASV	angeborene Stoffwechselstörungen: Galactosaemie	439788	SNOMED	1970-01-01	2099-12-31	<null>
-010100	0	ASV	CT/MRT-gestützte interventionelle schmerztherapeutische Leistungen	0	None	1970-01-01	2099-12-31	<null>
-030104	0	ASV	onkologische Erkrankungen: Hauttumore	444209	SNOMED	1970-01-01	2099-12-31	<null>
-030108	0	ASV	onkologische Erkrankungen: Gynäkologische Tumore	4216788	SNOMED	1970-01-01	2099-12-31	<null>
-030111	0	ASV	onkologische Erkrankungen: Tumore bei Kindern und Jugendlichen	4216788	SNOMED	1970-01-01	2099-12-31	<null>
-021004	0	ASV	angeborene Stoffwechselstörungen: Medium-Chain-Acyl-CoA-Dehydrogenase-Mangel (MCAD-Mangel)	4029371	SNOMED	1970-01-01	2099-12-31	<null>
-030103	0	ASV	onkologische Erkrankungen: Knochen- und Weichteil-Tumore	4308811	SNOMED	1970-01-01	2099-12-31	<null>
-030103	0	ASV	onkologische Erkrankungen: Knochen- und Weichteil-Tumore	4019913	SNOMED	1970-01-01	2099-12-31	<null>
-030102	0	ASV	onkologische Erkrankungen: Tumore der Lunge und des Thorax	4111018	SNOMED	1970-01-01	2099-12-31	<null>
-030102	0	ASV	onkologische Erkrankungen: Tumore der Lunge und des Thorax	4128888	SNOMED	1970-01-01	2099-12-31	<null>
-030110	0	ASV	onkologische Erkrankungen: Tumore des lymphatischen, blutbildenden Gewebes und schwere Erkrankungen der Blutbildung	4147164	SNOMED	1970-01-01	2099-12-31	<null>
-030105	0	ASV	onkologische Erkrankungen: Tumore des Gehirns und der peripheren Nerven	4130045	SNOMED	1970-01-01	2099-12-31	<null>
-030105	0	ASV	onkologische Erkrankungen: Tumore des Gehirns und der peripheren Nerven	4116092	SNOMED	1970-01-01	2099-12-31	<null>
+2D0100	0	ASV	Neuromuscular disease	44812002	SNOMED	1970-01-01	2099-12-31	
+030800	0	ASV	Pediatric cardiology	0	None	1970-01-01	2099-12-31	
+021400	0	ASV	Short bowel syndrome	4131798	SNOMED	1970-01-01	2099-12-31	
+1B0100	0	ASV	Rheumatological diseases, adults	138845	SNOMED	1970-01-01	2099-12-31	
+020700	0	ASV	Primary sclerosing cholangitis	4058821	SNOMED	1970-01-01	2099-12-31	
+021300	0	ASV	Neuromuscular disease	44812002	SNOMED	1970-01-01	2099-12-31	
+1A0600	0	ASV	Head and neck tumors	4111017	SNOMED	1970-01-01	2099-12-31	
+020800	0	ASV	Wilson's disease	4229262	SNOMED	1970-01-01	2099-12-31	
+030900	0	ASV	Premature infants with sequelae	4217564	SNOMED	1970-01-01	2099-12-31	
+020600	0	ASV	Biliary cirrhosis	192675	SNOMED	1970-01-01	2099-12-31	
+1A0200	0	ASV	Oncological diseases, gynecological tumors without subspecialization	4216788	SNOMED	1970-01-01	2099-12-31	
+030700	0	ASV	Seizure disorder	4029498	SNOMED	1970-01-01	2099-12-31	
+2E0100	0	ASV	Severe immunological diseases: disease group 1 sarcoidosis	438688	SNOMED	1970-01-01	2099-12-31	
+2C0100	0	ASV	Hemophilia	4236898	SNOMED	1970-01-01	2099-12-31	
+020300	0	ASV	Malformations, congenital skeletal system malformations and neuromuscular diseases	4309222	SNOMED	1970-01-01	2099-12-31	
+030600	0	ASV	Multiple sclerosis	374919	SNOMED	1970-01-01	2099-12-31	
+030302	0	ASV	Severe progressive forms of rheumatological diseases: children and adolescents	138845	SNOMED	1970-01-01	2099-12-31	
+2A0100	0	ASV	Tuberculosis, tuberculosis and atypical mycobacteriosis	4008721	SNOMED	1970-01-01	2099-12-31	
+2A0100	0	ASV	Tuberculosis, tuberculosis and atypical mycobacteriosis	434557	SNOMED	1970-01-01	2099-12-31	
+2B0100	0	ASV	Cystic fibrosis	441267	SNOMED	1970-01-01	2099-12-31	
+020400	0	ASV	Severe immunological diseases	440371	SNOMED	1970-01-01	2099-12-31	
+1A0201	0	ASV	Oncological diseases, breast carcinoma	4116071	SNOMED	1970-01-01	2099-12-31	
+2L0100	0	ASV	Pulmonary hypertension	4322024	SNOMED	1970-01-01	2099-12-31	
+030101	0	ASV	Oncological diseases: gastrointestinal tumors, tumors of the abdominal cavity	4216788	SNOMED	1970-01-01	2099-12-31	
+1A0400	0	ASV	Skin tumors	444209	SNOMED	1970-01-01	2099-12-31	
+020200	0	ASV	Coagulation disorders (hemophilia)	432585	SNOMED	1970-01-01	2099-12-31	
+1B0101	0	ASV	Rheumatological diseases, children	138845	SNOMED	1970-01-01	2099-12-31	
+021002	0	ASV	Inborn errors of metabolism: hypothyroidism	140673	SNOMED	1970-01-01	2099-12-31	
+020302	0	ASV	Malformations	4168498	SNOMED	1970-01-01	2099-12-31	
+2O0100	0	ASV	Selected rare liver diseases	194984	SNOMED	1970-01-01	2099-12-31	
+030301	0	ASV	Severe progressive forms of rheumatological diseases: adults	138845	SNOMED	1970-01-01	2099-12-31	
+1A0500	0	ASV	Tumors of the lung and thorax	4111018	SNOMED	1970-01-01	2099-12-31	
+1A0500	0	ASV	Tumors of the lung and thorax	4128888	SNOMED	1970-01-01	2099-12-31	
+2K0100	0	ASV	Marfan syndrome	258540	SNOMED	1970-01-01	2099-12-31	
+030500	0	ASV	Tuberculosis	434557	SNOMED	1970-01-01	2099-12-31	
+2H0100	0	ASV	Wilson's disease	4229262	SNOMED	1970-01-01	2099-12-31	
+1A0100	0	ASV	Oncological diseases, gastrointestinal tumors and tumors of the abdominal cavity	4216788	SNOMED	1970-01-01	2099-12-31	
+030107	0	ASV	Oncological diseases: tumors of the eye	4160345	SNOMED	1970-01-01	2099-12-31	
+030200	0	ASV	HIV/AIDS	4267414	SNOMED	1970-01-01	2099-12-31	
+021500	0	ASV	Pre- and post-treatment for liver transplantation	0	None	1970-01-01	2099-12-31	
+1A0300	0	ASV	Urological tumors	4216788	SNOMED	1970-01-01	2099-12-31	
+021003	0	ASV	Inborn errors of metabolism: phenylketonuria	432872	SNOMED	1970-01-01	2099-12-31	
+020301	0	ASV	Congenital skeletal system malformations	4309222	SNOMED	1970-01-01	2099-12-31	
+021100	0	ASV	Marfan syndrome	258540	SNOMED	1970-01-01	2099-12-31	
+030400	0	ASV	Severe heart failure (NYHA stage 3-4)	442310	SNOMED	1970-01-01	2099-12-31	
+010200	0	ASV	Brachytherapy	40317890	SNOMED	1970-01-01	2099-12-31	
+021200	0	ASV	Pulmonary hypertension	4322024	SNOMED	1970-01-01	2099-12-31	
+020100	0	ASV	Cystic fibrosis	441267	SNOMED	1970-01-01	2099-12-31	
+030106	0	ASV	Oncological diseases: head and neck tumors	4111017	SNOMED	1970-01-01	2099-12-31	
+020900	0	ASV	Transsexualism	4231241	SNOMED	1970-01-01	2099-12-31	
+030300	0	ASV	Severe progressive forms of rheumatological diseases	138845	SNOMED	1970-01-01	2099-12-31	
+021001	0	ASV	Inborn errors of metabolism: adrenogenital syndrome	196369	SNOMED	1970-01-01	2099-12-31	
+031000	0	ASV	Paraplegia with complications requiring interdisciplinary care	192606	SNOMED	1970-01-01	2099-12-31	
+1A0202	0	ASV	Oncological diseases, subspecialization of other gynecological tumors	4216788	SNOMED	1970-01-01	2099-12-31	
+030109	0	ASV	Oncological diseases: urological tumors	4216788	SNOMED	1970-01-01	2099-12-31	
+021005	0	ASV	Inborn errors of metabolism: galactosaemia	439788	SNOMED	1970-01-01	2099-12-31	
+010100	0	ASV	CT/MRI-guided interventional pain therapy services	0	None	1970-01-01	2099-12-31	
+030104	0	ASV	Oncological diseases: skin tumors	444209	SNOMED	1970-01-01	2099-12-31	
+030108	0	ASV	Oncological diseases: gynecological tumors	4216788	SNOMED	1970-01-01	2099-12-31	
+030111	0	ASV	Oncological diseases: tumors in children and adolescents	4216788	SNOMED	1970-01-01	2099-12-31	
+021004	0	ASV	Inborn errors of metabolism: medium chain acyl CoA dehydrogenase deficiency (MCAD deficiency)	4029371	SNOMED	1970-01-01	2099-12-31	
+030103	0	ASV	Oncological diseases: bone and soft tissue tumors	4308811	SNOMED	1970-01-01	2099-12-31	
+030103	0	ASV	Oncological diseases: bone and soft tissue tumors	4019913	SNOMED	1970-01-01	2099-12-31	
+030102	0	ASV	Oncological diseases: tumors of the lung and thorax	4111018	SNOMED	1970-01-01	2099-12-31	
+030102	0	ASV	Oncological diseases: tumors of the lung and thorax	4128888	SNOMED	1970-01-01	2099-12-31	
+030110	0	ASV	Oncological diseases: tumors of the lymphatic, hematopoietic tissue and severe diseases of hematopoiesis	4147164	SNOMED	1970-01-01	2099-12-31	
+030105	0	ASV	Oncological diseases: tumors of the brain and peripheral nerves	4130045	SNOMED	1970-01-01	2099-12-31	
+030105	0	ASV	Oncological diseases: tumors of the brain and peripheral nerves	4116092	SNOMED	1970-01-01	2099-12-31	

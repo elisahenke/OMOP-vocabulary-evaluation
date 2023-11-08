@@ -1,0 +1,8 @@
+concept_id	concept_name	domain_id	vocabulary_id	concept_class_id	standard_concept	concept_code	valid_start_date	valid_end_date	invalid_reason
+2000022521	No complication or comorbidity	Observation	Severity	Qualifier Value		0	1970-01-01	2099-12-31	
+2000022522	Mild complication or comorbidity	Observation	Severity	Qualifier Value		1	1970-01-01	2099-12-31	
+2000022523	Moderately severe complication or comorbidity	Observation	Severity	Qualifier Value		2	1970-01-01	2099-12-31	
+2000022524	Severe complication or comorbidity	Observation	Severity	Qualifier Value		3	1970-01-01	2099-12-31	
+2000022525	Extremely severe complication or comorbidity	Observation	Severity	Qualifier Value		4	1970-01-01	2099-12-31	
+2000022526	Extremely severe complication or comorbidity for better imageability	Observation	Severity	Qualifier Value		5	1970-01-01	2099-12-31	
+2000022527	Extremely severe complication or comorbidity for better imageability	Observation	Severity	Qualifier Value		6	1970-01-01	2099-12-31	
