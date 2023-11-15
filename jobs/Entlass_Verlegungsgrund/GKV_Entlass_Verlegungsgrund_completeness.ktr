@@ -483,16 +483,6 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>FilterRows_concept_id</from>
-      <to>Output_Entlass_Verlegungsgrund_available_concepts</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>FilterRows_concept_id</from>
-      <to>Output_Entlass_Verlegungsgrund_missing_concepts</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>FilterRows_null</from>
       <to>Add constants</to>
       <enabled>Y</enabled>
@@ -555,6 +545,36 @@
     <hop>
       <from>Strings cut</from>
       <to>Concat fields</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>FilterRows_concept_id</from>
+      <to>Select values 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Select values 2</from>
+      <to>Stream lookup 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Input_Entlass_Verlegungsgrund_source_to_concept_map</from>
+      <to>Stream lookup 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Stream lookup 2</from>
+      <to>FilterRows_concept_id 2</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>FilterRows_concept_id 2</from>
+      <to>Output_Entlass_Verlegungsgrund_missing_concepts</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>FilterRows_concept_id 2</from>
+      <to>Output_Entlass_Verlegungsgrund_available_concepts</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -898,8 +918,8 @@
       <method>none</method>
       <schema_name/>
     </partitioning>
-    <send_true_to>Output_Entlass_Verlegungsgrund_available_concepts</send_true_to>
-    <send_false_to>Output_Entlass_Verlegungsgrund_missing_concepts</send_false_to>
+    <send_true_to/>
+    <send_false_to>Select values 2</send_false_to>
     <compare>
       <condition>
         <negated>N</negated>
@@ -917,8 +937,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>560</xloc>
-      <yloc>592</yloc>
+      <xloc>720</xloc>
+      <yloc>496</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1106,7 +1126,7 @@
     <name>Input_Entlass_Verlegungsgrund_source_to_concept_map</name>
     <type>CsvInput</type>
     <description/>
-    <distribute>Y</distribute>
+    <distribute>N</distribute>
     <custom_distribution/>
     <copies>1</copies>
     <partitioning>
@@ -1318,8 +1338,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>560</xloc>
-      <yloc>736</yloc>
+      <xloc>912</xloc>
+      <yloc>864</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1399,8 +1419,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>816</xloc>
-      <yloc>592</yloc>
+      <xloc>1168</xloc>
+      <yloc>720</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1444,45 +1464,6 @@
     </GUI>
   </step>
   <step>
-    <name>Replace in string 3</name>
-    <type>ReplaceString</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-    <partitioning>
-      <method>none</method>
-      <schema_name/>
-    </partitioning>
-    <fields>
-      <field>
-        <in_stream_name>codes_cut</in_stream_name>
-        <out_stream_name>code_clean</out_stream_name>
-        <use_regex>no</use_regex>
-        <replace_string/>
-        <replace_by_string/>
-        <set_empty_string>N</set_empty_string>
-        <replace_field_by_string/>
-        <whole_word>yes</whole_word>
-        <case_sensitive>no</case_sensitive>
-        <is_unicode>no</is_unicode>
-      </field>
-    </fields>
-    <attributes/>
-    <cluster_schema/>
-    <remotesteps>
-      <input>
-      </input>
-      <output>
-      </output>
-    </remotesteps>
-    <GUI>
-      <xloc>1328</xloc>
-      <yloc>304</yloc>
-      <draw>Y</draw>
-    </GUI>
-  </step>
-  <step>
     <name>Replace in string 2</name>
     <type>ReplaceString</type>
     <description/>
@@ -1518,6 +1499,45 @@
     <GUI>
       <xloc>928</xloc>
       <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Replace in string 3</name>
+    <type>ReplaceString</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <in_stream_name>codes_cut</in_stream_name>
+        <out_stream_name>code_clean</out_stream_name>
+        <use_regex>no</use_regex>
+        <replace_string/>
+        <replace_by_string/>
+        <set_empty_string>N</set_empty_string>
+        <replace_field_by_string/>
+        <whole_word>yes</whole_word>
+        <case_sensitive>no</case_sensitive>
+        <is_unicode>no</is_unicode>
+      </field>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>1328</xloc>
+      <yloc>304</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1724,6 +1744,119 @@
     <GUI>
       <xloc>1072</xloc>
       <yloc>176</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Stream lookup 2</name>
+    <type>StreamLookup</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <from>Input_Entlass_Verlegungsgrund_source_to_concept_map</from>
+    <input_sorted>N</input_sorted>
+    <preserve_memory>Y</preserve_memory>
+    <sorted_list>N</sorted_list>
+    <integer_pair>N</integer_pair>
+    <lookup>
+      <key>
+        <name>Entlass_Verlegungsgrund_code</name>
+        <field>source_code</field>
+      </key>
+      <value>
+        <name>target_concept_id</name>
+        <rename>concept_id</rename>
+        <default/>
+        <type>Integer</type>
+      </value>
+    </lookup>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>720</xloc>
+      <yloc>720</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>Select values 2</name>
+    <type>SelectValues</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <fields>
+      <field>
+        <name>Entlass_Verlegungsgrund_code</name>
+        <rename/>
+      </field>
+      <field>
+        <name>count</name>
+        <rename/>
+      </field>
+      <select_unspecified>N</select_unspecified>
+    </fields>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>720</xloc>
+      <yloc>624</yloc>
+      <draw>Y</draw>
+    </GUI>
+  </step>
+  <step>
+    <name>FilterRows_concept_id 2</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+    <partitioning>
+      <method>none</method>
+      <schema_name/>
+    </partitioning>
+    <send_true_to>Output_Entlass_Verlegungsgrund_available_concepts</send_true_to>
+    <send_false_to>Output_Entlass_Verlegungsgrund_missing_concepts</send_false_to>
+    <compare>
+      <condition>
+        <negated>N</negated>
+        <leftvalue>concept_id</leftvalue>
+        <function>IS NOT NULL</function>
+        <rightvalue/>
+      </condition>
+    </compare>
+    <attributes/>
+    <cluster_schema/>
+    <remotesteps>
+      <input>
+      </input>
+      <output>
+      </output>
+    </remotesteps>
+    <GUI>
+      <xloc>912</xloc>
+      <yloc>720</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
