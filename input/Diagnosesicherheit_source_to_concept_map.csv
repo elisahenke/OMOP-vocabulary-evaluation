@@ -1,5 +1,5 @@
 source_code	source_concept_id	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	valid_start_date	valid_end_date	invalid_reason
-A	0	Diagnostic Conf.	Excluded diagnosis	37116688	SNOMED	1970-01-01	2099-12-31	
-G	0	Diagnostic Conf.	Confirmed diagnosis	32893	Condition Status	1970-01-01	2099-12-31	
-Z	0	Diagnostic Conf.	(asymptomatic) State after diagnosis	32906	Condition Status	1970-01-01	2099-12-31	
-V	0	Diagnostic Conf.	Suspected diagnosis/ diagnosis of exclusion	32899	Condition Status	1970-01-01	2099-12-31	
+A	0	Diagnostic Conf.	Excluded diagnosis	37116688	SNOMED	1900-01-01	2099-12-31	
+G	0	Diagnostic Conf.	Confirmed diagnosis	32893	Condition Status	1900-01-01	2099-12-31	
+Z	0	Diagnostic Conf.	(asymptomatic) State after diagnosis	32906	Condition Status	1900-01-01	2099-12-31	
+V	0	Diagnostic Conf.	Suspected diagnosis/ diagnosis of exclusion	32899	Condition Status	1900-01-01	2099-12-31	
