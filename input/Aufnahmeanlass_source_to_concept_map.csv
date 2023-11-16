@@ -3,7 +3,7 @@ G	0	Admission Occasion	Birth	4303293	SNOMED	1970-01-01	2099-12-31
 N	0	Admission Occasion	Emergency	4079617	SNOMED	1970-01-01	2099-12-31	
 Z	0	Admission Occasion	Referral by a dentist	4088695	SNOMED	1970-01-01	2099-12-31	
 E	0	Admission Occasion	Referrral by a physician	4141068	SNOMED	1970-01-01	2099-12-31	
-B	0	Admission Occasion	Accompanying person or accompanying caregiver	0	None	1970-01-01	2099-12-31	
+B	0	Admission Occasion	Accompanying person or accompanying caregiver	4194310	SNOMED	1970-01-01	2099-12-31	
 R	0	Admission Occasion	Admission after previous treatment in a rehabilitation facility	4125987	SNOMED	1970-01-01	2099-12-31	
 A	0	Admission Occasion	Transfer with treatment duration in the transferring hospital up to 24 hours	4164916	SNOMED	1970-01-01	2099-12-31	
 V	0	Admission Occasion	Transfer with treatment duration in the transferring hospital longer than 24 hours	4164916	SNOMED	1970-01-01	2099-12-31	
