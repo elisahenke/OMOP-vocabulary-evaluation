@@ -1,57 +1,57 @@
 source_code	source_concept_id	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	valid_start_date	valid_end_date	invalid_reason
-0605	0	Admission Reason	Birth, free	4303293	SNOMED	1970-01-01	2099-12-31	
+0605	0	Admission Reason	Birth, free	4237496	SNOMED	1970-01-01	2099-12-31	
 0805	0	Admission Reason	Inpatient admission for organ removal, free	4180080	SNOMED	1970-01-01	2099-12-31	
 0205	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, free	4010105	SNOMED	1970-01-01	2099-12-31	
-0606	0	Admission Reason	Birth, war disabled persons' suffering/Federal Pension Act suffering	4303293	SNOMED	1970-01-01	2099-12-31	
-0642	0	Admission Reason	Birth, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), integrated care	4303293	SNOMED	1970-01-01	2099-12-31	
+0606	0	Admission Reason	Birth, war disabled persons' suffering/Federal Pension Act suffering	4237496	SNOMED	1970-01-01	2099-12-31	
+0642	0	Admission Reason	Birth, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), integrated care	4237496	SNOMED	1970-01-01	2099-12-31	
 0524	0	Admission Reason	Inpatient childbirth, indication of influence of external force, change of cost unit	4237496	SNOMED	1970-01-01	2099-12-31	
-0607	0	Admission Reason	Birth, emergency	4303293	SNOMED	1970-01-01	2099-12-31	
+0607	0	Admission Reason	Birth, emergency	4237496	SNOMED	1970-01-01	2099-12-31	
 0124	0	Admission Reason	Hospital treatment, full inpatient, indication of influence of external force, change of cost unit	4214577	SNOMED	1970-01-01	2099-12-31	
-0324	0	Admission Reason	Hospital treatment, partial inpatient, indication of influence of external force, change of cost unit	4080064	SNOMED	1970-01-01	2099-12-31	
+0324	0	Admission Reason	Hospital treatment, partial inpatient, indication of influence of external force, change of cost unit	4123929	SNOMED	1970-01-01	2099-12-31	
 0525	0	Admission Reason	Inpatient childbirth, free, change of cost unit	4237496	SNOMED	1970-01-01	2099-12-31	
-0621	0	Admission Reason	Birth, standard case, change of cost unit	4303293	SNOMED	1970-01-01	2099-12-31	
+0621	0	Admission Reason	Birth, standard case, change of cost unit	4237496	SNOMED	1970-01-01	2099-12-31	
 0724	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, indication of influence of external force, change of cost unit	4213258	SNOMED	1970-01-01	2099-12-31	
-0643	0	Admission Reason	Birth, traffic accident/sports accident/other accident (e.g. § 116 SGB X), integrated care	4303293	SNOMED	1970-01-01	2099-12-31	
+0643	0	Admission Reason	Birth, traffic accident/sports accident/other accident (e.g. § 116 SGB X), integrated care	4237496	SNOMED	1970-01-01	2099-12-31	
 0806	0	Admission Reason	Inpatient admission for organ removal, war disabled persons' suffering/Federal Pension Act suffering	4180080	SNOMED	1970-01-01	2099-12-31	
 0125	0	Admission Reason	Hospital treatment, full inpatient, free, change of cost unit	4214577	SNOMED	1970-01-01	2099-12-31	
 0206	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, war disabled persons' suffering/Federal Pension Act suffering	4010105	SNOMED	1970-01-01	2099-12-31	
-0325	0	Admission Reason	Hospital treatment, partial inpatient, free, change of cost unit	4080064	SNOMED	1970-01-01	2099-12-31	
+0325	0	Admission Reason	Hospital treatment, partial inpatient, free, change of cost unit	4123929	SNOMED	1970-01-01	2099-12-31	
 0807	0	Admission Reason	Inpatient admission for organ removal, emergency	4180080	SNOMED	1970-01-01	2099-12-31	
-0622	0	Admission Reason	Birth, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), change of cost unit	4303293	SNOMED	1970-01-01	2099-12-31	
-0644	0	Admission Reason	Birth, indication of influence of external force, integrated care	4303293	SNOMED	1970-01-01	2099-12-31	
+0622	0	Admission Reason	Birth, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), change of cost unit	4237496	SNOMED	1970-01-01	2099-12-31	
+0644	0	Admission Reason	Birth, indication of influence of external force, integrated care	4237496	SNOMED	1970-01-01	2099-12-31	
 0207	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, emergency	4010105	SNOMED	1970-01-01	2099-12-31	
 0526	0	Admission Reason	Inpatient childbirth, war disabled persons' suffering/Federal Pension Act suffering, change of cost unit	4237496	SNOMED	1970-01-01	2099-12-31	
 0725	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, free, change of cost unit	4213258	SNOMED	1970-01-01	2099-12-31	
-0645	0	Admission Reason	Birth, free, integrated care	4303293	SNOMED	1970-01-01	2099-12-31	
-0623	0	Admission Reason	Birth, traffic accident/sports accident/other accident (e.g. § 116 SGB X), change of cost unit	4303293	SNOMED	1970-01-01	2099-12-31	
-06	0	Admission Reason	Birth	4303293	SNOMED	1970-01-01	2099-12-31	
+0645	0	Admission Reason	Birth, free, integrated care	4237496	SNOMED	1970-01-01	2099-12-31	
+0623	0	Admission Reason	Birth, traffic accident/sports accident/other accident (e.g. § 116 SGB X), change of cost unit	4237496	SNOMED	1970-01-01	2099-12-31	
+06	0	Admission Reason	Birth	4237496	SNOMED	1970-01-01	2099-12-31	
 0527	0	Admission Reason	Inpatient childbirth, emergency, change of cost unit	4237496	SNOMED	1970-01-01	2099-12-31	
 0821	0	Admission Reason	Inpatient admission for organ removal, standard case, change of cost unit	4180080	SNOMED	1970-01-01	2099-12-31	
 0126	0	Admission Reason	Hospital treatment, full inpatient, war disabled persons' suffering/Federal Pension Act suffering, change of cost unit	4214577	SNOMED	1970-01-01	2099-12-31	
-0601	0	Admission Reason	Birth, standard case	4303293	SNOMED	1970-01-01	2099-12-31	
-0326	0	Admission Reason	Hospital treatment, partial inpatient, war disabled persons' suffering/Federal Pension Act suffering, change of cost unit	4080064	SNOMED	1970-01-01	2099-12-31	
+0601	0	Admission Reason	Birth, standard case	4237496	SNOMED	1970-01-01	2099-12-31	
+0326	0	Admission Reason	Hospital treatment, partial inpatient, war disabled persons' suffering/Federal Pension Act suffering, change of cost unit	4123929	SNOMED	1970-01-01	2099-12-31	
 0221	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, standard case, change of cost unit	4010105	SNOMED	1970-01-01	2099-12-31	
 0541	0	Admission Reason	Inpatient childbirth, standard case, integrated care	4237496	SNOMED	1970-01-01	2099-12-31	
-0646	0	Admission Reason	Birth, war disabled persons' suffering/Federal Pension Act suffering, integrated care	4303293	SNOMED	1970-01-01	2099-12-31	
-0602	0	Admission Reason	Birth, occupational accident/occupational disease (§ 11 Abs. 5 SGB V)	4303293	SNOMED	1970-01-01	2099-12-31	
+0646	0	Admission Reason	Birth, war disabled persons' suffering/Federal Pension Act suffering, integrated care	4237496	SNOMED	1970-01-01	2099-12-31	
+0602	0	Admission Reason	Birth, occupational accident/occupational disease (§ 11 Abs. 5 SGB V)	4237496	SNOMED	1970-01-01	2099-12-31	
 0127	0	Admission Reason	Hospital treatment, full inpatient, emergency, change of cost unit	4214577	SNOMED	1970-01-01	2099-12-31	
 0545	0	Admission Reason	Inpatient childbirth, free, integrated care	4237496	SNOMED	1970-01-01	2099-12-31	
-0647	0	Admission Reason	Birth, emergency, integrated care	4303293	SNOMED	1970-01-01	2099-12-31	
-0327	0	Admission Reason	Hospital treatment, partial inpatient, emergency, change of cost unit	4080064	SNOMED	1970-01-01	2099-12-31	
-0603	0	Admission Reason	Birth, traffic accident/sports accident/other accident (e.g. § 116 SGB X)	4303293	SNOMED	1970-01-01	2099-12-31	
+0647	0	Admission Reason	Birth, emergency, integrated care	4237496	SNOMED	1970-01-01	2099-12-31	
+0327	0	Admission Reason	Hospital treatment, partial inpatient, emergency, change of cost unit	4123929	SNOMED	1970-01-01	2099-12-31	
+0603	0	Admission Reason	Birth, traffic accident/sports accident/other accident (e.g. § 116 SGB X)	4237496	SNOMED	1970-01-01	2099-12-31	
 0822	0	Admission Reason	Inpatient admission for organ removal, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), change of cost unit	4180080	SNOMED	1970-01-01	2099-12-31	
 0726	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, war disabled persons' suffering/Federal Pension Act suffering, change of cost unit	4213258	SNOMED	1970-01-01	2099-12-31	
 0141	0	Admission Reason	Hospital treatment, full inpatient, standard case, integrated care	4214577	SNOMED	1970-01-01	2099-12-31	
 0222	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), change of cost unit	4010105	SNOMED	1970-01-01	2099-12-31	
-0604	0	Admission Reason	Birth, indication of influence of external force	4303293	SNOMED	1970-01-01	2099-12-31	
-0341	0	Admission Reason	Hospital treatment, partial inpatient, standard case, integrated care	4080064	SNOMED	1970-01-01	2099-12-31	
-0624	0	Admission Reason	Birth, indication of influence of external force, change of cost unit	4303293	SNOMED	1970-01-01	2099-12-31	
+0604	0	Admission Reason	Birth, indication of influence of external force	4237496	SNOMED	1970-01-01	2099-12-31	
+0341	0	Admission Reason	Hospital treatment, partial inpatient, standard case, integrated care	4123929	SNOMED	1970-01-01	2099-12-31	
+0624	0	Admission Reason	Birth, indication of influence of external force, change of cost unit	4237496	SNOMED	1970-01-01	2099-12-31	
 0546	0	Admission Reason	Inpatient childbirth, war disabled persons' suffering/Federal Pension Act suffering, integrated care	4237496	SNOMED	1970-01-01	2099-12-31	
 0145	0	Admission Reason	Hospital treatment, full inpatient, free, integrated care	4214577	SNOMED	1970-01-01	2099-12-31	
 0105	0	Admission Reason	Hospital treatment, full inpatient, free	4214577	SNOMED	1970-01-01	2099-12-31	
-0625	0	Admission Reason	Birth, free, change of cost unit	4303293	SNOMED	1970-01-01	2099-12-31	
+0625	0	Admission Reason	Birth, free, change of cost unit	4237496	SNOMED	1970-01-01	2099-12-31	
 0547	0	Admission Reason	Inpatient childbirth, emergency, integrated care	4237496	SNOMED	1970-01-01	2099-12-31	
-0345	0	Admission Reason	Hospital treatment, partial inpatient, free, integrated care	4080064	SNOMED	1970-01-01	2099-12-31	
+0345	0	Admission Reason	Hospital treatment, partial inpatient, free, integrated care	4123929	SNOMED	1970-01-01	2099-12-31	
 0823	0	Admission Reason	Inpatient admission for organ removal, traffic accident/sports accident/other accident (e.g. § 116 SGB X), change of cost unit	4180080	SNOMED	1970-01-01	2099-12-31	
 0727	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, emergency, change of cost unit	4213258	SNOMED	1970-01-01	2099-12-31	
 08	0	Admission Reason	Inpatient admission for organ removal	4180080	SNOMED	1970-01-01	2099-12-31	
@@ -59,17 +59,17 @@ source_code	source_concept_id	source_vocabulary_id	source_code_description	targe
 0542	0	Admission Reason	Inpatient childbirth, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), integrated care	4237496	SNOMED	1970-01-01	2099-12-31	
 0106	0	Admission Reason	Hospital treatment, full inpatient, war disabled persons' suffering/Federal Pension Act suffering	4214577	SNOMED	1970-01-01	2099-12-31	
 0146	0	Admission Reason	Hospital treatment, full inpatient, war disabled persons' suffering/Federal Pension Act suffering, integrated care	4214577	SNOMED	1970-01-01	2099-12-31	
-0626	0	Admission Reason	Birth, war disabled persons' suffering/Federal Pension Act suffering, change of cost unit	4303293	SNOMED	1970-01-01	2099-12-31	
+0626	0	Admission Reason	Birth, war disabled persons' suffering/Federal Pension Act suffering, change of cost unit	4237496	SNOMED	1970-01-01	2099-12-31	
 02	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment	4010105	SNOMED	1970-01-01	2099-12-31	
-0346	0	Admission Reason	Hospital treatment, partial inpatient, war disabled persons' suffering/Federal Pension Act suffering, integrated care	4080064	SNOMED	1970-01-01	2099-12-31	
+0346	0	Admission Reason	Hospital treatment, partial inpatient, war disabled persons' suffering/Federal Pension Act suffering, integrated care	4123929	SNOMED	1970-01-01	2099-12-31	
 0107	0	Admission Reason	Hospital treatment, full inpatient, emergency	4214577	SNOMED	1970-01-01	2099-12-31	
 0801	0	Admission Reason	Inpatient admission for organ removal, standard case	4180080	SNOMED	1970-01-01	2099-12-31	
-0627	0	Admission Reason	Birth, emergency, change of cost unit	4303293	SNOMED	1970-01-01	2099-12-31	
+0627	0	Admission Reason	Birth, emergency, change of cost unit	4237496	SNOMED	1970-01-01	2099-12-31	
 0741	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, standard case, integrated care	4213258	SNOMED	1970-01-01	2099-12-31	
 0147	0	Admission Reason	Hospital treatment, full inpatient, emergency, integrated care	4214577	SNOMED	1970-01-01	2099-12-31	
 0543	0	Admission Reason	Inpatient childbirth, traffic accident/sports accident/other accident (e.g. § 116 SGB X), integrated care	4237496	SNOMED	1970-01-01	2099-12-31	
-0641	0	Admission Reason	Birth, standard case, integrated care	4303293	SNOMED	1970-01-01	2099-12-31	
-0347	0	Admission Reason	Hospital treatment, partial inpatient, emergency, integrated care	4080064	SNOMED	1970-01-01	2099-12-31	
+0641	0	Admission Reason	Birth, standard case, integrated care	4237496	SNOMED	1970-01-01	2099-12-31	
+0347	0	Admission Reason	Hospital treatment, partial inpatient, emergency, integrated care	4123929	SNOMED	1970-01-01	2099-12-31	
 0201	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, standard case	4010105	SNOMED	1970-01-01	2099-12-31	
 0121	0	Admission Reason	Hospital treatment, full inpatient, standard case, change of cost unit	4214577	SNOMED	1970-01-01	2099-12-31	
 0802	0	Admission Reason	Inpatient admission for organ removal, occupational accident/occupational disease (§ 11 Abs. 5 SGB V)	4180080	SNOMED	1970-01-01	2099-12-31	
@@ -80,7 +80,7 @@ source_code	source_concept_id	source_vocabulary_id	source_code_description	targe
 0705	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, free	4213258	SNOMED	1970-01-01	2099-12-31	
 0505	0	Admission Reason	Inpatient childbirth, free	4237496	SNOMED	1970-01-01	2099-12-31	
 0202	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, occupational accident/occupational disease (§ 11 Abs. 5 SGB V)	4010105	SNOMED	1970-01-01	2099-12-31	
-0342	0	Admission Reason	Hospital treatment, partial inpatient, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), integrated care	4080064	SNOMED	1970-01-01	2099-12-31	
+0342	0	Admission Reason	Hospital treatment, partial inpatient, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), integrated care	4123929	SNOMED	1970-01-01	2099-12-31	
 0122	0	Admission Reason	Hospital treatment, full inpatient, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), change of cost unit	4214577	SNOMED	1970-01-01	2099-12-31	
 0803	0	Admission Reason	Inpatient admission for organ removal, traffic accident/sports accident/other accident (e.g. § 116 SGB X)	4180080	SNOMED	1970-01-01	2099-12-31	
 0143	0	Admission Reason	Hospital treatment, full inpatient, traffic accident/sports accident/other accident (e.g. § 116 SGB X), integrated care	4214577	SNOMED	1970-01-01	2099-12-31	
@@ -88,7 +88,7 @@ source_code	source_concept_id	source_vocabulary_id	source_code_description	targe
 0507	0	Admission Reason	Inpatient childbirth, emergency	4237496	SNOMED	1970-01-01	2099-12-31	
 0203	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, traffic accident/sports accident/other accident (e.g. § 116 SGB X)	4010105	SNOMED	1970-01-01	2099-12-31	
 0746	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, war disabled persons' suffering/Federal Pension Act suffering, integrated care	4213258	SNOMED	1970-01-01	2099-12-31	
-0343	0	Admission Reason	Hospital treatment, partial inpatient, traffic accident/sports accident/other accident (e.g. § 116 SGB X), integrated care	4080064	SNOMED	1970-01-01	2099-12-31	
+0343	0	Admission Reason	Hospital treatment, partial inpatient, traffic accident/sports accident/other accident (e.g. § 116 SGB X), integrated care	4123929	SNOMED	1970-01-01	2099-12-31	
 0706	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, war disabled persons' suffering/Federal Pension Act suffering	4213258	SNOMED	1970-01-01	2099-12-31	
 0123	0	Admission Reason	Hospital treatment, full inpatient, traffic accident/sports accident/other accident (e.g. § 116 SGB X), change of cost unit	4214577	SNOMED	1970-01-01	2099-12-31	
 0804	0	Admission Reason	Inpatient admission for organ removal, indication of influence of external force	4180080	SNOMED	1970-01-01	2099-12-31	
@@ -99,11 +99,11 @@ source_code	source_concept_id	source_vocabulary_id	source_code_description	targe
 0101	0	Admission Reason	Hospital treatment, full inpatient, standard case	4214577	SNOMED	1970-01-01	2099-12-31	
 0707	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, emergency	4213258	SNOMED	1970-01-01	2099-12-31	
 0747	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, emergency, integrated care	4213258	SNOMED	1970-01-01	2099-12-31	
-0344	0	Admission Reason	Hospital treatment, partial inpatient, indication of influence of external force, integrated care	4080064	SNOMED	1970-01-01	2099-12-31	
+0344	0	Admission Reason	Hospital treatment, partial inpatient, indication of influence of external force, integrated care	4123929	SNOMED	1970-01-01	2099-12-31	
 0522	0	Admission Reason	Inpatient childbirth, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), change of cost unit	4237496	SNOMED	1970-01-01	2099-12-31	
 0843	0	Admission Reason	Inpatient admission for organ removal, traffic accident/sports accident/other accident (e.g. § 116 SGB X), integrated care	4180080	SNOMED	1970-01-01	2099-12-31	
 0242	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), integrated care	4010105	SNOMED	1970-01-01	2099-12-31	
-0305	0	Admission Reason	Hospital treatment, partial inpatient, free	4080064	SNOMED	1970-01-01	2099-12-31	
+0305	0	Admission Reason	Hospital treatment, partial inpatient, free	4123929	SNOMED	1970-01-01	2099-12-31	
 0102	0	Admission Reason	Hospital treatment, full inpatient, occupational accident/occupational disease (§ 11 Abs. 5 SGB V)	4214577	SNOMED	1970-01-01	2099-12-31	
 0523	0	Admission Reason	Inpatient childbirth, traffic accident/sports accident/other accident (e.g. § 116 SGB X), change of cost unit	4237496	SNOMED	1970-01-01	2099-12-31	
 0424	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, indication of influence of external force, change of cost unit	4083346	SNOMED	1970-01-01	2099-12-31	
@@ -114,16 +114,16 @@ source_code	source_concept_id	source_vocabulary_id	source_code_description	targe
 0742	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), integrated care	4213258	SNOMED	1970-01-01	2099-12-31	
 0103	0	Admission Reason	Hospital treatment, full inpatient, traffic accident/sports accident/other accident (e.g. § 116 SGB X)	4214577	SNOMED	1970-01-01	2099-12-31	
 0243	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, traffic accident/sports accident/other accident (e.g. § 116 SGB X), integrated care	4010105	SNOMED	1970-01-01	2099-12-31	
-0306	0	Admission Reason	Hospital treatment, partial inpatient, war disabled persons' suffering/Federal Pension Act suffering	4080064	SNOMED	1970-01-01	2099-12-31	
+0306	0	Admission Reason	Hospital treatment, partial inpatient, war disabled persons' suffering/Federal Pension Act suffering	4123929	SNOMED	1970-01-01	2099-12-31	
 0425	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, free, change of cost unit	4083346	SNOMED	1970-01-01	2099-12-31	
 0845	0	Admission Reason	Inpatient admission for organ removal, free, integrated care	4180080	SNOMED	1970-01-01	2099-12-31	
-0307	0	Admission Reason	Hospital treatment, partial inpatient, emergency	4080064	SNOMED	1970-01-01	2099-12-31	
+0307	0	Admission Reason	Hospital treatment, partial inpatient, emergency	4123929	SNOMED	1970-01-01	2099-12-31	
 0104	0	Admission Reason	Hospital treatment, full inpatient, indication of influence of external force	4214577	SNOMED	1970-01-01	2099-12-31	
 0503	0	Admission Reason	Inpatient childbirth, traffic accident/sports accident/other accident (e.g. § 116 SGB X)	4237496	SNOMED	1970-01-01	2099-12-31	
 0244	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, indication of influence of external force, integrated care	4010105	SNOMED	1970-01-01	2099-12-31	
 0743	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, traffic accident/sports accident/other accident (e.g. § 116 SGB X), integrated care	4213258	SNOMED	1970-01-01	2099-12-31	
 0722	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), change of cost unit	4213258	SNOMED	1970-01-01	2099-12-31	
-0321	0	Admission Reason	Hospital treatment, partial inpatient, standard case, change of cost unit	4080064	SNOMED	1970-01-01	2099-12-31	
+0321	0	Admission Reason	Hospital treatment, partial inpatient, standard case, change of cost unit	4123929	SNOMED	1970-01-01	2099-12-31	
 0426	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, war disabled persons' suffering/Federal Pension Act suffering, change of cost unit	4083346	SNOMED	1970-01-01	2099-12-31	
 07	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003	4213258	SNOMED	1970-01-01	2099-12-31	
 0846	0	Admission Reason	Inpatient admission for organ removal, war disabled persons' suffering/Federal Pension Act suffering, integrated care	4180080	SNOMED	1970-01-01	2099-12-31	
@@ -131,27 +131,27 @@ source_code	source_concept_id	source_vocabulary_id	source_code_description	targe
 0245	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, free, integrated care	4010105	SNOMED	1970-01-01	2099-12-31	
 0427	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, emergency, change of cost unit	4083346	SNOMED	1970-01-01	2099-12-31	
 0847	0	Admission Reason	Inpatient admission for organ removal, emergency, integrated care	4180080	SNOMED	1970-01-01	2099-12-31	
-0322	0	Admission Reason	Hospital treatment, partial inpatient, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), change of cost unit	4080064	SNOMED	1970-01-01	2099-12-31	
+0322	0	Admission Reason	Hospital treatment, partial inpatient, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), change of cost unit	4123929	SNOMED	1970-01-01	2099-12-31	
 0701	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, standard case	4213258	SNOMED	1970-01-01	2099-12-31	
 0744	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, indication of influence of external force, integrated care	4213258	SNOMED	1970-01-01	2099-12-31	
 0723	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, traffic accident/sports accident/other accident (e.g. § 116 SGB X), change of cost unit	4213258	SNOMED	1970-01-01	2099-12-31	
 10	0	Admission Reason	Station equivalent treatment	4214577	SNOMED	1970-01-01	2099-12-31	
 0224	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, indication of influence of external force, change of cost unit	4010105	SNOMED	1970-01-01	2099-12-31	
 0441	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, standard case, integrated care	4083346	SNOMED	1970-01-01	2099-12-31	
-03	0	Admission Reason	Hospital treatment, partial inpatient	4080064	SNOMED	1970-01-01	2099-12-31	
+03	0	Admission Reason	Hospital treatment, partial inpatient	4123929	SNOMED	1970-01-01	2099-12-31	
 0246	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, war disabled persons' suffering/Federal Pension Act suffering, integrated care	4010105	SNOMED	1970-01-01	2099-12-31	
 0827	0	Admission Reason	Inpatient admission for organ removal, emergency, change of cost unit	4180080	SNOMED	1970-01-01	2099-12-31	
 0445	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, free, integrated care	4083346	SNOMED	1970-01-01	2099-12-31	
-0323	0	Admission Reason	Hospital treatment, partial inpatient, traffic accident/sports accident/other accident (e.g. § 116 SGB X), change of cost unit	4080064	SNOMED	1970-01-01	2099-12-31	
+0323	0	Admission Reason	Hospital treatment, partial inpatient, traffic accident/sports accident/other accident (e.g. § 116 SGB X), change of cost unit	4123929	SNOMED	1970-01-01	2099-12-31	
 0225	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, free, change of cost unit	4010105	SNOMED	1970-01-01	2099-12-31	
-0301	0	Admission Reason	Hospital treatment, partial inpatient, standard case	4080064	SNOMED	1970-01-01	2099-12-31	
+0301	0	Admission Reason	Hospital treatment, partial inpatient, standard case	4123929	SNOMED	1970-01-01	2099-12-31	
 0702	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, occupational accident/occupational disease (§ 11 Abs. 5 SGB V)	4213258	SNOMED	1970-01-01	2099-12-31	
 0247	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, emergency, integrated care	4010105	SNOMED	1970-01-01	2099-12-31	
 0824	0	Admission Reason	Inpatient admission for organ removal, indication of influence of external force, change of cost unit	4180080	SNOMED	1970-01-01	2099-12-31	
 0405	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, free	4083346	SNOMED	1970-01-01	2099-12-31	
 04	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment	4083346	SNOMED	1970-01-01	2099-12-31	
 0841	0	Admission Reason	Inpatient admission for organ removal, standard case, integrated care	4180080	SNOMED	1970-01-01	2099-12-31	
-0302	0	Admission Reason	Hospital treatment, partial inpatient, occupational accident/occupational disease (§ 11 Abs. 5 SGB V)	4080064	SNOMED	1970-01-01	2099-12-31	
+0302	0	Admission Reason	Hospital treatment, partial inpatient, occupational accident/occupational disease (§ 11 Abs. 5 SGB V)	4123929	SNOMED	1970-01-01	2099-12-31	
 0446	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, war disabled persons' suffering/Federal Pension Act suffering, integrated care	4083346	SNOMED	1970-01-01	2099-12-31	
 0825	0	Admission Reason	Inpatient admission for organ removal, free, change of cost unit	4180080	SNOMED	1970-01-01	2099-12-31	
 0703	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, traffic accident/sports accident/other accident (e.g. § 116 SGB X)	4213258	SNOMED	1970-01-01	2099-12-31	
@@ -159,14 +159,14 @@ source_code	source_concept_id	source_vocabulary_id	source_code_description	targe
 0226	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, war disabled persons' suffering/Federal Pension Act suffering, change of cost unit	4010105	SNOMED	1970-01-01	2099-12-31	
 0406	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, war disabled persons' suffering/Federal Pension Act suffering	4083346	SNOMED	1970-01-01	2099-12-31	
 0447	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, emergency, integrated care	4083346	SNOMED	1970-01-01	2099-12-31	
-0303	0	Admission Reason	Hospital treatment, partial inpatient, traffic accident/sports accident/other accident (e.g. § 116 SGB X)	4080064	SNOMED	1970-01-01	2099-12-31	
+0303	0	Admission Reason	Hospital treatment, partial inpatient, traffic accident/sports accident/other accident (e.g. § 116 SGB X)	4123929	SNOMED	1970-01-01	2099-12-31	
 0842	0	Admission Reason	Inpatient admission for organ removal, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), integrated care	4180080	SNOMED	1970-01-01	2099-12-31	
 0402	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, occupational accident/occupational disease (§ 11 Abs. 5 SGB V)	4083346	SNOMED	1970-01-01	2099-12-31	
 0407	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, emergency	4083346	SNOMED	1970-01-01	2099-12-31	
 0227	0	Admission Reason	Hospital treatment, full inpatient with previous pre-inpatient treatment, emergency, change of cost unit	4010105	SNOMED	1970-01-01	2099-12-31	
 0704	0	Admission Reason	Readmission due to complications (flat rate per case) according to KFPV 2003, indication of influence of external force	4213258	SNOMED	1970-01-01	2099-12-31	
 0826	0	Admission Reason	Inpatient admission for organ removal, war disabled persons' suffering/Federal Pension Act suffering, change of cost unit	4180080	SNOMED	1970-01-01	2099-12-31	
-0304	0	Admission Reason	Hospital treatment, partial inpatient, indication of influence of external force	4080064	SNOMED	1970-01-01	2099-12-31	
+0304	0	Admission Reason	Hospital treatment, partial inpatient, indication of influence of external force	4123929	SNOMED	1970-01-01	2099-12-31	
 0421	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, standard case, change of cost unit	4083346	SNOMED	1970-01-01	2099-12-31	
 0442	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, occupational accident/occupational disease (§ 11 Abs. 5 SGB V), integrated care	4083346	SNOMED	1970-01-01	2099-12-31	
 0403	0	Admission Reason	Pre-inpatient treatment without subsequent full inpatient treatment, traffic accident/sports accident/other accident (e.g. § 116 SGB X)	4083346	SNOMED	1970-01-01	2099-12-31	
