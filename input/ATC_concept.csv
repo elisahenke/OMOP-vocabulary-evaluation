@@ -7757,7 +7757,7 @@ concept_id	concept_name	domain_id	vocabulary_id	concept_class_id	standard_concep
 2000021009	Prednisolone	Drug	ATC-GM	ATC 5th		D10AA06	1970-01-01	2099-12-31	
 2000021010	Clocortolone	Drug	ATC-GM	ATC 5th		D10AA07	1970-01-01	2099-12-31	
 2000021011	Adapalene and benzoyl peroxide	Drug	ATC-GM	ATC 5th		D10AD23	1970-01-01	2099-12-31	
-2000021012	Retinol, combinations	Drug	ATC-GM	ATC 5th		D10AD52	2020-05-01	2099-12-31	
+2000021012	Retinol, combinations	Drug	ATC-GM	ATC 5th		D10AD52	2013-04-01	2099-12-31	
 2000021013	Chlortetracycline	Drug	ATC-GM	ATC 5th		D10AF07	1970-01-01	2021-02-21	U
 2000021014	Tetracycline	Drug	ATC-GM	ATC 5th		D10AF08	1970-01-01	2099-12-31	
 2000021015	Chlortetracycline	Drug	ATC-GM	ATC 5th		D10AF12	2021-05-01	2099-12-31	

@@ -671,8 +671,8 @@ concept_id	concept_name	domain_id	vocabulary_id	concept_class_id	standard_concep
 2000011940	Special facility for spine surgery for children and adolescents	Observation	Inpatient charge	INP charge code		85004078	2021-01-01	2099-12-31	
 2000005265	Special facility for a neonatal satellite ward	Observation	Inpatient charge	INP charge code		85004079	2020-01-01	2099-12-31	
 2000011941	Additional expenses for the treatment of patients infected with the coronavirus SARS-CoV-2 in connection with flat rate 1 or 2	Observation	Inpatient charge	INP charge code		85004997	2021-12-12	2099-12-31	
-2000011847	Special facility for standard treatment according to § 22 KHG (somatics - flat rate 1)	Observation	Inpatient charge	INP charge code		85004998	2021-11-19	2099-12-31	
-2000011942	Special facility for intensive care with ventilation according to § 22 KHG (somatics - flat rate 2)	Observation	Inpatient charge	INP charge code		85004999	2021-11-19	2099-12-31	
+2000011847	Special facility for standard treatment according to § 22 KHG (somatics - flat rate 1)	Observation	Inpatient charge	INP charge code		85004998	2020-03-16	2099-12-31	
+2000011942	Special facility for intensive care with ventilation according to § 22 KHG (somatics - flat rate 2)	Observation	Inpatient charge	INP charge code		85004999	2020-03-16	2099-12-31	
 2000005266	Special facilities in Schleswig-Holstein, full inpatient (per day)	Observation	Inpatient charge	INP charge Hierarchy		OMOP6000387	1970-01-01	2099-12-31	
 2000005267	Schleswig-Holstein: Special facility for palliative medicine	Observation	Inpatient charge	INP charge code		85014001	2004-01-01	2099-12-31	
 2000011943	Schleswig-Holstein: Special facility for neurological treatment of Parkinson's disease patients	Observation	Inpatient charge	INP charge code		85014002	2004-06-01	2014-09-07	D
