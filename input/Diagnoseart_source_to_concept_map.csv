@@ -1,5 +1,11 @@
 source_code	source_concept_id	source_vocabulary_id	source_code_description	target_concept_id	target_vocabulary_id	valid_start_date	valid_end_date	invalid_reason
 3	0	Diagnosis Type	Admission diagnosis	32890	Condition Status	1970-01-01	2099-12-31	
 1	0	Diagnosis Type	Discharge/transfer diagnosis	32896	Condition Status	1970-01-01	2099-12-31	
+13	0	Diagnosis Type	Treatment diagnosis/outpatient diagnosis	0	None	1970-01-01	2099-12-31	
 4	0	Diagnosis Type	Referral diagnosis	32905	Condition Status	1970-01-01	2099-12-31	
+6	0	Diagnosis Type	Extension diagnosis/referral diagnosis/treatment diagnosis	0	None	1970-01-01	2099-12-31	
+14	0	Diagnosis Type	Co-treated diagnoses for § 117 Abs. 1 and 2 SGB V (university outpatient clinic)	0	None	1970-01-01	2099-12-31	
+12	0	Diagnosis Type	For § 116b (new): Diagnosis of referral within outpatient specialist care	0	None	1970-01-01	2099-12-31	
+5	0	Diagnosis Type	Department diagnosis (department main diagnosis/department secondary diagnosis/surgical diagnosis/additional key diagnosis (for surgery))	0	None	1970-01-01	2099-12-31	
 2	0	Diagnosis Type	other diagnosis (without admission or referral diagnosis/from 2003 also referred to as secondary diagnosis)	32908	Condition Status	1970-01-01	2099-12-31	
+15	0	Diagnosis Type	concomitant pathogenetically linked somatic diagnosis in the case of § 118 Abs. 3 SGB V (psychiatric institutional outpatient clinic)	0	None	1970-01-01	2099-12-31	
