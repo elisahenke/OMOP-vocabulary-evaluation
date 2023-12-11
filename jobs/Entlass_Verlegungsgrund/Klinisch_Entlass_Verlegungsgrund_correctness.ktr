@@ -458,11 +458,6 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>Group by</from>
-      <to>Stream lookup</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Input_Entlass_Verlegungsgrund</from>
       <to>FilterRows_null</to>
       <enabled>Y</enabled>
@@ -473,11 +468,6 @@
       <enabled>Y</enabled>
     </hop>
     <hop>
-      <from>MetaData</from>
-      <to>FilterRows_valid_dates</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
       <from>Replace in string 3</from>
       <to>MetaData</to>
       <enabled>Y</enabled>
@@ -485,11 +475,6 @@
     <hop>
       <from>Sort rows</from>
       <to>Concat fields</to>
-      <enabled>Y</enabled>
-    </hop>
-    <hop>
-      <from>Stream lookup</from>
-      <to>FilterRows_concept_id</to>
       <enabled>Y</enabled>
     </hop>
     <hop>
@@ -549,7 +534,22 @@
     </hop>
     <hop>
       <from>Dummy (do nothing)</from>
+      <to>Stream lookup</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Stream lookup</from>
       <to>Sort rows</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>MetaData</from>
+      <to>FilterRows_valid_dates</to>
+      <enabled>Y</enabled>
+    </hop>
+    <hop>
+      <from>Group by</from>
+      <to>FilterRows_concept_id</to>
       <enabled>Y</enabled>
     </hop>
   </order>
@@ -596,7 +596,7 @@
     </file>
     <fields>
       <field>
-        <name>Entlass_Verlegungsgrund_code</name>
+        <name>code_clean</name>
         <type>String</type>
         <format/>
         <currency/>
@@ -635,7 +635,7 @@
     </remotesteps>
     <GUI>
       <xloc>848</xloc>
-      <yloc>368</yloc>
+      <yloc>480</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -871,7 +871,7 @@
       <schema_name/>
     </partitioning>
     <send_true_to>Replace in string 3</send_true_to>
-    <send_false_to>Output_Seitenlokalisation_missing_concepts</send_false_to>
+    <send_false_to/>
     <compare>
       <condition>
         <negated>N</negated>
@@ -889,8 +889,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1008</xloc>
-      <yloc>560</yloc>
+      <xloc>688</xloc>
+      <yloc>576</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -983,8 +983,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1168</xloc>
-      <yloc>752</yloc>
+      <xloc>432</xloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1042,9 +1042,6 @@
     <give_back_row>N</give_back_row>
     <group>
       <field>
-        <name>Entlass_Verlegungsgrund_code</name>
-      </field>
-      <field>
         <name>Entlass_Verlegungsgrund_date</name>
       </field>
       <field>
@@ -1052,6 +1049,15 @@
       </field>
       <field>
         <name>code_date</name>
+      </field>
+      <field>
+        <name>concept_id</name>
+      </field>
+      <field>
+        <name>valid_start_date</name>
+      </field>
+      <field>
+        <name>valid_end_date</name>
       </field>
     </group>
     <fields>
@@ -1072,7 +1078,7 @@
     </remotesteps>
     <GUI>
       <xloc>848</xloc>
-      <yloc>464</yloc>
+      <yloc>576</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1274,8 +1280,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>592</xloc>
-      <yloc>560</yloc>
+      <xloc>528</xloc>
+      <yloc>272</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1343,6 +1349,23 @@
         <currency_symbol/>
         <storage_type/>
       </meta>
+      <meta>
+        <name>code_clean</name>
+        <rename>Entlass_Verlegungsgrund_code</rename>
+        <type>String</type>
+        <length>-2</length>
+        <precision>-2</precision>
+        <conversion_mask/>
+        <date_format_lenient>false</date_format_lenient>
+        <date_format_locale/>
+        <date_format_timezone/>
+        <lenient_string_to_number>false</lenient_string_to_number>
+        <encoding/>
+        <decimal_symbol/>
+        <grouping_symbol/>
+        <currency_symbol/>
+        <storage_type/>
+      </meta>
     </fields>
     <attributes/>
     <cluster_schema/>
@@ -1353,8 +1376,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1168</xloc>
-      <yloc>656</yloc>
+      <xloc>432</xloc>
+      <yloc>576</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1446,8 +1469,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1168</xloc>
-      <yloc>880</yloc>
+      <xloc>432</xloc>
+      <yloc>800</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1539,8 +1562,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>912</xloc>
-      <yloc>752</yloc>
+      <xloc>192</xloc>
+      <yloc>672</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1656,8 +1679,8 @@
       </output>
     </remotesteps>
     <GUI>
-      <xloc>1168</xloc>
-      <yloc>560</yloc>
+      <xloc>544</xloc>
+      <yloc>576</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1721,14 +1744,6 @@
     <unique_rows>N</unique_rows>
     <fields>
       <field>
-        <name>Entlass_Verlegungsgrund_code</name>
-        <ascending>Y</ascending>
-        <case_sensitive>N</case_sensitive>
-        <collator_enabled>N</collator_enabled>
-        <collator_strength>0</collator_strength>
-        <presorted>N</presorted>
-      </field>
-      <field>
         <name>code_clean</name>
         <ascending>Y</ascending>
         <case_sensitive>N</case_sensitive>
@@ -1738,6 +1753,22 @@
       </field>
       <field>
         <name>Entlass_Verlegungsgrund_date</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>valid_start_date</name>
+        <ascending>Y</ascending>
+        <case_sensitive>N</case_sensitive>
+        <collator_enabled>N</collator_enabled>
+        <collator_strength>0</collator_strength>
+        <presorted>N</presorted>
+      </field>
+      <field>
+        <name>valid_end_date</name>
         <ascending>Y</ascending>
         <case_sensitive>N</case_sensitive>
         <collator_enabled>N</collator_enabled>
@@ -1755,7 +1786,7 @@
     </remotesteps>
     <GUI>
       <xloc>848</xloc>
-      <yloc>272</yloc>
+      <yloc>384</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
@@ -1841,7 +1872,7 @@
     </remotesteps>
     <GUI>
       <xloc>848</xloc>
-      <yloc>560</yloc>
+      <yloc>272</yloc>
       <draw>Y</draw>
     </GUI>
   </step>
