@@ -7,7 +7,6 @@ This folder contains exports of specific vocabularies in OMOP CDM as CSV-files w
 - *ATC_GM_concept
 - ATC_WHO_concept
 - Behandlungsart_concept
-- Diagnoseart_concept
 - EBM_concept
 - HMK_concept
 - HPNR_concept
