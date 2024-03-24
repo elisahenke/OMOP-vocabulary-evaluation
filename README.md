@@ -1,6 +1,6 @@
 # OMOP-vocabulary-evaluation
 
-Evaluation of the prepared German claims data vocabularies for OMOP CDM regarding completeness and correctness.
+This repository includes the evaluation of the prepared German claims data vocabularies for OMOP CDM regarding completeness and correctness.
 
 ## Preparation ##
 
